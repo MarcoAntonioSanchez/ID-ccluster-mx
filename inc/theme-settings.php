@@ -351,11 +351,17 @@ function ccluster_sanitize_theme_options($input)
         ? sanitize_email($input['email'])
         : '';
 
-    $output['topbar_enabled'] = isset($input['topbar_enabled'])
+    $output['topbar_enabled'] = (
+        isset($input['topbar_enabled'])
+        && $input['topbar_enabled'] === '1'
+    )
         ? '1'
         : '0';
 
-    $output['navbar_cta_enabled'] = isset($input['navbar_cta_enabled'])
+    $output['navbar_cta_enabled'] = (
+        isset($input['navbar_cta_enabled'])
+        && $input['navbar_cta_enabled'] === '1'
+    )
         ? '1'
         : '0';
 
