@@ -116,7 +116,10 @@ function ccluster_register_theme_settings()
         __('Topbar', 'ccluster'),
         'ccluster_checkbox_field',
         'ccluster-theme-settings',
-        'ccluster_header'
+        'ccluster_header',
+        [
+            'field' => 'topbar_enabled',
+        ]
     );
 
     add_settings_field(
@@ -124,7 +127,10 @@ function ccluster_register_theme_settings()
         __('Navbar CTA', 'ccluster'),
         'ccluster_checkbox_field',
         'ccluster-theme-settings',
-        'ccluster_header'
+        'ccluster_header',
+        [
+            'field' => 'navbar_cta_enabled',
+        ]
     );
 
     add_settings_field(
