@@ -1,11 +1,17 @@
 {
   "src/css/main.css": {
-    "file": "assets/main-tTf_la1S.css",
-    "name": "main",
+    "file": "assets/styles-DCOMK09g.css",
+    "name": "styles",
     "names": [
-      "main.css"
+      "styles.css"
     ],
     "src": "src/css/main.css",
+    "isEntry": true
+  },
+  "src/js/main.js": {
+    "file": "assets/main-CLO8dwsv.js",
+    "name": "main",
+    "src": "src/js/main.js",
     "isEntry": true
   }
 }

@@ -14,20 +14,29 @@ function ccluster_enqueue_assets()
         true
     );
 
+    // CSS
     if (
-        !isset($manifest['src/css/main.css']['file'])
+        isset($manifest['src/css/main.css']['file'])
     ) {
-        return;
+        wp_enqueue_style(
+            'ccluster-main',
+            get_theme_file_uri('dist/' . $manifest['src/css/main.css']['file']),
+            [],
+            null
+        );
     }
 
-    $css_file = $manifest['src/css/main.css']['file'];
-
-    wp_enqueue_style(
-        'ccluster-main',
-        get_theme_file_uri('dist/' . $css_file),
-        [],
-        null
-    );
+    // JS
+    if (
+        isset($manifest['src/js/main.js']['file'])
+    ) {
+        wp_enqueue_style(
+            'ccluster-main',
+            get_theme_file_uri('dist/' . $manifest['src/js/main.js']['file']),
+            [],
+            null
+        );
+    }
 }
 
 add_action(
