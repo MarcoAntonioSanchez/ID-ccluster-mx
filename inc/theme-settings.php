@@ -244,12 +244,17 @@ function ccluster_checkbox_field($args)
 
     $value = ccluster_get_theme_option(
         $field,
-        false
+        '0'
     );
 
 ?>
 
     <label>
+
+        <input
+            type="hidden"
+            name="ccluster_theme_options[<?php echo esc_attr($field); ?>]"
+            value="0">
 
         <input
             type="checkbox"
