@@ -30,7 +30,7 @@ function ccluster_enqueue_assets()
     if (
         isset($manifest['src/js/main.js']['file'])
     ) {
-        wp_enqueue_style(
+        wp_enqueue_script(
             'ccluster-main',
             get_theme_file_uri('dist/' . $manifest['src/js/main.js']['file']),
             [],
