@@ -39,15 +39,31 @@
 .ccluster-hero-shadow {
   position: absolute;
   left: 50%;
-  bottom: 4%;
-  width: 65%;
-  height: 12%;
+  bottom: -4rem;
+  width: 58%;
+  height: 3rem;
   transform: translateX(-50%);
   border-radius: 50%;
-  background: rgba(15, 20, 58, 0.18);
-  filter: blur(20px);
-  opacity: 0.7;
+  background: rgba(15, 20, 58, 0.16);
+  filter: blur(24px);
+  opacity: 0.65;
   z-index: 0;
+}
+@keyframes ccluster-hero-shadow {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.65;
+  }
+
+  50% {
+    transform: translateX(-50%) scale(0.82);
+    opacity: 0.45;
+  }
+}
+
+.ccluster-hero-shadow {
+  animation: ccluster-hero-shadow 6s ease-in-out infinite;
 }
 .ccluster-hero-image {
   position: relative;
