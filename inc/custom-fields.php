@@ -45,13 +45,6 @@ function ccluster_render_home_hero_meta_box($post)
 ?>
     <!-- BADGE -->
     <div>
-        <p>
-            <label for="hero_badge_icon">
-                <strong>
-                    <?php esc_html_e('Badge Icon', 'ccluster'); ?>
-                </strong>
-            </label>
-        </p>
         <?php
         $badge_icon_id = absint(
             $values['hero_badge_icon']
@@ -163,13 +156,6 @@ function ccluster_render_home_hero_meta_box($post)
             value="<?php echo esc_attr($values['hero_cta_url']); ?>"
             class="widefat" />
         <!-- IMAGE -->
-        <p>
-            <label for="hero_image">
-                <strong>
-                    <?php esc_html_e('Hero Image', 'ccluster'); ?>
-                </strong>
-            </label>
-        </p>
         <div class="ccluster-media-field">
             <p>
                 <strong>
@@ -209,13 +195,6 @@ function ccluster_render_home_hero_meta_box($post)
             </button>
         </div>
         <!-- BACKGROUND -->
-        <p>
-            <label for="hero_background">
-                <strong>
-                    <?php esc_html_e('Hero Background', 'ccluster'); ?>
-                </strong>
-            </label>
-        </p>
         <div class="ccluster-media-field">
             <p>
                 <strong>
