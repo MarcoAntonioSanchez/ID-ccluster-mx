@@ -87,7 +87,7 @@ $hero_background = $hero_background_id
                     <span
                         class="h-px w-10 bg-[#0F143A]"
                         aria-hidden="true"></span>
-                    <span class="text-sm font-medium">
+                    <span class="text-sm font-medium font-badge">
                         <?php echo esc_html($hero_badge_text); ?>
                     </span>
                 </div>
@@ -98,7 +98,7 @@ $hero_background = $hero_background_id
                 </h1>
             <?php endif; ?>
             <?php if ($hero_description) : ?>
-                <p class="mt-6 max-w-xl text-lg leading-8">
+                <p class="mt-6 max-w-xl text-lg leading-8 font-body">
                     <?php echo esc_html($hero_description); ?>
                 </p>
             <?php endif; ?>
