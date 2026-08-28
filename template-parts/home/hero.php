@@ -117,7 +117,7 @@ $hero_background = $hero_background_id
                 <img
                     src="<?php echo esc_url($hero_image); ?>"
                     alt=""
-                    class="w-full max-w-lg object-contain">
+                    class="ccluster-hero-image w-full max-w-lg object-contain">
             <?php endif; ?>
         </div>
     </div>

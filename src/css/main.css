@@ -1,3 +1,24 @@
+/* TAILWIND */
 @import "tailwindcss";
 
 @source "../../**/*.php";
+/* HOME */
+/* HERO */
+@keyframes ccluster-hero-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ccluster-hero-image {
+  animation: ccluster-hero-rotate 20s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ccluster-hero-image {
+    animation: none;
+  }
+}
