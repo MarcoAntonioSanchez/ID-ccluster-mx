@@ -44,21 +44,21 @@
   height: 3rem;
   transform: translateX(-50%);
   border-radius: 50%;
-  background: rgba(15, 20, 58, 0.16);
+  background: rgba(15, 20, 58, 0.2);
   filter: blur(24px);
-  opacity: 0.65;
+  opacity: 0.8;
   z-index: 0;
 }
 @keyframes ccluster-hero-shadow {
   0%,
   100% {
     transform: translateX(-50%) scale(1);
-    opacity: 0.65;
+    opacity: 0.8;
   }
 
   50% {
     transform: translateX(-50%) scale(0.82);
-    opacity: 0.45;
+    opacity: 0.55;
   }
 }
 
