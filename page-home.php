@@ -2,30 +2,11 @@
 get_header();
 ?>
 <main>
-    <section>
-        <h1>
-            <?php
-            echo esc_html(
-                get_post_meta(
-                    get_the_ID(),
-                    'hero_title',
-                    true
-                )
-            );
-            ?>
-        </h1>
-        <p>
-            <?php
-            echo esc_html(
-                get_post_meta(
-                    get_the_ID(),
-                    'hero_description',
-                    true
-                )
-            );
-            ?>
-        </p>
-    </section>
+    <?php
+    get_template_part(
+        'template-parts/home/hero'
+    );
+    ?>
 </main>
 <?php
 get_footer();
