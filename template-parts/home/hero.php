@@ -114,10 +114,12 @@ $hero_background = $hero_background_id
         <!-- Visual -->
         <div class="flex items-center justify-center">
             <?php if ($hero_image) : ?>
-                <img
-                    src="<?php echo esc_url($hero_image); ?>"
-                    alt=""
-                    class="ccluster-hero-image w-full max-w-lg object-contain">
+                <div class="ccluster-hero-orb">
+                    <img
+                        src="<?php echo esc_url($hero_image); ?>"
+                        alt=""
+                        class="ccluster-hero-image w-full max-w-lg object-contain">
+                </div>
             <?php endif; ?>
         </div>
     </div>
