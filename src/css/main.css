@@ -46,7 +46,7 @@
   border-radius: 50%;
   background: rgba(15, 20, 58, 0.2);
   filter: blur(24px);
-  opacity: 0.8;
+  opacity: 1;
   z-index: 0;
 }
 @keyframes ccluster-hero-shadow {
