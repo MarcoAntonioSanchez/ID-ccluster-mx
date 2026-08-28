@@ -73,9 +73,9 @@ $hero_background = $hero_background_id
     style="background-image: url('<?php echo esc_url($hero_background); ?>');"
     <?php endif; ?>>
     <div
-        class="mx-auto flex max-w-7xl items-center px-6 py-24">
-        <div class="w-full max-w-2xl">
-            <!-- Badge -->
+        class="mx-auto grid min-h-[calc(100vh-120px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
+        <!-- Content -->
+        <div class="text-left">
             <?php if ($hero_badge_text) : ?>
                 <div class="mb-6 flex items-center gap-3">
                     <?php if ($hero_badge_icon) : ?>
@@ -92,38 +92,33 @@ $hero_background = $hero_background_id
                     </span>
                 </div>
             <?php endif; ?>
-            <!-- Title -->
             <?php if ($hero_title) : ?>
-                <h1 class="text-4xl font-bold md:text-6xl">
+                <h1 class="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
                     <?php echo esc_html($hero_title); ?>
                 </h1>
             <?php endif; ?>
-            <!-- Description -->
             <?php if ($hero_description) : ?>
                 <p class="mt-6 max-w-xl text-lg leading-8">
                     <?php echo esc_html($hero_description); ?>
                 </p>
             <?php endif; ?>
-            <!-- CTA -->
-            <?php if (
-                $hero_cta_label
-                && $hero_cta_url
-            ) : ?>
+            <?php if ($hero_cta_label && $hero_cta_url) : ?>
                 <a
                     href="<?php echo esc_url($hero_cta_url); ?>"
-                    class="mt-8 inline-flex items-center rounded-lg bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90">
+                    class="mt-8 inline-flex items-center rounded-lg bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
                     <?php echo esc_html($hero_cta_label); ?>
                 </a>
             <?php endif; ?>
+
         </div>
-        <!-- Hero Image -->
-        <?php if ($hero_image) : ?>
-            <div class="hidden w-full justify-center md:flex">
+        <!-- Visual -->
+        <div class="flex items-center justify-center">
+            <?php if ($hero_image) : ?>
                 <img
                     src="<?php echo esc_url($hero_image); ?>"
                     alt=""
-                    class="max-w-md object-contain">
-            </div>
-        <?php endif; ?>
+                    class="w-full max-w-lg object-contain">
+            <?php endif; ?>
+        </div>
     </div>
 </section>

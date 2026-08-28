@@ -9,53 +9,34 @@ if (
 $phone   = ccluster_get_theme_option('phone');
 $email   = ccluster_get_theme_option('email');
 $address = ccluster_get_theme_option('address');
-
 ?>
-
 <div
     id="site-topbar"
     class="bg-black text-white">
-
     <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
-
         <div class="flex items-center gap-6">
-
             <?php if ($phone) : ?>
-
                 <a
                     href="tel:<?php echo esc_attr($phone); ?>"
                     class="text-sm">
                     <?php echo esc_html($phone); ?>
                 </a>
-
             <?php endif; ?>
-
-
             <?php if ($email) : ?>
-
                 <a
                     href="mailto:<?php echo esc_attr($email); ?>"
                     class="text-sm">
                     <?php echo esc_html($email); ?>
                 </a>
-
             <?php endif; ?>
-
-
             <?php if ($address) : ?>
-
                 <span class="text-sm">
                     <?php echo esc_html($address); ?>
                 </span>
-
             <?php endif; ?>
-
         </div>
-
-
         <div class="flex items-center gap-4">
-
             <?php
             $social_networks = [
                 'facebook'  => 'Facebook',
@@ -64,15 +45,11 @@ $address = ccluster_get_theme_option('address');
                 'youtube'   => 'YouTube',
             ];
             ?>
-
             <?php foreach ($social_networks as $network => $label) : ?>
-
                 <?php
                 $url = ccluster_get_theme_option($network);
                 ?>
-
                 <?php if ($url) : ?>
-
                     <a
                         href="<?php echo esc_url($url); ?>"
                         target="_blank"
@@ -80,13 +57,8 @@ $address = ccluster_get_theme_option('address');
                         class="text-sm">
                         <?php echo esc_html($label); ?>
                     </a>
-
                 <?php endif; ?>
-
             <?php endforeach; ?>
-
         </div>
-
     </div>
-
 </div>
