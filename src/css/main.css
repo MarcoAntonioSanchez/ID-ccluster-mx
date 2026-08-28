@@ -4,7 +4,6 @@
 @source "../../**/*.php";
 /* HOME */
 /* HERO */
-
 @keyframes ccluster-hero-float {
   0%,
   100% {
@@ -61,7 +60,6 @@
     opacity: 0.6;
   }
 }
-
 .ccluster-hero-shadow {
   animation: ccluster-hero-shadow 6s ease-in-out infinite;
 }
