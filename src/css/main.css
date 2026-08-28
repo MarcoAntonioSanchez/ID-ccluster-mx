@@ -4,14 +4,36 @@
 @source "../../**/*.php";
 /* HOME */
 /* HERO */
-@keyframes ccluster-hero-float {
+@keyframes ccluster-hero-background {
   0%,
   100% {
-    transform: translate3d(0, 0, 0);
+    background-position: 50% 50%;
   }
 
   50% {
-    transform: translate3d(0, -14px, 0);
+    background-position: 51% 49%;
+  }
+}
+
+.ccluster-hero {
+  animation: ccluster-hero-background 12s ease-in-out infinite;
+}
+@keyframes ccluster-hero-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg);
+  }
+
+  25% {
+    transform: translate3d(6px, -8px, 0) rotate(0.5deg);
+  }
+
+  50% {
+    transform: translate3d(0, -14px, 0) rotate(1deg);
+  }
+
+  75% {
+    transform: translate3d(-6px, -8px, 0) rotate(0.5deg);
   }
 }
 @keyframes ccluster-hero-rotate {

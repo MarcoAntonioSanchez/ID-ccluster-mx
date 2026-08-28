@@ -68,7 +68,7 @@ $hero_background = $hero_background_id
 <!-- CUSTOM FIELDS RENDER -->
 <section
     id="home-hero"
-    class="relative overflow-hidden bg-cover bg-center bg-no-repeat"
+    class="ccluster-hero relative overflow-hidden bg-cover bg-center bg-no-repeat"
     <?php if ($hero_background) : ?>
     style="background-image: url('<?php echo esc_url($hero_background); ?>');"
     <?php endif; ?>>
