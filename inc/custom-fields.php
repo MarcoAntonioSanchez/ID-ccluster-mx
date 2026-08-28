@@ -52,12 +52,49 @@ function ccluster_render_home_hero_meta_box($post)
                 </strong>
             </label>
         </p>
-        <input
-            type="text"
-            id="hero_badge_icon"
-            name="hero_badge_icon"
-            value="<?php echo esc_attr($values['hero_badge_icon']); ?>"
-            class="widefat" />
+        <?php
+        $badge_icon_id = absint(
+            $values['hero_badge_icon']
+        );
+        ?>
+        <div class="ccluster-media-field">
+            <p>
+                <strong>
+                    <?php esc_html_e('Badge Icon', 'ccluster'); ?>
+                </strong>
+            </p>
+            <input
+                type="hidden"
+                id="hero_badge_icon"
+                name="hero_badge_icon"
+                value="<?php echo esc_attr($badge_icon_id); ?>" />
+            <div
+                id="hero_badge_icon_preview"
+                class="ccluster-media-preview">
+                <?php
+                if ($badge_icon_id) {
+                    echo wp_get_attachment_image(
+                        $badge_icon_id,
+                        'thumbnail'
+                    );
+                }
+                ?>
+            </div>
+            <button
+                type="button"
+                class="button ccluster-media-select"
+                data-target="hero_badge_icon"
+                data-preview="hero_badge_icon_preview">
+                <?php esc_html_e('Select Image', 'ccluster'); ?>
+            </button>
+            <button
+                type="button"
+                class="button ccluster-media-remove"
+                data-target="hero_badge_icon"
+                data-preview="hero_badge_icon_preview">
+                <?php esc_html_e('Remove Image', 'ccluster'); ?>
+            </button>
+        </div>
         <p>
             <label for="hero_badge_text">
                 <strong>
@@ -133,12 +170,44 @@ function ccluster_render_home_hero_meta_box($post)
                 </strong>
             </label>
         </p>
-        <input
-            type="text"
-            id="hero_image"
-            name="hero_image"
-            value="<?php echo esc_attr($values['hero_image']); ?>"
-            class="widefat" />
+        <div class="ccluster-media-field">
+            <p>
+                <strong>
+                    <?php esc_html_e('Hero Image', 'ccluster'); ?>
+                </strong>
+            </p>
+            <input
+                type="hidden"
+                id="hero_image"
+                name="hero_image"
+                value="<?php echo esc_attr(absint($values['hero_image'])); ?>" />
+            <div
+                id="hero_image_preview"
+                class="ccluster-media-preview">
+                <?php
+                if ($values['hero_image']) {
+                    echo wp_get_attachment_image(
+                        absint($values['hero_image']),
+                        'medium'
+                    );
+                }
+                ?>
+            </div>
+            <button
+                type="button"
+                class="button ccluster-media-select"
+                data-target="hero_image"
+                data-preview="hero_image_preview">
+                <?php esc_html_e('Select Image', 'ccluster'); ?>
+            </button>
+            <button
+                type="button"
+                class="button ccluster-media-remove"
+                data-target="hero_image"
+                data-preview="hero_image_preview">
+                <?php esc_html_e('Remove Image', 'ccluster'); ?>
+            </button>
+        </div>
         <!-- BACKGROUND -->
         <p>
             <label for="hero_background">
@@ -147,12 +216,44 @@ function ccluster_render_home_hero_meta_box($post)
                 </strong>
             </label>
         </p>
-        <input
-            type="text"
-            id="hero_background"
-            name="hero_background"
-            value="<?php echo esc_attr($values['hero_background']); ?>"
-            class="widefat" />
+        <div class="ccluster-media-field">
+            <p>
+                <strong>
+                    <?php esc_html_e('Hero Background', 'ccluster'); ?>
+                </strong>
+            </p>
+            <input
+                type="hidden"
+                id="hero_background"
+                name="hero_background"
+                value="<?php echo esc_attr(absint($values['hero_background'])); ?>" />
+            <div
+                id="hero_background_preview"
+                class="ccluster-media-preview">
+                <?php
+                if ($values['hero_background']) {
+                    echo wp_get_attachment_image(
+                        absint($values['hero_background']),
+                        'large'
+                    );
+                }
+                ?>
+            </div>
+            <button
+                type="button"
+                class="button ccluster-media-select"
+                data-target="hero_background"
+                data-preview="hero_background_preview">
+                <?php esc_html_e('Select Image', 'ccluster'); ?>
+            </button>
+            <button
+                type="button"
+                class="button ccluster-media-remove"
+                data-target="hero_background"
+                data-preview="hero_background_preview">
+                <?php esc_html_e('Remove Image', 'ccluster'); ?>
+            </button>
+        </div>
     </div>
 <?php
 }
@@ -183,14 +284,14 @@ function ccluster_save_home_hero($post_id)
         return;
     }
     $fields = [
-        'hero_badge_icon'   => 'sanitize_text_field',
+        'hero_badge_icon'   => 'absint',
         'hero_badge_text'   => 'sanitize_text_field',
         'hero_title'        => 'sanitize_text_field',
         'hero_description'  => 'sanitize_textarea_field',
         'hero_cta_label'    => 'sanitize_text_field',
         'hero_cta_url'      => 'esc_url_raw',
-        'hero_image'        => 'esc_url_raw',
-        'hero_background'   => 'esc_url_raw',
+        'hero_image'        => 'absint',
+        'hero_background'   => 'absint',
     ];
     foreach ($fields as $field => $sanitize_callback) {
         if (!isset($_POST[$field])) {
@@ -210,4 +311,29 @@ function ccluster_save_home_hero($post_id)
 add_action(
     'save_post_page',
     'ccluster_save_home_hero'
+);
+// MEDIA LIBRARY SELECTOR
+function ccluster_enqueue_media_library($hook)
+{
+    if (
+        $hook !== 'post.php'
+        && $hook !== 'post-new.php'
+    ) {
+        return;
+    }
+    wp_enqueue_media();
+
+    wp_enqueue_script(
+        'ccluster-admin-media',
+        get_theme_file_uri(
+            'src/js/admin-media.js'
+        ),
+        ['jquery'],
+        null,
+        true
+    );
+}
+add_action(
+    'admin_enqueue_scripts',
+    'ccluster_enqueue_media_library'
 );
