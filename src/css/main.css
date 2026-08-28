@@ -14,7 +14,7 @@
   }
 }
 .ccluster-hero-image {
-  animation: ccluster-hero-rotate 20s linear infinite;
+  animation: ccluster-hero-rotate 40s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
