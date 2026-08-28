@@ -40,7 +40,7 @@ $social_networks = [
             <!-- Navigation -->
             <div>
                 <h2 class="text-sm font-semibold uppercase tracking-wider">
-                    <?php esc_html_e('Navigation', 'ccluster'); ?>
+                    <?php esc_html_e('Acerca de', 'ccluster'); ?>
                 </h2>
                 <?php
                 wp_nav_menu(
@@ -56,7 +56,7 @@ $social_networks = [
             <!-- Contact -->
             <div>
                 <h2 class="text-sm font-semibold uppercase tracking-wider">
-                    <?php esc_html_e('Contact', 'ccluster'); ?>
+                    <?php esc_html_e('Contacto', 'ccluster'); ?>
                 </h2>
                 <div class="mt-6 space-y-3 text-sm text-gray-400">
                     <?php if ($phone) : ?>
