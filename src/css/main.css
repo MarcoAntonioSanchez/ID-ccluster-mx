@@ -44,7 +44,7 @@
   height: 3rem;
   transform: translateX(-50%);
   border-radius: 50%;
-  background: rgba(15, 20, 58, 0.2);
+  background: rgba(15, 20, 58, 0.4);
   filter: blur(24px);
   opacity: 1;
   z-index: 0;
@@ -53,12 +53,12 @@
   0%,
   100% {
     transform: translateX(-50%) scale(1);
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   50% {
-    transform: translateX(-50%) scale(0.82);
-    opacity: 0.55;
+    transform: translateX(-50%) scale(0.2);
+    opacity: 0.65;
   }
 }
 
