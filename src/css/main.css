@@ -4,20 +4,7 @@
 @source "../../**/*.php";
 /* HOME */
 /* HERO */
-@keyframes ccluster-hero-background {
-  0%,
-  100% {
-    background-position: 50% 50%;
-  }
 
-  50% {
-    background-position: 51% 49%;
-  }
-}
-
-.ccluster-hero {
-  animation: ccluster-hero-background 12s ease-in-out infinite;
-}
 @keyframes ccluster-hero-float {
   0%,
   100% {
@@ -46,10 +33,25 @@
   }
 }
 .ccluster-hero-orb {
+  position: relative;
   animation: ccluster-hero-float 6s ease-in-out infinite;
 }
-
+.ccluster-hero-shadow {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  width: 65%;
+  height: 12%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: rgba(15, 20, 58, 0.18);
+  filter: blur(20px);
+  opacity: 0.7;
+  z-index: 0;
+}
 .ccluster-hero-image {
+  position: relative;
+  z-index: 1;
   animation: ccluster-hero-rotate 40s linear infinite;
 }
 @media (prefers-reduced-motion: reduce) {

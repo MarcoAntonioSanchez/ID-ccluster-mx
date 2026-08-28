@@ -115,6 +115,7 @@ $hero_background = $hero_background_id
         <div class="flex items-center justify-center">
             <?php if ($hero_image) : ?>
                 <div class="ccluster-hero-orb">
+                    <div class="ccluster-hero-shadow"></div>
                     <img
                         src="<?php echo esc_url($hero_image); ?>"
                         alt=""
