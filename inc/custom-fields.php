@@ -291,6 +291,465 @@ add_action(
     'save_post_page',
     'ccluster_save_home_hero'
 );
+// REGISTER LA FIRMA METABOX
+function ccluster_add_la_firma_meta_box()
+{
+    add_meta_box(
+        'ccluster_la_firma',
+        __('La Firma', 'ccluster'),
+        'ccluster_render_la_firma_meta_box',
+        'page',
+        'normal',
+        'high'
+    );
+}
+add_action(
+    'add_meta_boxes',
+    'ccluster_add_la_firma_meta_box'
+);
+
+// RENDER LA FIRMA CUSTOM FIELDS
+function ccluster_render_la_firma_meta_box($post)
+{
+    wp_nonce_field(
+        'ccluster_save_la_firma',
+        'ccluster_la_firma_nonce'
+    );
+
+    $fields = [
+        'firma_background',
+        'firma_stat_icon',
+        'firma_stat_number',
+        'firma_stat_label',
+        'firma_badge_icon',
+        'firma_badge_text',
+        'firma_title',
+        'firma_description',
+        'firma_feature_1',
+        'firma_feature_2',
+        'firma_feature_3',
+        'firma_feature_4',
+        'firma_text_1',
+        'firma_text_2',
+        'firma_cta_label',
+        'firma_cta_url',
+        'firma_signature_name',
+        'firma_signature_role',
+    ];
+
+    $values = [];
+
+    foreach ($fields as $field) {
+        $values[$field] = get_post_meta(
+            $post->ID,
+            $field,
+            true
+        );
+    }
+?>
+    <!-- BACKGROUND -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Firma Background', 'ccluster'); ?>
+            </strong>
+        </p>
+
+        <input
+            type="hidden"
+            id="firma_background"
+            name="firma_background"
+            value="<?php echo esc_attr(absint($values['firma_background'])); ?>" />
+
+        <div
+            id="firma_background_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['firma_background']) {
+                echo wp_get_attachment_image(
+                    absint($values['firma_background']),
+                    'large'
+                );
+            }
+            ?>
+        </div>
+
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="firma_background"
+            data-preview="firma_background_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="firma_background"
+            data-preview="firma_background_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+
+    <!-- STAT ICON -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Experience Icon', 'ccluster'); ?>
+            </strong>
+        </p>
+
+        <input
+            type="hidden"
+            id="firma_stat_icon"
+            name="firma_stat_icon"
+            value="<?php echo esc_attr(absint($values['firma_stat_icon'])); ?>" />
+
+        <div
+            id="firma_stat_icon_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['firma_stat_icon']) {
+                echo wp_get_attachment_image(
+                    absint($values['firma_stat_icon']),
+                    'thumbnail'
+                );
+            }
+            ?>
+        </div>
+
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="firma_stat_icon"
+            data-preview="firma_stat_icon_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="firma_stat_icon"
+            data-preview="firma_stat_icon_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+
+    <!-- STAT NUMBER -->
+    <p>
+        <label for="firma_stat_number">
+            <strong>
+                <?php esc_html_e('Experience Number', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_stat_number"
+        name="firma_stat_number"
+        value="<?php echo esc_attr($values['firma_stat_number']); ?>"
+        class="widefat" />
+
+    <!-- STAT LABEL -->
+    <p>
+        <label for="firma_stat_label">
+            <strong>
+                <?php esc_html_e('Experience Label', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_stat_label"
+        name="firma_stat_label"
+        value="<?php echo esc_attr($values['firma_stat_label']); ?>"
+        class="widefat" />
+
+    <!-- BADGE ICON -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Badge Icon', 'ccluster'); ?>
+            </strong>
+        </p>
+
+        <input
+            type="hidden"
+            id="firma_badge_icon"
+            name="firma_badge_icon"
+            value="<?php echo esc_attr(absint($values['firma_badge_icon'])); ?>" />
+
+        <div
+            id="firma_badge_icon_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['firma_badge_icon']) {
+                echo wp_get_attachment_image(
+                    absint($values['firma_badge_icon']),
+                    'thumbnail'
+                );
+            }
+            ?>
+        </div>
+
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="firma_badge_icon"
+            data-preview="firma_badge_icon_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="firma_badge_icon"
+            data-preview="firma_badge_icon_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+
+    <!-- BADGE TEXT -->
+    <p>
+        <label for="firma_badge_text">
+            <strong>
+                <?php esc_html_e('Badge Text', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_badge_text"
+        name="firma_badge_text"
+        value="<?php echo esc_attr($values['firma_badge_text']); ?>"
+        class="widefat" />
+
+    <!-- TITLE -->
+    <p>
+        <label for="firma_title">
+            <strong>
+                <?php esc_html_e('Firma Title', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_title"
+        name="firma_title"
+        value="<?php echo esc_attr($values['firma_title']); ?>"
+        class="widefat" />
+
+    <!-- DESCRIPTION -->
+    <p>
+        <label for="firma_description">
+            <strong>
+                <?php esc_html_e('Firma Description', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <textarea
+        id="firma_description"
+        name="firma_description"
+        rows="4"
+        class="widefat"><?php echo esc_textarea($values['firma_description']); ?></textarea>
+
+    <!-- FEATURES -->
+    <p>
+        <strong>
+            <?php esc_html_e('Features', 'ccluster'); ?>
+        </strong>
+    </p>
+
+    <?php for ($i = 1; $i <= 4; $i++) : ?>
+
+        <p>
+            <label for="firma_feature_<?php echo $i; ?>">
+                <?php echo esc_html("Feature {$i}"); ?>
+            </label>
+        </p>
+
+        <input
+            type="text"
+            id="firma_feature_<?php echo $i; ?>"
+            name="firma_feature_<?php echo $i; ?>"
+            value="<?php echo esc_attr($values["firma_feature_{$i}"]); ?>"
+            class="widefat" />
+
+    <?php endfor; ?>
+
+    <!-- TEXT 1 -->
+    <p>
+        <label for="firma_text_1">
+            <strong>
+                <?php esc_html_e('Firma Text 1', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <textarea
+        id="firma_text_1"
+        name="firma_text_1"
+        rows="4"
+        class="widefat"><?php echo esc_textarea($values['firma_text_1']); ?></textarea>
+
+    <!-- TEXT 2 -->
+    <p>
+        <label for="firma_text_2">
+            <strong>
+                <?php esc_html_e('Firma Text 2', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <textarea
+        id="firma_text_2"
+        name="firma_text_2"
+        rows="4"
+        class="widefat"><?php echo esc_textarea($values['firma_text_2']); ?></textarea>
+
+    <!-- CTA -->
+    <p>
+        <label for="firma_cta_label">
+            <strong>
+                <?php esc_html_e('CTA Label', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_cta_label"
+        name="firma_cta_label"
+        value="<?php echo esc_attr($values['firma_cta_label']); ?>"
+        class="widefat" />
+
+    <p>
+        <label for="firma_cta_url">
+            <strong>
+                <?php esc_html_e('CTA URL', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="url"
+        id="firma_cta_url"
+        name="firma_cta_url"
+        value="<?php echo esc_attr($values['firma_cta_url']); ?>"
+        class="widefat" />
+
+    <!-- SIGNATURE -->
+    <p>
+        <label for="firma_signature_name">
+            <strong>
+                <?php esc_html_e('Signature Name', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_signature_name"
+        name="firma_signature_name"
+        value="<?php echo esc_attr($values['firma_signature_name']); ?>"
+        class="widefat" />
+
+    <p>
+        <label for="firma_signature_role">
+            <strong>
+                <?php esc_html_e('Signature Role', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+
+    <input
+        type="text"
+        id="firma_signature_role"
+        name="firma_signature_role"
+        value="<?php echo esc_attr($values['firma_signature_role']); ?>"
+        class="widefat" />
+
+<?php
+}
+
+// SAVE LA FIRMA CUSTOM FIELDS
+function ccluster_save_la_firma($post_id)
+{
+    if (
+        !isset($_POST['ccluster_la_firma_nonce'])
+        || !wp_verify_nonce(
+            $_POST['ccluster_la_firma_nonce'],
+            'ccluster_save_la_firma'
+        )
+    ) {
+        return;
+    }
+
+    if (
+        defined('DOING_AUTOSAVE')
+        && DOING_AUTOSAVE
+    ) {
+        return;
+    }
+
+    if (
+        !current_user_can(
+            'edit_post',
+            $post_id
+        )
+    ) {
+        return;
+    }
+
+    $fields = [
+        'firma_background'      => 'absint',
+        'firma_stat_icon'       => 'absint',
+        'firma_stat_number'     => 'sanitize_text_field',
+        'firma_stat_label'      => 'sanitize_text_field',
+        'firma_badge_icon'      => 'absint',
+        'firma_badge_text'      => 'sanitize_text_field',
+        'firma_title'           => 'sanitize_text_field',
+        'firma_description'     => 'sanitize_textarea_field',
+        'firma_feature_1'       => 'sanitize_text_field',
+        'firma_feature_2'       => 'sanitize_text_field',
+        'firma_feature_3'       => 'sanitize_text_field',
+        'firma_feature_4'       => 'sanitize_text_field',
+        'firma_text_1'          => 'sanitize_textarea_field',
+        'firma_text_2'          => 'sanitize_textarea_field',
+        'firma_cta_label'       => 'sanitize_text_field',
+        'firma_cta_url'         => 'esc_url_raw',
+        'firma_signature_name'  => 'sanitize_text_field',
+        'firma_signature_role'  => 'sanitize_text_field',
+    ];
+
+    foreach ($fields as $field => $sanitize_callback) {
+
+        if (!isset($_POST[$field])) {
+            continue;
+        }
+
+        $value = call_user_func(
+            $sanitize_callback,
+            wp_unslash($_POST[$field])
+        );
+
+        update_post_meta(
+            $post_id,
+            $field,
+            $value
+        );
+    }
+}
+
+add_action(
+    'save_post_page',
+    'ccluster_save_la_firma'
+);
 // MEDIA LIBRARY SELECTOR
 function ccluster_enqueue_media_library($hook)
 {
