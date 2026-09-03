@@ -12,7 +12,7 @@ $address = ccluster_get_theme_option('address');
 ?>
 <div
     id="site-topbar"
-    class="border-1 border-b-neutral-700">
+    class="border-1 border-b-slate-400">
     <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <div class="flex items-center gap-6">
