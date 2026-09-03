@@ -153,7 +153,7 @@ $cta_url = ccluster_get_theme_option(
 
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
-                    class="mt-4 block rounded-lg bg-black px-5 py-2.5 text-center text-sm font-medium text-white">
+                    class="mt-4 block bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
                     <?php echo esc_html($cta_label); ?>
                 </a>
 
