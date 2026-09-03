@@ -1,12 +1,74 @@
 {
   "src/css/main.css": {
-    "file": "assets/styles-CDcwjyZ-.css",
+    "file": "assets/styles-zVMGdBBH.css",
     "name": "styles",
     "names": [
       "styles.css"
     ],
     "src": "src/css/main.css",
-    "isEntry": true
+    "isEntry": true,
+    "assets": [
+      "assets/Inter_18pt-Regular-BpskOkD5.ttf",
+      "assets/Inter_18pt-Medium-BtfNrkJj.ttf",
+      "assets/Inter_18pt-SemiBold-C9_sHzqi.ttf",
+      "assets/Inter_18pt-Bold-BVTOCPiq.ttf",
+      "assets/Oswald-Regular-Cyp0OCha.ttf",
+      "assets/Oswald-Medium-DGOpUBXR.ttf",
+      "assets/Oswald-SemiBold-DQ0ILBgh.ttf",
+      "assets/Oswald-Bold-CAX8aTdK.ttf",
+      "assets/Manrope-Regular-Dy0jyoUL.ttf",
+      "assets/Manrope-Medium-Bgh4Ro6H.ttf",
+      "assets/Manrope-SemiBold-CJD5SYW-.ttf",
+      "assets/Manrope-Bold-DEjRF1uU.ttf"
+    ]
+  },
+  "src/fonts/Inter/Inter_18pt-Bold.ttf": {
+    "file": "assets/Inter_18pt-Bold-BVTOCPiq.ttf",
+    "src": "src/fonts/Inter/Inter_18pt-Bold.ttf"
+  },
+  "src/fonts/Inter/Inter_18pt-Medium.ttf": {
+    "file": "assets/Inter_18pt-Medium-BtfNrkJj.ttf",
+    "src": "src/fonts/Inter/Inter_18pt-Medium.ttf"
+  },
+  "src/fonts/Inter/Inter_18pt-Regular.ttf": {
+    "file": "assets/Inter_18pt-Regular-BpskOkD5.ttf",
+    "src": "src/fonts/Inter/Inter_18pt-Regular.ttf"
+  },
+  "src/fonts/Inter/Inter_18pt-SemiBold.ttf": {
+    "file": "assets/Inter_18pt-SemiBold-C9_sHzqi.ttf",
+    "src": "src/fonts/Inter/Inter_18pt-SemiBold.ttf"
+  },
+  "src/fonts/Manrope/Manrope-Bold.ttf": {
+    "file": "assets/Manrope-Bold-DEjRF1uU.ttf",
+    "src": "src/fonts/Manrope/Manrope-Bold.ttf"
+  },
+  "src/fonts/Manrope/Manrope-Medium.ttf": {
+    "file": "assets/Manrope-Medium-Bgh4Ro6H.ttf",
+    "src": "src/fonts/Manrope/Manrope-Medium.ttf"
+  },
+  "src/fonts/Manrope/Manrope-Regular.ttf": {
+    "file": "assets/Manrope-Regular-Dy0jyoUL.ttf",
+    "src": "src/fonts/Manrope/Manrope-Regular.ttf"
+  },
+  "src/fonts/Manrope/Manrope-SemiBold.ttf": {
+    "file": "assets/Manrope-SemiBold-CJD5SYW-.ttf",
+    "src": "src/fonts/Manrope/Manrope-SemiBold.ttf"
+  },
+  "src/fonts/Oswald/Oswald-Bold.ttf": {
+    "file": "assets/Oswald-Bold-CAX8aTdK.ttf",
+    "src": "src/fonts/Oswald/Oswald-Bold.ttf"
+  },
+  "src/fonts/Oswald/Oswald-Medium.ttf": {
+    "file": "assets/Oswald-Medium-DGOpUBXR.ttf",
+    "src": "src/fonts/Oswald/Oswald-Medium.ttf"
+  },
+  "src/fonts/Oswald/Oswald-Regular.ttf": {
+    "file": "assets/Oswald-Regular-Cyp0OCha.ttf",
+    "src": "src/fonts/Oswald/Oswald-Regular.ttf"
+  },
+  "src/fonts/Oswald/Oswald-SemiBold.ttf": {
+    "file": "assets/Oswald-SemiBold-DQ0ILBgh.ttf",
+    "src": "src/fonts/Oswald/Oswald-SemiBold.ttf"
   },
   "src/js/main.js": {
     "file": "assets/main-CLO8dwsv.js",
