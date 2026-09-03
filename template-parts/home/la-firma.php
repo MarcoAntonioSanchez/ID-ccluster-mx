@@ -84,12 +84,11 @@ $signature_role = get_post_meta(
     'firma_signature_role',
     true
 );
+?>
 // HTML
-
 <section
     id="la-firma"
-    class="ccluster-la-firma"
->
+    class="ccluster-la-firma">
     <div class="ccluster-la-firma__inner">
 
         <!-- LEFT COLUMN -->
@@ -182,8 +181,7 @@ $signature_role = get_post_meta(
 
                         <span
                             class="ccluster-la-firma__feature-icon"
-                            aria-hidden="true"
-                        >
+                            aria-hidden="true">
                             ✓
                         </span>
 
@@ -221,8 +219,7 @@ $signature_role = get_post_meta(
 
                     <a
                         href="<?php echo esc_url($cta_url); ?>"
-                        class="ccluster-la-firma__cta font-body"
-                    >
+                        class="ccluster-la-firma__cta font-body">
                         <?php echo esc_html($cta_label); ?>
                     </a>
 
