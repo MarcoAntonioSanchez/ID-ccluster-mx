@@ -7,6 +7,11 @@ get_header();
         'template-parts/home/hero'
     );
     ?>
+    <?php
+    get_template_part(
+        'template-parts/home/la-firma'
+    );
+    ?>
 </main>
 <?php
 get_footer();
