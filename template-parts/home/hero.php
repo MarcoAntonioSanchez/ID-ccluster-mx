@@ -105,7 +105,7 @@ $hero_background = $hero_background_id
             <?php if ($hero_cta_label && $hero_cta_url) : ?>
                 <a
                     href="<?php echo esc_url($hero_cta_url); ?>"
-                    class="mt-8 inline-flex items-center rounded-lg bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
+                    class="mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
                     <?php echo esc_html($hero_cta_label); ?>
                 </a>
             <?php endif; ?>
