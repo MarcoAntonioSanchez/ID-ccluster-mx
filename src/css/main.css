@@ -100,15 +100,6 @@
   --font-heading: "Oswald", sans-serif;
   --font-badge: "Manrope", sans-serif;
 }
-.font-body {
-  font-family: var(--font-body);
-}
-.font-heading {
-  font-family: var(--font-heading);
-}
-.font-badge {
-  font-family: var(--font-badge);
-}
 
 /* HOME */
 /* HERO */
