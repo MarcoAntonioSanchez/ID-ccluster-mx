@@ -227,9 +227,51 @@
 .ccluster-la-firma__texts p {
   margin: 0;
 }
+.ccluster-la-firma__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+.ccluster-la-firma__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.5rem;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+.ccluster-la-firma__cta:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+.ccluster-la-firma__signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  text-align: right;
+}
+.ccluster-la-firma__signature > .font-body {
+  font-weight: 600;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
     grid-template-columns: 1fr;
+  }
+  .ccluster-la-firma__footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ccluster-la-firma__signature {
+    align-items: flex-start;
+    text-align: left;
   }
 }
