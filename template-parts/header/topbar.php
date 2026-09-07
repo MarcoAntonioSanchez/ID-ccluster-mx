@@ -19,19 +19,19 @@ $address = ccluster_get_theme_option('address');
             <?php if ($phone) : ?>
                 <a
                     href="tel:<?php echo esc_attr($phone); ?>"
-                    class="text-sm">
+                    class="text-xs">
                     <?php echo esc_html($phone); ?>
                 </a>
             <?php endif; ?>
             <?php if ($email) : ?>
                 <a
                     href="mailto:<?php echo esc_attr($email); ?>"
-                    class="text-sm">
+                    class="text-xs">
                     <?php echo esc_html($email); ?>
                 </a>
             <?php endif; ?>
             <?php if ($address) : ?>
-                <span class="text-sm">
+                <span class="text-xs">
                     <?php echo esc_html($address); ?>
                 </span>
             <?php endif; ?>
@@ -54,7 +54,7 @@ $address = ccluster_get_theme_option('address');
                         href="<?php echo esc_url($url); ?>"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="text-sm">
+                        class="text-xs">
                         <?php echo esc_html($label); ?>
                     </a>
                 <?php endif; ?>
