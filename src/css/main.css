@@ -218,3 +218,18 @@
     @apply h-5 w-5 shrink-0 text-primary;
   }
 }
+.ccluster-la-firma__texts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.ccluster-la-firma__texts p {
+  margin: 0;
+}
+/* RESPONSIVE */
+@media (max-width: 767px) {
+  .ccluster-la-firma__texts {
+    grid-template-columns: 1fr;
+  }
+}
