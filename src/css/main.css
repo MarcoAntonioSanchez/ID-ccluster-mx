@@ -175,23 +175,6 @@
 }
 /* THE FIRM */
 @layer components {
-  @layer components {
-    .ccluster-la-firma__badge {
-      @apply mb-6 flex items-center gap-3;
-    }
-    .ccluster-la-firma__badge-icon {
-      @apply h-6 w-6 object-contain;
-    }
-    .ccluster-la-firma__badge-line {
-      @apply h-px w-10 bg-primary;
-    }
-    .ccluster-la-firma__content h2 {
-      @apply mb-5;
-    }
-    .ccluster-la-firma__content > .font-body {
-      @apply max-w-2xl;
-    }
-  }
   .ccluster-la-firma {
     @apply w-full overflow-hidden py-20 lg:py-28;
   }
@@ -209,5 +192,29 @@
   }
   .ccluster-la-firma__content {
     @apply flex flex-col;
+  }
+  .ccluster-la-firma__badge {
+    @apply mb-6 flex items-center gap-3;
+  }
+  .ccluster-la-firma__badge-icon {
+    @apply h-6 w-6 object-contain;
+  }
+  .ccluster-la-firma__badge-line {
+    @apply h-px w-10 bg-primary;
+  }
+  .ccluster-la-firma__content h2 {
+    @apply mb-5;
+  }
+  .ccluster-la-firma__content > .font-body {
+    @apply max-w-2xl;
+  }
+  .ccluster-la-firma__features {
+    @apply mt-8 grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2;
+  }
+  .ccluster-la-firma__feature {
+    @apply flex items-center gap-3;
+  }
+  .ccluster-la-firma__feature-icon {
+    @apply h-5 w-5 shrink-0 text-primary;
   }
 }

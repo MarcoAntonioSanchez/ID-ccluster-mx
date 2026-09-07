@@ -182,7 +182,7 @@ $signature_role = get_post_meta(
                         <span
                             class="ccluster-la-firma__feature-icon"
                             aria-hidden="true">
-                            ✓
+                            <i data-lucide="check"></i>
                         </span>
 
                         <span class="font-body">
