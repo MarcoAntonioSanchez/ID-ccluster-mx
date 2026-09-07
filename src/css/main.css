@@ -188,7 +188,7 @@
     @apply absolute inset-0 h-full w-full object-cover;
   }
   .ccluster-la-firma__experience {
-    @apply absolute left-1/2 top-1/2 z-10 flex w-[85%] -translate-y-1/2 -translate-x-1/2 flex-col items-center justify-center border-2 border-primary bg-white p-8 text-center;
+    @apply absolute top-1/2 right-[-10%] z-10 flex w-[75%] -translate-y-1/2 flex-col items-center justify-center border-2 border-primary bg-white p-8 text-center;
   }
   .ccluster-la-firma__content {
     @apply flex flex-col;

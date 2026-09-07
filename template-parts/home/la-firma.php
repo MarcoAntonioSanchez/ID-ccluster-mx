@@ -85,7 +85,7 @@ $signature_role = get_post_meta(
     true
 );
 ?>
-// HTML
+<!-- HTML -->
 <section
     id="la-firma"
     class="ccluster-la-firma">
