@@ -1,16 +1,16 @@
 import { createIcons, Check, Menu, X, Phone, Mail } from "lucide";
 
-createIcons({
-  icons: {
-    Check,
-    Menu,
-    X,
-    Phone,
-    Mail,
-  },
-});
-
 document.addEventListener("DOMContentLoaded", () => {
+  createIcons({
+    icons: {
+      Check,
+      Menu,
+      X,
+      Phone,
+      Mail,
+    },
+  });
+
   const menuButton = document.querySelector("[data-menu-toggle]");
 
   const mobileMenu = document.querySelector("[data-mobile-menu]");
