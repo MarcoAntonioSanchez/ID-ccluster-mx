@@ -175,6 +175,23 @@
 }
 /* THE FIRM */
 @layer components {
+  @layer components {
+    .ccluster-la-firma__badge {
+      @apply mb-6 flex items-center gap-3;
+    }
+    .ccluster-la-firma__badge-icon {
+      @apply h-6 w-6 object-contain;
+    }
+    .ccluster-la-firma__badge-line {
+      @apply h-px w-10 bg-primary;
+    }
+    .ccluster-la-firma__content h2 {
+      @apply mb-5;
+    }
+    .ccluster-la-firma__content > .font-body {
+      @apply max-w-2xl;
+    }
+  }
   .ccluster-la-firma {
     @apply w-full overflow-hidden py-20 lg:py-28;
   }
