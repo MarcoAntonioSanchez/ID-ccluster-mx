@@ -173,3 +173,24 @@
     animation: none;
   }
 }
+/* THE FIRM */
+@layer components {
+  .ccluster-la-firma {
+    @apply w-full overflow-hidden py-20 lg:py-28;
+  }
+  .ccluster-la-firma__inner {
+    @apply mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20;
+  }
+  .ccluster-la-firma__media {
+    @apply relative aspect-square w-full;
+  }
+  .ccluster-la-firma__background {
+    @apply absolute inset-0 h-full w-full object-cover;
+  }
+  .ccluster-la-firma__experience {
+    @apply absolute left-1/2 top-1/2 z-10 flex w-[85%] -translate-y-1/2 -translate-x-1/2 flex-col items-center justify-center border-2 border-primary bg-white p-8 text-center;
+  }
+  .ccluster-la-firma__content {
+    @apply flex flex-col;
+  }
+}
