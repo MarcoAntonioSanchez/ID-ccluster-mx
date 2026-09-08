@@ -210,7 +210,7 @@
   }
   /* HEADING */
   .ccluster-la-firma__content h2 {
-    @apply mb-5 text-4xl font-semibold leading-tight md:text-5xl;
+    @apply mb-5 text-[60px] font-normal leading-[60px];
   }
   /* INTRODUCTION */
   .ccluster-la-firma__content > .font-body {

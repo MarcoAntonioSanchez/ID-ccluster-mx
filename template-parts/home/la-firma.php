@@ -162,7 +162,7 @@ $signature_role = get_post_meta(
             </div>
 
             <!-- HEADING -->
-            <h2 class="font-heading">
+            <h2 class="font-heading capitalize">
                 <?php echo esc_html($title); ?>
             </h2>
 
