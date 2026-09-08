@@ -20,6 +20,7 @@ $address = ccluster_get_theme_option('address');
                 <a
                     href="mailto:<?php echo esc_attr($email); ?>"
                     class="text-xs">
+                    <i data-lucide="at-sign" class="color-secondary"></i>
                     <?php echo esc_html($email); ?>
                 </a>
             <?php endif; ?>
