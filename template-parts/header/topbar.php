@@ -33,7 +33,7 @@ $address = ccluster_get_theme_option('address');
                 <div class="flex gap-1">
                     <span
                         class="ccluster-topbar__icon self-center">
-                        <i data-lucide="map-pinned"></i>
+                        <i data-lucide="map-pin"></i>
                     </span>
                     <span class="text-xs">
                         <?php echo esc_html($address); ?>

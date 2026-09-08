@@ -1,9 +1,14 @@
-import { createIcons, Check, Menu, X, Phone, Mail } from "lucide";
+import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
 import { siFacebook } from "simple-icons";
 
-console.log(siFacebook);
-
 document.addEventListener("DOMContentLoaded", () => {
+  const facebookIcon = siFacebook.svg;
+  const facebookElement = document.querySelector('[data-social="facebook"]');
+
+  if (facebookElement) {
+    facebookElement.innerHTML = facebookIcon;
+  }
+
   createIcons({
     icons: {
       Check,
@@ -11,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       X,
       Phone,
       Mail,
+      MapPin,
     },
   });
 
