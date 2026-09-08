@@ -106,7 +106,7 @@
     @apply shrink-0 text-secondary;
   }
   .ccluster-topbar__icon svg {
-    @apply w-[12px] h-[12px];
+    @apply w-[15px] h-[15px];
   }
 }
 /* HOME */

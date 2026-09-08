@@ -30,9 +30,15 @@ $address = ccluster_get_theme_option('address');
                 </div>
             <?php endif; ?>
             <?php if ($address) : ?>
-                <span class="text-xs">
-                    <?php echo esc_html($address); ?>
-                </span>
+                <div class="flex gap-1">
+                    <span
+                        class="ccluster-topbar__icon flex-1 self-center">
+                        <i data-lucide="mail"></i>
+                    </span>
+                    <span class="text-xs flex-1">
+                        <?php echo esc_html($address); ?>
+                    </span>
+                </div>
             <?php endif; ?>
         </div>
         <div class="flex items-center gap-4">
