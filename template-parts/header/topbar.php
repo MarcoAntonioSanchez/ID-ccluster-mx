@@ -33,7 +33,7 @@ $address = ccluster_get_theme_option('address');
                 <div class="flex gap-1">
                     <span
                         class="ccluster-topbar__icon self-center">
-                        <i data-lucide="mail"></i>
+                        <i data-lucide="map-pin"></i>
                     </span>
                     <span class="text-xs">
                         <?php echo esc_html($address); ?>
@@ -44,13 +44,25 @@ $address = ccluster_get_theme_option('address');
         <div class="flex items-center gap-4">
             <?php
             $social_networks = [
-                'facebook'  => 'Facebook',
-                'instagram' => 'Instagram',
-                'linkedin'  => 'LinkedIn',
-                'youtube'   => 'YouTube',
+                'facebook' => [
+                    'label' => 'Facebook',
+                    'icon'  => 'facebook',
+                ],
+                'instagram' => [
+                    'label' => 'Instagram',
+                    'icon'  => 'instagram',
+                ],
+                'linkedin' => [
+                    'label' => 'LinkedIn',
+                    'icon'  => 'linkedin',
+                ],
+                'youtube' => [
+                    'label' => 'YouTube',
+                    'icon'  => 'youtube',
+                ],
             ];
             ?>
-            <?php foreach ($social_networks as $network => $label) : ?>
+            <?php foreach ($social_networks as $network => $social) : ?>
                 <?php
                 $url = ccluster_get_theme_option($network);
                 ?>
@@ -59,9 +71,9 @@ $address = ccluster_get_theme_option('address');
                         href="<?php echo esc_url($url); ?>"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="text-xs">
-                        <?php echo esc_html($label); ?>
-                    </a>
+                        aria-label="<?php echo esc_attr($social['label']); ?>"
+                        class="ccluster-topbar__social"
+                        data-social="<?php echo esc_attr($social['icon']); ?>"></a>
                 <?php endif; ?>
             <?php endforeach; ?>
         </div>
