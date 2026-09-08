@@ -17,15 +17,17 @@ $address = ccluster_get_theme_option('address');
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <div class="flex items-center gap-6">
             <?php if ($email) : ?>
-                <a
-                    href="mailto:<?php echo esc_attr($email); ?>"
-                    class="text-xs">
+                <div class="flex">
                     <span
-                        class="ccluster-topbar__icon">
+                        class="ccluster-topbar__icon flex-1">
                         <i data-lucide="mail"></i>
                     </span>
-                    <?php echo esc_html($email); ?>
-                </a>
+                    <a
+                        href="mailto:<?php echo esc_attr($email); ?>"
+                        class="text-xs flex-1">
+                        <?php echo esc_html($email); ?>
+                    </a>
+                </div>
             <?php endif; ?>
             <?php if ($address) : ?>
                 <span class="text-xs">
