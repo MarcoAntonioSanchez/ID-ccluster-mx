@@ -1,11 +1,13 @@
 import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
 import { siFacebook, siInstagram, siYoutube } from "simple-icons";
+import linkedinIcon from "../icons/brands/linkedin.svg";
 
 document.addEventListener("DOMContentLoaded", () => {
   const socialIcons = {
     facebook: siFacebook,
     instagram: siInstagram,
     youtube: siYoutube,
+    linkedin: linkedinIcon,
   };
 
   document.querySelectorAll("[data-social]").forEach((element) => {
@@ -13,6 +15,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const icon = socialIcons[iconName];
 
     if (!icon) {
+      return;
+    }
+
+    if (iconName === "linkedin") {
+      element.innerHTML = `
+            <img
+                src="${icon}"
+                alt=""
+                class="ccluster-topbar__social-icon"
+            >
+        `;
+
       return;
     }
 
