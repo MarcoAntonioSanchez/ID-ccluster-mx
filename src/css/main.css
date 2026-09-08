@@ -103,7 +103,10 @@
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
-    @apply h-[12px] w-[12px] shrink-0 text-secondary;
+    @apply shrink-0 text-secondary;
+  }
+  .ccluster-topbar__icon svg {
+    @apply w-[12px] h-[12px];
   }
 }
 /* HOME */
