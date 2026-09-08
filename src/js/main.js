@@ -2,22 +2,22 @@ import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
 import { siFacebook, siInstagram, siYoutube } from "simple-icons";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const facebookIcon = siFacebook.svg;
-  const facebookElement = document.querySelector('[data-social="facebook"]');
-  const instagramIcon = siInstagram.svg;
-  const instagramElement = document.querySelector('[data-social="instagram"]');
-  const youtubeIcon = siYoutube.svg;
-  const youtubeElement = document.querySelector('[data-social="youtube"]');
+  const socialIcons = {
+    facebook: siFacebook,
+    instagram: siInstagram,
+    youtube: siYoutube,
+  };
 
-  if (facebookElement) {
-    facebookElement.innerHTML = facebookIcon;
-  }
-  if (instagramElement) {
-    instagramElement.innerHTML = instagramIcon;
-  }
-  if (youtubeElement) {
-    youtubeElement.innerHTML = youtubeIcon;
-  }
+  document.querySelectorAll("[data-social]").forEach((element) => {
+    const iconName = element.dataset.social;
+    const icon = socialIcons[iconName];
+
+    if (!icon) {
+      return;
+    }
+
+    element.innerHTML = icon.svg;
+  });
 
   createIcons({
     icons: {
