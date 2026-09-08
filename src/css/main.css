@@ -100,7 +100,12 @@
   --font-heading: "Oswald", sans-serif;
   --font-badge: "Manrope", sans-serif;
 }
-
+/* TOPBAR */
+@layer components {
+  .ccluster-topbar-icon {
+    @apply h-1 w-1 shrink-0 text-secondary;
+  }
+}
 /* HOME */
 /* HERO */
 @keyframes ccluster-hero-float {
