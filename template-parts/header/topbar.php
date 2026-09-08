@@ -44,22 +44,11 @@ $address = ccluster_get_theme_option('address');
         <div class="flex items-center gap-4">
             <?php
             $social_networks = [
-                'facebook' => [
-                    'label' => 'Facebook',
-                    'icon'  => 'facebook',
-                ],
-                'instagram' => [
-                    'label' => 'Instagram',
-                    'icon'  => 'instagram',
-                ],
-                'linkedin' => [
-                    'label' => 'LinkedIn',
-                    'icon'  => 'linkedin',
-                ],
-                'youtube' => [
-                    'label' => 'YouTube',
-                    'icon'  => 'youtube',
-                ],
+                'facebook'  => 'Facebook',
+                'instagram' => 'Instagram',
+                'linkedin'  => 'LinkedIn',
+                'x'         => 'X',
+                'youtube'   => 'YouTube',
             ];
             ?>
             <?php foreach ($social_networks as $network => $social) : ?>
