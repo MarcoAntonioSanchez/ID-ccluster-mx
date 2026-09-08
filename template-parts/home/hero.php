@@ -93,7 +93,7 @@ $hero_background = $hero_background_id
                 </div>
             <?php endif; ?>
             <?php if ($hero_title) : ?>
-                <h1 class="max-w-2xl text-4xl capitalize leading-tight md:text-6xl font-heading">
+                <h1 class="max-w-2xl text-7xl capitalize leading-tight md:text-7xl font-heading">
                     <?php echo esc_html($hero_title); ?>
                 </h1>
             <?php endif; ?>
