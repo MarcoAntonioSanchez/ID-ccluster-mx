@@ -227,7 +227,7 @@
     @apply text-base leading-6;
   }
   .ccluster-la-firma__feature-icon {
-    @apply h-5 w-5 shrink-0 text-primary;
+    @apply h-3 w-3 shrink-0 text-primary;
   }
   /* TEXT COLUMNS */
   .ccluster-la-firma__texts {
