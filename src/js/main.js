@@ -1,4 +1,7 @@
 import { createIcons, Check, Menu, X, Phone, Mail } from "lucide";
+import { siFacebook } from "simple-icons";
+
+console.log(siFacebook);
 
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
