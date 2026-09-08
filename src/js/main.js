@@ -1,9 +1,9 @@
 import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
-import facebookIcon from "bootstrap-icons/icons/facebook.svg";
-import instagramIcon from "bootstrap-icons/icons/instagram.svg";
-import linkedinIcon from "bootstrap-icons/icons/linkedin.svg";
-import xIcon from "bootstrap-icons/icons/twitter-x.svg";
-import youtubeIcon from "bootstrap-icons/icons/youtube.svg";
+import facebookIcon from "bootstrap-icons/icons/facebook.svg?raw";
+import instagramIcon from "bootstrap-icons/icons/instagram.svg?raw";
+import linkedinIcon from "bootstrap-icons/icons/linkedin.svg?raw";
+import xIcon from "bootstrap-icons/icons/twitter-x.svg?raw";
+import youtubeIcon from "bootstrap-icons/icons/youtube.svg?raw";
 
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
