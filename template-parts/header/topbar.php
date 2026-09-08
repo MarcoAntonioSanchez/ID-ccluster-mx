@@ -21,8 +21,8 @@ $address = ccluster_get_theme_option('address');
                     href="mailto:<?php echo esc_attr($email); ?>"
                     class="text-xs">
                     <span
-                        class="ccluster-topbar-icon">
-                        <i data-lucide="at-sign"></i>
+                        class="ccluster-topbar__icon">
+                        <i data-lucide="mail"></i>
                     </span>
                     <?php echo esc_html($email); ?>
                 </a>
