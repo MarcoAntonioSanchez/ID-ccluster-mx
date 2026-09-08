@@ -17,7 +17,7 @@ $address = ccluster_get_theme_option('address');
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <div class="flex items-center gap-6">
             <?php if ($email) : ?>
-                <div class="flex">
+                <div class="flex align-middle">
                     <span
                         class="ccluster-topbar__icon flex-1">
                         <i data-lucide="mail"></i>
