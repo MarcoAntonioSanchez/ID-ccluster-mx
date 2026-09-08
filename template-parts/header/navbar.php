@@ -2,13 +2,11 @@
 
 $logo = ccluster_get_theme_option('logo');
 
+$phone   = ccluster_get_theme_option('phone');
+
 $cta_enabled = ccluster_get_theme_option(
     'navbar_cta_enabled',
     '0'
-);
-
-$cta_label = ccluster_get_theme_option(
-    'navbar_cta_label'
 );
 
 $cta_url = ccluster_get_theme_option(
@@ -74,14 +72,14 @@ $cta_url = ccluster_get_theme_option(
 
             <?php if (
                 $cta_enabled === '1'
-                && $cta_label
                 && $cta_url
+                && $phone
             ) : ?>
 
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
                     class="bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity capitalize hover:opacity-90">
-                    <?php echo esc_html($cta_label); ?>
+                    <?php echo esc_html($phone); ?>
                 </a>
 
             <?php endif; ?>

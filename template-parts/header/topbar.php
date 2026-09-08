@@ -6,23 +6,16 @@ if (
     return;
 }
 
-$phone   = ccluster_get_theme_option('phone');
 $email   = ccluster_get_theme_option('email');
 $address = ccluster_get_theme_option('address');
 ?>
+
 <div
     id="site-topbar"
     class="border-1 border-b-slate-200">
     <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <div class="flex items-center gap-6">
-            <?php if ($phone) : ?>
-                <a
-                    href="tel:<?php echo esc_attr($phone); ?>"
-                    class="text-xs">
-                    <?php echo esc_html($phone); ?>
-                </a>
-            <?php endif; ?>
             <?php if ($email) : ?>
                 <a
                     href="mailto:<?php echo esc_attr($email); ?>"
