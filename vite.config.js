@@ -7,10 +7,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
+  base: "./",
+
   plugins: [tailwindcss()],
 
   build: {
     manifest: true,
+
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/js/main.js"),
