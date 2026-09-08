@@ -109,6 +109,15 @@
     @apply w-[15px] h-[15px];
   }
 }
+.ccluster-topbar__social {
+  width: 20px;
+  height: 20px;
+}
+.ccluster-topbar__social svg,
+.ccluster-topbar__social img {
+  width: 20px;
+  height: 20px;
+}
 /* HOME */
 /* HERO */
 @keyframes ccluster-hero-float {
