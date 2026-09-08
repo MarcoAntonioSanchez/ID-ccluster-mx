@@ -79,6 +79,7 @@ $cta_url = ccluster_get_theme_option(
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
                     class="bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity capitalize hover:opacity-90">
+                    <i data-lucide="check"></i>
                     <?php echo esc_html($phone); ?>
                 </a>
 
