@@ -181,6 +181,7 @@
   .ccluster-la-firma__inner {
     @apply mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20;
   }
+  /* LEFT COLUMN */
   .ccluster-la-firma__media {
     @apply relative aspect-square w-full;
   }
@@ -190,11 +191,16 @@
   .ccluster-la-firma__experience {
     @apply absolute top-1/2 right-[-10%] z-10 flex w-[75%] -translate-y-1/2 flex-col items-center justify-center border-2 border-primary bg-white p-8 text-center;
   }
+  /* RIGHT COLUMN */
   .ccluster-la-firma__content {
     @apply flex flex-col;
   }
+  /* BADGE */
   .ccluster-la-firma__badge {
     @apply mb-6 flex items-center gap-3;
+  }
+  .ccluster-la-firma__badge .font-badge {
+    @apply text-sm font-medium;
   }
   .ccluster-la-firma__badge-icon {
     @apply h-6 w-6 object-contain;
@@ -202,64 +208,54 @@
   .ccluster-la-firma__badge-line {
     @apply h-px w-10 bg-primary;
   }
+  /* HEADING */
   .ccluster-la-firma__content h2 {
-    @apply mb-5;
+    @apply mb-5 text-4xl font-semibold leading-tight md:text-5xl;
   }
+  /* INTRODUCTION */
   .ccluster-la-firma__content > .font-body {
-    @apply max-w-2xl;
+    @apply max-w-2xl text-lg leading-8;
   }
+  /* FEATURES */
   .ccluster-la-firma__features {
     @apply mt-8 grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2;
   }
   .ccluster-la-firma__feature {
     @apply flex items-center gap-3;
   }
+  .ccluster-la-firma__feature .font-body {
+    @apply text-base leading-6;
+  }
   .ccluster-la-firma__feature-icon {
     @apply h-5 w-5 shrink-0 text-primary;
   }
-}
-.ccluster-la-firma__texts {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-.ccluster-la-firma__texts p {
-  margin: 0;
-}
-.ccluster-la-firma__footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-top: 2.5rem;
-}
-.ccluster-la-firma__cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.9rem 1.5rem;
-  border: 1px solid var(--color-primary);
-  background-color: var(--color-primary);
-  color: white;
-  text-decoration: none;
-  transition:
-    background-color 0.25s ease,
-    color 0.25s ease;
-}
-.ccluster-la-firma__cta:hover {
-  background-color: transparent;
-  color: var(--color-primary);
-}
-.ccluster-la-firma__signature {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.25rem;
-  text-align: right;
-}
-.ccluster-la-firma__signature > .font-body {
-  font-weight: 600;
+  /* TEXT COLUMNS */
+  .ccluster-la-firma__texts {
+    @apply mt-8 grid grid-cols-2 gap-8;
+  }
+  .ccluster-la-firma__texts p {
+    @apply m-0 text-base leading-7;
+  }
+  /* FOOTER */
+  .ccluster-la-firma__footer {
+    @apply mt-10 flex items-end justify-between gap-8;
+  }
+  .ccluster-la-firma__cta {
+    @apply inline-flex items-center justify-center border border-primary bg-primary px-6 py-3 font-body text-sm font-semibold text-white no-underline transition-colors duration-300;
+  }
+  .ccluster-la-firma__cta:hover {
+    @apply bg-transparent text-primary;
+  }
+  /* SIGNATURE */
+  .ccluster-la-firma__signature {
+    @apply flex flex-col items-end gap-1 text-right;
+  }
+  .ccluster-la-firma__signature > .font-body {
+    @apply text-base font-semibold;
+  }
+  .ccluster-la-firma__signature > .font-badge {
+    @apply text-xs font-medium tracking-wide;
+  }
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
