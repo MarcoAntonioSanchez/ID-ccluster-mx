@@ -1,38 +1,11 @@
 import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
-import { siFacebook, siInstagram, siYoutube } from "simple-icons";
-import linkedinIcon from "../icons/brands/linkedin.svg";
+import facebookIcon from "bootstrap-icons/icons/facebook.svg";
+import instagramIcon from "bootstrap-icons/icons/instagram.svg";
+import linkedinIcon from "bootstrap-icons/icons/linkedin.svg";
+import xIcon from "bootstrap-icons/icons/twitter-x.svg";
+import youtubeIcon from "bootstrap-icons/icons/youtube.svg";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const socialIcons = {
-    facebook: siFacebook,
-    instagram: siInstagram,
-    youtube: siYoutube,
-    linkedin: linkedinIcon,
-  };
-
-  document.querySelectorAll("[data-social]").forEach((element) => {
-    const iconName = element.dataset.social;
-    const icon = socialIcons[iconName];
-
-    if (!icon) {
-      return;
-    }
-
-    if (iconName === "linkedin") {
-      element.innerHTML = `
-            <img
-                src="${icon}"
-                alt=""
-                class="ccluster-topbar__social-icon"
-            >
-        `;
-
-      return;
-    }
-
-    element.innerHTML = icon.svg;
-  });
-
   createIcons({
     icons: {
       Check,
@@ -45,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const menuButton = document.querySelector("[data-menu-toggle]");
-
   const mobileMenu = document.querySelector("[data-mobile-menu]");
 
   if (!menuButton || !mobileMenu) {
@@ -58,5 +30,23 @@ document.addEventListener("DOMContentLoaded", () => {
     menuButton.setAttribute("aria-expanded", String(!isOpen));
 
     mobileMenu.hidden = isOpen;
+  });
+
+  const socialIcons = {
+    facebook: facebookIcon,
+    instagram: instagramIcon,
+    linkedin: linkedinIcon,
+    x: xIcon,
+    youtube: youtubeIcon,
+  };
+  document.querySelectorAll("[data-social]").forEach((element) => {
+    const iconName = element.dataset.social;
+    const icon = socialIcons[iconName];
+
+    if (!icon) {
+      return;
+    }
+
+    element.innerHTML = icon;
   });
 });

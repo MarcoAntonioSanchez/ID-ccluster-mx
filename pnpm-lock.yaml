@@ -109,12 +109,12 @@ importers:
 
   .:
     dependencies:
+      bootstrap-icons:
+        specifier: ^1.13.1
+        version: 1.13.1
       lucide:
         specifier: ^1.41.0
         version: 1.41.0
-      simple-icons:
-        specifier: ^16.30.0
-        version: 16.30.0
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.3.3
@@ -340,6 +340,9 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
 
+  bootstrap-icons@1.13.1:
+    resolution: {integrity: sha512-ijombt4v6bv5CLeXvRWKy7CuM3TRTuPEuGaGKvTV5cz65rQSY8RQ2JcHt6b90cBBAC7s8fsf2EkQDldzCoXUjw==}
+
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
@@ -544,10 +547,6 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  simple-icons@16.30.0:
-    resolution: {integrity: sha512-YX/HmgEqjpn5Zs3myzKp8ek5Ti+TdrkvNWn9skGLetg9tOg0cTjYizj9ESAYJn4xwc0GQYVGzQxBELDfbxq7WQ==}
-    engines: {node: '>=0.12.18'}
-
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -744,6 +743,8 @@ snapshots:
       tailwindcss: 4.3.3
       vite: 8.2.2(jiti@2.7.0)
 
+  bootstrap-icons@1.13.1: {}
+
   detect-libc@2.1.2: {}
 
   enhanced-resolve@5.24.5:
@@ -898,8 +899,6 @@ snapshots:
       '@rolldown/binding-openharmony-arm64': 1.2.7
       '@rolldown/binding-win32-arm64-msvc': 1.2.7
       '@rolldown/binding-win32-x64-msvc': 1.2.7
-
-  simple-icons@16.30.0: {}
 
   source-map-js@1.2.1: {}
 
