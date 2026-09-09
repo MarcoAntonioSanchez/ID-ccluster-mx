@@ -989,6 +989,90 @@ function ccluster_render_nuestra_historia_meta_box($post)
     <?php endfor; ?>
 <?php
 }
+// SAVE NUESTRA HISTORIA CUSTOM FIELDS
+function ccluster_save_nuestra_historia($post_id)
+{
+    if (
+        !isset($_POST['ccluster_nuestra_historia_nonce'])
+        || !wp_verify_nonce(
+            $_POST['ccluster_nuestra_historia_nonce'],
+            'ccluster_save_nuestra_historia'
+        )
+    ) {
+        return;
+    }
+
+    if (
+        defined('DOING_AUTOSAVE')
+        && DOING_AUTOSAVE
+    ) {
+        return;
+    }
+
+    if (
+        !current_user_can(
+            'edit_post',
+            $post_id
+        )
+    ) {
+        return;
+    }
+
+    $fields = [
+        'historia_background' => 'absint',
+        'historia_badge_icon' => 'absint',
+        'historia_badge_text' => 'sanitize_text_field',
+        'historia_title' => 'sanitize_text_field',
+
+        'historia_event_1_title' => 'sanitize_text_field',
+        'historia_event_1_description' => 'sanitize_textarea_field',
+        'historia_event_1_year' => 'sanitize_text_field',
+        'historia_event_1_date' => 'sanitize_text_field',
+
+        'historia_event_2_title' => 'sanitize_text_field',
+        'historia_event_2_description' => 'sanitize_textarea_field',
+        'historia_event_2_year' => 'sanitize_text_field',
+        'historia_event_2_date' => 'sanitize_text_field',
+
+        'historia_event_3_title' => 'sanitize_text_field',
+        'historia_event_3_description' => 'sanitize_textarea_field',
+        'historia_event_3_year' => 'sanitize_text_field',
+        'historia_event_3_date' => 'sanitize_text_field',
+
+        'historia_event_4_title' => 'sanitize_text_field',
+        'historia_event_4_description' => 'sanitize_textarea_field',
+        'historia_event_4_year' => 'sanitize_text_field',
+        'historia_event_4_date' => 'sanitize_text_field',
+
+        'historia_event_5_title' => 'sanitize_text_field',
+        'historia_event_5_description' => 'sanitize_textarea_field',
+        'historia_event_5_year' => 'sanitize_text_field',
+        'historia_event_5_date' => 'sanitize_text_field',
+    ];
+
+    foreach ($fields as $field => $sanitize_callback) {
+
+        if (!isset($_POST[$field])) {
+            continue;
+        }
+
+        $value = call_user_func(
+            $sanitize_callback,
+            wp_unslash($_POST[$field])
+        );
+
+        update_post_meta(
+            $post_id,
+            $field,
+            $value
+        );
+    }
+}
+
+add_action(
+    'save_post_page',
+    'ccluster_save_nuestra_historia'
+);
 
 // MEDIA LIBRARY SELECTOR
 function ccluster_enqueue_media_library($hook)
