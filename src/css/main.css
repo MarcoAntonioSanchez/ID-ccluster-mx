@@ -114,26 +114,31 @@
   height: 16px;
 }
 .ccluster-topbar__social {
-  color: #9ca3af;
+  color: var(--color-primary);
   transition: color 200ms ease;
 }
 .ccluster-topbar__social[data-social="facebook"]:hover {
+  transform: scale(1.01);
   color: #1877f2;
 }
 
 .ccluster-topbar__social[data-social="instagram"]:hover {
+  transform: scale(1.01);
   color: #e4405f;
 }
 
 .ccluster-topbar__social[data-social="linkedin"]:hover {
+  transform: scale(1.01);
   color: #0a66c2;
 }
 
 .ccluster-topbar__social[data-social="x"]:hover {
+  transform: scale(1.01);
   color: #000000;
 }
 
 .ccluster-topbar__social[data-social="youtube"]:hover {
+  transform: scale(1.01);
   color: #ff0000;
 }
 /* HOME */
