@@ -240,6 +240,12 @@
   .ccluster-la-firma__experience-icon {
     @apply w-[30px] h-[30px];
   }
+  .ccluster-la-firma__experience-number {
+    @apply font-heading text-5xl;
+  }
+  .ccluster-la-firma__experience-label {
+    @apply font-body text-sm uppercase;
+  }
   /* RIGHT COLUMN */
   .ccluster-la-firma__content {
     @apply flex flex-col;
