@@ -60,7 +60,7 @@ $cta_url = ccluster_get_theme_option(
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
                     class="flex bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity capitalize hover:opacity-90">
-                    <span class="flex-1">
+                    <span class="flex-1 self-center ccluster-cta__icon">
                         <i data-lucide="check"></i>
                     </span>
                     <span class="flex-1">
