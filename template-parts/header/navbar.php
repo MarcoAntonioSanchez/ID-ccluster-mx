@@ -21,43 +21,28 @@ $cta_url = ccluster_get_theme_option(
 
     <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-
         <!-- Logo -->
-
         <div class="shrink-0">
-
             <?php if ($logo) : ?>
-
                 <a
                     href="<?php echo esc_url(home_url('/')); ?>"
                     aria-label="<?php bloginfo('name'); ?>">
-
                     <img
                         src="<?php echo esc_url($logo); ?>"
                         alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
                         class="h-20 w-auto">
-
                 </a>
-
             <?php else : ?>
-
                 <a
                     href="<?php echo esc_url(home_url('/')); ?>"
                     class="text-xl font-bold">
                     <?php bloginfo('name'); ?>
                 </a>
-
             <?php endif; ?>
-
         </div>
-
-
         <!-- Desktop Navigation -->
-
         <div class="hidden items-center gap-8 md:flex">
-
             <?php
-
             wp_nav_menu(
                 [
                     'theme_location' => 'primary',
@@ -66,41 +51,34 @@ $cta_url = ccluster_get_theme_option(
                     'menu_class'     => 'flex items-center gap-6',
                 ]
             );
-
             ?>
-
-
             <?php if (
                 $cta_enabled === '1'
                 && $cta_url
                 && $phone
             ) : ?>
-
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
-                    class="bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity capitalize hover:opacity-90">
-                    <i data-lucide="check"></i>
-                    <?php echo esc_html($phone); ?>
+                    class="flex bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity capitalize hover:opacity-90">
+                    <span class="flex-1">
+                        <i data-lucide="check"></i>
+                    </span>
+                    <span class="flex-1">
+                        <?php echo esc_html($phone); ?>
+                    </span>
                 </a>
-
             <?php endif; ?>
-
         </div>
-
-
         <!-- Mobile Menu Button -->
-
         <button
             type="button"
             data-menu-toggle
             aria-expanded="false"
             aria-controls="mobile-navigation"
             class="inline-flex items-center justify-center rounded-md p-2 md:hidden">
-
             <span class="sr-only">
                 <?php esc_html_e('Open navigation menu', 'ccluster'); ?>
             </span>
-
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -114,24 +92,16 @@ $cta_url = ccluster_get_theme_option(
                     stroke-linejoin="round"
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
-
         </button>
-
     </div>
-
-
     <!-- Mobile Navigation -->
-
     <div
         id="mobile-navigation"
         data-mobile-menu
         hidden
         class="border-t border-gray-200 md:hidden">
-
         <div class="px-6 py-4">
-
             <?php
-
             wp_nav_menu(
                 [
                     'theme_location' => 'primary',
@@ -140,26 +110,18 @@ $cta_url = ccluster_get_theme_option(
                     'menu_class'     => 'flex flex-col gap-4',
                 ]
             );
-
             ?>
-
-
             <?php if (
                 $cta_enabled === '1'
                 && $cta_label
                 && $cta_url
             ) : ?>
-
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
                     class="mt-4 block bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
                     <?php echo esc_html($cta_label); ?>
                 </a>
-
             <?php endif; ?>
-
         </div>
-
     </div>
-
 </nav>
