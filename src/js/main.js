@@ -1,4 +1,13 @@
-import { createIcons, Check, Menu, X, Phone, Mail, MapPin } from "lucide";
+import {
+  createIcons,
+  Check,
+  Menu,
+  X,
+  Phone,
+  Mail,
+  MapPin,
+  PhoneCall,
+} from "lucide";
 import facebookIcon from "bootstrap-icons/icons/facebook.svg?raw";
 import instagramIcon from "bootstrap-icons/icons/instagram.svg?raw";
 import linkedinIcon from "bootstrap-icons/icons/linkedin.svg?raw";
@@ -14,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       Phone,
       Mail,
       MapPin,
+      PhoneCall,
     },
   });
 

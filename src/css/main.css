@@ -141,10 +141,10 @@
 /* NAVBAR */
 @layer components {
   .ccluster-cta__icon {
-    @apply shrink-0 text-secondary;
+    @apply shrink-0 text-white;
   }
   .ccluster-cta__icon svg {
-    @apply w-[15px] h-[15px];
+    @apply w-[20px] h-[20px];
   }
 }
 /* HOME */
