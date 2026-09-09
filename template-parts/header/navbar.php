@@ -60,7 +60,7 @@ $cta_url = ccluster_get_theme_option(
                 <a
                     href="<?php echo esc_url($cta_url); ?>"
                     class="flex gap-[5px] bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white capitalize duration-300 ease-in-out hover:scale-[1.05] hover:shadow-md">
-                    <span class="flex-1 self-center ccluster-cta__icon">
+                    <span class="self-center ccluster-cta__icon">
                         <i data-lucide="phone-call"></i>
                     </span>
                     <span class="flex-1">
