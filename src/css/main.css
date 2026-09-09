@@ -110,8 +110,31 @@
   }
 }
 .ccluster-topbar__social svg {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
+}
+.ccluster-topbar__social {
+  color: #9ca3af;
+  transition: color 200ms ease;
+}
+.ccluster-topbar__social[data-social="facebook"]:hover {
+  color: #1877f2;
+}
+
+.ccluster-topbar__social[data-social="instagram"]:hover {
+  color: #e4405f;
+}
+
+.ccluster-topbar__social[data-social="linkedin"]:hover {
+  color: #0a66c2;
+}
+
+.ccluster-topbar__social[data-social="x"]:hover {
+  color: #000000;
+}
+
+.ccluster-topbar__social[data-social="youtube"]:hover {
+  color: #ff0000;
 }
 /* HOME */
 /* HERO */
