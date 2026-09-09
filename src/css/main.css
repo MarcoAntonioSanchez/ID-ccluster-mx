@@ -119,7 +119,7 @@
   transition: all 200ms ease;
 }
 .ccluster-topbar__social:hover {
-  transform: scale(1.03);
+  transform: scale(1.1);
 }
 .ccluster-topbar__social[data-social="facebook"]:hover {
   color: #1877f2;
