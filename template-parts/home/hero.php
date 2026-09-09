@@ -82,10 +82,10 @@ $hero_background = $hero_background_id
                         <img
                             src="<?php echo esc_url($hero_badge_icon); ?>"
                             alt=""
-                            class="!h-[70px] !w-[70px] shrink-0 object-contain">
+                            class="h-6 w-6 shrink-0 object-contain">
                     <?php endif; ?>
                     <span
-                        class="h-px w-10 bg-[#0F143A]"
+                        class="h-[2px] w-[25px] bg-secondary"
                         aria-hidden="true"></span>
                     <span class="text-sm font-medium font-badge">
                         <?php echo esc_html($hero_badge_text); ?>
