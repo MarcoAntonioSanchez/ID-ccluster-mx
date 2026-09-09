@@ -267,13 +267,13 @@
     @apply mt-8 grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2;
   }
   .ccluster-la-firma__feature {
-    @apply flex items-center gap-3;
+    @apply flex items-center gap-8;
   }
   .ccluster-la-firma__feature .font-body {
     @apply text-base leading-6;
   }
   .ccluster-la-firma__feature-icon {
-    @apply h-1 w-[1rem] shrink-0 text-secondary;
+    @apply h-1 w-[1rem] shrink-0 text-secondary self-baseline;
   }
   /* TEXT COLUMNS */
   .ccluster-la-firma__texts {
