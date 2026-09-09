@@ -8,6 +8,29 @@ if (
 
 $email   = ccluster_get_theme_option('email');
 $address = ccluster_get_theme_option('address');
+
+$social_networks = [
+    'facebook' => [
+        'label' => 'Facebook',
+        'icon'  => 'facebook',
+    ],
+    'instagram' => [
+        'label' => 'Instagram',
+        'icon'  => 'instagram',
+    ],
+    'linkedin' => [
+        'label' => 'LinkedIn',
+        'icon'  => 'linkedin',
+    ],
+    'x' => [
+        'label' => 'X',
+        'icon'  => 'x',
+    ],
+    'youtube' => [
+        'label' => 'YouTube',
+        'icon'  => 'youtube',
+    ],
+];
 ?>
 
 <div
@@ -42,30 +65,6 @@ $address = ccluster_get_theme_option('address');
             <?php endif; ?>
         </div>
         <div class="flex items-center gap-4">
-            <?php
-            $social_networks = [
-                'facebook' => [
-                    'label' => 'Facebook',
-                    'icon'  => 'facebook',
-                ],
-                'instagram' => [
-                    'label' => 'Instagram',
-                    'icon'  => 'instagram',
-                ],
-                'linkedin' => [
-                    'label' => 'LinkedIn',
-                    'icon'  => 'linkedin',
-                ],
-                'x' => [
-                    'label' => 'X',
-                    'icon'  => 'x',
-                ],
-                'youtube' => [
-                    'label' => 'YouTube',
-                    'icon'  => 'youtube',
-                ],
-            ];
-            ?>
             <?php foreach ($social_networks as $network => $social) : ?>
                 <?php
                 $url = ccluster_get_theme_option($network);

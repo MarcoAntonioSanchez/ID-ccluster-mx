@@ -116,9 +116,11 @@
 .ccluster-topbar__social {
   display: inline-block;
   color: var(--color-primary);
-  transition: all 200ms ease;
+  opacity: 0.5;
+  transition: all 300ms ease;
 }
 .ccluster-topbar__social:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
 .ccluster-topbar__social[data-social="facebook"]:hover {
