@@ -750,6 +750,7 @@ add_action(
     'save_post_page',
     'ccluster_save_la_firma'
 );
+
 // REGISTER NUESTRA HISTORIA METABOX
 function ccluster_add_nuestra_historia_meta_box()
 {
@@ -766,6 +767,22 @@ add_action(
     'add_meta_boxes',
     'ccluster_add_nuestra_historia_meta_box'
 );
+// RENDER NUESTRA HISTORIA CUSTOM FIELDS
+function ccluster_render_nuestra_historia_meta_box($post)
+{
+    wp_nonce_field(
+        'ccluster_save_nuestra_historia',
+        'ccluster_nuestra_historia_nonce'
+    );
+
+    echo '<p>';
+    esc_html_e(
+        'Nuestra Historia',
+        'ccluster'
+    );
+    echo '</p>';
+}
+
 // MEDIA LIBRARY SELECTOR
 function ccluster_enqueue_media_library($hook)
 {
