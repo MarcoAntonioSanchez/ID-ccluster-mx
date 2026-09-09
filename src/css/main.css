@@ -235,7 +235,7 @@
     @apply absolute inset-0 h-full w-full object-cover;
   }
   .ccluster-la-firma__experience {
-    @apply absolute top-1/2 right-[-10%] z-10 flex w-[75%] -translate-y-1/2 flex-col items-center justify-center border-2 border-primary bg-white p-8 text-center;
+    @apply absolute top-1/2 right-[-10%] z-10 flex w-[50%] -translate-y-1/2 flex-col items-center justify-center border-8 border-primary bg-white p-8 text-center;
   }
   /* RIGHT COLUMN */
   .ccluster-la-firma__content {
@@ -273,7 +273,7 @@
     @apply text-base leading-6;
   }
   .ccluster-la-firma__feature-icon {
-    @apply h-1 w-1 shrink-0 text-secondary;
+    @apply h-1 w-[1rem] shrink-0 text-secondary;
   }
   /* TEXT COLUMNS */
   .ccluster-la-firma__texts {

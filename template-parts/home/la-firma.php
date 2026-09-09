@@ -90,10 +90,8 @@ $signature_role = get_post_meta(
     id="la-firma"
     class="ccluster-la-firma">
     <div class="ccluster-la-firma__inner">
-
         <!-- LEFT COLUMN -->
         <div class="ccluster-la-firma__media">
-
             <?php
             if ($background_id) {
                 echo wp_get_attachment_image(
@@ -106,9 +104,7 @@ $signature_role = get_post_meta(
                 );
             }
             ?>
-
             <div class="ccluster-la-firma__experience">
-
                 <?php
                 if ($stat_icon_id) {
                     echo wp_get_attachment_image(
@@ -121,7 +117,6 @@ $signature_role = get_post_meta(
                     );
                 }
                 ?>
-
                 <span class="ccluster-la-firma__experience-number">
                     <?php echo esc_html($stat_number); ?>
                 </span>
@@ -129,17 +124,12 @@ $signature_role = get_post_meta(
                 <span class="ccluster-la-firma__experience-label">
                     <?php echo esc_html($stat_label); ?>
                 </span>
-
             </div>
-
         </div>
-
         <!-- RIGHT COLUMN -->
         <div class="ccluster-la-firma__content">
-
             <!-- BADGE -->
             <div class="ccluster-la-firma__badge">
-
                 <?php
                 if ($badge_icon_id) {
                     echo wp_get_attachment_image(
@@ -152,102 +142,73 @@ $signature_role = get_post_meta(
                     );
                 }
                 ?>
-
-                <span class="ccluster-la-firma__badge-line"></span>
-
+                <span
+                    class="h-[2px] w-[25px] bg-secondary"
+                    aria-hidden="true"></span>
                 <span class="font-badge">
                     <?php echo esc_html($badge_text); ?>
                 </span>
-
             </div>
-
             <!-- HEADING -->
             <h2 class="font-heading capitalize">
                 <?php echo esc_html($title); ?>
             </h2>
-
             <p class="font-body">
                 <?php echo esc_html($description); ?>
             </p>
-
             <!-- FEATURES -->
             <div class="ccluster-la-firma__features">
-
                 <?php foreach ($features as $feature) : ?>
-
                     <?php if (!$feature) continue; ?>
-
                     <div class="ccluster-la-firma__feature">
-
                         <span
                             class="ccluster-la-firma__feature-icon"
                             aria-hidden="true">
                             <i data-lucide="check"></i>
                         </span>
-
                         <span class="font-body">
                             <?php echo esc_html($feature); ?>
                         </span>
-
                     </div>
-
                 <?php endforeach; ?>
-
             </div>
-
             <!-- TEXT -->
             <div class="ccluster-la-firma__texts">
-
                 <?php if ($text_1) : ?>
                     <p class="font-body">
                         <?php echo esc_html($text_1); ?>
                     </p>
                 <?php endif; ?>
-
                 <?php if ($text_2) : ?>
                     <p class="font-body">
                         <?php echo esc_html($text_2); ?>
                     </p>
                 <?php endif; ?>
-
             </div>
-
             <!-- FOOTER -->
             <div class="ccluster-la-firma__footer">
-
                 <?php if ($cta_label && $cta_url) : ?>
-
                     <a
                         href="<?php echo esc_url($cta_url); ?>"
                         class="ccluster-la-firma__cta font-body">
                         <?php echo esc_html($cta_label); ?>
                     </a>
-
                 <?php endif; ?>
-
                 <?php if ($signature_name || $signature_role) : ?>
-
                     <div class="ccluster-la-firma__signature">
-
                         <?php if ($signature_name) : ?>
                             <span class="font-body">
                                 <?php echo esc_html($signature_name); ?>
                             </span>
                         <?php endif; ?>
-
                         <?php if ($signature_role) : ?>
                             <small class="font-badge">
                                 <?php echo esc_html($signature_role); ?>
                             </small>
                         <?php endif; ?>
-
                     </div>
-
                 <?php endif; ?>
-
             </div>
-
         </div>
-
     </div>
 </section>
