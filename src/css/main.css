@@ -235,7 +235,7 @@
     @apply absolute inset-0 h-full w-full object-cover;
   }
   .ccluster-la-firma__experience {
-    @apply absolute top-[70%] right-[-10%] z-10 flex w-[45%] -translate-y-1/2 flex-col items-center justify-center border-8 border-primary bg-white p-8 text-center gap-[10px];
+    @apply absolute top-[70%] right-[-10%] z-10 flex w-[45%] -translate-y-1/2 flex-col items-center justify-center border-8 border-primary bg-white p-8 text-center gap-[20px];
   }
   .ccluster-la-firma__experience-icon {
     @apply w-[30px] h-[30px];
@@ -244,7 +244,7 @@
     @apply font-heading text-5xl font-bold;
   }
   .ccluster-la-firma__experience-label {
-    @apply font-body text-sm uppercase;
+    @apply font-body font-medium text-sm uppercase;
   }
   /* RIGHT COLUMN */
   .ccluster-la-firma__content {
