@@ -24,7 +24,7 @@ $address = ccluster_get_theme_option('address');
                     </span>
                     <a
                         href="mailto:<?php echo esc_attr($email); ?>"
-                        class="text-xs flex-1 duration-300 ease-in-out hover:m-left-[5px] hover:scale-[1.05]">
+                        class="text-xs flex-1 duration-300 ease-in-out hover:m-left-[5px] hover:scale-[1.01] hover:font-bold">
                         <?php echo esc_html($email); ?>
                     </a>
                 </div>
