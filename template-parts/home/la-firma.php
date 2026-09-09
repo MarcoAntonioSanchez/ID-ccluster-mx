@@ -166,7 +166,7 @@ $signature_role = get_post_meta(
                             aria-hidden="true">
                             <i data-lucide="check"></i>
                         </span>
-                        <span class="font-body">
+                        <span class="font-body font-semibold">
                             <?php echo esc_html($feature); ?>
                         </span>
                     </div>
