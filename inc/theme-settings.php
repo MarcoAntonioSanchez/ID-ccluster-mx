@@ -88,6 +88,7 @@ function ccluster_register_theme_settings()
             'instagram' => 'Instagram',
             'linkedin'  => 'LinkedIn',
             'youtube'   => 'YouTube',
+            'x'   => 'X',
         ] as $field => $label
     ) {
 
