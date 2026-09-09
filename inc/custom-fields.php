@@ -817,6 +817,102 @@ function ccluster_render_nuestra_historia_meta_box($post)
             true
         );
     }
+
+?>
+    <!-- BACKGROUND -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Historia Background', 'ccluster'); ?>
+            </strong>
+        </p>
+        <input
+            type="hidden"
+            id="historia_background"
+            name="historia_background"
+            value="<?php echo esc_attr(absint($values['historia_background'])); ?>" />
+        <div
+            id="historia_background_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['historia_background']) {
+                echo wp_get_attachment_image(
+                    absint($values['historia_background']),
+                    'large'
+                );
+            }
+            ?>
+        </div>
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="historia_background"
+            data-preview="historia_background_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="historia_background"
+            data-preview="historia_background_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+    <!-- BADGE ICON -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Badge Icon', 'ccluster'); ?>
+            </strong>
+        </p>
+        <input
+            type="hidden"
+            id="historia_badge_icon"
+            name="historia_badge_icon"
+            value="<?php echo esc_attr(absint($values['historia_badge_icon'])); ?>" />
+        <div
+            id="historia_badge_icon_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['historia_badge_icon']) {
+                echo wp_get_attachment_image(
+                    absint($values['historia_badge_icon']),
+                    'thumbnail'
+                );
+            }
+            ?>
+        </div>
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="historia_badge_icon"
+            data-preview="historia_badge_icon_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="historia_badge_icon"
+            data-preview="historia_badge_icon_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+    <!-- BADGE TEXT -->
+    <p>
+        <label for="historia_badge_text">
+            <strong>
+                <?php esc_html_e('Badge Text', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_badge_text"
+        name="historia_badge_text"
+        value="<?php echo esc_attr($values['historia_badge_text']); ?>"
+        class="widefat" />
+
+<?php
 }
 
 // MEDIA LIBRARY SELECTOR
