@@ -76,7 +76,7 @@ $address = ccluster_get_theme_option('address');
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="<?php echo esc_attr($social['label']); ?>"
-                        class="ccluster-topbar__social"
+                        class="ccluster-topbar__social duration-300 ease-in-out hover:scale-[1.01]"
                         data-social="<?php echo esc_attr($social['icon']); ?>"></a>
                 <?php endif; ?>
             <?php endforeach; ?>
