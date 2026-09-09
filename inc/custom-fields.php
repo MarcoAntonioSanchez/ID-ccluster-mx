@@ -912,6 +912,81 @@ function ccluster_render_nuestra_historia_meta_box($post)
         value="<?php echo esc_attr($values['historia_badge_text']); ?>"
         class="widefat" />
 
+    <!-- TIMELINE EVENTS -->
+
+    <?php for ($i = 1; $i <= 5; $i++) : ?>
+
+        <hr>
+
+        <h4>
+            <?php echo esc_html("Evento {$i}"); ?>
+        </h4>
+
+        <!-- EVENT TITLE -->
+        <p>
+            <label for="historia_event_<?php echo $i; ?>_title">
+                <strong>
+                    <?php esc_html_e('Title', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+
+        <input
+            type="text"
+            id="historia_event_<?php echo $i; ?>_title"
+            name="historia_event_<?php echo $i; ?>_title"
+            value="<?php echo esc_attr($values["historia_event_{$i}_title"]); ?>"
+            class="widefat" />
+
+        <!-- EVENT DESCRIPTION -->
+        <p>
+            <label for="historia_event_<?php echo $i; ?>_description">
+                <strong>
+                    <?php esc_html_e('Description', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+
+        <input
+            type="text"
+            id="historia_event_<?php echo $i; ?>_description"
+            name="historia_event_<?php echo $i; ?>_description"
+            value="<?php echo esc_attr($values["historia_event_{$i}_description"]); ?>"
+            class="widefat" />
+
+        <!-- EVENT YEAR -->
+        <p>
+            <label for="historia_event_<?php echo $i; ?>_year">
+                <strong>
+                    <?php esc_html_e('Year', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+
+        <input
+            type="text"
+            id="historia_event_<?php echo $i; ?>_year"
+            name="historia_event_<?php echo $i; ?>_year"
+            value="<?php echo esc_attr($values["historia_event_{$i}_year"]); ?>"
+            class="widefat" />
+
+        <!-- EVENT DATE -->
+        <p>
+            <label for="historia_event_<?php echo $i; ?>_date">
+                <strong>
+                    <?php esc_html_e('Date', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+
+        <input
+            type="text"
+            id="historia_event_<?php echo $i; ?>_date"
+            name="historia_event_<?php echo $i; ?>_date"
+            value="<?php echo esc_attr($values["historia_event_{$i}_date"]); ?>"
+            class="widefat" />
+
+    <?php endfor; ?>
 <?php
 }
 
