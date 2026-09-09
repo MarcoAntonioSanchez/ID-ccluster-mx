@@ -337,6 +337,7 @@ function ccluster_sanitize_theme_options($input)
         'instagram',
         'linkedin',
         'youtube',
+        'x',
         'navbar_cta_url',
     ];
 
