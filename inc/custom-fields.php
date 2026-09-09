@@ -781,6 +781,42 @@ function ccluster_render_nuestra_historia_meta_box($post)
         'ccluster'
     );
     echo '</p>';
+
+    $fields = [
+        'historia_background',
+        'historia_badge_icon',
+        'historia_badge_text',
+        'historia_title',
+        'historia_event_1_title',
+        'historia_event_1_description',
+        'historia_event_1_year',
+        'historia_event_1_date',
+        'historia_event_2_title',
+        'historia_event_2_description',
+        'historia_event_2_year',
+        'historia_event_2_date',
+        'historia_event_3_title',
+        'historia_event_3_description',
+        'historia_event_3_year',
+        'historia_event_3_date',
+        'historia_event_4_title',
+        'historia_event_4_description',
+        'historia_event_4_year',
+        'historia_event_4_date',
+        'historia_event_5_title',
+        'historia_event_5_description',
+        'historia_event_5_year',
+        'historia_event_5_date',
+    ];
+    $values = [];
+
+    foreach ($fields as $field) {
+        $values[$field] = get_post_meta(
+            $post->ID,
+            $field,
+            true
+        );
+    }
 }
 
 // MEDIA LIBRARY SELECTOR
