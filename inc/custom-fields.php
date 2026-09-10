@@ -807,6 +807,14 @@ function ccluster_render_nuestra_historia_meta_box($post)
         'historia_event_5_description',
         'historia_event_5_year',
         'historia_event_5_date',
+        'historia_value_label',
+        'historia_value_number',
+        'historia_value_subtitle',
+        'historia_value_description',
+        'historia_strength_label',
+        'historia_strength_number',
+        'historia_strength_subtitle',
+        'historia_strength_description'
     ];
     $values = [];
 
@@ -988,6 +996,125 @@ function ccluster_render_nuestra_historia_meta_box($post)
             value="<?php echo esc_attr($values["historia_event_{$i}_date"]); ?>"
             class="widefat" />
     <?php endfor; ?>
+    <!-- LOWER ROW -->
+    <hr>
+    <h3>
+        <?php esc_html_e('Valor en Números', 'ccluster'); ?>
+    </h3>
+    <!-- VALUE LABEL -->
+    <p>
+        <label for="historia_value_label">
+            <strong>
+                <?php esc_html_e('Value Label', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_value_label"
+        name="historia_value_label"
+        value="<?php echo esc_attr($values['historia_value_label']); ?>"
+        class="widefat" />
+    <!-- VALUE NUMBER -->
+    <p>
+        <label for="historia_value_number">
+            <strong>
+                <?php esc_html_e('Value Number', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_value_number"
+        name="historia_value_number"
+        value="<?php echo esc_attr($values['historia_value_number']); ?>"
+        class="widefat" />
+    <!-- VALUE SUBTITLE -->
+    <p>
+        <label for="historia_value_subtitle">
+            <strong>
+                <?php esc_html_e('Value Subtitle', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_value_subtitle"
+        name="historia_value_subtitle"
+        value="<?php echo esc_attr($values['historia_value_subtitle']); ?>"
+        class="widefat" />
+    <!-- VALUE DESCRIPTION -->
+    <p>
+        <label for="historia_value_description">
+            <strong>
+                <?php esc_html_e('Value Description', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <textarea
+        id="historia_value_description"
+        name="historia_value_description"
+        rows="4"
+        class="widefat"><?php echo esc_textarea($values['historia_value_description']); ?></textarea>
+    <hr>
+    <h3>
+        <?php esc_html_e('Solidez que nos Respalda', 'ccluster'); ?>
+    </h3>
+    <!-- STRENGTH LABEL -->
+    <p>
+        <label for="historia_strength_label">
+            <strong>
+                <?php esc_html_e('Strength Label', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_strength_label"
+        name="historia_strength_label"
+        value="<?php echo esc_attr($values['historia_strength_label']); ?>"
+        class="widefat" />
+    <!-- STRENGTH NUMBER -->
+    <p>
+        <label for="historia_strength_number">
+            <strong>
+                <?php esc_html_e('Strength Number', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_strength_number"
+        name="historia_strength_number"
+        value="<?php echo esc_attr($values['historia_strength_number']); ?>"
+        class="widefat" />
+    <!-- STRENGTH SUBTITLE -->
+    <p>
+        <label for="historia_strength_subtitle">
+            <strong>
+                <?php esc_html_e('Strength Subtitle', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="historia_strength_subtitle"
+        name="historia_strength_subtitle"
+        value="<?php echo esc_attr($values['historia_strength_subtitle']); ?>"
+        class="widefat" />
+    <!-- STRENGTH DESCRIPTION -->
+    <p>
+        <label for="historia_strength_description">
+            <strong>
+                <?php esc_html_e('Strength Description', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <textarea
+        id="historia_strength_description"
+        name="historia_strength_description"
+        rows="4"
+        class="widefat"><?php echo esc_textarea($values['historia_strength_description']); ?></textarea>
 <?php
 }
 // SAVE NUESTRA HISTORIA CUSTOM FIELDS
@@ -1049,6 +1176,16 @@ function ccluster_save_nuestra_historia($post_id)
         'historia_event_5_description' => 'sanitize_textarea_field',
         'historia_event_5_year' => 'sanitize_text_field',
         'historia_event_5_date' => 'sanitize_text_field',
+
+        'historia_value_label' => 'sanitize_text_field',
+        'historia_value_number' => 'sanitize_text_field',
+        'historia_value_subtitle' => 'sanitize_text_field',
+        'historia_value_description' => 'sanitize_text_field',
+
+        'historia_strength_label' => 'sanitize_text_field',
+        'historia_strength_number' => 'sanitize_text_field',
+        'historia_strength_subtitle' => 'sanitize_text_field',
+        'historia_strength_description' => 'sanitize_text_field'
     ];
 
     foreach ($fields as $field => $sanitize_callback) {
