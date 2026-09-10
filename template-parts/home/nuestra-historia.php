@@ -25,6 +25,11 @@ $badge_text = get_post_meta(
     'historia_badge_text',
     true
 );
+$history_title = get_post_meta(
+    get_the_ID(),
+    'historia_title',
+    true
+);
 ?>
 <section class="ccluster-nuestra-historia">
     <!-- TOP ROW -->
@@ -34,7 +39,11 @@ $badge_text = get_post_meta(
         style="background-image: url('<?php echo esc_url($background_url); ?>');"
         <?php endif; ?>>
         <div class="ccluster-nuestra-historia__header">
-
+            <?php if ($history_title) : ?>
+                <h2 class="ccluster-nuestra-historia__title">
+                    <?php echo esc_html($history_title); ?>
+                </h2>
+            <?php endif; ?>
             <?php if ($badge_icon_id) : ?>
                 <?php
                 echo wp_get_attachment_image(
