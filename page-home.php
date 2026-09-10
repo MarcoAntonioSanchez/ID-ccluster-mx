@@ -6,10 +6,11 @@ get_header();
     get_template_part(
         'template-parts/home/hero'
     );
-    ?>
-    <?php
     get_template_part(
         'template-parts/home/la-firma'
+    );
+    get_template_part(
+        'template-parts/home/nuestra-historia'
     );
     ?>
 </main>
