@@ -39,11 +39,6 @@ $history_title = get_post_meta(
         style="background-image: url('<?php echo esc_url($background_url); ?>');"
         <?php endif; ?>>
         <div class="ccluster-nuestra-historia__header">
-            <?php if ($history_title) : ?>
-                <h2 class="ccluster-nuestra-historia__title">
-                    <?php echo esc_html($history_title); ?>
-                </h2>
-            <?php endif; ?>
             <?php if ($badge_icon_id) : ?>
                 <?php
                 echo wp_get_attachment_image(
@@ -56,6 +51,11 @@ $history_title = get_post_meta(
                     ]
                 );
                 ?>
+            <?php endif; ?>
+            <?php if ($history_title) : ?>
+                <h2 class="ccluster-nuestra-historia__title">
+                    <?php echo esc_html($history_title); ?>
+                </h2>
             <?php endif; ?>
 
             <span class="ccluster-nuestra-historia__badge-separator"></span>
