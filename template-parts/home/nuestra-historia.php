@@ -52,21 +52,18 @@ $history_title = get_post_meta(
                 );
                 ?>
             <?php endif; ?>
-            <?php if ($history_title) : ?>
-                <h2 class="ccluster-nuestra-historia__title">
-                    <?php echo esc_html($history_title); ?>
-                </h2>
-            <?php endif; ?>
-
             <span class="ccluster-nuestra-historia__badge-separator"></span>
-
             <?php if ($badge_text) : ?>
                 <span class="ccluster-nuestra-historia__badge-text">
                     <?php echo esc_html($badge_text); ?>
                 </span>
             <?php endif; ?>
-
         </div>
+        <?php if ($history_title) : ?>
+            <h2 class="ccluster-nuestra-historia__title">
+                <?php echo esc_html($history_title); ?>
+            </h2>
+        <?php endif; ?>
     </div>
     <!-- BOTTOM ROW -->
     <div class="ccluster-nuestra-historia__stats">
