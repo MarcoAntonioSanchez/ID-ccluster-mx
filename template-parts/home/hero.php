@@ -113,14 +113,19 @@ $hero_background = $hero_background_id
         </div>
         <!-- Visual -->
         <div class="relative flex items-center justify-center">
-            <?php if ($hero_image) : ?>
-                <div class="ccluster-hero-orb">
-                    <img
-                        src="<?php echo esc_url($hero_image); ?>"
-                        alt=""
-                        class="ccluster-hero-image w-[175%] max-w-[175%] object-contain">
-                </div>
-            <?php endif; ?>
+            <div class="ccluster-hero-orb">
+                <video
+                    class="ccluster-hero-image"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    aria-hidden="true">
+                    <source
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/Diseno-sin-titulo-3.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
 </section>
