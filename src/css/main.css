@@ -151,7 +151,7 @@
 /* HERO */
 .ccluster-hero-orb {
   position: absolute;
-  width: 125%;
+  width: 130%;
   max-width: none;
   right: -35%;
   top: -350px;
@@ -163,9 +163,9 @@
   position: relative;
   z-index: 1;
   display: block;
-  width: 125%;
+  width: 130%;
   height: auto;
-  animation: ccluster-hero-rotate 90s linear infinite;
+  animation: ccluster-hero-rotate 120s linear infinite;
 }
 @media (prefers-reduced-motion: reduce) {
   .ccluster-hero-orb,
