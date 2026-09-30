@@ -150,10 +150,11 @@
 /* HOME */
 /* HERO */
 .ccluster-hero-orb {
-  position: relative;
-  width: 115%;
+  position: absolute;
+  width: 175%;
   max-width: none;
-  transform: translate(6%, 8%);
+  right: -35%;
+  bottom: -20%;
 }
 .ccluster-hero-shadow {
   display: none;

@@ -112,13 +112,13 @@ $hero_background = $hero_background_id
 
         </div>
         <!-- Visual -->
-        <div class="flex items-center justify-center">
+        <div class="relative flex items-center justify-center">
             <?php if ($hero_image) : ?>
                 <div class="ccluster-hero-orb">
                     <img
                         src="<?php echo esc_url($hero_image); ?>"
                         alt=""
-                        class="ccluster-hero-image w-[175%] max-w-[175%] object-cover">
+                        class="ccluster-hero-image w-[175%] max-w-[175%] object-contain">
                 </div>
             <?php endif; ?>
         </div>
