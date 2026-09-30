@@ -149,33 +149,6 @@
 }
 /* HOME */
 /* HERO */
-@keyframes ccluster-hero-float {
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0) rotate(-1deg);
-  }
-
-  25% {
-    transform: translate3d(6px, -8px, 0) rotate(0.5deg);
-  }
-
-  50% {
-    transform: translate3d(0, -14px, 0) rotate(1deg);
-  }
-
-  75% {
-    transform: translate3d(-6px, -8px, 0) rotate(0.5deg);
-  }
-}
-@keyframes ccluster-hero-rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 .ccluster-hero-orb {
   position: relative;
   width: 115%;
