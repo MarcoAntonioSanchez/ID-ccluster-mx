@@ -164,24 +164,13 @@
   position: relative;
   z-index: 1;
   display: block;
-  transform-style: preserve-3d;
   width: 130%;
   height: auto;
-  animation: ccluster-hero-rotate 120s linear infinite;
 }
 @media (prefers-reduced-motion: reduce) {
   .ccluster-hero-orb,
   .ccluster-hero-image {
     animation: none;
-  }
-}
-@keyframes ccluster-hero-rotate {
-  from {
-    transform: rotateY(0deg) rotateX(0deg);
-  }
-
-  to {
-    transform: rotateY(360deg) rotateX(0deg);
   }
 }
 /* THE FIRM */
