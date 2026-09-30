@@ -178,40 +178,19 @@
 }
 .ccluster-hero-orb {
   position: relative;
-  animation: ccluster-hero-float 6s ease-in-out infinite;
+  width: 115%;
+  max-width: none;
+  transform: translate(6%, 8%);
 }
 .ccluster-hero-shadow {
-  position: absolute;
-  left: 50%;
-  bottom: -4rem;
-  width: 58%;
-  height: 3rem;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  background: rgba(15, 20, 58, 0.3);
-  filter: blur(24px);
-  opacity: 1;
-  z-index: 0;
-}
-@keyframes ccluster-hero-shadow {
-  0%,
-  100% {
-    transform: translateX(-50%) scale(1);
-    opacity: 0.87;
-  }
-
-  50% {
-    transform: translateX(-50%) scale(0.2);
-    opacity: 0.6;
-  }
-}
-.ccluster-hero-shadow {
-  animation: ccluster-hero-shadow 6s ease-in-out infinite;
+  display: none;
 }
 .ccluster-hero-image {
   position: relative;
   z-index: 1;
-  animation: ccluster-hero-rotate 40s linear infinite;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 @media (prefers-reduced-motion: reduce) {
   .ccluster-hero-orb,
