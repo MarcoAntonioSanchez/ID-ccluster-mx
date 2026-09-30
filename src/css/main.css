@@ -151,10 +151,10 @@
 /* HERO */
 .ccluster-hero-orb {
   position: relative;
-  width: 130%;
+  width: 230%;
   max-width: none;
   right: -35%;
-  top: -350px;
+  top: 200px;
   perspective: 1200px;
 }
 .ccluster-hero-shadow {
@@ -164,7 +164,7 @@
   position: relative;
   z-index: 1;
   display: block;
-  width: 130%;
+  width: 230%;
   height: auto;
 }
 @media (prefers-reduced-motion: reduce) {
