@@ -73,7 +73,7 @@ $hero_background = $hero_background_id
     style="background-image: url('<?php echo esc_url($hero_background); ?>');"
     <?php endif; ?>>
     <div
-        class="mx-auto grid min-h-[calc(100vh-220px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
+        class="mx-auto grid min-h-[calc(100vh-175px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
         <div class="text-left">
             <?php if ($hero_badge_text) : ?>
