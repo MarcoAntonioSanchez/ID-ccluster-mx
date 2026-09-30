@@ -163,9 +163,9 @@
   position: relative;
   z-index: 1;
   display: block;
-  width: 100%;
+  width: 125%;
   height: auto;
-  animation: ccluster-hero-rotate 60s linear infinite;
+  animation: ccluster-hero-rotate 90s linear infinite;
 }
 @media (prefers-reduced-motion: reduce) {
   .ccluster-hero-orb,
