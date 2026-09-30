@@ -162,7 +162,7 @@
   position: relative;
   z-index: 1;
   display: block;
-  width: 100%;
+  width: 175%;
   height: auto;
 }
 @media (prefers-reduced-motion: reduce) {
