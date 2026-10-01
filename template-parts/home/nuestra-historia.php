@@ -121,7 +121,146 @@ $history_title = get_post_meta(
             </div>
         </article>
     <?php endfor; ?>
+    <?php
+    $stat_primary_label = get_post_meta(
+        get_the_ID(),
+        'historia_stat_primary_label',
+        true
+    );
+
+    $stat_primary_number = get_post_meta(
+        get_the_ID(),
+        'historia_stat_primary_number',
+        true
+    );
+
+    $stat_primary_title = get_post_meta(
+        get_the_ID(),
+        'historia_stat_primary_title',
+        true
+    );
+
+    $stat_primary_description = get_post_meta(
+        get_the_ID(),
+        'historia_stat_primary_description',
+        true
+    );
+
+    $stat_secondary_label = get_post_meta(
+        get_the_ID(),
+        'historia_stat_secondary_label',
+        true
+    );
+
+    $stat_secondary_number = get_post_meta(
+        get_the_ID(),
+        'historia_stat_secondary_number',
+        true
+    );
+
+    $stat_secondary_title = get_post_meta(
+        get_the_ID(),
+        'historia_stat_secondary_title',
+        true
+    );
+
+    $stat_secondary_description = get_post_meta(
+        get_the_ID(),
+        'historia_stat_secondary_description',
+        true
+    );
+    ?>
     <!-- BOTTOM ROW -->
     <div class="ccluster-nuestra-historia__stats">
+        <!-- VALUE -->
+        <article class="ccluster-nuestra-historia__stat ccluster-nuestra-historia__stat--value">
+            <?php
+            $value_label = get_post_meta(
+                get_the_ID(),
+                'historia_value_label',
+                true
+            );
+            $value_number = get_post_meta(
+                get_the_ID(),
+                'historia_value_number',
+                true
+            );
+            $value_subtitle = get_post_meta(
+                get_the_ID(),
+                'historia_value_subtitle',
+                true
+            );
+            $value_description = get_post_meta(
+                get_the_ID(),
+                'historia_value_description',
+                true
+            );
+            ?>
+            <?php if ($value_label) : ?>
+                <span class="ccluster-nuestra-historia__stat-label">
+                    <?php echo esc_html($value_label); ?>
+                </span>
+            <?php endif; ?>
+            <?php if ($value_number) : ?>
+                <span class="ccluster-nuestra-historia__stat-number">
+                    <?php echo esc_html($value_number); ?>
+                </span>
+            <?php endif; ?>
+            <?php if ($value_subtitle) : ?>
+                <h3 class="ccluster-nuestra-historia__stat-subtitle">
+                    <?php echo esc_html($value_subtitle); ?>
+                </h3>
+            <?php endif; ?>
+            <?php if ($value_description) : ?>
+                <p class="ccluster-nuestra-historia__stat-description">
+                    <?php echo esc_html($value_description); ?>
+                </p>
+            <?php endif; ?>
+        </article>
+        <!-- STRENGTH -->
+        <article class="ccluster-nuestra-historia__stat ccluster-nuestra-historia__stat--strength">
+            <?php
+            $strength_label = get_post_meta(
+                get_the_ID(),
+                'historia_strength_label',
+                true
+            );
+            $strength_number = get_post_meta(
+                get_the_ID(),
+                'historia_strength_number',
+                true
+            );
+            $strength_subtitle = get_post_meta(
+                get_the_ID(),
+                'historia_strength_subtitle',
+                true
+            );
+            $strength_description = get_post_meta(
+                get_the_ID(),
+                'historia_strength_description',
+                true
+            );
+            ?>
+            <?php if ($strength_label) : ?>
+                <span class="ccluster-nuestra-historia__stat-label">
+                    <?php echo esc_html($strength_label); ?>
+                </span>
+            <?php endif; ?>
+            <?php if ($strength_number) : ?>
+                <span class="ccluster-nuestra-historia__stat-number">
+                    <?php echo esc_html($strength_number); ?>
+                </span>
+            <?php endif; ?>
+            <?php if ($strength_subtitle) : ?>
+                <h3 class="ccluster-nuestra-historia__stat-subtitle">
+                    <?php echo esc_html($strength_subtitle); ?>
+                </h3>
+            <?php endif; ?>
+            <?php if ($strength_description) : ?>
+                <p class="ccluster-nuestra-historia__stat-description">
+                    <?php echo esc_html($strength_description); ?>
+                </p>
+            <?php endif; ?>
+        </article>
     </div>
 </section>

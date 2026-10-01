@@ -1180,12 +1180,12 @@ function ccluster_save_nuestra_historia($post_id)
         'historia_value_label' => 'sanitize_text_field',
         'historia_value_number' => 'sanitize_text_field',
         'historia_value_subtitle' => 'sanitize_text_field',
-        'historia_value_description' => 'sanitize_text_field',
+        'historia_value_description' => 'sanitize_textarea_field',
 
         'historia_strength_label' => 'sanitize_text_field',
         'historia_strength_number' => 'sanitize_text_field',
         'historia_strength_subtitle' => 'sanitize_text_field',
-        'historia_strength_description' => 'sanitize_text_field'
+        'historia_strength_description' => 'sanitize_textarea_field'
     ];
 
     foreach ($fields as $field => $sanitize_callback) {
