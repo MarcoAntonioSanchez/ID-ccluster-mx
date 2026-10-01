@@ -287,6 +287,14 @@
 .ccluster-nuestra-historia__stat {
   position: relative;
 }
+.ccluster-nuestra-historia__timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.ccluster-nuestra-historia__event {
+  flex: 1;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
