@@ -84,12 +84,6 @@ $hero_background = $hero_background_id
                             alt=""
                             class="h-[125px] w-[125px] shrink-0 object-contain">
                     <?php endif; ?>
-                    <span
-                        class="h-[2px] w-[25px] bg-secondary"
-                        aria-hidden="true"></span>
-                    <span class="text-sm font-medium font-badge opacity-50">
-                        <?php echo esc_html($hero_badge_text); ?>
-                    </span>
                 </div>
             <?php endif; ?>
             <?php if ($hero_title) : ?>
