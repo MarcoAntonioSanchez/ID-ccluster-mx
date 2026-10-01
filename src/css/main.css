@@ -267,6 +267,26 @@
     @apply text-xs font-medium tracking-wide;
   }
 }
+/* HOUR STORY */
+.ccluster-nuestra-historia {
+  display: flex;
+  flex-direction: column;
+}
+.ccluster-nuestra-historia__timeline {
+  position: relative;
+  min-height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ccluster-nuestra-historia__stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-height: 40vh;
+}
+.ccluster-nuestra-historia__stat {
+  position: relative;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
