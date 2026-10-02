@@ -51,7 +51,8 @@
                 <a
                     href="#"
                     class="ccluster-principios__card-link">
-                    Leer más
+                    <span>Leer más</span>
+                    <span aria-hidden="true">→</span>
                 </a>
             </article>
         <?php endforeach; ?>
