@@ -1367,100 +1367,101 @@ function ccluster_render_principios_meta_box($post)
                             $values['principios_description']
                         );
                         ?></textarea>
-    <hr>
-    <h3>
-        <?php esc_html_e('Principio 1', 'ccluster'); ?>
-    </h3>
-    <!-- ICON -->
-    <div class="ccluster-media-field">
+    <!-- PRINCIPIOS -->
+    <?php for ($i = 1; $i <= 6; $i++) : ?>
+        <hr>
+        <h3>
+            <?php echo esc_html("Principio {$i}"); ?>
+        </h3>
+        <!-- ICON -->
+        <div class="ccluster-media-field">
+            <p>
+                <strong>
+                    <?php esc_html_e('Icon', 'ccluster'); ?>
+                </strong>
+            </p>
+            <input
+                type="hidden"
+                id="principio_<?php echo $i; ?>_icon"
+                name="principio_<?php echo $i; ?>_icon"
+                value="<?php echo esc_attr(
+                            absint($values["principio_{$i}_icon"])
+                        ); ?>" />
+            <div
+                id="principio_<?php echo $i; ?>_icon_preview"
+                class="ccluster-media-preview">
+                <?php
+                if ($values["principio_{$i}_icon"]) {
+                    echo wp_get_attachment_image(
+                        absint($values["principio_{$i}_icon"]),
+                        'thumbnail'
+                    );
+                }
+                ?>
+            </div>
+            <button
+                type="button"
+                class="button ccluster-media-select"
+                data-target="principio_<?php echo $i; ?>_icon"
+                data-preview="principio_<?php echo $i; ?>_icon_preview">
+                <?php esc_html_e('Select Image', 'ccluster'); ?>
+            </button>
+            <button
+                type="button"
+                class="button ccluster-media-remove"
+                data-target="principio_<?php echo $i; ?>_icon"
+                data-preview="principio_<?php echo $i; ?>_icon_preview">
+                <?php esc_html_e('Remove Image', 'ccluster'); ?>
+            </button>
+        </div>
+        <!-- TITLE -->
         <p>
-            <strong>
-                <?php esc_html_e('Icon', 'ccluster'); ?>
-            </strong>
+            <label for="principio_<?php echo $i; ?>_title">
+                <strong>
+                    <?php esc_html_e('Title', 'ccluster'); ?>
+                </strong>
+            </label>
         </p>
         <input
-            type="hidden"
-            id="principio_1_icon"
-            name="principio_1_icon"
+            type="text"
+            id="principio_<?php echo $i; ?>_title"
+            name="principio_<?php echo $i; ?>_title"
             value="<?php echo esc_attr(
-                        absint($values['principio_1_icon'])
-                    ); ?>" />
-        <div
-            id="principio_1_icon_preview"
-            class="ccluster-media-preview">
-            <?php
-            if ($values['principio_1_icon']) {
-                echo wp_get_attachment_image(
-                    absint($values['principio_1_icon']),
-                    'thumbnail'
-                );
-            }
-            ?>
-        </div>
-        <button
-            type="button"
-            class="button ccluster-media-select"
-            data-target="principio_1_icon"
-            data-preview="principio_1_icon_preview">
-            <?php esc_html_e('Select Image', 'ccluster'); ?>
-        </button>
-        <button
-            type="button"
-            class="button ccluster-media-remove"
-            data-target="principio_1_icon"
-            data-preview="principio_1_icon_preview">
-            <?php esc_html_e('Remove Image', 'ccluster'); ?>
-        </button>
-    </div>
-    <!-- TITLE -->
-    <p>
-        <label for="principio_1_title">
-            <strong>
-                <?php esc_html_e('Title', 'ccluster'); ?>
-            </strong>
-        </label>
-    </p>
-    <input
-        type="text"
-        id="principio_1_title"
-        name="principio_1_title"
-        value="<?php echo esc_attr(
-                    $values['principio_1_title']
-                ); ?>"
-        class="widefat" />
-    <!-- DESCRIPTION -->
-    <p>
-        <label for="principio_1_description">
-            <strong>
-                <?php esc_html_e('Description', 'ccluster'); ?>
-            </strong>
-        </label>
-    </p>
-    <textarea
-        id="principio_1_description"
-        name="principio_1_description"
-        rows="4"
-        class="widefat"><?php
-                        echo esc_textarea(
-                            $values['principio_1_description']
-                        );
-                        ?></textarea>
-    <!-- URL -->
-    <p>
-        <label for="principio_1_url">
-            <strong>
-                <?php esc_html_e('Read More URL', 'ccluster'); ?>
-            </strong>
-        </label>
-    </p>
-    <input
-        type="url"
-        id="principio_1_url"
-        name="principio_1_url"
-        value="<?php echo esc_attr(
-                    $values['principio_1_url']
-                ); ?>"
-        class="widefat" />
+                        $values["principio_{$i}_title"]
+                    ); ?>"
+            class="widefat" />
+        <!-- DESCRIPTION -->
+        <p>
+            <label for="principio_<?php echo $i; ?>_description">
+                <strong>
+                    <?php esc_html_e('Description', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+        <textarea
+            id="principio_<?php echo $i; ?>_description"
+            name="principio_<?php echo $i; ?>_description"
+            rows="4"
+            class="widefat"><?php echo esc_textarea(
+                                $values["principio_{$i}_description"]
+                            ); ?></textarea>
+        <!-- URL -->
+        <p>
+            <label for="principio_<?php echo $i; ?>_url">
+                <strong>
+                    <?php esc_html_e('Link URL', 'ccluster'); ?>
+                </strong>
+            </label>
+        </p>
+        <input
+            type="url"
+            id="principio_<?php echo $i; ?>_url"
+            name="principio_<?php echo $i; ?>_url"
+            value="<?php echo esc_attr(
+                        $values["principio_{$i}_url"]
+                    ); ?>"
+            class="widefat" />
+    <?php endfor; ?>
 <?php
 }
 // PRINCIPIOS - SAVE
