@@ -90,7 +90,7 @@ $history_title = get_post_meta(
             );
             ?>
             <article class="ccluster-nuestra-historia__event">
-                <div class="ccluster-nuestra-historia__event-head">
+                <div class="ccluster-nuestra-historia__event-header">
                     <?php if ($event_title) : ?>
                         <h3 class="ccluster-nuestra-historia__event-title">
                             <?php echo esc_html($event_title); ?>
@@ -103,10 +103,7 @@ $history_title = get_post_meta(
                     <?php endif; ?>
                 </div>
                 <div class="ccluster-nuestra-historia__event-line">
-                    <span
-                        class="ccluster-nuestra-historia__event-point"
-                        aria-hidden="true">
-                    </span>
+                    <span class="ccluster-nuestra-historia__event-dot"></span>
                 </div>
                 <div class="ccluster-nuestra-historia__event-date">
                     <?php if ($event_year) : ?>
