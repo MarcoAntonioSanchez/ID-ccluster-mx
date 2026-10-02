@@ -39,7 +39,7 @@ $history_title = get_post_meta(
         style="background-image: url('<?php echo esc_url($background_url); ?>');"
         <?php endif; ?>>
         <!-- HEADER -->
-        <div class="ccluster-nuestra-historia__header mt-[150px]">
+        <div class="ccluster-nuestra-historia__header mt-[150px] opacity-100">
             <!-- BADGE -->
             <div class="ccluster-nuestra-historia__badge">
                 <?php
