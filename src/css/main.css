@@ -318,6 +318,7 @@
   position: absolute;
   left: 0;
   right: 0;
+  top: 55%;
   bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
