@@ -1265,10 +1265,9 @@ function ccluster_save_principios($post_id)
         );
     }
 }
-
 add_action(
     'save_post_page',
-    'ccluster_save_principles'
+    'ccluster_save_principios'
 );
 
 // MEDIA LIBRARY SELECTOR
