@@ -287,12 +287,9 @@
 .ccluster-nuestra-historia__stat {
   position: relative;
 }
-.ccluster-nuestra-historia__timeline {
-  display: flex;
-  flex-direction: column;
-}
-.ccluster-nuestra-historia__event {
-  flex: 1;
+.ccluster-nuestra-historia__events {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
