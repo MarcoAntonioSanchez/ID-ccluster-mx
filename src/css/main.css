@@ -413,8 +413,7 @@
   gap: 2rem;
 }
 .ccluster-principios__card {
-  display: flex;
-  flex-direction: column;
+  @apply flex min-h-[350px] flex-col bg-white p-10;
 }
 .ccluster-principios__card-icon {
   width: 48px;
