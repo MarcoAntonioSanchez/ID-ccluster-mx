@@ -12,6 +12,9 @@ get_header();
     get_template_part(
         'template-parts/home/nuestra-historia'
     );
+    get_template_part(
+        'template-parts/home/principios'
+    );
     ?>
 </main>
 <?php
