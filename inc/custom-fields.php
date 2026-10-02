@@ -1206,18 +1206,153 @@ function ccluster_save_nuestra_historia($post_id)
         );
     }
 }
-
 add_action(
     'save_post_page',
     'ccluster_save_nuestra_historia'
 );
-// SAVE PRINCIPIOS
+// PRINCIPIOS - METABOX'S
+function ccluster_add_principios_meta_box()
+{
+    add_meta_box(
+        'ccluster_principios',
+        'Principios',
+        'ccluster_render_principios_meta_box',
+        'page',
+        'normal',
+        'default'
+    );
+}
+add_action(
+    'add_meta_boxes',
+    'ccluster_add_principios_meta_box'
+);
+// PRINCIPIOS - RENDER
+function ccluster_render_principios_meta_box($post)
+{
+    wp_nonce_field(
+        'ccluster_save_principios',
+        'ccluster_principios_nonce'
+    );
+    $fields = [
+        'principios_badge_icon',
+        'principios_badge_text',
+        'principios_title',
+        'principios_description',
+    ];
+    $values = [];
+    foreach ($fields as $field) {
+        $values[$field] = get_post_meta(
+            $post->ID,
+            $field,
+            true
+        );
+    }
+?>
+    <p>
+        <strong>
+            <?php esc_html_e('Principios', 'ccluster'); ?>
+        </strong>
+    </p>
+    <!-- BADGE ICON -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Badge Icon', 'ccluster'); ?>
+            </strong>
+        </p>
+        <input
+            type="hidden"
+            id="principios_badge_icon"
+            name="principios_badge_icon"
+            value="<?php echo esc_attr(
+                        absint($values['principios_badge_icon'])
+                    ); ?>" />
+        <div
+            id="principios_badge_icon_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['principios_badge_icon']) {
+                echo wp_get_attachment_image(
+                    absint($values['principios_badge_icon']),
+                    'thumbnail'
+                );
+            }
+            ?>
+        </div>
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="principios_badge_icon"
+            data-preview="principios_badge_icon_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="principios_badge_icon"
+            data-preview="principios_badge_icon_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+    <!-- BADGE TEXT -->
+    <p>
+        <label for="principios_badge_text">
+            <strong>
+                <?php esc_html_e('Badge Text', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="principios_badge_text"
+        name="principios_badge_text"
+        value="<?php echo esc_attr(
+                    $values['principios_badge_text']
+                ); ?>"
+        class="widefat" />
+    <!-- SECTION TITLE -->
+    <p>
+        <label for="principios_title">
+            <strong>
+                <?php esc_html_e('Title', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="principios_title"
+        name="principios_title"
+        value="<?php echo esc_attr(
+                    $values['principios_title']
+                ); ?>"
+        class="widefat" />
+    <!-- SECTION DESCRIPTION -->
+    <p>
+        <label for="principios_description">
+            <strong>
+                <?php esc_html_e('Description', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <textarea
+        id="principios_description"
+        name="principios_description"
+        rows="5"
+        class="widefat"><?php
+                        echo esc_textarea(
+                            $values['principios_description']
+                        );
+                        ?></textarea>
+
+<?php
+}
+// PRINCIPIOS - SAVE
 function ccluster_save_principios($post_id)
 {
     if (
         !isset($_POST['ccluster_principios_nonce'])
         || !wp_verify_nonce(
-            $_POST['ccluster_nuestra_principios_nonce'],
+            $_POST['ccluster_principios_nonce'],
             'ccluster_save_principios'
         )
     ) {
