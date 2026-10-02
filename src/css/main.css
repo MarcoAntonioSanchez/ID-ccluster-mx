@@ -322,8 +322,18 @@
   border-radius: 50%;
   background: currentColor;
 }
+.ccluster-nuestra-historia__event:first-child
+  .ccluster-nuestra-historia__event-line::before {
+  left: 0;
+  width: 50%;
+}
 .ccluster-nuestra-historia__event-date {
   align-self: start;
+}
+.ccluster-nuestra-historia__event:last-child
+  .ccluster-nuestra-historia__event-line::before {
+  left: -50%;
+  width: 50%;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
