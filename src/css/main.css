@@ -313,6 +313,8 @@
 }
 .ccluster-nuestra-historia__stat {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .ccluster-nuestra-historia__events {
   position: absolute;
