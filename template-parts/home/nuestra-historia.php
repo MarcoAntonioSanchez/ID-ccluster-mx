@@ -125,55 +125,6 @@ $history_title = get_post_meta(
             </div>
         </div>
     </div>
-    <?php
-    $stat_primary_label = get_post_meta(
-        get_the_ID(),
-        'historia_stat_primary_label',
-        true
-    );
-
-    $stat_primary_number = get_post_meta(
-        get_the_ID(),
-        'historia_stat_primary_number',
-        true
-    );
-
-    $stat_primary_title = get_post_meta(
-        get_the_ID(),
-        'historia_stat_primary_title',
-        true
-    );
-
-    $stat_primary_description = get_post_meta(
-        get_the_ID(),
-        'historia_stat_primary_description',
-        true
-    );
-
-    $stat_secondary_label = get_post_meta(
-        get_the_ID(),
-        'historia_stat_secondary_label',
-        true
-    );
-
-    $stat_secondary_number = get_post_meta(
-        get_the_ID(),
-        'historia_stat_secondary_number',
-        true
-    );
-
-    $stat_secondary_title = get_post_meta(
-        get_the_ID(),
-        'historia_stat_secondary_title',
-        true
-    );
-
-    $stat_secondary_description = get_post_meta(
-        get_the_ID(),
-        'historia_stat_secondary_description',
-        true
-    );
-    ?>
     <!-- BOTTOM ROW -->
     <div class="ccluster-nuestra-historia__stats">
         <!-- VALUE -->
