@@ -34,12 +34,12 @@ $history_title = get_post_meta(
 <section class="ccluster-nuestra-historia">
     <!-- TOP ROW -->
     <div
-        class="ccluster-nuestra-historia__timeline"
+        class="ccluster-nuestra-historia__timeline opacity-50"
         <?php if ($background_url) : ?>
         style="background-image: url('<?php echo esc_url($background_url); ?>');"
         <?php endif; ?>>
         <!-- HEADER -->
-        <div class="ccluster-nuestra-historia__header">
+        <div class="ccluster-nuestra-historia__header mt-[150px]">
             <!-- BADGE -->
             <div class="ccluster-nuestra-historia__badge">
                 <?php
