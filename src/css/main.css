@@ -304,6 +304,24 @@
   align-items: center;
   min-height: 2rem;
 }
+.ccluster-nuestra-historia__event-line::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: translateY(-50%);
+}
+.ccluster-nuestra-historia__event-dot {
+  position: relative;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: currentColor;
+}
 .ccluster-nuestra-historia__event-date {
   align-self: start;
 }
