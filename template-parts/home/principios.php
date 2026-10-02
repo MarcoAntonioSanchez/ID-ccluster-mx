@@ -91,30 +91,69 @@
     ];
     ?>
     <div class="ccluster-principios__grid">
-        <?php foreach ($principios as $principio) : ?>
-            <article class="ccluster-principios__card">
-                <!-- ICON -->
-                <div class="ccluster-principios__card-icon">
-                    <img
-                        src="https://placehold.co/80x80"
-                        alt="">
-                </div>
-                <!-- TITLE -->
+        <?php
+        $principio_1_icon = get_post_meta(
+            get_the_ID(),
+            'principio_1_icon',
+            true
+        );
+
+        $principio_1_title = get_post_meta(
+            get_the_ID(),
+            'principio_1_title',
+            true
+        );
+
+        $principio_1_description = get_post_meta(
+            get_the_ID(),
+            'principio_1_description',
+            true
+        );
+
+        $principio_1_url = get_post_meta(
+            get_the_ID(),
+            'principio_1_url',
+            true
+        );
+        ?>
+
+        <article class="ccluster-principios__card">
+
+            <?php if ($principio_1_icon) : ?>
+                <?php
+                echo wp_get_attachment_image(
+                    absint($principio_1_icon),
+                    'thumbnail',
+                    false,
+                    [
+                        'class' => 'ccluster-principios__card-icon',
+                        'alt'   => '',
+                    ]
+                );
+                ?>
+            <?php endif; ?>
+
+            <?php if ($principio_1_title) : ?>
                 <h3 class="ccluster-principios__card-title">
-                    <?php echo esc_html($principio['title']); ?>
+                    <?php echo esc_html($principio_1_title); ?>
                 </h3>
-                <!-- DESCRIPTION -->
+            <?php endif; ?>
+
+            <?php if ($principio_1_description) : ?>
                 <p class="ccluster-principios__card-description">
-                    <?php echo esc_html($principio['description']); ?>
+                    <?php echo esc_html($principio_1_description); ?>
                 </p>
-                <!-- LINK -->
+            <?php endif; ?>
+
+            <?php if ($principio_1_url) : ?>
                 <a
-                    href="#"
+                    href="<?php echo esc_url($principio_1_url); ?>"
                     class="ccluster-principios__card-link">
-                    <span>Leer más</span>
+                    Leer más
                     <span aria-hidden="true">→</span>
                 </a>
-            </article>
-        <?php endforeach; ?>
+            <?php endif; ?>
+
+        </article>
     </div>
 </section>
