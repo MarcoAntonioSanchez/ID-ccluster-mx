@@ -325,6 +325,9 @@
 .ccluster-nuestra-historia__stat-subtitle {
   @apply mt-3 font-body text-2xl leading-7;
 }
+.ccluster-nuestra-historia__stat-description {
+  @apply mt-4 max-w-xl font-body text-base leading-7;
+}
 .ccluster-nuestra-historia__events {
   position: absolute;
   left: 0;
