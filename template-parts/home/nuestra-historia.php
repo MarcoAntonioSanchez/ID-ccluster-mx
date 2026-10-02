@@ -38,25 +38,35 @@ $history_title = get_post_meta(
         <?php if ($background_url) : ?>
         style="background-image: url('<?php echo esc_url($background_url); ?>');"
         <?php endif; ?>>
+        <!-- HEADER -->
         <div class="ccluster-nuestra-historia__header">
-            <?php if ($badge_icon_id) : ?>
+            <!-- BADGE -->
+            <div class="ccluster-nuestra-historia__badge">
                 <?php
-                echo wp_get_attachment_image(
-                    $badge_icon_id,
-                    'thumbnail',
-                    false,
-                    [
-                        'class' => 'ccluster-nuestra-historia__badge-icon',
-                        'alt'   => '',
-                    ]
-                );
+                if ($badge_icon_id) {
+                    echo wp_get_attachment_image(
+                        $badge_icon_id,
+                        'thumbnail',
+                        false,
+                        [
+                            'class' => 'ccluster-nuestra-historia__badge-icon',
+                        ]
+                    );
+                }
                 ?>
-            <?php endif; ?>
-            <span class="ccluster-nuestra-historia__badge-separator"></span>
-            <?php if ($badge_text) : ?>
-                <span class="ccluster-nuestra-historia__badge-text">
+                <span
+                    class="h-[2px] w-[25px] bg-secondary"
+                    aria-hidden="true"></span>
+
+                <span class="font-badge">
                     <?php echo esc_html($badge_text); ?>
                 </span>
+            </div>
+            <!-- HEADING -->
+            <?php if ($history_title) : ?>
+                <h2 class="font-heading capitalize">
+                    <?php echo esc_html($history_title); ?>
+                </h2>
             <?php endif; ?>
         </div>
         <?php if ($history_title) : ?>
