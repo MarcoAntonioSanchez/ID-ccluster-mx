@@ -323,7 +323,7 @@
   @apply mt-3 font-body text-7xl font-bold leading-none;
 }
 .ccluster-nuestra-historia__stat-subtitle {
-  @apply mt-3 font-heading text-2xl font-medium leading-7;
+  @apply mt-3 font-body text-2xl leading-7;
 }
 .ccluster-nuestra-historia__events {
   position: absolute;
