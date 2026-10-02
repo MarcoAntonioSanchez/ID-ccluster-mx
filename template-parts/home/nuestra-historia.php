@@ -110,12 +110,12 @@ $history_title = get_post_meta(
                         </div>
                         <div class="ccluster-nuestra-historia__event-date">
                             <?php if ($event_year) : ?>
-                                <span class="ccluster-nuestra-historia__event-year">
+                                <span class="ccluster-nuestra-historia__event-date year">
                                     <?php echo esc_html($event_year); ?>
                                 </span>
                             <?php endif; ?>
                             <?php if ($event_date) : ?>
-                                <span class="ccluster-nuestra-historia__event-date-text">
+                                <span class="ccluster-nuestra-historia__event-date date">
                                     <?php echo esc_html($event_date); ?>
                                 </span>
                             <?php endif; ?>

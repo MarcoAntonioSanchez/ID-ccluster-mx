@@ -335,6 +335,12 @@
   align-self: end;
   padding-right: 2rem;
 }
+.ccluster-nuestra-historia__event-header h3 {
+  @apply font-heading text-2xl font-medium leading-7;
+}
+.ccluster-nuestra-historia__event-header p {
+  @apply mt-3 font-body text-sm leading-6;
+}
 .ccluster-nuestra-historia__event-line {
   position: relative;
   display: flex;
@@ -363,6 +369,9 @@
 .ccluster-nuestra-historia__event-date {
   align-self: start;
   padding-right: 2rem;
+}
+.ccluster-nuestra-historia__event-date .year {
+  @apply font-heading text-2xl font-medium leading-7;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
