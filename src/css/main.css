@@ -316,12 +316,6 @@
   display: flex;
   flex-direction: column;
 }
-.ccluster-nuestra-historia__stat--value {
-  @apply bg-primary text-white shadow-lg;
-}
-.ccluster-nuestra-historia__stat--value .ccluster-nuestra-historia__stat-label {
-  @apply text-secondary;
-}
 .ccluster-nuestra-historia__stat-label {
   @apply font-badge text-sm font-medium uppercase tracking-wide text-secondary;
 }
@@ -333,6 +327,19 @@
 }
 .ccluster-nuestra-historia__stat-description {
   @apply mt-4 max-w-xl font-body text-base leading-7;
+}
+.ccluster-nuestra-historia__stat--value {
+  @apply bg-primary text-white shadow-lg;
+}
+.ccluster-nuestra-historia__stat--value .ccluster-nuestra-historia__stat-label {
+  @apply text-secondary;
+}
+.ccluster-nuestra-historia__stat--strength {
+  @apply text-primary;
+}
+.ccluster-nuestra-historia__stat--value,
+.ccluster-nuestra-historia__stat--strength {
+  @apply flex h-[350px] justify-center px-[50px];
 }
 .ccluster-nuestra-historia__events {
   position: absolute;
