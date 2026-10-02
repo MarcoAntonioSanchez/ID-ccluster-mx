@@ -1238,6 +1238,10 @@ function ccluster_render_principios_meta_box($post)
         'principios_badge_text',
         'principios_title',
         'principios_description',
+        'principio_1_icon',
+        'principio_1_title',
+        'principio_1_description',
+        'principio_1_url',
     ];
     $values = [];
     foreach ($fields as $field) {
@@ -1343,7 +1347,100 @@ function ccluster_render_principios_meta_box($post)
                             $values['principios_description']
                         );
                         ?></textarea>
-
+    <hr>
+    <h3>
+        <?php esc_html_e('Principio 1', 'ccluster'); ?>
+    </h3>
+    <!-- ICON -->
+    <div class="ccluster-media-field">
+        <p>
+            <strong>
+                <?php esc_html_e('Icon', 'ccluster'); ?>
+            </strong>
+        </p>
+        <input
+            type="hidden"
+            id="principio_1_icon"
+            name="principio_1_icon"
+            value="<?php echo esc_attr(
+                        absint($values['principio_1_icon'])
+                    ); ?>" />
+        <div
+            id="principio_1_icon_preview"
+            class="ccluster-media-preview">
+            <?php
+            if ($values['principio_1_icon']) {
+                echo wp_get_attachment_image(
+                    absint($values['principio_1_icon']),
+                    'thumbnail'
+                );
+            }
+            ?>
+        </div>
+        <button
+            type="button"
+            class="button ccluster-media-select"
+            data-target="principio_1_icon"
+            data-preview="principio_1_icon_preview">
+            <?php esc_html_e('Select Image', 'ccluster'); ?>
+        </button>
+        <button
+            type="button"
+            class="button ccluster-media-remove"
+            data-target="principio_1_icon"
+            data-preview="principio_1_icon_preview">
+            <?php esc_html_e('Remove Image', 'ccluster'); ?>
+        </button>
+    </div>
+    <!-- TITLE -->
+    <p>
+        <label for="principio_1_title">
+            <strong>
+                <?php esc_html_e('Title', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="text"
+        id="principio_1_title"
+        name="principio_1_title"
+        value="<?php echo esc_attr(
+                    $values['principio_1_title']
+                ); ?>"
+        class="widefat" />
+    <!-- DESCRIPTION -->
+    <p>
+        <label for="principio_1_description">
+            <strong>
+                <?php esc_html_e('Description', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <textarea
+        id="principio_1_description"
+        name="principio_1_description"
+        rows="4"
+        class="widefat"><?php
+                        echo esc_textarea(
+                            $values['principio_1_description']
+                        );
+                        ?></textarea>
+    <!-- URL -->
+    <p>
+        <label for="principio_1_url">
+            <strong>
+                <?php esc_html_e('Read More URL', 'ccluster'); ?>
+            </strong>
+        </label>
+    </p>
+    <input
+        type="url"
+        id="principio_1_url"
+        name="principio_1_url"
+        value="<?php echo esc_attr(
+                    $values['principio_1_url']
+                ); ?>"
+        class="widefat" />
 <?php
 }
 // PRINCIPIOS - SAVE
@@ -1380,6 +1477,10 @@ function ccluster_save_principios($post_id)
         'principios_badge_text' => 'sanitize_text_field',
         'principios_title' => 'sanitize_text_field',
         'principios_description' => 'sanitize_textarea_field',
+        'principio_1_icon' => 'absint',
+        'principio_1_title' => 'sanitize_text_field',
+        'principio_1_description' => 'sanitize_textarea_field',
+        'principio_1_url' => 'esc_url_raw',
     ];
 
     foreach ($fields as $field => $sanitize_callback) {
