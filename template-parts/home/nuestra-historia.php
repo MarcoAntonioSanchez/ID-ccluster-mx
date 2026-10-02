@@ -69,11 +69,6 @@ $history_title = get_post_meta(
                 </h2>
             <?php endif; ?>
         </div>
-        <?php if ($history_title) : ?>
-            <h2 class="ccluster-nuestra-historia__title">
-                <?php echo esc_html($history_title); ?>
-            </h2>
-        <?php endif; ?>
     </div>
     <div class="ccluster-nuestra-historia__events">
         <?php for ($i = 1; $i <= 5; $i++) : ?>
