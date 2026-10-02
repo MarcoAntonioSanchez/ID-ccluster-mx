@@ -1242,6 +1242,26 @@ function ccluster_render_principios_meta_box($post)
         'principio_1_title',
         'principio_1_description',
         'principio_1_url',
+        'principio_2_icon',
+        'principio_2_title',
+        'principio_2_description',
+        'principio_2_url',
+        'principio_3_icon',
+        'principio_3_title',
+        'principio_3_description',
+        'principio_3_url',
+        'principio_4_icon',
+        'principio_4_title',
+        'principio_4_description',
+        'principio_4_url',
+        'principio_5_icon',
+        'principio_5_title',
+        'principio_5_description',
+        'principio_5_url',
+        'principio_6_icon',
+        'principio_6_title',
+        'principio_6_description',
+        'principio_6_url',
     ];
     $values = [];
     foreach ($fields as $field) {
@@ -1455,14 +1475,12 @@ function ccluster_save_principios($post_id)
     ) {
         return;
     }
-
     if (
         defined('DOING_AUTOSAVE')
         && DOING_AUTOSAVE
     ) {
         return;
     }
-
     if (
         !current_user_can(
             'edit_post',
@@ -1471,7 +1489,6 @@ function ccluster_save_principios($post_id)
     ) {
         return;
     }
-
     $fields = [
         'principios_badge_icon' => 'absint',
         'principios_badge_text' => 'sanitize_text_field',
@@ -1481,19 +1498,36 @@ function ccluster_save_principios($post_id)
         'principio_1_title' => 'sanitize_text_field',
         'principio_1_description' => 'sanitize_textarea_field',
         'principio_1_url' => 'esc_url_raw',
+        'principio_2_icon' => 'absint',
+        'principio_2_title' => 'sanitize_text_field',
+        'principio_2_description' => 'sanitize_textarea_field',
+        'principio_2_url' => 'esc_url_raw',
+        'principio_3_icon' => 'absint',
+        'principio_3_title' => 'sanitize_text_field',
+        'principio_3_description' => 'sanitize_textarea_field',
+        'principio_3_url' => 'esc_url_raw',
+        'principio_4_icon' => 'absint',
+        'principio_4_title' => 'sanitize_text_field',
+        'principio_4_description' => 'sanitize_textarea_field',
+        'principio_4_url' => 'esc_url_raw',
+        'principio_5_icon' => 'absint',
+        'principio_5_title' => 'sanitize_text_field',
+        'principio_5_description' => 'sanitize_textarea_field',
+        'principio_5_url' => 'esc_url_raw',
+        'principio_6_icon' => 'absint',
+        'principio_6_title' => 'sanitize_text_field',
+        'principio_6_description' => 'sanitize_textarea_field',
+        'principio_6_url' => 'esc_url_raw',
     ];
 
     foreach ($fields as $field => $sanitize_callback) {
-
         if (!isset($_POST[$field])) {
             continue;
         }
-
         $value = call_user_func(
             $sanitize_callback,
             wp_unslash($_POST[$field])
         );
-
         update_post_meta(
             $post_id,
             $field,
