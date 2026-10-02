@@ -100,6 +100,11 @@
   --font-heading: "Oswald", sans-serif;
   --font-badge: "Manrope", sans-serif;
 }
+@layer components {
+  .ccluster-section-heading {
+    @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
+  }
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
@@ -220,7 +225,7 @@
   }
   /* HEADING */
   .ccluster-la-firma__content h2 {
-    @apply mb-5 text-[60px] font-normal leading-[60px];
+    @apply mb-5;
   }
   /* INTRODUCTION */
   .ccluster-la-firma__content > .font-body {
@@ -292,7 +297,7 @@
   object-fit: contain;
 }
 .ccluster-nuestra-historia__header h2 {
-  margin-top: 1rem;
+  @apply mt-4;
 }
 .ccluster-nuestra-historia__timeline {
   position: relative;

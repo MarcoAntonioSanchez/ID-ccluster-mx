@@ -64,7 +64,7 @@ $history_title = get_post_meta(
             </div>
             <!-- HEADING -->
             <?php if ($history_title) : ?>
-                <h2 class="font-heading capitalize">
+                <h2 class="ccluster-section-heading">
                     <?php echo esc_html($history_title); ?>
                 </h2>
             <?php endif; ?>

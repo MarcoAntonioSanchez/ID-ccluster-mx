@@ -150,7 +150,7 @@ $signature_role = get_post_meta(
                 </span>
             </div>
             <!-- HEADING -->
-            <h2 class="font-heading capitalize">
+            <h2 class="ccluster-section-heading">
                 <?php echo esc_html($title); ?>
             </h2>
             <p class="font-body">
