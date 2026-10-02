@@ -401,6 +401,17 @@
   @apply font-heading text-2xl font-medium leading-7;
 }
 /* PRINCIPLES */
+.ccluster-principios {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+.ccluster-principios__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
 .ccluster-principios__card {
   display: flex;
   flex-direction: column;
