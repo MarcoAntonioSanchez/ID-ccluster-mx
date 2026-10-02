@@ -212,7 +212,7 @@ $history_title = get_post_meta(
                 </h3>
             <?php endif; ?>
             <?php if ($strength_description) : ?>
-                <p class="ccluster-nuestra-historia__stat-description">
+                <p class="ccluster-nuestra-historia__stat-description w-[75%]">
                     <?php echo esc_html($strength_description); ?>
                 </p>
             <?php endif; ?>
