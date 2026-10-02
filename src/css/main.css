@@ -319,6 +319,9 @@
 .ccluster-nuestra-historia__stat-label {
   @apply font-badge text-sm font-medium uppercase tracking-wide text-secondary;
 }
+.ccluster-nuestra-historia__stat-number {
+  @apply mt-3 font-heading text-6xl font-bold leading-none;
+}
 .ccluster-nuestra-historia__events {
   position: absolute;
   left: 0;
