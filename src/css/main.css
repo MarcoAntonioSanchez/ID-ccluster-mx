@@ -272,7 +272,7 @@
     @apply text-xs font-medium tracking-wide;
   }
 }
-/* HOUR STORY */
+/* OUR STORY */
 .ccluster-nuestra-historia {
   display: flex;
   flex-direction: column;
@@ -399,6 +399,30 @@
 }
 .ccluster-nuestra-historia__event-date .year {
   @apply font-heading text-2xl font-medium leading-7;
+}
+/* PRINCIPLES */
+.ccluster-principios__card {
+  display: flex;
+  flex-direction: column;
+}
+.ccluster-principios__card-icon {
+  width: 48px;
+  height: 48px;
+}
+.ccluster-principios__card-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ccluster-principios__card-title {
+  @apply mt-6 font-body text-2xl font-semibold;
+}
+.ccluster-principios__card-description {
+  @apply mt-3 font-body text-base leading-7;
+}
+.ccluster-principios__card-link {
+  @apply mt-6 font-body text-sm font-semibold text-secondary no-underline;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
