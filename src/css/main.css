@@ -316,6 +316,9 @@
   display: flex;
   flex-direction: column;
 }
+.ccluster-nuestra-historia__stat-label {
+  @apply font-badge text-sm font-medium uppercase tracking-wide;
+}
 .ccluster-nuestra-historia__events {
   position: absolute;
   left: 0;
