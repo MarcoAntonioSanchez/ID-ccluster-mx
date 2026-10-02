@@ -68,62 +68,62 @@ $history_title = get_post_meta(
                     <?php echo esc_html($history_title); ?>
                 </h2>
             <?php endif; ?>
+            <div class="ccluster-nuestra-historia__events">
+                <?php for ($i = 1; $i <= 5; $i++) : ?>
+                    <?php
+                    $event_title = get_post_meta(
+                        get_the_ID(),
+                        "historia_event_{$i}_title",
+                        true
+                    );
+                    $event_description = get_post_meta(
+                        get_the_ID(),
+                        "historia_event_{$i}_description",
+                        true
+                    );
+                    $event_year = get_post_meta(
+                        get_the_ID(),
+                        "historia_event_{$i}_year",
+                        true
+                    );
+                    $event_date = get_post_meta(
+                        get_the_ID(),
+                        "historia_event_{$i}_date",
+                        true
+                    );
+                    ?>
+                    <article class="ccluster-nuestra-historia__event">
+                        <div class="ccluster-nuestra-historia__event-header">
+                            <?php if ($event_title) : ?>
+                                <h3 class="ccluster-nuestra-historia__event-title">
+                                    <?php echo esc_html($event_title); ?>
+                                </h3>
+                            <?php endif; ?>
+                            <?php if ($event_description) : ?>
+                                <p class="ccluster-nuestra-historia__event-description">
+                                    <?php echo esc_html($event_description); ?>
+                                </p>
+                            <?php endif; ?>
+                        </div>
+                        <div class="ccluster-nuestra-historia__event-line">
+                            <span class="ccluster-nuestra-historia__event-dot"></span>
+                        </div>
+                        <div class="ccluster-nuestra-historia__event-date">
+                            <?php if ($event_year) : ?>
+                                <span class="ccluster-nuestra-historia__event-year">
+                                    <?php echo esc_html($event_year); ?>
+                                </span>
+                            <?php endif; ?>
+                            <?php if ($event_date) : ?>
+                                <span class="ccluster-nuestra-historia__event-date-text">
+                                    <?php echo esc_html($event_date); ?>
+                                </span>
+                            <?php endif; ?>
+                        </div>
+                    </article>
+                <?php endfor; ?>
+            </div>
         </div>
-    </div>
-    <div class="ccluster-nuestra-historia__events">
-        <?php for ($i = 1; $i <= 5; $i++) : ?>
-            <?php
-            $event_title = get_post_meta(
-                get_the_ID(),
-                "historia_event_{$i}_title",
-                true
-            );
-            $event_description = get_post_meta(
-                get_the_ID(),
-                "historia_event_{$i}_description",
-                true
-            );
-            $event_year = get_post_meta(
-                get_the_ID(),
-                "historia_event_{$i}_year",
-                true
-            );
-            $event_date = get_post_meta(
-                get_the_ID(),
-                "historia_event_{$i}_date",
-                true
-            );
-            ?>
-            <article class="ccluster-nuestra-historia__event">
-                <div class="ccluster-nuestra-historia__event-header">
-                    <?php if ($event_title) : ?>
-                        <h3 class="ccluster-nuestra-historia__event-title">
-                            <?php echo esc_html($event_title); ?>
-                        </h3>
-                    <?php endif; ?>
-                    <?php if ($event_description) : ?>
-                        <p class="ccluster-nuestra-historia__event-description">
-                            <?php echo esc_html($event_description); ?>
-                        </p>
-                    <?php endif; ?>
-                </div>
-                <div class="ccluster-nuestra-historia__event-line">
-                    <span class="ccluster-nuestra-historia__event-dot"></span>
-                </div>
-                <div class="ccluster-nuestra-historia__event-date">
-                    <?php if ($event_year) : ?>
-                        <span class="ccluster-nuestra-historia__event-year">
-                            <?php echo esc_html($event_year); ?>
-                        </span>
-                    <?php endif; ?>
-                    <?php if ($event_date) : ?>
-                        <span class="ccluster-nuestra-historia__event-date-text">
-                            <?php echo esc_html($event_date); ?>
-                        </span>
-                    <?php endif; ?>
-                </div>
-            </article>
-        <?php endfor; ?>
     </div>
     <?php
     $stat_primary_label = get_post_meta(
