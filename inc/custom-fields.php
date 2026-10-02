@@ -1211,6 +1211,65 @@ add_action(
     'save_post_page',
     'ccluster_save_nuestra_historia'
 );
+// SAVE PRINCIPIOS
+function ccluster_save_principios($post_id)
+{
+    if (
+        !isset($_POST['ccluster_principles_nonce'])
+        || !wp_verify_nonce(
+            $_POST['ccluster_nuestra_principles_nonce'],
+            'ccluster_save_principles'
+        )
+    ) {
+        return;
+    }
+
+    if (
+        defined('DOING_AUTOSAVE')
+        && DOING_AUTOSAVE
+    ) {
+        return;
+    }
+
+    if (
+        !current_user_can(
+            'edit_post',
+            $post_id
+        )
+    ) {
+        return;
+    }
+
+    $fields = [
+        'principios_badge_icon' => 'absint',
+        'principios_badge_text' => 'sanitize_text_field',
+        'principios_title' => 'sanitize_text_field',
+        'principios_description' => 'sanitize_textarea_field',
+    ];
+
+    foreach ($fields as $field => $sanitize_callback) {
+
+        if (!isset($_POST[$field])) {
+            continue;
+        }
+
+        $value = call_user_func(
+            $sanitize_callback,
+            wp_unslash($_POST[$field])
+        );
+
+        update_post_meta(
+            $post_id,
+            $field,
+            $value
+        );
+    }
+}
+
+add_action(
+    'save_post_page',
+    'ccluster_save_principles'
+);
 
 // MEDIA LIBRARY SELECTOR
 function ccluster_enqueue_media_library($hook)

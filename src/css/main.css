@@ -401,6 +401,27 @@
   @apply font-heading text-2xl font-medium leading-7;
 }
 /* PRINCIPLES */
+.ccluster-principios__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ccluster-principios__badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.ccluster-principios__badge-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.ccluster-principios__header h2 {
+  @apply mt-4;
+}
+.ccluster-principios__header p {
+  @apply mt-5 max-w-2xl text-center text-lg leading-8;
+}
 .ccluster-principios {
   width: 100%;
   max-width: 1280px;

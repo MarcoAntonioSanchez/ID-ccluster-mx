@@ -1,6 +1,66 @@
 <section class="ccluster-principios">
+    <?php
+    $principios_badge_icon_id = absint(
+        get_post_meta(
+            get_the_ID(),
+            'principios_badge_icon',
+            true
+        )
+    );
+    $principios_badge_text = get_post_meta(
+        get_the_ID(),
+        'principios_badge_text',
+        true
+    );
+    $principios_title = get_post_meta(
+        get_the_ID(),
+        'principios_title',
+        true
+    );
+    $principios_description = get_post_meta(
+        get_the_ID(),
+        'principios_description',
+        true
+    );
+    ?>
     <!-- HEADER -->
     <div class="ccluster-principios__header">
+        <!-- BADGE -->
+        <div class="ccluster-principios__badge">
+            <?php if ($principios_badge_icon_id) : ?>
+                <?php
+                echo wp_get_attachment_image(
+                    $principios_badge_icon_id,
+                    'thumbnail',
+                    false,
+                    [
+                        'class' => 'ccluster-principios__badge-icon',
+                        'alt'   => '',
+                    ]
+                );
+                ?>
+            <?php endif; ?>
+            <span
+                class="h-[2px] w-[25px] bg-secondary"
+                aria-hidden="true"></span>
+            <?php if ($principios_badge_text) : ?>
+                <span class="font-badge">
+                    <?php echo esc_html($principios_badge_text); ?>
+                </span>
+            <?php endif; ?>
+        </div>
+        <!-- HEADING -->
+        <?php if ($principios_title) : ?>
+            <h2 class="ccluster-section-heading">
+                <?php echo esc_html($principios_title); ?>
+            </h2>
+        <?php endif; ?>
+        <!-- DESCRIPTION -->
+        <?php if ($principios_description) : ?>
+            <p class="font-body">
+                <?php echo esc_html($principios_description); ?>
+            </p>
+        <?php endif; ?>
     </div>
     <?php
     $principios = [
