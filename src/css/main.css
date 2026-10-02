@@ -315,9 +315,14 @@
   position: relative;
 }
 .ccluster-nuestra-historia__events {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3rem;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   width: 100%;
+  padding-inline: 3rem;
 }
 .ccluster-nuestra-historia__event {
   display: grid;
