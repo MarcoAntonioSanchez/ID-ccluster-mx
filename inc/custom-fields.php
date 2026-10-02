@@ -1215,10 +1215,10 @@ add_action(
 function ccluster_save_principios($post_id)
 {
     if (
-        !isset($_POST['ccluster_principles_nonce'])
+        !isset($_POST['ccluster_principios_nonce'])
         || !wp_verify_nonce(
-            $_POST['ccluster_nuestra_principles_nonce'],
-            'ccluster_save_principles'
+            $_POST['ccluster_nuestra_principios_nonce'],
+            'ccluster_save_principios'
         )
     ) {
         return;
