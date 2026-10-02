@@ -325,7 +325,7 @@
 .ccluster-nuestra-historia__event:first-child
   .ccluster-nuestra-historia__event-line::before {
   left: 0;
-  width: 50%;
+  width: 100%;
 }
 .ccluster-nuestra-historia__event-date {
   align-self: start;
