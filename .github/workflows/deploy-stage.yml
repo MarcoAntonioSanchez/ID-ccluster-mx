@@ -31,33 +31,69 @@ jobs:
       - name: Build theme assets
         run: pnpm build
 
-      - name: Setup SSH Key
+      - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
+
           echo "${{ secrets.STAGE_PRIVATE_KEY }}" | base64 -d > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
 
-      - name: Add Server to Known Hosts
-        run: |
-          ssh-keyscan -p ${{ secrets.STAGE_PORT }} \
-            ${{ secrets.STAGE_HOST }} >> ~/.ssh/known_hosts
+          echo "${{ secrets.STAGE_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+          cat > ~/.ssh/config << EOF
+          Host stage
+            HostName ${{ secrets.STAGE_HOST }}
+            User ${{ secrets.STAGE_USERNAME }}
+            Port ${{ secrets.STAGE_PORT }}
+            IdentityFile ~/.ssh/id_ed25519
+
+            ControlMaster auto
+            ControlPersist 60
+            ControlPath ~/.ssh/control-%C
+
+            ConnectTimeout 30
+            ConnectionAttempts 1
+            ServerAliveInterval 30
+            ServerAliveCountMax 3
+          EOF
+
+          chmod 600 ~/.ssh/config
 
       - name: Deploy theme via rsync
         run: |
-          rsync -avz --delete \
-            --exclude='.git' \
-            --exclude='.github' \
-            --exclude='.gitignore' \
-            --exclude='.gitattributes' \
-            --exclude='.DS_Store' \
-            --exclude='node_modules' \
-            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.STAGE_PORT }}" \
-            ./ \
-            ${{ secrets.STAGE_USERNAME }}@${{ secrets.STAGE_HOST }}:${{ secrets.STAGE_TARGET_DIR }}/
+          for attempt in 1 2 3; do
+            echo "========================================="
+            echo "Deploy attempt $attempt/3"
+            echo "========================================="
 
-      - name: Post deploy confirmation
-        run: |
-          ssh -i ~/.ssh/id_ed25519 \
-          -p ${{ secrets.STAGE_PORT }} \
-          ${{ secrets.STAGE_USERNAME }}@${{ secrets.STAGE_HOST }} \
-          "echo 'THEME DEPLOY COMPLETED SUCCESSFULLY'"
+            if rsync -avz \
+              --delete \
+              --exclude='.git' \
+              --exclude='.github' \
+              --exclude='.gitignore' \
+              --exclude='.gitattributes' \
+              --exclude='.DS_Store' \
+              --exclude='node_modules' \
+              -e "ssh" \
+              ./ \
+              stage:${{ secrets.STAGE_TARGET_DIR }}/
+            then
+              echo "========================================="
+              echo "THEME DEPLOY COMPLETED SUCCESSFULLY"
+              echo "========================================="
+              exit 0
+            fi
+
+            echo "Deploy attempt $attempt failed."
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "Waiting 15 seconds before retry..."
+              sleep 15
+            fi
+          done
+
+          echo "========================================="
+          echo "THEME DEPLOY FAILED AFTER 3 ATTEMPTS"
+          echo "========================================="
+          exit 1
