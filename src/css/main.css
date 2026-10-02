@@ -335,7 +335,7 @@
   @apply text-secondary;
 }
 .ccluster-nuestra-historia__stat--strength {
-  @apply text-primary;
+  @apply text-primary shadow-lg;
 }
 .ccluster-nuestra-historia__stat--value,
 .ccluster-nuestra-historia__stat--strength {
