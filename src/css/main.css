@@ -434,10 +434,10 @@
   gap: 2rem;
 }
 .ccluster-principios__card {
-  @apply flex min-h-[350px] flex-col border border-primary/10 p-10;
+  @apply flex min-h-[350px] flex-col border border-primary/10 p-10 transition-colors duration-300;
 }
 .ccluster-principios__card-icon {
-  @apply flex h-16 w-16 shrink-0 items-center justify-center;
+  @apply block h-16 w-16 shrink-0 object-contain;
 }
 .ccluster-principios__card-icon img {
   @apply block h-full w-full object-contain;
@@ -449,7 +449,13 @@
   @apply mt-3 font-body text-base leading-7;
 }
 .ccluster-principios__card-link {
-  @apply mt-auto flex items-center gap-2 pt-6 font-body text-sm font-semibold text-secondary no-underline;
+  @apply mt-auto flex items-center gap-2 pt-6 font-body text-sm font-semibold text-secondary no-underline transition-colors duration-300;
+}
+.ccluster-principios__card:hover {
+  @apply border-secondary;
+}
+.ccluster-principios__card:hover .ccluster-principios__card-link {
+  @apply text-primary;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
