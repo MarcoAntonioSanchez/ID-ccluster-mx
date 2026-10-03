@@ -423,12 +423,10 @@
   @apply mt-5 max-w-2xl text-center text-lg leading-8;
 }
 .ccluster-principios {
-  width: 100%;
-  max-width: 1280px;
-  margin-inline: auto;
-  padding-inline: 1.5rem;
+  @apply w-full max-w-7xl mx-auto px-6 py-28;
 }
 .ccluster-principios__grid {
+  @apply mt-16;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
