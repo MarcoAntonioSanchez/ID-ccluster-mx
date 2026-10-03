@@ -601,10 +601,10 @@
   @apply absolute top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center bg-primary text-xl text-white transition-opacity duration-300 hover:opacity-90;
 }
 .ccluster-ecosistema-soluciones__arrow--prev {
-  @apply -left-6;
+  @apply -left-[100px];
 }
 .ccluster-ecosistema-soluciones__arrow--next {
-  @apply -right-6;
+  @apply -right-[-100px];
 }
 .ccluster-ecosistema-soluciones__pagination {
   @apply mt-8 flex items-center justify-center gap-3;
