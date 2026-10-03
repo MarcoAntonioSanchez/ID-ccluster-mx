@@ -520,11 +520,14 @@
   @apply font-body text-sm text-black/50;
 }
 /* FIRM GOAL */
+.ccluster-objetivo-firma {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
 .ccluster-objetivo-firma__grid {
   @apply mt-16 grid grid-cols-2;
 }
 .ccluster-objetivo-firma__item {
-  @apply p-10;
+  @apply flex min-h-[250px] flex-col items-center justify-center p-10 text-center;
 }
 .ccluster-objetivo-firma__item:nth-child(1) {
   @apply border-r border-b border-primary/10;
@@ -539,7 +542,7 @@
   @apply border-l border-primary/10;
 }
 .ccluster-objetivo-firma__item-header {
-  @apply flex items-center gap-4;
+  @apply flex items-center justify-center gap-4;
 }
 .ccluster-objetivo-firma__item-icon {
   @apply h-8 w-8 shrink-0 object-contain text-primary;
@@ -548,7 +551,7 @@
   @apply font-body text-2xl font-semibold text-primary;
 }
 .ccluster-objetivo-firma__item-description {
-  @apply mt-4 max-w-xl font-body text-base leading-7;
+  @apply mt-4 max-w-xl text-center font-body text-base leading-7;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
