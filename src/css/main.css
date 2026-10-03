@@ -477,6 +477,15 @@
 .ccluster-nuestro-equipo__intro {
   @apply mt-5 font-body text-lg leading-8;
 }
+.ccluster-nuestro-equipo__experience {
+  @apply mt-8 font-body text-3xl font-normal leading-10;
+}
+.ccluster-nuestro-equipo__text {
+  @apply mt-5 font-body text-base leading-7;
+}
+.ccluster-nuestro-equipo__experience strong {
+  @apply font-bold;
+}
 .ccluster-nuestro-equipo__media {
   @apply aspect-square w-full;
 }
