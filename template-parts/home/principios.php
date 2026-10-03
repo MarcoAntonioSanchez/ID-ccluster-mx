@@ -91,69 +91,62 @@
     ];
     ?>
     <div class="ccluster-principios__grid">
-        <?php
-        $principio_1_icon = get_post_meta(
-            get_the_ID(),
-            'principio_1_icon',
-            true
-        );
-
-        $principio_1_title = get_post_meta(
-            get_the_ID(),
-            'principio_1_title',
-            true
-        );
-
-        $principio_1_description = get_post_meta(
-            get_the_ID(),
-            'principio_1_description',
-            true
-        );
-
-        $principio_1_url = get_post_meta(
-            get_the_ID(),
-            'principio_1_url',
-            true
-        );
-        ?>
-
-        <article class="ccluster-principios__card">
-
-            <?php if ($principio_1_icon) : ?>
-                <?php
-                echo wp_get_attachment_image(
-                    absint($principio_1_icon),
-                    'thumbnail',
-                    false,
-                    [
-                        'class' => 'ccluster-principios__card-icon',
-                        'alt'   => '',
-                    ]
-                );
-                ?>
-            <?php endif; ?>
-
-            <?php if ($principio_1_title) : ?>
-                <h3 class="ccluster-principios__card-title">
-                    <?php echo esc_html($principio_1_title); ?>
-                </h3>
-            <?php endif; ?>
-
-            <?php if ($principio_1_description) : ?>
-                <p class="ccluster-principios__card-description">
-                    <?php echo esc_html($principio_1_description); ?>
-                </p>
-            <?php endif; ?>
-
-            <?php if ($principio_1_url) : ?>
-                <a
-                    href="<?php echo esc_url($principio_1_url); ?>"
-                    class="ccluster-principios__card-link">
-                    Leer más
-                    <span aria-hidden="true">→</span>
-                </a>
-            <?php endif; ?>
-
-        </article>
+        <?php for ($i = 1; $i <= 6; $i++) : ?>
+            <?php
+            $principio_icon = get_post_meta(
+                get_the_ID(),
+                "principio_{$i}_icon",
+                true
+            );
+            $principio_title = get_post_meta(
+                get_the_ID(),
+                "principio_{$i}_title",
+                true
+            );
+            $principio_description = get_post_meta(
+                get_the_ID(),
+                "principio_{$i}_description",
+                true
+            );
+            $principio_url = get_post_meta(
+                get_the_ID(),
+                "principio_{$i}_url",
+                true
+            );
+            ?>
+            <article class="ccluster-principios__card">
+                <?php if ($principio_icon) : ?>
+                    <?php
+                    echo wp_get_attachment_image(
+                        absint($principio_icon),
+                        'thumbnail',
+                        false,
+                        [
+                            'class' => 'ccluster-principios__card-icon',
+                            'alt'   => '',
+                        ]
+                    );
+                    ?>
+                <?php endif; ?>
+                <?php if ($principio_title) : ?>
+                    <h3 class="ccluster-principios__card-title">
+                        <?php echo esc_html($principio_title); ?>
+                    </h3>
+                <?php endif; ?>
+                <?php if ($principio_description) : ?>
+                    <p class="ccluster-principios__card-description">
+                        <?php echo esc_html($principio_description); ?>
+                    </p>
+                <?php endif; ?>
+                <?php if ($principio_url) : ?>
+                    <a
+                        href="<?php echo esc_url($principio_url); ?>"
+                        class="ccluster-principios__card-link">
+                        Leer más
+                        <span aria-hidden="true">→</span>
+                    </a>
+                <?php endif; ?>
+            </article>
+        <?php endfor; ?>
     </div>
 </section>
