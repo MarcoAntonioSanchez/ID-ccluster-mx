@@ -15,6 +15,9 @@ get_header();
     get_template_part(
         'template-parts/home/principios'
     );
+    get_template_part(
+        'template-parts/nuestro-equipo'
+    );
     ?>
 </main>
 <?php
