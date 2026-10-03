@@ -526,6 +526,27 @@
 .ccluster-objetivo-firma__item {
   @apply p-10;
 }
+.ccluster-objetivo-firma__item:nth-child(1) {
+  @apply border-r border-b border-primary/10;
+}
+.ccluster-objetivo-firma__item:nth-child(2) {
+  @apply border-l border-b border-primary/10;
+}
+.ccluster-objetivo-firma__item:nth-child(3) {
+  @apply border-r border-primary/10;
+}
+.ccluster-objetivo-firma__item:nth-child(4) {
+  @apply border-l border-primary/10;
+}
+.ccluster-objetivo-firma__item-header {
+  @apply flex items-center gap-4;
+}
+.ccluster-objetivo-firma__item-icon {
+  @apply h-8 w-8 shrink-0 object-contain text-primary;
+}
+.ccluster-objetivo-firma__item-title {
+  @apply font-body text-2xl font-semibold text-primary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

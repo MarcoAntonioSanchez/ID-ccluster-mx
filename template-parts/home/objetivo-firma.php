@@ -28,9 +28,53 @@
     </div>
     <!-- OBJECTIVES GRID -->
     <div class="ccluster-objetivo-firma__grid">
-        <div class="ccluster-objetivo-firma__item"></div>
-        <div class="ccluster-objetivo-firma__item"></div>
-        <div class="ccluster-objetivo-firma__item"></div>
-        <div class="ccluster-objetivo-firma__item"></div>
+        <div class="ccluster-objetivo-firma__item">
+            <div class="ccluster-objetivo-firma__item-header">
+                <img
+                    src="URL-ICONO"
+                    alt=""
+                    class="ccluster-objetivo-firma__item-icon">
+
+                <h3 class="ccluster-objetivo-firma__item-title">
+                    Título del objetivo
+                </h3>
+            </div>
+        </div>
+        <div class="ccluster-objetivo-firma__item">
+            <div class="ccluster-objetivo-firma__item-header">
+                <img
+                    src="URL-ICONO"
+                    alt=""
+                    class="ccluster-objetivo-firma__item-icon">
+
+                <h3 class="ccluster-objetivo-firma__item-title">
+                    Título del objetivo
+                </h3>
+            </div>
+        </div>
+        <div class="ccluster-objetivo-firma__item">
+            <div class="ccluster-objetivo-firma__item-header">
+                <img
+                    src="URL-ICONO"
+                    alt=""
+                    class="ccluster-objetivo-firma__item-icon">
+
+                <h3 class="ccluster-objetivo-firma__item-title">
+                    Título del objetivo
+                </h3>
+            </div>
+        </div>
+        <div class="ccluster-objetivo-firma__item">
+            <div class="ccluster-objetivo-firma__item-header">
+                <img
+                    src="URL-ICONO"
+                    alt=""
+                    class="ccluster-objetivo-firma__item-icon">
+
+                <h3 class="ccluster-objetivo-firma__item-title">
+                    Título del objetivo
+                </h3>
+            </div>
+        </div>
     </div>
 </section>
