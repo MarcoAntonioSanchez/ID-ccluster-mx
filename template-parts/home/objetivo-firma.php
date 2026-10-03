@@ -25,7 +25,7 @@
             sector empresarial
         </h2>
         <!-- DESCRIPTION -->
-        <p class="text-center mt-8">
+        <p class="text-center mt-8 w-[50%]">
             Como Compliance Cluster, nuestra razón de ser es blindar el futuro de las organizaciones
             mediante un ecosistema societario interconectado de profesionales de élite,
             transformando la complejidad regulatoria en entornos de absoluta certidumbre para nuestros clientes.
