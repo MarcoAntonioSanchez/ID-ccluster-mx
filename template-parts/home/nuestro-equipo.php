@@ -34,7 +34,7 @@
             </div>
             <!-- HEADING -->
             <h2 class="ccluster-section-heading">
-                Madurez Técnica y Expertise
+                Madurez <span clas="text-secondary">Técnica</span><br />y Expertise
             </h2>
             <!-- EXPERIENCE -->
             <h3 class="ccluster-nuestro-equipo__experience">
