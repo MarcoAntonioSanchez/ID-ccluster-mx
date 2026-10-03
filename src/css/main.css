@@ -471,6 +471,9 @@
 .ccluster-nuestro-equipo__content {
   @apply flex flex-col;
 }
+.ccluster-nuestro-equipo__content h2 {
+  @apply mt-4;
+}
 .ccluster-nuestro-equipo__media {
   @apply aspect-square w-full;
 }
@@ -479,10 +482,6 @@
 }
 .ccluster-nuestro-equipo__image img {
   @apply block h-full w-full object-cover;
-}
-/* OUR LEADERSHIP TEAM */
-.ccluster-nuestro-equipo {
-  @apply w-full;
 }
 .ccluster-nuestro-equipo__badge {
   @apply flex items-center gap-3;
