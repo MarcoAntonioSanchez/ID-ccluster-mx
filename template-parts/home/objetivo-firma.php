@@ -68,7 +68,7 @@
             </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
-            <div class="ccluster-objetivo-firma__item-header text-end">
+            <div class="ccluster-objetivo-firma__item-header">
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
                     alt=""
@@ -78,7 +78,7 @@
                     Fortalecer
                 </h3>
             </div>
-            <p class="ccluster-objetivo-firma__item-description">
+            <p class="ccluster-objetivo-firma__item-description text-end">
                 el gobierno corporativo
                 para asegurar continuidad
                 y trascendencia generacional.
