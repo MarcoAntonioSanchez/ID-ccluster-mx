@@ -44,7 +44,7 @@
                     Prevenir
                 </h3>
             </div>
-            <p class="ccluster-objetivo-firma__item-description">
+            <p class="ccluster-objetivo-firma__item-description text-end">
                 contingencias legales,
                 fiscales y patrimoniales
                 antes de que se materialicen.
@@ -61,7 +61,7 @@
                     Acompañar
                 </h3>
             </div>
-            <p class="ccluster-objetivo-firma__item-description">
+            <p class="ccluster-objetivo-firma__item-description text-end">
                 el cumplimiento de la LFPIORPI
                 y la regulación del Sistema
                 Financiero Mexicano.
