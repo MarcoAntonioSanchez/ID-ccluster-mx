@@ -490,7 +490,7 @@
   @apply mt-4;
 }
 .ccluster-nuestro-equipo__text {
-  @apply mt-5 font-body text-base leading-7;
+  @apply mt-5 font-body text-base leading-7 w-[75%];
 }
 .ccluster-nuestro-equipo__experience + .ccluster-nuestro-equipo__text {
   @apply mt-6;
