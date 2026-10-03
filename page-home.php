@@ -21,6 +21,9 @@ get_header();
     get_template_part(
         'template-parts/home/objetivo-firma'
     );
+    get_template_part(
+        'template-parts/home/ecosistema-soluciones'
+    );
     ?>
 </main>
 <?php
