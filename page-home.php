@@ -16,7 +16,7 @@ get_header();
         'template-parts/home/principios'
     );
     get_template_part(
-        'template-parts/nuestro-equipo'
+        'template-parts/home/nuestro-equipo'
     );
     ?>
 </main>
