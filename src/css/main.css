@@ -597,6 +597,15 @@
 .ccluster-ecosistema-soluciones__slide-image {
   @apply block h-auto w-full object-cover;
 }
+.ccluster-ecosistema-soluciones__pagination {
+  @apply mt-8 flex items-center justify-center gap-3;
+}
+.ccluster-ecosistema-soluciones__bullet {
+  @apply h-2 w-2 rounded-full bg-primary/20 transition-all duration-300;
+}
+.ccluster-ecosistema-soluciones__bullet.is-active {
+  @apply w-8 bg-secondary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

@@ -61,6 +61,38 @@
                     class="ccluster-ecosistema-soluciones__slide-image">
                 <!-- PREVIOUS / NEXT -->
             </div>
+            <div class="ccluster-ecosistema-soluciones__pagination" aria-label="Paginación de servicios">
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__bullet is-active"
+                    aria-label="Servicio 1"
+                    aria-current="true">
+                </button>
+
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__bullet"
+                    aria-label="Servicio 2">
+                </button>
+
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__bullet"
+                    aria-label="Servicio 3">
+                </button>
+
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__bullet"
+                    aria-label="Servicio 4">
+                </button>
+
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__bullet"
+                    aria-label="Servicio 5">
+                </button>
+            </div>
         </article>
     </div>
 </section>
