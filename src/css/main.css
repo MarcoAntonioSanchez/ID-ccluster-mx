@@ -507,6 +507,9 @@
 .ccluster-nuestro-equipo__profile {
   @apply mt-8 flex items-center gap-4;
 }
+.ccluster-nuestro-equipo__avatar {
+  @apply h-20 w-20 shrink-0 rounded-full border-4 border-primary object-cover;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
