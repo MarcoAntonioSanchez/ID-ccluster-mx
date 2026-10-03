@@ -7,7 +7,7 @@
         <!-- BADGE -->
         <div class="ccluster-objetivo-firma__badge">
             <img
-                src="URL-ICONO"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                 alt=""
                 class="ccluster-objetivo-firma__badge-icon">
             <span
@@ -18,14 +18,14 @@
             </span>
         </div>
         <!-- TITLE -->
-        <h2 class="ccluster-section-heading">
+        <h2 class="ccluster-section-heading text-center">
             Garantizar la estabilidad<br />
             <span class="text-secondary">jurídica</span>, la protección del patrimonio<br />
             corporativo y la <span class="text-secondary">trascendencia</span> del<br />
             sector empresarial
         </h2>
         <!-- DESCRIPTION -->
-        <p>
+        <p class="text-center">
             Como Compliance Cluster, nuestra razón de ser es blindar el futuro de las organizaciones
             mediante un ecosistema societario interconectado de profesionales de élite,
             transformando la complejidad regulatoria en entornos de absoluta certidumbre para nuestros clientes.
