@@ -45,7 +45,9 @@
                 </h3>
             </div>
             <p class="ccluster-objetivo-firma__item-description">
-                Descripción del objetivo.
+                contingencias legales,
+                fiscales y patrimoniales
+                antes de que se materialicen.
             </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
@@ -60,7 +62,9 @@
                 </h3>
             </div>
             <p class="ccluster-objetivo-firma__item-description">
-                Descripción del objetivo.
+                el cumplimiento de la LFPIORPI
+                y la regulación del Sistema
+                Financiero Mexicano.
             </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
@@ -75,7 +79,9 @@
                 </h3>
             </div>
             <p class="ccluster-objetivo-firma__item-description">
-                Descripción del objetivo.
+                el gobierno corporativo
+                para asegurar continuidad
+                y trascendencia generacional.
             </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
@@ -90,7 +96,9 @@
                 </h3>
             </div>
             <p class="ccluster-objetivo-firma__item-description">
-                Descripción del objetivo.
+                alianzas estratégicas
+                que multiplican la capacidad técnica
+                sin sacrificar rigor ni confidencialidad.
             </p>
         </div>
     </div>
