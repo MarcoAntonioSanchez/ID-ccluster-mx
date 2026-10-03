@@ -434,7 +434,7 @@
   gap: 2rem;
 }
 .ccluster-principios__card {
-  @apply flex min-h-[350px] flex-col bg-white p-10;
+  @apply flex min-h-[350px] flex-col border border-primary/10 p-10;
 }
 .ccluster-principios__card-icon {
   @apply flex h-16 w-16 shrink-0 items-center justify-center;
