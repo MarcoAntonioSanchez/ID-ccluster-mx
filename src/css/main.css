@@ -519,6 +519,13 @@
 .ccluster-nuestro-equipo__profile-role {
   @apply font-body text-sm text-black/50;
 }
+/* FIRM GOAL */
+.ccluster-objetivo-firma__grid {
+  @apply mt-16 grid grid-cols-2;
+}
+.ccluster-objetivo-firma__item {
+  @apply p-10;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

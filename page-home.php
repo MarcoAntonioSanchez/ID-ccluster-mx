@@ -18,6 +18,9 @@ get_header();
     get_template_part(
         'template-parts/home/nuestro-equipo'
     );
+    get_template_part(
+        'template-parts/home/objetivo-firma'
+    );
     ?>
 </main>
 <?php
