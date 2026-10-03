@@ -34,11 +34,11 @@
             </div>
             <!-- HEADING -->
             <h2 class="ccluster-section-heading">
-                Nuestro equipo líder
+                Madurez Técnica y Expertise
             </h2>
             <!-- INTRODUCTION -->
             <p class="ccluster-nuestro-equipo__intro">
-                Texto introductorio de la sección.
+                Más de 20 Años de Experiencia
             </p>
             <!-- EXPERIENCE -->
             <h3 class="ccluster-nuestro-equipo__experience">
@@ -46,10 +46,10 @@
             </h3>
             <!-- BODY -->
             <p class="ccluster-nuestro-equipo__text">
-                Primer párrafo de contenido.
+                Conjuntamos a profesionales con más de dos décadas de experiencia comprobada en el sector jurídico y de cumplimiento normativo.
             </p>
             <p class="ccluster-nuestro-equipo__text">
-                Segundo párrafo de contenido.
+                Esta veteranía nos permite liderar el cambio con una visión estratégica que solo los años de práctica en alta consultoría pueden otorgar.
             </p>
             <!-- RATING -->
             <div class="ccluster-nuestro-equipo__rating">
