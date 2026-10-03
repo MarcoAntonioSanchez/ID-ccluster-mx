@@ -7,6 +7,11 @@
 
         <!-- MEDIA -->
         <div class="ccluster-nuestro-equipo__media">
+            <div class="ccluster-nuestro-equipo__image">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/nails-paper-nodes-img.png"
+                    alt="">
+            </div>
         </div>
 
         <!-- CONTENT -->

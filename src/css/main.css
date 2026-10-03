@@ -455,7 +455,31 @@
 .ccluster-principios__card:hover .ccluster-principios__card-link {
   @apply text-primary;
 }
-/* OUR TEAM */
+/* OUR LEADERSHIP TEAM */
+.ccluster-nuestro-equipo {
+  @apply w-full;
+}
+.ccluster-nuestro-equipo__inner {
+  @apply grid grid-cols-2;
+}
+.ccluster-nuestro-equipo__media {
+  @apply aspect-square w-full;
+}
+.ccluster-nuestro-equipo__image {
+  @apply h-full w-full;
+}
+.ccluster-nuestro-equipo__content {
+  @apply flex flex-col;
+}
+.ccluster-nuestro-equipo__media {
+  @apply aspect-square w-full;
+}
+.ccluster-nuestro-equipo__image {
+  @apply h-full w-full;
+}
+.ccluster-nuestro-equipo__image img {
+  @apply block h-full w-full object-cover;
+}
 /* OUR LEADERSHIP TEAM */
 .ccluster-nuestro-equipo {
   @apply w-full;
