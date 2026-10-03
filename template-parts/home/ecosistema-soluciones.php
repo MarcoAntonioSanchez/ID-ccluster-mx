@@ -55,11 +55,24 @@
             <!-- SLIDE MEDIA -->
             <div class="ccluster-ecosistema-soluciones__slide-media">
                 <!-- IMAGE -->
+                <!-- PREVIOUS -->
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--prev"
+                    aria-label="Servicio anterior">
+                    <span aria-hidden="true">←</span>
+                </button>
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png"
                     alt=""
                     class="ccluster-ecosistema-soluciones__slide-image">
-                <!-- PREVIOUS / NEXT -->
+                <!-- NEXT -->
+                <button
+                    type="button"
+                    class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--next"
+                    aria-label="Siguiente servicio">
+                    <span aria-hidden="true">→</span>
+                </button>
             </div>
             <div class="ccluster-ecosistema-soluciones__pagination" aria-label="Paginación de servicios">
                 <button
