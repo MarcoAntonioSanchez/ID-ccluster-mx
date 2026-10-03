@@ -59,7 +59,7 @@
             <div class="ccluster-nuestro-equipo__profile">
                 <img
                     class="ccluster-nuestro-equipo__avatar"
-                    src="URL-DE-TU-AVATAR"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/business-men-suite-avatar.png"
                     alt="">
                 <div class="ccluster-nuestro-equipo__profile-info">
                     <strong class="ccluster-nuestro-equipo__profile-name">

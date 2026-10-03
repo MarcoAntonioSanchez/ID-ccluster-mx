@@ -504,6 +504,9 @@
 .ccluster-nuestro-equipo__rating span {
   @apply text-xl leading-none;
 }
+.ccluster-nuestro-equipo__profile {
+  @apply mt-8 flex items-center gap-4;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
