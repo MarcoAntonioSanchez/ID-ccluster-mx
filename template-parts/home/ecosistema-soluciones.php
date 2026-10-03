@@ -1,10 +1,8 @@
 <?php
 ?>
 <section class="ccluster-ecosistema-soluciones">
-
     <!-- HEADER -->
     <div class="ccluster-ecosistema-soluciones__header">
-
         <div class="ccluster-ecosistema-soluciones__header-content">
             <!-- BADGE -->
             <div class="ccluster-objetivo-firma__badge">
@@ -21,11 +19,10 @@
             </div>
             <!-- TITLE -->
             <h2 class="ccluster-section-heading">
-                Nuestros Servicios - Blindaje Integral
-                Para el Empresario y su Legado
+                Nuestros Servicios - <span class="text-secondary">Blindaje</span> Integral
+                Para el <span class="text-secondary">Empresario</span> y su Legado
             </h2>
         </div>
-
         <!-- CTA -->
         <div class="ccluster-ecosistema-soluciones__header-cta">
             <!-- CTA -->
@@ -35,42 +32,31 @@
                 Ver Todos los Servicios
             </a>
         </div>
-
     </div>
-
     <!-- CAROUSEL -->
     <div class="ccluster-ecosistema-soluciones__carousel">
-
         <!-- SLIDE -->
         <article class="ccluster-ecosistema-soluciones__slide">
-
             <!-- SLIDE INTRO -->
             <div class="ccluster-ecosistema-soluciones__slide-intro">
-
                 <div class="ccluster-ecosistema-soluciones__slide-title">
                     <!-- TITLE -->
                     <h3 class="ccluster-ecosistema-soluciones__title">
                         PLD — Actividades Vulnerables
                     </h3>
                 </div>
-
                 <div class="ccluster-ecosistema-soluciones__slide-description">
                     <!-- DESCRIPTION -->
                     <p>
                         Asesoría integral para empresas y personas físicas consideradas Actividades Vulnerables conforme a la LFPIORPI, que les permite operar con absoluta certeza regulatoria.
                     </p>
                 </div>
-
             </div>
-
             <!-- SLIDE MEDIA -->
             <div class="ccluster-ecosistema-soluciones__slide-media">
                 <!-- IMAGE -->
                 <!-- PREVIOUS / NEXT -->
             </div>
-
         </article>
-
     </div>
-
 </section>
