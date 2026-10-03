@@ -55,6 +55,10 @@
             <!-- SLIDE MEDIA -->
             <div class="ccluster-ecosistema-soluciones__slide-media">
                 <!-- IMAGE -->
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png"
+                    alt=""
+                    class="ccluster-ecosistema-soluciones__slide-image">
                 <!-- PREVIOUS / NEXT -->
             </div>
         </article>
