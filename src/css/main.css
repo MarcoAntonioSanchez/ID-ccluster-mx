@@ -520,6 +520,9 @@
   @apply font-body text-sm text-black/50;
 }
 /* FIRM GOAL */
+.ccluster-objetivo-firma__header {
+  @apply justify-center gap-3;
+}
 .ccluster-objetivo-firma__badge {
   @apply flex items-center gap-3;
 }
