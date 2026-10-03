@@ -20,7 +20,7 @@
                 </span>
             </div>
             <!-- TITLE -->
-            <h2 class="ccluster-section-heading text-center">
+            <h2 class="ccluster-section-heading">
                 Nuestros Servicios - Blindaje Integral
                 Para el Empresario y su Legado
             </h2>
@@ -49,9 +49,9 @@
 
                 <div class="ccluster-ecosistema-soluciones__slide-title">
                     <!-- TITLE -->
-                    <p class="ccluster-section-heading text-center">
-                        PLD - Actividades Vulnerables
-                    </p>
+                    <h3 class="ccluster-ecosistema-soluciones__title">
+                        PLD — Actividades Vulnerables
+                    </h3>
                 </div>
 
                 <div class="ccluster-ecosistema-soluciones__slide-description">

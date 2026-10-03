@@ -581,6 +581,9 @@
 .ccluster-ecosistema-soluciones__header-cta {
   @apply col-span-3 flex justify-end;
 }
+.ccluster-ecosistema-soluciones__title {
+  @apply mt-8 font-body text-3xl font-normal leading-10;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
