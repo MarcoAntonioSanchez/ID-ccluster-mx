@@ -63,10 +63,10 @@
                     alt="">
                 <div class="ccluster-nuestro-equipo__profile-info">
                     <strong class="ccluster-nuestro-equipo__profile-name">
-                        Nombre
+                        Carlos Pérez
                     </strong>
                     <span class="ccluster-nuestro-equipo__profile-role">
-                        Puesto
+                        Socio Fundador
                     </span>
                 </div>
             </div>

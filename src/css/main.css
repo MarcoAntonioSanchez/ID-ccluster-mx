@@ -510,6 +510,15 @@
 .ccluster-nuestro-equipo__avatar {
   @apply h-20 w-20 shrink-0 rounded-full border-4 border-primary object-cover;
 }
+.ccluster-nuestro-equipo__profile-info {
+  @apply flex flex-col;
+}
+.ccluster-nuestro-equipo__profile-name {
+  @apply font-body text-base font-bold;
+}
+.ccluster-nuestro-equipo__profile-role {
+  @apply font-body text-sm text-black/50;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
