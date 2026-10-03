@@ -48,8 +48,12 @@
                 Esta veteranía nos permite liderar el cambio con una visión estratégica que solo los años de práctica en alta consultoría pueden otorgar.
             </p>
             <!-- RATING -->
-            <div class="ccluster-nuestro-equipo__rating">
-                ★ ★ ★ ★ ★
+            <div class="ccluster-nuestro-equipo__rating" aria-label="5 de 5 estrellas">
+                <span aria-hidden="true">★</span>
+                <span aria-hidden="true">★</span>
+                <span aria-hidden="true">★</span>
+                <span aria-hidden="true">★</span>
+                <span aria-hidden="true">★</span>
             </div>
             <!-- PROFILE -->
             <div class="ccluster-nuestro-equipo__profile">
