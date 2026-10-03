@@ -568,6 +568,19 @@
 .ccluster-objetivo-firma__item-description {
   @apply mt-4 max-w-lg font-body text-base leading-7;
 }
+/* SOLUTIONS ECOSYSTEM */
+.ccluster-ecosistema-soluciones {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-ecosistema-soluciones__header {
+  @apply grid grid-cols-10 items-center;
+}
+.ccluster-ecosistema-soluciones__header-content {
+  @apply col-span-7;
+}
+.ccluster-ecosistema-soluciones__header-cta {
+  @apply col-span-3 flex justify-end;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
