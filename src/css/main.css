@@ -521,7 +521,13 @@
 }
 /* FIRM GOAL */
 .ccluster-objetivo-firma__header {
-  @apply justify-center gap-3;
+  @apply flex flex-col items-center;
+}
+.ccluster-objetivo-firma__header h2 {
+  @apply mt-4;
+}
+.ccluster-objetivo-firma__header p {
+  @apply mt-5 max-w-2xl text-center;
 }
 .ccluster-objetivo-firma__badge {
   @apply flex items-center gap-3;
@@ -539,19 +545,19 @@
   @apply flex min-h-[250px] flex-col justify-center p-10;
 }
 .ccluster-objetivo-firma__item:nth-child(1) {
-  @apply border-r border-b border-primary/10 self-end;
+  @apply items-end border-r border-b border-primary/10;
 }
 .ccluster-objetivo-firma__item:nth-child(2) {
-  @apply border-l border-b border-primary/10 self-start;
+  @apply items-start border-l border-b border-primary/10;
 }
 .ccluster-objetivo-firma__item:nth-child(3) {
-  @apply border-r border-primary/10 self-end;
+  @apply items-end border-r border-primary/10;
 }
 .ccluster-objetivo-firma__item:nth-child(4) {
-  @apply border-l border-primary/10 self-start;
+  @apply items-start border-l border-primary/10;
 }
 .ccluster-objetivo-firma__item-header {
-  @apply flex items-center justify-center gap-4;
+  @apply flex items-center gap-4;
 }
 .ccluster-objetivo-firma__item-icon {
   @apply h-8 w-8 shrink-0 object-contain text-primary;
@@ -560,7 +566,7 @@
   @apply font-body text-2xl font-semibold text-primary;
 }
 .ccluster-objetivo-firma__item-description {
-  @apply mt-4 max-w-lg text-center font-body text-base leading-7;
+  @apply mt-4 max-w-lg font-body text-base leading-7;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {

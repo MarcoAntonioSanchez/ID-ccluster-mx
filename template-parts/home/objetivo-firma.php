@@ -18,14 +18,14 @@
             </span>
         </div>
         <!-- TITLE -->
-        <h2 class="ccluster-section-heading text-center mt-8">
+        <h2 class="ccluster-section-heading text-center">
             Garantizar la estabilidad<br />
             <span class="text-secondary">jurídica</span>, la protección del patrimonio<br />
             corporativo y la <span class="text-secondary">trascendencia</span> del<br />
             sector empresarial
         </h2>
         <!-- DESCRIPTION -->
-        <p class="text-center mt-8 w-[50%]">
+        <p class="text-center w-[50%]">
             Como Compliance Cluster, nuestra razón de ser es blindar el futuro de las organizaciones
             mediante un ecosistema societario interconectado de profesionales de élite,
             transformando la complejidad regulatoria en entornos de absoluta certidumbre para nuestros clientes.
