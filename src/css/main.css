@@ -474,9 +474,6 @@
 .ccluster-nuestro-equipo__content h2 {
   @apply mt-4;
 }
-.ccluster-nuestro-equipo__intro {
-  @apply mt-5 font-body text-lg leading-8;
-}
 .ccluster-nuestro-equipo__experience {
   @apply mt-8 font-body text-3xl font-normal leading-10;
 }

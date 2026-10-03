@@ -36,10 +36,6 @@
             <h2 class="ccluster-section-heading">
                 Madurez Técnica y Expertise
             </h2>
-            <!-- INTRODUCTION -->
-            <p class="ccluster-nuestro-equipo__intro">
-                Más de 20 Años de Experiencia
-            </p>
             <!-- EXPERIENCE -->
             <h3 class="ccluster-nuestro-equipo__experience">
                 Más de 20 años <strong>de experiencia</strong>
