@@ -14,16 +14,21 @@
                 class="h-[2px] w-[25px] bg-secondary"
                 aria-hidden="true"></span>
             <span class="font-badge">
-                Objetivo de la firma
+                OBJETIVO DE LA FIRMA
             </span>
         </div>
         <!-- TITLE -->
         <h2 class="ccluster-section-heading">
-            Objetivo de la firma
+            Garantizar la estabilidad<br />
+            <span class="text-secondary">jurídica</span>, la protección del patrimonio<br />
+            corporativo y la <span class="text-secondary">trascendencia</span> del<br />
+            sector empresarial
         </h2>
         <!-- DESCRIPTION -->
         <p>
-            Descripción de la sección.
+            Como Compliance Cluster, nuestra razón de ser es blindar el futuro de las organizaciones
+            mediante un ecosistema societario interconectado de profesionales de élite,
+            transformando la complejidad regulatoria en entornos de absoluta certidumbre para nuestros clientes.
         </p>
     </div>
     <!-- OBJECTIVES GRID -->
@@ -31,48 +36,48 @@
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
                 <img
-                    src="URL-ICONO"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
                     alt=""
                     class="ccluster-objetivo-firma__item-icon">
 
                 <h3 class="ccluster-objetivo-firma__item-title">
-                    Título del objetivo
+                    Prevenir
                 </h3>
             </div>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
                 <img
-                    src="URL-ICONO"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
                     alt=""
                     class="ccluster-objetivo-firma__item-icon">
 
                 <h3 class="ccluster-objetivo-firma__item-title">
-                    Título del objetivo
+                    Acompañar
                 </h3>
             </div>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
                 <img
-                    src="URL-ICONO"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
                     alt=""
                     class="ccluster-objetivo-firma__item-icon">
 
                 <h3 class="ccluster-objetivo-firma__item-title">
-                    Título del objetivo
+                    Fortalecer
                 </h3>
             </div>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
                 <img
-                    src="URL-ICONO"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
                     alt=""
                     class="ccluster-objetivo-firma__item-icon">
 
                 <h3 class="ccluster-objetivo-firma__item-title">
-                    Título del objetivo
+                    Construir
                 </h3>
             </div>
         </div>
