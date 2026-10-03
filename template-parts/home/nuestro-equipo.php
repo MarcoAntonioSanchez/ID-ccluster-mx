@@ -20,6 +20,10 @@
             <div class="ccluster-nuestro-equipo__badge">
                 <span class="ccluster-nuestro-equipo__badge-icon">
                     <!-- icono -->
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
+                        alt=""
+                        class="ccluster-nuestro-equipo__badge-icon">
                 </span>
                 <span
                     class="h-[2px] w-[25px] bg-secondary"

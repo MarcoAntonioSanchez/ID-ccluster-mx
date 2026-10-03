@@ -484,6 +484,12 @@
 .ccluster-nuestro-equipo {
   @apply w-full;
 }
+.ccluster-nuestro-equipo__badge {
+  @apply flex items-center gap-3;
+}
+.ccluster-nuestro-equipo__badge-icon {
+  @apply h-6 w-6 object-contain;
+}
 .ccluster-nuestro-equipo__inner {
   @apply grid grid-cols-2;
 }
@@ -494,7 +500,7 @@
   @apply h-full w-full;
 }
 .ccluster-nuestro-equipo__content {
-  @apply flex flex-col;
+  @apply flex flex-col justify-center px-20;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
