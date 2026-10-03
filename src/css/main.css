@@ -547,6 +547,9 @@
 .ccluster-objetivo-firma__item-title {
   @apply font-body text-2xl font-semibold text-primary;
 }
+.ccluster-objetivo-firma__item-description {
+  @apply mt-4 max-w-xl font-body text-base leading-7;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

@@ -44,6 +44,9 @@
                     Prevenir
                 </h3>
             </div>
+            <p class="ccluster-objetivo-firma__item-description">
+                Descripción del objetivo.
+            </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
@@ -56,6 +59,9 @@
                     Acompañar
                 </h3>
             </div>
+            <p class="ccluster-objetivo-firma__item-description">
+                Descripción del objetivo.
+            </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
@@ -68,6 +74,9 @@
                     Fortalecer
                 </h3>
             </div>
+            <p class="ccluster-objetivo-firma__item-description">
+                Descripción del objetivo.
+            </p>
         </div>
         <div class="ccluster-objetivo-firma__item">
             <div class="ccluster-objetivo-firma__item-header">
@@ -80,6 +89,9 @@
                     Construir
                 </h3>
             </div>
+            <p class="ccluster-objetivo-firma__item-description">
+                Descripción del objetivo.
+            </p>
         </div>
     </div>
 </section>
