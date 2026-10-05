@@ -56,10 +56,10 @@
                     alt=""
                     class="ccluster-objetivo-ccluster__item-icon">
                 <h3 class="ccluster-objetivo-ccluster__item-title">
-                    Prevenir
+                    Acompañar
                 </h3>
                 <p class="ccluster-objetivo-ccluster__item-description">
-                    Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
+                    El cumplimiento de la LFPIORPI y la regulación del Sistema Financiero Mexicano.
                 </p>
             </div>
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
@@ -80,10 +80,10 @@
                     alt=""
                     class="ccluster-objetivo-ccluster__item-icon">
                 <h3 class="ccluster-objetivo-ccluster__item-title">
-                    Prevenir
+                    Fortalecer
                 </h3>
                 <p class="ccluster-objetivo-ccluster__item-description">
-                    Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
+                    El gobierno corporativo para asegurar continuidad y trascendencia generacional.
                 </p>
             </div>
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
@@ -98,10 +98,10 @@
                     alt=""
                     class="ccluster-objetivo-ccluster__item-icon">
                 <h3 class="ccluster-objetivo-ccluster__item-title">
-                    Prevenir
+                    Contribuir
                 </h3>
                 <p class="ccluster-objetivo-ccluster__item-description">
-                    Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
+                    Alianzas estratégicas que multiplican la capacidad técnica sin sacrificar rigor ni confidencialidad.
                 </p>
             </div>
         </div>
