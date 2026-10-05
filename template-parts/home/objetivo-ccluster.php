@@ -46,7 +46,7 @@
             </div>
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
                 <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-v2-img.png"
                     alt=""
                     class="ccluster-objetivo-ccluster__media-image">
             </div>
@@ -64,13 +64,13 @@
             </div>
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
                 <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-companion-img.png"
                     alt=""
                     class="ccluster-objetivo-ccluster__media-image">
             </div>
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
                 <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-strength-img.png"
                     alt=""
                     class="ccluster-objetivo-ccluster__media-image">
             </div>
