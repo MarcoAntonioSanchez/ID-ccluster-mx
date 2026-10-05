@@ -26,7 +26,7 @@
     <!-- GRID -->
     <div class="ccluster-nuestros-origenes__grid">
         <!-- posteriormente 4 cuadrantes -->
-        <div class="ccluster-nuestros-origenes__item">
+        <div class="ccluster-nuestros-origenes__item p-15">
             <img
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-our-origins-success-history.png"
                 alt=""
