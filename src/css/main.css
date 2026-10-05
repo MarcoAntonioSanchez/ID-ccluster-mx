@@ -655,6 +655,13 @@
 .ccluster-nuestros-origenes__media-image {
   @apply block h-full w-full object-cover;
 }
+/* CCLUSTER OBJECTIVE */
+.ccluster-objetivo-firma-final {
+  @apply w-full bg-primary;
+}
+.ccluster-objetivo-firma-final__inner {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
