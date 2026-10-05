@@ -632,10 +632,7 @@
   @apply mx-auto grid w-full max-w-7xl grid-cols-2;
 }
 .ccluster-nuestros-origenes__item {
-  @apply min-h-[350px] border border-primary/10;
-}
-.ccluster-nuestros-origenes__item .desc {
-  @apply flex flex-col justify-center p-10;
+  @apply min-h-[350px] border border-primary/10 flex flex-col justify-center p-10;
 }
 .ccluster-nuestros-origenes__item-icon {
   @apply h-12 w-12 shrink-0 object-contain;
@@ -644,7 +641,7 @@
   @apply mt-6 font-body text-2xl font-semibold text-primary;
 }
 .ccluster-nuestros-origenes__item-description {
-  @apply mt-3 max-w-lg font-body text-base leading-7;
+  @apply mt-3 max-w-md font-body text-base leading-7;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {

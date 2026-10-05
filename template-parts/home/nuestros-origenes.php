@@ -26,7 +26,7 @@
     <!-- GRID -->
     <div class="ccluster-nuestros-origenes__grid">
         <!-- posteriormente 4 cuadrantes -->
-        <div class="ccluster-nuestros-origenes__item desc">
+        <div class="ccluster-nuestros-origenes__item">
             <img
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-our-origins-success-history.png"
                 alt=""
@@ -45,19 +45,18 @@
         </div>
         <div class="ccluster-nuestros-origenes__item">
         </div>
-        <div class="ccluster-nuestros-origenes__item desc">
+        <div class="ccluster-nuestros-origenes__item">
             <img
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-our-origins-future-sustain.png"
                 alt=""
                 class="ccluster-nuestros-origenes__item-icon">
             <h3 class="ccluster-nuestros-origenes__item-title">
-                Trayectoria de Éxito
+                Hacia el Futuro
             </h3>
             <p class="ccluster-nuestros-origenes__item-description">
-                Nuestra historia comenzó hace más de 8 años como
-                C&D Consultores en Riesgos Patrimoniales, S.C.,
-                estableciendo un estándar de rigor técnico
-                y confianza en el mercado legal mexicano.
+                La transformación a Compliance Cluster no es solo un cambio
+                de nombre; es la evolución natural de un modelo exitoso
+                hacia un ecosistema de alianzas estratégicas globales.
             </p>
         </div>
     </div>
