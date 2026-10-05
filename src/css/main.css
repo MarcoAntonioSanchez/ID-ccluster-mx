@@ -650,7 +650,7 @@
   @apply max-h-32 max-w-[200%] object-contain;
 }
 .ccluster-nuestros-origenes__item--media {
-  @apply overflow-hidden p-0;
+  @apply overflow-hidden p-0 border-[0px];
 }
 .ccluster-nuestros-origenes__media-image {
   @apply block h-full w-full object-cover;
