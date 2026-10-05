@@ -25,13 +25,22 @@
             </h2>
             <!-- DESCRIPTION -->
             <p class="ccluster-section-heading__description quote text-white">
-                <span class="opacity-25 text-4xl">"</span>Garantizar la estabilidad jurídica, la protección
-                del patrimonio corporativo y la trascendencia del sector empresarial.<span class="opacity-25 text-4xl">"</span>
+                <span class="opacity-25 text-4xl italic">"</span>Garantizar la estabilidad jurídica, la protección
+                del patrimonio corporativo y la trascendencia del sector empresarial.<span class="opacity-25 text-4xl italic">"</span>
             </p>
         </div>
         <!-- 4 × 2 GRID -->
         <div class="ccluster-objetivo-ccluster__grid">
             <!-- 8 items -->
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
+
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item"></div>
         </div>
         <!-- LEGEND -->
         <div class="ccluster-objetivo-ccluster__legend">

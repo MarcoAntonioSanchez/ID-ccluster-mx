@@ -677,6 +677,12 @@
 .ccluster-objetivo-ccluster__inner {
   @apply mx-auto w-full max-w-7xl px-6 py-28;
 }
+.ccluster-objetivo-ccluster__grid {
+  @apply mt-16 grid grid-cols-4;
+}
+.ccluster-objetivo-ccluster__item {
+  @apply min-h-[350px] border border-primary/10;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
