@@ -681,7 +681,7 @@
   @apply mt-16 grid grid-cols-4;
 }
 .ccluster-objetivo-ccluster__item {
-  @apply min-h-[350px] border border-primary/10;
+  @apply min-h-[350px] border border-secondary/10;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
