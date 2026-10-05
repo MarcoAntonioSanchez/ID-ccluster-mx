@@ -47,7 +47,11 @@
                 alt="Compliance Cluster"
                 class="ccluster-nuestros-origenes__logo">
         </div>
-        <div class="ccluster-nuestros-origenes__item">
+        <div class="ccluster-nuestros-origenes__item ccluster-nuestros-origenes__item--media">
+            <img
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-our-origins-cyd-consultores-img-bg.png"
+                alt=""
+                class="ccluster-nuestros-origenes__media-image">
         </div>
         <div class="ccluster-nuestros-origenes__item p-15">
             <img

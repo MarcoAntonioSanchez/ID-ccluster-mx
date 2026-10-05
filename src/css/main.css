@@ -647,7 +647,13 @@
   @apply items-center justify-center;
 }
 .ccluster-nuestros-origenes__logo {
-  @apply max-h-32 max-w-[100%] object-contain;
+  @apply max-h-32 max-w-[200%] object-contain;
+}
+.ccluster-nuestros-origenes__item--media {
+  @apply overflow-hidden p-0;
+}
+.ccluster-nuestros-origenes__media-image {
+  @apply block h-full w-full object-cover;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
