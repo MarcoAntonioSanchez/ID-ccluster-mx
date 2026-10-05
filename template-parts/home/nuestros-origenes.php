@@ -34,7 +34,7 @@
             <h3 class="ccluster-nuestros-origenes__item-title">
                 Trayectoria de Éxito
             </h3>
-            <p class="ccluster-nuestros-origenes__item-description p-15">
+            <p class="ccluster-nuestros-origenes__item-description">
                 Nuestra historia comenzó hace más de 8 años como
                 C&D Consultores en Riesgos Patrimoniales, S.C.,
                 estableciendo un estándar de rigor técnico
