@@ -656,11 +656,20 @@
   @apply block h-full w-full object-cover;
 }
 /* CCLUSTER OBJECTIVE */
-.ccluster-objetivo-firma-final {
+.ccluster-objetivo-ccluster {
   @apply w-full bg-primary;
 }
-.ccluster-objetivo-firma-final__inner {
+.ccluster-objetivo-ccluster__inner {
   @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-objetivo-ccluster__badge {
+  @apply flex items-center gap-3;
+}
+.ccluster-objetivo-ccluster__badge-icon {
+  @apply h-6 w-6 object-contain;
+}
+.ccluster-objetivo-ccluster__header h2 {
+  @apply mt-4;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
