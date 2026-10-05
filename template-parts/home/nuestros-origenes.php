@@ -42,6 +42,10 @@
             </p>
         </div>
         <div class="ccluster-nuestros-origenes__item">
+            <img
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/08/cyd-consultores-logo2x-header.png"
+                alt="Compliance Cluster"
+                class="ccluster-nuestros-origenes__logo">
         </div>
         <div class="ccluster-nuestros-origenes__item">
         </div>
