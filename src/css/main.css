@@ -615,6 +615,19 @@
 .ccluster-ecosistema-soluciones__bullet.is-active {
   @apply w-8 bg-secondary;
 }
+/* OUR ORIGINS */
+.ccluster-nuestros-origenes__header {
+  @apply flex flex-col items-center bg-primary py-24;
+}
+.ccluster-nuestros-origenes__badge {
+  @apply flex items-center gap-3;
+}
+.ccluster-nuestros-origenes__badge-icon {
+  @apply h-6 w-6 object-contain;
+}
+.ccluster-nuestros-origenes__header h2 {
+  @apply mt-4 text-white;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

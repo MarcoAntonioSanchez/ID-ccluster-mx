@@ -24,6 +24,9 @@ get_header();
     get_template_part(
         'template-parts/home/ecosistema-soluciones'
     );
+    get_template_part(
+        'template-parts/home/nuestros-origenes'
+    );
     ?>
 </main>
 <?php
