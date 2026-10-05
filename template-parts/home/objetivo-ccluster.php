@@ -44,14 +44,66 @@
                     Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
                 </p>
             </div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
-
-            <div class="ccluster-objetivo-ccluster__item"></div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
-            <div class="ccluster-objetivo-ccluster__item"></div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
+            </div>
+            <div class="ccluster-objetivo-ccluster__item">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__item-icon">
+                <h3 class="ccluster-objetivo-ccluster__item-title">
+                    Acompañar
+                </h3>
+                <p class="ccluster-objetivo-ccluster__item-description">
+                    el cumplimiento de la LFPIORPI y la regulación del Sistema Financiero Mexicano.
+                </p>
+            </div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
+            </div>
+            <div class="ccluster-objetivo-ccluster__item">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__item-icon">
+                <h3 class="ccluster-objetivo-ccluster__item-title">
+                    Fortalecer
+                </h3>
+                <p class="ccluster-objetivo-ccluster__item-description">
+                    el gobierno corporativo para asegurar continuidad y trascendencia generacional.
+                </p>
+            </div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
+            </div>
+            <div class="ccluster-objetivo-ccluster__item">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__item-icon">
+                <h3 class="ccluster-objetivo-ccluster__item-title">
+                    Contribuir
+                </h3>
+                <p class="ccluster-objetivo-ccluster__item-description">
+                    alianzas estratégicas que multiplican la capacidad técnica sin sacrificar rigor ni confidencialidad.
+                </p>
+            </div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
+            </div>
         </div>
         <!-- LEGEND -->
         <div class="ccluster-objetivo-ccluster__legend">
