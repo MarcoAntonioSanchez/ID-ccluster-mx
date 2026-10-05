@@ -681,7 +681,16 @@
   @apply mt-16 grid grid-cols-4;
 }
 .ccluster-objetivo-ccluster__item {
-  @apply min-h-[275px] border border-secondary/10;
+  @apply min-h-[275px] border border-secondary/10 flex flex-col justify-center p-8;
+}
+.ccluster-objetivo-ccluster__item-icon {
+  @apply h-12 w-12 shrink-0 object-contain;
+}
+.ccluster-objetivo-ccluster__item-title {
+  @apply mt-5 font-body text-2xl font-semibold text-white;
+}
+.ccluster-objetivo-ccluster__item-description {
+  @apply mt-3 font-body text-base leading-7 text-white/70;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
