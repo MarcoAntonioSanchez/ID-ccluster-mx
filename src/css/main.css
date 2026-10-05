@@ -672,7 +672,7 @@
   @apply mt-4;
 }
 .ccluster-objetivo-ccluster__header p {
-  @apply text-lg italic;
+  @apply text-xl italic;
 }
 .ccluster-objetivo-ccluster__inner {
   @apply mx-auto w-full max-w-7xl px-6 py-28;
