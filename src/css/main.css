@@ -632,7 +632,7 @@
   @apply mx-auto grid w-full max-w-7xl grid-cols-2;
 }
 .ccluster-nuestros-origenes__item {
-  @apply min-h-[350px];
+  @apply min-h-[350px] border border-primary/10;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
