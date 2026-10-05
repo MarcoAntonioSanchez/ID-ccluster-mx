@@ -25,8 +25,8 @@
             </h2>
             <!-- DESCRIPTION -->
             <p class="ccluster-section-heading__description quote text-white">
-                <span class="opacity-50 text-xl">"</span>Garantizar la estabilidad jurídica, la protección
-                del patrimonio corporativo y la trascendencia del sector empresarial.<span class="opacity-50 text-xl">"</span>
+                <span class="opacity-50 text-3xl">"</span>Garantizar la estabilidad jurídica, la protección
+                del patrimonio corporativo y la trascendencia del sector empresarial.<span class="opacity-50 text-3xl">"</span>
             </p>
         </div>
         <!-- 4 × 2 GRID -->
