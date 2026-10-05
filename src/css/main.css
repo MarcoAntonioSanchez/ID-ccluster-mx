@@ -628,6 +628,12 @@
 .ccluster-nuestros-origenes__header h2 {
   @apply mt-4 text-white;
 }
+.ccluster-nuestros-origenes__grid {
+  @apply mx-auto grid w-full max-w-7xl grid-cols-2;
+}
+.ccluster-nuestros-origenes__item {
+  @apply min-h-[350px];
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

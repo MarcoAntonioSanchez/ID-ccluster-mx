@@ -26,5 +26,13 @@
     <!-- GRID -->
     <div class="ccluster-nuestros-origenes__grid">
         <!-- posteriormente 4 cuadrantes -->
+        <div class="ccluster-nuestros-origenes__item">
+        </div>
+        <div class="ccluster-nuestros-origenes__item">
+        </div>
+        <div class="ccluster-nuestros-origenes__item">
+        </div>
+        <div class="ccluster-nuestros-origenes__item">
+        </div>
     </div>
 </section>
