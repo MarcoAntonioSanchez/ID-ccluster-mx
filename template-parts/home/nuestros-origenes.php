@@ -34,7 +34,7 @@
             <h3 class="ccluster-nuestros-origenes__item-title">
                 Trayectoria de Éxito
             </h3>
-            <p class="ccluster-nuestros-origenes__item-description">
+            <p class="ccluster-nuestros-origenes__item-description p-15">
                 Nuestra historia comenzó hace más de 8 años como
                 C&D Consultores en Riesgos Patrimoniales, S.C.,
                 estableciendo un estándar de rigor técnico
@@ -45,7 +45,7 @@
         </div>
         <div class="ccluster-nuestros-origenes__item">
         </div>
-        <div class="ccluster-nuestros-origenes__item">
+        <div class="ccluster-nuestros-origenes__item p-15">
             <img
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-our-origins-future-sustain.png"
                 alt=""
