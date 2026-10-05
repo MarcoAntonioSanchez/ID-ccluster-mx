@@ -660,7 +660,7 @@
   @apply w-full bg-primary;
 }
 .ccluster-objetivo-ccluster__header {
-  @apply flex justify-center items-center;
+  @apply flex flex-col justify-center items-center gap-[25px];
 }
 .ccluster-objetivo-ccluster__badge {
   @apply flex items-center gap-3;
