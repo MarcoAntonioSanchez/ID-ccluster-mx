@@ -44,32 +44,6 @@
                     Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
                 </p>
             </div>
-            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
-                <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
-                    alt=""
-                    class="ccluster-objetivo-ccluster__media-image">
-            </div>
-
-            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
-                <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
-                    alt=""
-                    class="ccluster-objetivo-ccluster__media-image">
-            </div>
-            <div class="ccluster-objetivo-ccluster__item">
-                <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
-                    alt=""
-                    class="ccluster-objetivo-ccluster__item-icon">
-                <h3 class="ccluster-objetivo-ccluster__item-title">
-                    Prevenir
-                </h3>
-                <p class="ccluster-objetivo-ccluster__item-description">
-                    Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
-                </p>
-            </div>
-
             <div class="ccluster-objetivo-ccluster__item">
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
@@ -88,7 +62,6 @@
                     alt=""
                     class="ccluster-objetivo-ccluster__media-image">
             </div>
-
             <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
@@ -106,6 +79,30 @@
                 <p class="ccluster-objetivo-ccluster__item-description">
                     Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
                 </p>
+            </div>
+            <div class="ccluster-objetivo-ccluster__item">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__item-icon">
+                <h3 class="ccluster-objetivo-ccluster__item-title">
+                    Prevenir
+                </h3>
+                <p class="ccluster-objetivo-ccluster__item-description">
+                    Contingencias legales, fiscales y patrimoniales antes de que se materialicen.
+                </p>
+            </div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
+            </div>
+            <div class="ccluster-objetivo-ccluster__item ccluster-objetivo-ccluster__item--media">
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-objectives-prevention-img.png"
+                    alt=""
+                    class="ccluster-objetivo-ccluster__media-image">
             </div>
         </div>
         <!-- LEGEND -->
