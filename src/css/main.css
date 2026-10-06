@@ -145,6 +145,9 @@
 }
 /* NAVBAR */
 @layer components {
+  .menu-item {
+    @apply font-body;
+  }
   .ccluster-cta__icon {
     @apply shrink-0 text-white;
   }
