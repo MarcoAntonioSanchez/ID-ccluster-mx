@@ -815,7 +815,7 @@
 }
 .ccluster-comparativo__column-header--cd
   .ccluster-comparativo__column-description {
-  @apply text-white/50;
+  @apply text-white;
 }
 .ccluster-comparativo__column-header--compliance {
   @apply bg-secondary text-white;
@@ -830,7 +830,7 @@
 }
 .ccluster-comparativo__column-header--compliance
   .ccluster-comparativo__column-description {
-  @apply text-white/60;
+  @apply text-white;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
