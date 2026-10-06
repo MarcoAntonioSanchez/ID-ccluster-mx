@@ -68,14 +68,17 @@ $history_title = get_post_meta(
                     <h2 class="ccluster-section-heading">
                         <?php echo esc_html($history_title); ?>
                     </h2>
-
                 <?php endif; ?>
             </div>
+            <!-- DESCRIPTION -->
+            <p class="ccluster-section-header__desc">
+                Nuestra historia
+            </p>
             <div class="ccluster-nuestra-historia__events">
                 <?php for ($i = 1; $i <= 5; $i++) : ?>
                     <?php
-                    $event_title = get_post_meta(
                         get_the_ID(),
+                    $event_title = get_post_meta(
                         "historia_event_{$i}_title",
                         true
                     );
