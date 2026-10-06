@@ -104,6 +104,14 @@
                     Alianzas estratégicas que multiplican la capacidad técnica sin sacrificar rigor ni confidencialidad.
                 </p>
             </div>
+            <div class="ccluster-objetivo-ccluster__legend">
+                <h3 class="ccluster-objetivo-ccluster__legend-title">
+                    Como <strong>Compliance Cluster</strong>
+                </h3>
+                <p class="ccluster-objetivo-ccluster__legend-description">
+                    nuestra razón de ser es blindar el futuro de las organizaciones mediante un ecosistema societario interconectado de profesionales de élite, transformando la complejidad regulatoria en entornos de absoluta certidumbre para nuestros clientes.
+                </p>
+            </div>
         </div>
         <!-- LEGEND -->
         <div class="ccluster-objetivo-ccluster__legend">

@@ -698,6 +698,15 @@
 .ccluster-objetivo-ccluster__media-image {
   @apply block h-full w-full object-cover;
 }
+.ccluster-objetivo-ccluster__legend {
+  @apply col-span-4 flex min-h-[180px] flex-col justify-center px-10;
+}
+.ccluster-objetivo-ccluster__legend-title {
+  @apply font-body text-3xl font-bold text-white;
+}
+.ccluster-objetivo-ccluster__legend-description {
+  @apply mt-3 max-w-3xl font-body text-base leading-7 text-white/70;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
