@@ -125,7 +125,7 @@
   @apply h-[2px] w-[25px] bg-secondary;
 }
 .ccluster-section-header__badge__text {
-  @apply opacity-[50%] font-body text-sm font-medium tracking-widest;
+  @apply opacity-[25%] font-body text-sm font-bold tracking-widest;
 }
 .ccluster-section-header__title {
   @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
@@ -283,7 +283,7 @@
   }
   /* SIGNATURE */
   .ccluster-la-firma__signature {
-    @apply flex flex-col items-end gap-1 text-right;
+    @apply flex flex-col items-end gap-1;
   }
   .ccluster-la-firma__signature > .font-body {
     @apply text-base font-semibold;
