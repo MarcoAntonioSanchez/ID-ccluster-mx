@@ -47,7 +47,7 @@ $social_networks = [
                     </span>
                     <a
                         href="mailto:<?php echo esc_attr($email); ?>"
-                        class="text-xs flex-1 border-b border-transparent duration-300 ease-in-out hover:scale-[1.03] hover:border-b-1 hover:border-(--primary)">
+                        class="font-body text-xs flex-1 border-b border-transparent duration-300 ease-in-out hover:scale-[1.03] hover:border-b-1 hover:border-(--primary)">
                         <?php echo esc_html($email); ?>
                     </a>
                 </div>
@@ -58,7 +58,7 @@ $social_networks = [
                         class="ccluster-topbar__icon self-center">
                         <i data-lucide="map-pin"></i>
                     </span>
-                    <span class="text-xs">
+                    <span class="font-body text-xs">
                         <?php echo esc_html($address); ?>
                     </span>
                 </div>

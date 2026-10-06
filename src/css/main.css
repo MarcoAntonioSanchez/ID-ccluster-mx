@@ -107,9 +107,6 @@
 }
 /* TOPBAR */
 @layer components {
-  .ccluster-topbar__icon span {
-    @apply font-body;
-  }
   .ccluster-topbar__icon {
     @apply shrink-0 text-secondary;
   }
