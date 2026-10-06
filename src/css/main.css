@@ -387,7 +387,7 @@
   left: 0;
   width: 100%;
   height: 1px;
-  background: currentColor;
+  background: var(--color-secondary);
   transform: translateY(-50%);
 }
 .ccluster-nuestra-historia__event-dot {
@@ -397,7 +397,7 @@
   height: 10px;
   flex-shrink: 0;
   border-radius: 50%;
-  background: currentColor;
+  background: var(--color-primary);
 }
 .ccluster-nuestra-historia__event-date {
   align-self: start;
