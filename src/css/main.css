@@ -228,7 +228,7 @@
   }
   /* BADGE */
   .ccluster-la-firma__badge {
-    @apply mb-6 flex items-center gap-3;
+    @apply flex items-center gap-3;
   }
   .ccluster-la-firma__badge .font-badge {
     @apply text-sm font-medium;
