@@ -87,12 +87,12 @@ $hero_background = $hero_background_id
                 </div>
             <?php endif; ?>
             <?php if ($hero_title) : ?>
-                <h1 class="max-w-2xl text-8xl capitalize leading-tight md:text-7xl font-heading">
+                <h1 class="max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading">
                     <?php echo esc_html($hero_title); ?>
                 </h1>
             <?php endif; ?>
             <?php if ($hero_description) : ?>
-                <p class="mt-6 max-w-xl text-[1.75rem] leading-8 font-body">
+                <p class="mt-6 max-w-xl text-lg leading-8 font-body ccluster-hero__description">
                     <?php echo esc_html($hero_description); ?>
                 </p>
             <?php endif; ?>

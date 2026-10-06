@@ -173,6 +173,9 @@
   max-width: 135%;
   height: auto;
 }
+.ccluster-hero__description {
+  line-height: 1.75rem;
+}
 @media (prefers-reduced-motion: reduce) {
   .ccluster-hero-orb,
   .ccluster-hero-image {
