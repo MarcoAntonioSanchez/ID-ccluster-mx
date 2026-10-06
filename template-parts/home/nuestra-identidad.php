@@ -9,7 +9,7 @@
                 <!-- BADGE -->
                 <div class="ccluster-nuestra-identidad__badge">
                     <img
-                        src="URL-DE-ICONO"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                         alt=""
                         class="ccluster-nuestra-identidad__badge-icon">
                     <span

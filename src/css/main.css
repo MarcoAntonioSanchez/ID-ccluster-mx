@@ -721,7 +721,7 @@
   @apply block h-full w-full object-cover;
 }
 .ccluster-acordeones__content {
-  @apply flex flex-col justify-center p-12;
+  @apply flex flex-col justify-center p-12 gap-[50px];
 }
 .ccluster-acordeones__media img {
   @apply block h-full w-full object-cover;
@@ -731,6 +731,9 @@
 }
 .ccluster-acordeones__badge-icon {
   @apply h-6 w-6 object-contain;
+}
+.ccluster-acordeones__header {
+  @apply gap-[25px];
 }
 .ccluster-acordeones__header p {
   @apply mt-5;
