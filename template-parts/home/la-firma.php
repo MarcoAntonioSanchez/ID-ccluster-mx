@@ -130,9 +130,9 @@ $signature_role = get_post_meta(
         <div class="ccluster-la-firma__content">
             <!-- HEADING -->
             <div class="ccluster-section-header">
-                <div class="ccluster-section__badge__title">
+                <div class="ccluster-section-header__badge__title">
                     <!-- BADGE -->
-                    <div class="ccluster-la-firma__badge">
+                    <div class="ccluster-section-header__badge">
                         <?php
                         if ($badge_icon_id) {
                             echo wp_get_attachment_image(
@@ -148,7 +148,7 @@ $signature_role = get_post_meta(
                         <span
                             class="h-[2px] w-[25px] bg-secondary"
                             aria-hidden="true"></span>
-                        <span class="font-badge">
+                        <span class="ccluster-section-header__badge__text font-badge">
                             <?php echo esc_html($badge_text); ?>
                         </span>
                     </div>

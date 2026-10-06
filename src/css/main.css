@@ -109,6 +109,9 @@
 .ccluster-section-header {
   @apply flex flex-col gap-[25px] mb-6;
 }
+.ccluster-section-header__badge__text {
+  @apply opacity-[0.5] font-body font-bold;
+}
 .ccluster-section__badge__title {
   @apply flex flex-col gap-[10px];
 }
