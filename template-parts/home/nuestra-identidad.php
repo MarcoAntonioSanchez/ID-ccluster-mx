@@ -26,7 +26,7 @@
                     </h2>
                 </div>
                 <!-- DESCRIPTION -->
-                <p class="ccluster-section-header__text">
+                <p class="ccluster-section-header__desc">
                     Nuestra nueva identidad marca el inicio de una era basada en el
                     <strong>crecimiento sustentado en alianzas</strong>.
                 </p>
