@@ -33,7 +33,7 @@
             <div class="ccluster-comparativo__column">
                 <!-- HEAD 1 -->
                 <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--attribute">
-                    <span class="ccluster-comparativo__column-label">
+                    <span class="ccluster-section-header__badge__text">
                         Comparación
                     </span>
                     <h3 class="ccluster-comparativo__column-title">
@@ -49,7 +49,7 @@
             <div class="ccluster-comparativo__column">
                 <!-- HEAD 2 -->
                 <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--cd">
-                    <span class="ccluster-comparativo__column-label">
+                    <span class="ccluster-section-header__badge__text">
                         Antecedente
                     </span>
                     <h3 class="ccluster-comparativo__column-title">
@@ -65,7 +65,7 @@
             <div class="ccluster-comparativo__column">
                 <!-- HEAD 3 -->
                 <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--compliance">
-                    <span class="ccluster-comparativo__column-label">
+                    <span class="ccluster-section-header__badge__text">
                         Evolución
                     </span>
                     <h3 class="ccluster-comparativo__column-title">
