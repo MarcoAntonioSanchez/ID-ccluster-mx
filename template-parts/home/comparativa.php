@@ -63,10 +63,19 @@
 
             <!-- COLUMN 3 -->
             <div class="ccluster-comparativo__column">
+                <!-- HEAD 3 -->
+                <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--compliance">
+                    <span class="ccluster-comparativo__column-label">
+                        Evolución
+                    </span>
+                    <h3 class="ccluster-comparativo__column-title">
+                        Compliance
+                    </h3>
+                    <span class="ccluster-comparativo__column-description">
+                        Cluster
+                    </span>
+                </div>
             </div>
-
         </div>
-
     </div>
-
 </section>

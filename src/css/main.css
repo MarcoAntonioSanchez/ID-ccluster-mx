@@ -817,6 +817,21 @@
   .ccluster-comparativo__column-description {
   @apply text-white/50;
 }
+.ccluster-comparativo__column-header--compliance {
+  @apply bg-secondary text-white;
+}
+.ccluster-comparativo__column-header--compliance
+  .ccluster-comparativo__column-label {
+  @apply text-primary/40;
+}
+.ccluster-comparativo__column-header--compliance
+  .ccluster-comparativo__column-title {
+  @apply text-white;
+}
+.ccluster-comparativo__column-header--compliance
+  .ccluster-comparativo__column-description {
+  @apply text-white/60;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
