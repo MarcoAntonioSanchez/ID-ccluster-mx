@@ -127,6 +127,9 @@
 .ccluster-section-header__badge__text {
   @apply opacity-[50%] font-body text-sm font-medium tracking-widest;
 }
+.ccluster-section-header__title {
+  @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
