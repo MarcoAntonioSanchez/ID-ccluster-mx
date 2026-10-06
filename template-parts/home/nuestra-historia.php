@@ -42,7 +42,7 @@ $history_title = get_post_meta(
         <div class="ccluster-nuestra-historia__header mt-[100px]">
             <div class="ccluster-section-header__badge__title">
                 <!-- BADGE -->
-                <div class="ccluster-section-header__badge">
+                <div class="ccluster-section-header__badge items-center">
                     <?php
                     if ($badge_icon_id) {
                         echo wp_get_attachment_image(
@@ -59,7 +59,7 @@ $history_title = get_post_meta(
                         class="ccluster-section-header__badge__line"
                         aria-hidden="true"></span>
 
-                    <span class="ccluster-section-header__badge__text">
+                    <span class="ccluster-section-header__badge__text uppercase">
                         <?php echo esc_html($badge_text); ?>
                     </span>
                 </div>
