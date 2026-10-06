@@ -229,7 +229,7 @@
     @apply relative aspect-square w-full;
   }
   .ccluster-la-firma__background {
-    @apply absolute inset-0 h-full w-full object-cover;
+    @apply shadow-lg absolute inset-0 h-full w-full object-cover;
   }
   .ccluster-la-firma__experience {
     @apply absolute top-[70%] right-[-10%] z-10 flex w-[45%] -translate-y-1/2 flex-col items-center justify-center border-8 border-primary bg-white p-8 text-center gap-[20px];
