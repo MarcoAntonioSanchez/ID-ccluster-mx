@@ -286,7 +286,7 @@
     @apply flex flex-col items-end gap-1;
   }
   .ccluster-la-firma__signature {
-    @apply w-[100%];
+    @apply w-[50%];
   }
   .ccluster-la-firma__signature > .font-badge {
     @apply text-xs font-medium tracking-wide;
