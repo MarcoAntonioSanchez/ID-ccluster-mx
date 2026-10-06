@@ -4,8 +4,8 @@
 <section class="ccluster-comparativo">
     <div class="ccluster-comparativo__inner">
         <!-- HEADER -->
-        <div class="ccluster-section-header justify-center">
-            <div class="ccluster-section-header__badge__title">
+        <div class="ccluster-section-header items-center">
+            <div class="ccluster-section-header__badge__title items-center">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
                     <img
