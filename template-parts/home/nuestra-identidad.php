@@ -26,13 +26,13 @@
                     </h2>
                 </div>
                 <!-- DESCRIPTION -->
-                <p class="ccluster-section-header__desc">
+                <p class="ccluster-section-header__desc w-50">
                     Nuestra nueva identidad marca el inicio de una era basada en el
                     <strong>crecimiento sustentado en alianzas</strong>.
                 </p>
             </div>
             <!-- ADDITIONAL PARAGRAPH -->
-            <p class="ccluster-nuestra-identidad__additional">
+            <p class="ccluster-nuestra-identidad__additional w-50">
                 Entendemos que la excelencia no se logra en solitario, sino mediante la conexión estratégica con los mejores especialistas de cada área para brindar una protección patrimonial de 360 grados.
             </p>
         </div>
