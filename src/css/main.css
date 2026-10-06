@@ -106,6 +106,7 @@
   }
 }
 /* GLOBALS */
+/* SECTION HEADING */
 /* OUTER WRAPPER */
 .ccluster-section-header {
   @apply flex flex-col gap-[50px] mb-6;
@@ -132,6 +133,13 @@
 }
 .ccluster-section-header__desc {
   @apply font-body text-[1.5rem];
+}
+/* BUTTON - CTA */
+.ccluster-button__cta {
+  @apply font-body uppercase inline-flex items-center justify-center border border-primary bg-primary px-6 py-3 text-sm font-semibold text-white no-underline transition-colors duration-300;
+}
+.ccluster-button__cta:hover {
+  @apply bg-transparent text-primary;
 }
 /* TOPBAR */
 @layer components {
@@ -274,12 +282,6 @@
   /* FOOTER */
   .ccluster-la-firma__footer {
     @apply mt-10 flex items-end justify-between gap-8;
-  }
-  .ccluster-la-firma__cta {
-    @apply inline-flex items-center justify-center border border-primary bg-primary px-6 py-3 font-body text-sm font-semibold text-white no-underline transition-colors duration-300;
-  }
-  .ccluster-la-firma__cta:hover {
-    @apply bg-transparent text-primary;
   }
   /* SIGNATURE */
   .ccluster-la-firma__signature {

@@ -209,7 +209,7 @@ $signature_role = get_post_meta(
                 <?php if ($cta_label && $cta_url) : ?>
                     <a
                         href="<?php echo esc_url($cta_url); ?>"
-                        class="ccluster-la-firma__cta font-body">
+                        class="ccluster-button__cta">
                         <?php echo esc_html($cta_label); ?>
                     </a>
                 <?php endif; ?>
