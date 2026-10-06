@@ -108,7 +108,7 @@
 /* GLOBALS */
 /* OUTER WRAPPER */
 .ccluster-section-header {
-  @apply flex flex-col gap-[25px] mb-6;
+  @apply flex flex-col gap-[50px] mb-6;
 }
 /* INNER WRAPPER */
 .ccluster-section-header__badge__title {
