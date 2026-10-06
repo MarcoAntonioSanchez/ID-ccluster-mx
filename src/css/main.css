@@ -715,7 +715,10 @@
   @apply grid grid-cols-2;
 }
 .ccluster-acordeones__media {
-  @apply min-h-[600px];
+  @apply min-h-[600px] overflow-hidden;
+}
+.ccluster-acordeones__media-image {
+  @apply block h-full w-full object-cover;
 }
 .ccluster-acordeones__content {
   @apply flex flex-col justify-center p-12;
