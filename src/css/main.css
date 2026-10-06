@@ -261,10 +261,10 @@
   }
   /* FEATURES */
   .ccluster-la-firma__features {
-    @apply mt-8 grid grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2;
+    @apply mt-8 grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2;
   }
   .ccluster-la-firma__feature {
-    @apply flex items-center gap-8;
+    @apply flex items-center gap-6;
   }
   .ccluster-la-firma__feature .font-body {
     @apply text-base leading-6;
