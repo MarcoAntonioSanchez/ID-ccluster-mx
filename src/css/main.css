@@ -238,10 +238,10 @@
     @apply w-[30px] h-[30px];
   }
   .ccluster-la-firma__experience-number {
-    @apply font-heading text-5xl font-bold;
+    @apply font-heading text-5xl font-bold text-white;
   }
   .ccluster-la-firma__experience-label {
-    @apply font-body font-medium text-sm uppercase;
+    @apply font-body font-medium text-sm uppercase text-white;
   }
   /* RIGHT COLUMN */
   .ccluster-la-firma__content {
