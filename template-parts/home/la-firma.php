@@ -153,7 +153,7 @@ $signature_role = get_post_meta(
                         </span>
                     </div>
                     <!-- TITLE -->
-                    <h2 class="ccluster-section-heading__title">
+                    <h2 class="ccluster-section-header__title">
                         <?php echo esc_html($title); ?>
                     </h2>
                 </div>
