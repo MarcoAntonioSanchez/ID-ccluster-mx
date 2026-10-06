@@ -171,11 +171,10 @@ $signature_role = get_post_meta(
                 <?php foreach ($features as $feature) : ?>
                     <?php if (!$feature) continue; ?>
                     <div class="ccluster-la-firma__feature">
-                        <span
-                            class="ccluster-la-firma__feature-icon"
-                            aria-hidden="true">
-                            <i data-lucide="check"></i>
-                        </span>
+                        <img
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
+                            alt=""
+                            class="ccluster-objetivo-firma__item-icon">
                         <span class="font-body font-semibold">
                             <?php echo esc_html($feature); ?>
                         </span>
