@@ -776,6 +776,20 @@
 .ccluster-nuestra-identidad__additional {
   @apply font-body;
 }
+/* COMPARATIVE */
+.ccluster-comparativo {
+  @apply w-full;
+}
+.ccluster-comparativo__inner {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-comparativo__table {
+  @apply flex w-full;
+}
+.ccluster-comparativo__column {
+  @apply w-1/3;
+}
+
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

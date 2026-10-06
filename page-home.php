@@ -36,6 +36,9 @@ get_header();
     get_template_part(
         'template-parts/home/nuestra-identidad'
     );
+    get_template_part(
+        'template-parts/home/comparativa'
+    );
     ?>
 </main>
 <?php
