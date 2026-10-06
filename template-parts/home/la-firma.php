@@ -158,7 +158,7 @@ $signature_role = get_post_meta(
                     </h2>
                 </div>
                 <!-- DESCRIPTION -->
-                <p class="font-body">
+                <p class="ccluster-section-header__desc">
                     <?php echo esc_html($description); ?>
                 </p>
             </div>

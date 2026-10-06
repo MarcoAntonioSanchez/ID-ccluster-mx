@@ -130,6 +130,9 @@
 .ccluster-section-header__title {
   @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
 }
+.ccluster-section-header__desc {
+  @apply font-body text-[1.5rem];
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
