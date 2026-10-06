@@ -61,9 +61,35 @@
                 </article>
                 <!-- ACCORDION 02 -->
                 <article class="ccluster-acordeones__item">
+                    <div class="ccluster-acordeones__item-header">
+                        <span class="ccluster-acordeones__item-number">
+                            02
+                        </span>
+                        <h3 class="ccluster-acordeones__item-title">
+                            Crecimiento Sustentado
+                        </h3>
+                        <span
+                            class="ccluster-acordeones__item-arrow"
+                            aria-hidden="true">
+                            →
+                        </span>
+                    </div>
                 </article>
                 <!-- ACCORDION 03 -->
                 <article class="ccluster-acordeones__item">
+                    <div class="ccluster-acordeones__item-header">
+                        <span class="ccluster-acordeones__item-number">
+                            03
+                        </span>
+                        <h3 class="ccluster-acordeones__item-title">
+                            Integración Académica
+                        </h3>
+                        <span
+                            class="ccluster-acordeones__item-arrow"
+                            aria-hidden="true">
+                            →
+                        </span>
+                    </div>
                 </article>
             </div>
         </div>
