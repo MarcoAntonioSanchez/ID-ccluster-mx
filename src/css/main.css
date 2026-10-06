@@ -106,7 +106,8 @@
   }
 }
 /* GLOBALS */
-.ccluster-section-heading__badge {
+.ccluster-section__badge__title {
+  @apply flex flex-col gap-[25px];
 }
 /* TOPBAR */
 @layer components {
