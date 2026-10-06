@@ -125,12 +125,7 @@
   @apply h-[2px] w-[25px] bg-secondary;
 }
 .ccluster-section-header__badge__text {
-  @apply text-sm font-medium;
-}
-
-/* DESCRIPTION */
-.ccluster-section-header__badge__text {
-  @apply opacity-[50%] font-body font-bold;
+  @apply opacity-[50%] font-body text-sm font-medium tracking-wide;
 }
 /* TOPBAR */
 @layer components {
