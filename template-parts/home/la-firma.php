@@ -140,20 +140,20 @@ $signature_role = get_post_meta(
                                 'thumbnail',
                                 false,
                                 [
-                                    'class' => 'ccluster-la-firma__badge-icon',
+                                    'class' => 'ccluster-la-firma__badge__icon',
                                 ]
                             );
                         }
                         ?>
                         <span
-                            class="h-[2px] w-[25px] bg-secondary"
+                            class="ccluster-section-header__badge__line"
                             aria-hidden="true"></span>
-                        <span class="ccluster-section-header__badge__text font-badge">
+                        <span class="ccluster-section-header__badge__text">
                             <?php echo esc_html($badge_text); ?>
                         </span>
                     </div>
                     <!-- TITLE -->
-                    <h2 class="ccluster-section-heading">
+                    <h2 class="ccluster-section-heading__title">
                         <?php echo esc_html($title); ?>
                     </h2>
                 </div>
