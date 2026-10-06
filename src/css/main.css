@@ -789,7 +789,21 @@
 .ccluster-comparativo__column {
   @apply w-1/3;
 }
-
+.ccluster-comparativo__column-header {
+  @apply relative flex min-h-[180px] flex-col justify-center p-8;
+}
+.ccluster-comparativo__column-header--attribute {
+  @apply border border-primary/10 bg-white;
+}
+.ccluster-comparativo__column-label {
+  @apply absolute left-8 top-6 font-body text-xs font-semibold uppercase tracking-widest text-primary/30;
+}
+.ccluster-comparativo__column-title {
+  @apply font-body text-3xl font-semibold text-primary;
+}
+.ccluster-comparativo__column-description {
+  @apply mt-2 font-body text-sm text-primary/30;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

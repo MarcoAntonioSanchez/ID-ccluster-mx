@@ -31,6 +31,18 @@
 
             <!-- COLUMN 1 -->
             <div class="ccluster-comparativo__column">
+                <!-- HEAD 1 -->
+                <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--attribute">
+                    <span class="ccluster-comparativo__column-label">
+                        Comparación
+                    </span>
+                    <h3 class="ccluster-comparativo__column-title">
+                        Atributo
+                    </h3>
+                    <span class="ccluster-comparativo__column-description">
+                        Comparación
+                    </span>
+                </div>
             </div>
 
             <!-- COLUMN 2 -->
