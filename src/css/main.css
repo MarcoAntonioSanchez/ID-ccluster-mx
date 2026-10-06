@@ -108,7 +108,7 @@
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
-    @apply shrink-0 text-secondary;
+    @apply shrink-0 text-white;
   }
   .ccluster-topbar__icon svg {
     @apply w-[15px] h-[15px];

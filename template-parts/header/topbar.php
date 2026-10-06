@@ -42,7 +42,7 @@ $social_networks = [
             <?php if ($email) : ?>
                 <div class="flex gap-1">
                     <span
-                        class="ccluster-topbar__icon flex-1 self-center">
+                        class="ccluster-topbar__icon bg-[text-primary] flex-1 self-center">
                         <i data-lucide="mail"></i>
                     </span>
                     <a
