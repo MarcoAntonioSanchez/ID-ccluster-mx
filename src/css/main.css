@@ -802,7 +802,7 @@
   @apply font-body text-3xl font-semibold text-primary;
 }
 .ccluster-comparativo__column-description {
-  @apply mt-2 font-body text-sm text-primary/30;
+  @apply mt-2 font-body text-sm;
 }
 .ccluster-comparativo__column-header--cd {
   @apply bg-primary text-white;
