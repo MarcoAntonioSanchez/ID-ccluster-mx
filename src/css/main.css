@@ -122,7 +122,7 @@
   @apply h-[35px] w-[35px] object-contain;
 }
 .ccluster-section-header__badge__line {
-  @apply h-[2px] w-[25px] bg-secondary h-px w-10;
+  @apply h-[2px] w-[25px] bg-secondary;
 }
 .ccluster-section-header__badge__text {
   @apply text-sm font-medium;
