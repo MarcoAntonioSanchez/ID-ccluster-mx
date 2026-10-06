@@ -47,6 +47,18 @@
 
             <!-- COLUMN 2 -->
             <div class="ccluster-comparativo__column">
+                <!-- HEAD 2 -->
+                <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--cd">
+                    <span class="ccluster-comparativo__column-label">
+                        Antecedente
+                    </span>
+                    <h3 class="ccluster-comparativo__column-title">
+                        C&amp;D
+                    </h3>
+                    <span class="ccluster-comparativo__column-description">
+                        Consultores Inmobiliarios
+                    </span>
+                </div>
             </div>
 
             <!-- COLUMN 3 -->

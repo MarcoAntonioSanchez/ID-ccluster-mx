@@ -804,6 +804,19 @@
 .ccluster-comparativo__column-description {
   @apply mt-2 font-body text-sm text-primary/30;
 }
+.ccluster-comparativo__column-header--cd {
+  @apply bg-primary text-white;
+}
+.ccluster-comparativo__column-header--cd .ccluster-comparativo__column-label {
+  @apply text-primary/40;
+}
+.ccluster-comparativo__column-header--cd .ccluster-comparativo__column-title {
+  @apply text-white;
+}
+.ccluster-comparativo__column-header--cd
+  .ccluster-comparativo__column-description {
+  @apply text-white/50;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
