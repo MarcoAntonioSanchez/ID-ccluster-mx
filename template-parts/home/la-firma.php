@@ -140,7 +140,7 @@ $signature_role = get_post_meta(
                                 'thumbnail',
                                 false,
                                 [
-                                    'class' => 'ccluster-la-firma__badge__icon',
+                                    'class' => 'ccluster-section-header__badge__icon',
                                 ]
                             );
                         }
