@@ -4,7 +4,7 @@
 <section class="ccluster-comparativo">
     <div class="ccluster-comparativo__inner">
         <!-- HEADER -->
-        <div class="ccluster-section-header">
+        <div class="ccluster-section-header justify-center">
             <div class="ccluster-section-header__badge__title">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
@@ -16,19 +16,14 @@
                         class="h-[2px] w-[25px] bg-secondary"
                         aria-hidden="true"></span>
                     <span class="ccluster-section-header__badge__text">
-                        NUESTRA IDENTIDAD
+                        COMPARATIVO
                     </span>
                 </div>
                 <!-- TITLE -->
                 <h2 class="ccluster-section-header__title">
-                    <span class="text-secondary">Evolución</span> Sustentable
+                    <span class="text-secondary">La firma: </span> Un Salto Cualitativo
                 </h2>
             </div>
-            <!-- DESCRIPTION -->
-            <p class="ccluster-section-header__desc w-90">
-                Nuestra nueva identidad marca el inicio de una era basada en el
-                <span class="font-semibold text-primary">crecimiento sustentado en alianzas</span>.
-            </p>
         </div>
 
         <!-- COMPARISON -->
