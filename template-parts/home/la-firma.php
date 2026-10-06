@@ -193,13 +193,6 @@ $signature_role = get_post_meta(
             </div>
             <!-- FOOTER -->
             <div class="ccluster-la-firma__footer">
-                <?php if ($cta_label && $cta_url) : ?>
-                    <a
-                        href="<?php echo esc_url($cta_url); ?>"
-                        class="ccluster-la-firma__cta font-body">
-                        <?php echo esc_html($cta_label); ?>
-                    </a>
-                <?php endif; ?>
                 <?php if ($signature_name || $signature_role) : ?>
                     <div class="ccluster-la-firma__signature">
                         <?php if ($signature_name) : ?>
@@ -213,6 +206,13 @@ $signature_role = get_post_meta(
                             </small>
                         <?php endif; ?>
                     </div>
+                <?php endif; ?>
+                <?php if ($cta_label && $cta_url) : ?>
+                    <a
+                        href="<?php echo esc_url($cta_url); ?>"
+                        class="ccluster-la-firma__cta font-body">
+                        <?php echo esc_html($cta_label); ?>
+                    </a>
                 <?php endif; ?>
             </div>
         </div>
