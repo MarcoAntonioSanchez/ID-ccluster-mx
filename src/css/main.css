@@ -243,7 +243,7 @@
     @apply absolute top-[70%] right-[-10%] z-10 flex w-[45%] -translate-y-1/2 flex-col items-center justify-center border-8 border-white bg-primary p-8 text-center gap-[20px];
   }
   .ccluster-la-firma__experience-icon {
-    @apply w-[30px] h-[30px];
+    @apply w-[50px] h-[50px];
   }
   .ccluster-la-firma__experience-number {
     @apply font-heading text-5xl font-bold text-white;
