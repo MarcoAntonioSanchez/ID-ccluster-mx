@@ -249,7 +249,7 @@
     @apply font-heading text-5xl font-bold text-secondary;
   }
   .ccluster-la-firma__experience-label {
-    @apply opacity-[25%] font-body text-sm font-bold text-white uppercase tracking-widest;
+    @apply opacity-[50%] font-body text-sm font-bold text-white uppercase tracking-widest;
   }
   /* RIGHT COLUMN */
   .ccluster-la-firma__content {
