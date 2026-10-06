@@ -288,9 +288,6 @@
   .ccluster-la-firma__signature__img {
     @apply w-[50%];
   }
-  .ccluster-la-firma__signature > .font-badge {
-    @apply text-xs font-medium tracking-wide;
-  }
 }
 /* OUR STORY */
 .ccluster-nuestra-historia {
