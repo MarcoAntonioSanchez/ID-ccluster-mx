@@ -128,34 +128,37 @@ $signature_role = get_post_meta(
         </div>
         <!-- RIGHT COLUMN -->
         <div class="ccluster-la-firma__content">
-            <!-- BADGE -->
-            <div class="ccluster-la-firma__badge">
-                <?php
-                if ($badge_icon_id) {
-                    echo wp_get_attachment_image(
-                        $badge_icon_id,
-                        'thumbnail',
-                        false,
-                        [
-                            'class' => 'ccluster-la-firma__badge-icon',
-                        ]
-                    );
-                }
-                ?>
-                <span
-                    class="h-[2px] w-[25px] bg-secondary"
-                    aria-hidden="true"></span>
-                <span class="font-badge">
-                    <?php echo esc_html($badge_text); ?>
-                </span>
-            </div>
             <!-- HEADING -->
-            <h2 class="ccluster-section-heading">
-                <?php echo esc_html($title); ?>
-            </h2>
-            <p class="font-body">
-                <?php echo esc_html($description); ?>
-            </p>
+            <div class="ccluster-section-header">
+                <!-- BADGE -->
+                <div class="ccluster-la-firma__badge">
+                    <?php
+                    if ($badge_icon_id) {
+                        echo wp_get_attachment_image(
+                            $badge_icon_id,
+                            'thumbnail',
+                            false,
+                            [
+                                'class' => 'ccluster-la-firma__badge-icon',
+                            ]
+                        );
+                    }
+                    ?>
+                    <span
+                        class="h-[2px] w-[25px] bg-secondary"
+                        aria-hidden="true"></span>
+                    <span class="font-badge">
+                        <?php echo esc_html($badge_text); ?>
+                    </span>
+                </div>
+                <!-- HEADING -->
+                <h2 class="ccluster-section-heading">
+                    <?php echo esc_html($title); ?>
+                </h2>
+                <p class="font-body">
+                    <?php echo esc_html($description); ?>
+                </p>
+            </div>
             <!-- FEATURES -->
             <div class="ccluster-la-firma__features">
                 <?php foreach ($features as $feature) : ?>

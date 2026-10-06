@@ -105,6 +105,9 @@
     @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
   }
 }
+/* GLOBALS */
+.ccluster-section-heading__badge {
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
