@@ -733,7 +733,7 @@
   @apply h-6 w-6 object-contain;
 }
 .ccluster-acordeones__header {
-  @apply gap-[25px];
+  @apply flex flex-col gap-[25px];
 }
 .ccluster-acordeones__header p {
   @apply mt-5;
