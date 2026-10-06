@@ -195,11 +195,10 @@ $signature_role = get_post_meta(
             <div class="ccluster-la-firma__footer">
                 <?php if ($signature_name || $signature_role) : ?>
                     <div class="ccluster-la-firma__signature">
-                        <?php if ($signature_name) : ?>
-                            <span class="font-body">
-                                <?php echo esc_html($signature_name); ?>
-                            </span>
-                        <?php endif; ?>
+                        <img
+                            class="ccluster-la-firma__signature"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-the-firm-editorial-sign.png"
+                            alt="">
                         <?php if ($signature_role) : ?>
                             <small class="font-badge">
                                 <?php echo esc_html($signature_role); ?>
