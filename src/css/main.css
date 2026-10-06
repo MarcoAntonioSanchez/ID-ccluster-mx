@@ -107,7 +107,7 @@
 }
 /* GLOBALS */
 .ccluster-section-header {
-  @apply flex flex-col gap-[25px];
+  @apply flex flex-col gap-[25px] mb-6;
 }
 .ccluster-section__badge__title {
   @apply flex flex-col gap-[10px];
