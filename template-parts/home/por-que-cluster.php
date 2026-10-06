@@ -17,7 +17,7 @@
                 <!-- BADGE -->
                 <div class="ccluster-acordeones__badge">
                     <img
-                        src="URL-DE-ICONO"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                         alt=""
                         class="ccluster-acordeones__badge-icon">
                     <span
@@ -39,7 +39,25 @@
             <!-- ACCORDIONS -->
             <div class="ccluster-acordeones__list">
                 <!-- ACCORDION 01 -->
-                <article class="ccluster-acordeones__item">
+                <article class="ccluster-acordeones__item is-open">
+                    <div class="ccluster-acordeones__item-header">
+                        <span class="ccluster-acordeones__item-number">
+                            01
+                        </span>
+                        <h3 class="ccluster-acordeones__item-title">
+                            Sinergia Multisectorial
+                        </h3>
+                        <span
+                            class="ccluster-acordeones__item-arrow"
+                            aria-hidden="true">
+                            ↑
+                        </span>
+                    </div>
+                    <div class="ccluster-acordeones__item-content">
+                        <p>
+                            Expertos en diversas ramas colaborando en un solo nodo.
+                        </p>
+                    </div>
                 </article>
                 <!-- ACCORDION 02 -->
                 <article class="ccluster-acordeones__item">

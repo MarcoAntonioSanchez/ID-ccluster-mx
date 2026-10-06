@@ -735,6 +735,27 @@
 .ccluster-acordeones__header p {
   @apply mt-5;
 }
+.ccluster-acordeones__item {
+  @apply border-b border-primary/10 py-6;
+}
+.ccluster-acordeones__item-header {
+  @apply flex items-center;
+}
+.ccluster-acordeones__item-number {
+  @apply w-10 font-body text-sm text-primary/30;
+}
+.ccluster-acordeones__item-title {
+  @apply font-body text-lg font-semibold;
+}
+.ccluster-acordeones__item-arrow {
+  @apply ml-auto text-lg text-primary;
+}
+.ccluster-acordeones__item-content {
+  @apply ml-10 mt-4 max-w-lg;
+}
+.ccluster-acordeones__item-content p {
+  @apply font-body text-sm leading-6;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
