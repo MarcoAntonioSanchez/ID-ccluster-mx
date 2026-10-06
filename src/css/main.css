@@ -283,7 +283,7 @@
   }
   /* SIGNATURE */
   .ccluster-la-firma__signature {
-    @apply flex flex-col items-end gap-1;
+    @apply flex flex-col items-start gap-1;
   }
   .ccluster-la-firma__signature__img {
     @apply w-[50%];
