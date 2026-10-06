@@ -117,7 +117,7 @@ $signature_role = get_post_meta(
                     );
                 }
                 ?>
-                <div class="flex flex-col justify-center gap-0">
+                <div class="flex justify-center gap-0">
                     <span class="ccluster-la-firma__experience-number">
                         <?php echo esc_html($stat_number); ?>
                     </span>
