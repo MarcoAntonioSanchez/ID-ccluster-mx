@@ -5,7 +5,10 @@
     <div class="ccluster-acordeones__inner">
         <!-- MEDIA -->
         <div class="ccluster-acordeones__media">
-            <!-- IMAGE -->
+            <img
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/10/CAD-software-interface-showing-shelving-system.png"
+                alt=""
+                class="ccluster-acordeones__media-image">
         </div>
         <!-- CONTENT -->
         <div class="ccluster-acordeones__content">
