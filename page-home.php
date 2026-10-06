@@ -33,6 +33,9 @@ get_header();
     get_template_part(
         'template-parts/home/por-que-cluster'
     );
+    get_template_part(
+        'template-parts/home/nuestra-identidad'
+    );
     ?>
 </main>
 <?php
