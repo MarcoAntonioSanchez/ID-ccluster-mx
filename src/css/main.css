@@ -793,7 +793,7 @@
   @apply relative flex min-h-[180px] flex-col justify-center p-8;
 }
 .ccluster-comparativo__column-header--attribute {
-  @apply border border-primary/10 bg-primary/25;
+  @apply border border-primary/10 bg-primary/1;
 }
 .ccluster-comparativo__column-label {
   @apply absolute left-8 top-6 font-body text-xs font-semibold uppercase tracking-widest text-primary/30;
