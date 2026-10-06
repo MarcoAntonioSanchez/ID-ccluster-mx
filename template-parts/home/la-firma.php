@@ -119,6 +119,9 @@ $signature_role = get_post_meta(
                 ?>
                 <span class="ccluster-la-firma__experience-number">
                     <?php echo esc_html($stat_number); ?>
+                    <span class="ccluster-la-firma__experience-number text-secondary">
+                        +
+                    </span>
                 </span>
 
                 <span class="ccluster-la-firma__experience-label">

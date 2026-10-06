@@ -246,7 +246,7 @@
     @apply w-[50px] h-[50px];
   }
   .ccluster-la-firma__experience-number {
-    @apply font-heading text-5xl font-bold text-secondary;
+    @apply font-heading text-5xl font-bold text-white;
   }
   .ccluster-la-firma__experience-label {
     @apply opacity-[50%] font-body text-sm font-bold text-white uppercase tracking-widest;
