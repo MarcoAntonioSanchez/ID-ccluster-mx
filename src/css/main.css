@@ -285,7 +285,7 @@
   .ccluster-la-firma__signature {
     @apply flex flex-col items-end gap-1;
   }
-  .ccluster-la-firma__signature {
+  .ccluster-la-firma__signature__img {
     @apply w-[50%];
   }
   .ccluster-la-firma__signature > .font-badge {

@@ -196,7 +196,7 @@ $signature_role = get_post_meta(
                 <?php if ($signature_name || $signature_role) : ?>
                     <div class="ccluster-la-firma__signature">
                         <img
-                            class="ccluster-la-firma__signature"
+                            class="ccluster-la-firma__signature__img"
                             src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-the-firm-editorial-sign.png"
                             alt="">
                         <?php if ($signature_role) : ?>
