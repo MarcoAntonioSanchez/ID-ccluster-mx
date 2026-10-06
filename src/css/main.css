@@ -286,7 +286,7 @@
     @apply flex flex-col items-start gap-1 w-75;
   }
   .ccluster-la-firma__signature__img {
-    @apply w-[50%];
+    @apply w-75;
   }
 }
 /* OUR STORY */
