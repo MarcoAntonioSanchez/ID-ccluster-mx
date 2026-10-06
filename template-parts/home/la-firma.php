@@ -117,13 +117,14 @@ $signature_role = get_post_meta(
                     );
                 }
                 ?>
-                <span class="ccluster-la-firma__experience-number">
-                    <?php echo esc_html($stat_number); ?>
+                <div clas="flex flex-col justify-center gap-0">
+                    <span class="ccluster-la-firma__experience-number">
+                        <?php echo esc_html($stat_number); ?>
+                    </span>
                     <span class="ccluster-la-firma__experience-number text-secondary">
                         +
                     </span>
-                </span>
-
+                </div>
                 <span class="ccluster-la-firma__experience-label">
                     <?php echo esc_html($stat_label); ?>
                 </span>
