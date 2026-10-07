@@ -1038,6 +1038,15 @@
 .ccluster-alianzas__description p {
   @apply font-body text-base leading-7 text-primary/70;
 }
+.ccluster-alianzas__footer {
+  @apply mt-auto pt-10;
+}
+.ccluster-alianzas__link {
+  @apply inline-flex items-center gap-3 font-body text-sm font-semibold text-primary no-underline;
+}
+.ccluster-alianzas__link-icon {
+  @apply h-5 w-5 object-contain;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

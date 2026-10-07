@@ -54,6 +54,19 @@
                         Relaciones sólidas basadas en confianza, servicio y capacidad de respuesta.
                     </p>
                 </div>
+                <div class="ccluster-alianzas__footer">
+                    <a
+                        href="#"
+                        class="ccluster-alianzas__link">
+                        <span>
+                            EXPLORAR SERVICIOS DE ASESORÍA
+                        </span>
+                        <img
+                            src="URL-DEL-ICONO"
+                            alt=""
+                            class="ccluster-alianzas__link-icon">
+                    </a>
+                </div>
             </article>
             <!-- PARTNERSHIP 2 -->
             <article class="ccluster-alianzas__item">
@@ -79,6 +92,19 @@
                         Con obligación de cumplir la Ley FPIORPI.
                     </p>
                 </div>
+                <div class="ccluster-alianzas__footer">
+                    <a
+                        href="#"
+                        class="ccluster-alianzas__link">
+                        <span>
+                            CUMPLIMIENTO NORMATIVO Y TECNOLÓGICO
+                        </span>
+                        <img
+                            src="URL-DEL-ICONO"
+                            alt=""
+                            class="ccluster-alianzas__link-icon">
+                    </a>
+                </div>
             </article>
             <!-- PARTNERSHIP -->
             <article class="ccluster-alianzas__item">
@@ -101,6 +127,19 @@
                     <p>
                         Con más de 25 años de experiencia..
                     </p>
+                </div>
+                <div class="ccluster-alianzas__footer">
+                    <a
+                        href="#"
+                        class="ccluster-alianzas__link">
+                        <span>
+                            CONSULTORÍA PATRIMONIAL INTERNACIONAL
+                        </span>
+                        <img
+                            src="URL-DEL-ICONO"
+                            alt=""
+                            class="ccluster-alianzas__link-icon">
+                    </a>
                 </div>
             </article>
         </div>
