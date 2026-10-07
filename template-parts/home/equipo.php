@@ -16,14 +16,17 @@
                         class="h-[2px] w-[25px] bg-secondary"
                         aria-hidden="true"></span>
                     <span class="ccluster-section-header__badge__text">
-                        COMPARATIVO
+                        NUESTRO EQUIPO
                     </span>
                 </div>
                 <!-- TITLE -->
                 <h2 class="ccluster-section-header__title">
-                    <span class="text-secondary">La firma: </span> Un Salto Cualitativo
+                    Especialistas de <span class="text-secondary">Élite</span>
                 </h2>
             </div>
+            <p class="ccluster-section-header__desc">
+                Nuestros colaboradores, Un equipo de especialistas
+            </p>
         </div>
         <!-- DIRECTOR -->
         <article class="ccluster-equipo__director">
