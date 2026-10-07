@@ -82,7 +82,7 @@
                             <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
                         </a>
                         <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
                         </a>
                         <a href="#" class="ccluster-equipo__social" aria-label="X">
                             <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
