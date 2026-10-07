@@ -42,6 +42,9 @@ get_header();
     get_template_part(
         'template-parts/home/equipo'
     );
+    get_template_part(
+        'template-parts/home/alianzas'
+    );
     ?>
 </main>
 <?php

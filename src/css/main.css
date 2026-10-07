@@ -1004,6 +1004,22 @@
 .ccluster-equipo__partner-socials .ccluster-equipo__social img {
   @apply h-3.5 w-3.5;
 }
+/* PARTNERSHIP */
+.ccluster-alianzas {
+  @apply w-full;
+}
+.ccluster-alianzas__inner {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-alianzas__grid {
+  @apply mt-16 grid grid-cols-3;
+}
+.ccluster-alianzas__item {
+  @apply flex flex-col px-10;
+}
+.ccluster-alianzas__item + .ccluster-alianzas__item {
+  @apply border-l border-primary/10;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
