@@ -43,6 +43,21 @@
                         Comparación
                     </span>
                 </div>
+                <!-- CELLS -->
+                <div class="ccluster-comparativo__column-rows">
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--attribute">
+                        Modelo de Negocio
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--attribute">
+                        Alcance
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--attribute">
+                        Alianzas
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--attribute">
+                        Capacitación
+                    </div>
+                </div>
             </div>
 
             <!-- COLUMN 2 -->
