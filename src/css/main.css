@@ -954,13 +954,13 @@
   @apply flex h-[700px] flex-col;
 }
 .ccluster-equipo__partner-media {
-  @apply h-[60%] overflow-hidden shadow-lg;
+  @apply h-[60%] overflow-hidden;
 }
 .ccluster-equipo__partner-content {
   @apply flex h-[40%] flex-col bg-white py-8;
 }
 .ccluster-equipo__partner-image {
-  @apply block h-full w-full object-cover;
+  @apply block h-full w-full object-cover shadow-lg;
 }
 .ccluster-equipo__partner-header {
   @apply flex flex-col;
@@ -973,6 +973,12 @@
 }
 .ccluster-equipo__partner-role {
   @apply mt-2 font-body text-sm font-semibold text-secondary;
+}
+.ccluster-equipo__partner-tags {
+  @apply mt-6 flex flex-wrap gap-2;
+}
+.ccluster-equipo__partner-tag {
+  @apply border border-primary/10 px-3 py-1.5 font-body text-xs text-primary/50;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {

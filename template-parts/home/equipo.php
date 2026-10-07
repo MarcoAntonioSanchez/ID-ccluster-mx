@@ -129,6 +129,18 @@
                             Control Interno y Prevención de Lavado de Dinero
                         </p>
                     </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Control Interno
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            PLD
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            Auditoría
+                        </span>
+                    </div>
                 </div>
             </article>
             <article class="ccluster-equipo__partner">
