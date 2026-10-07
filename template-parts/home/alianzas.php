@@ -38,6 +38,9 @@
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
+                <p class="ccluster-alianzas__specialty">
+                    Especialidad legal &amp; contable
+                </p>
             </article>
             <!-- PARTNERSHIP 2 -->
             <article class="ccluster-alianzas__item">
@@ -47,6 +50,9 @@
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
+                <p class="ccluster-alianzas__specialty">
+                    Especialidad legal &amp; contable
+                </p>
             </article>
             <!-- PARTNERSHIP -->
             <article class="ccluster-alianzas__item">
@@ -56,6 +62,9 @@
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
+                <p class="ccluster-alianzas__specialty">
+                    Especialidad legal &amp; contable
+                </p>
             </article>
         </div>
     </div>

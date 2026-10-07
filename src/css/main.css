@@ -1026,6 +1026,9 @@
 .ccluster-alianzas__icon-image {
   @apply block h-10 w-10 object-contain;
 }
+.ccluster-alianzas__specialty {
+  @apply mt-6 font-body text-sm font-semibold text-secondary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
