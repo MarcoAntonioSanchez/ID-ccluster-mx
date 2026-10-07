@@ -72,6 +72,23 @@
                         e implementación de matrices de cumplimiento normativo.
                     </p>
                 </div>
+                <div class="ccluster-equipo__director-footer">
+                    <div class="ccluster-equipo__director-divider"></div>
+                    <div class="ccluster-equipo__director-socials">
+                        <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                            <img src="URL-LINKEDIN" alt="">
+                        </a>
+                        <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                            <img src="URL-FACEBOOK" alt="">
+                        </a>
+                        <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                            <img src="URL-INSTAGRAM" alt="">
+                        </a>
+                        <a href="#" class="ccluster-equipo__social" aria-label="X">
+                            <img src="URL-X" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </article>
         <!-- PARTNERS -->
