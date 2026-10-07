@@ -45,6 +45,9 @@ get_header();
     get_template_part(
         'template-parts/home/alianzas'
     );
+    get_template_part(
+        'template-parts/home/tendencia-legal'
+    );
     ?>
 </main>
 <?php

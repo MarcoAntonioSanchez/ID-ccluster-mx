@@ -1047,6 +1047,14 @@
 .ccluster-alianzas__link-icon {
   @apply h-5 w-5 object-contain;
 }
+/* TENDENCIA LEGAL */
+/* TENDENCIA LEGAL */
+.ccluster-tendencia-legal {
+  @apply w-full;
+}
+.ccluster-tendencia-legal__inner {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
