@@ -74,6 +74,21 @@
                         Consultores Inmobiliarios
                     </span>
                 </div>
+                <!-- CELLS -->
+                <div class="ccluster-comparativo__column-rows">
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--cd">
+                        Consultoría tradicional
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--cd">
+                        Especializado en Riesgo Patrimonial
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--cd">
+                        Puntuales
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--cd">
+                        Servicio Externo
+                    </div>
+                </div>
             </div>
 
             <!-- COLUMN 3 -->

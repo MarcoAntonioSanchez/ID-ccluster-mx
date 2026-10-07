@@ -838,13 +838,14 @@
 .ccluster-comparativo__column-rows {
   @apply flex flex-col;
 }
-
 .ccluster-comparativo__cell {
   @apply flex min-h-[110px] items-center border-b border-primary/10 px-8;
 }
-
 .ccluster-comparativo__cell--attribute {
   @apply font-body text-base font-semibold text-primary;
+}
+.ccluster-comparativo__cell--cd {
+  @apply font-body text-base font-normal text-primary;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
