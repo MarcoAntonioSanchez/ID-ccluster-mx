@@ -847,6 +847,12 @@
 .ccluster-comparativo__cell--cd {
   @apply font-body text-base font-normal text-primary;
 }
+.ccluster-comparativo__cell--compliance {
+  @apply gap-4 font-body text-base font-semibold text-primary;
+}
+.ccluster-comparativo__cell-icon {
+  @apply h-6 w-6 shrink-0 object-contain;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

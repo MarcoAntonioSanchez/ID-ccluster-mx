@@ -105,6 +105,45 @@
                         Cluster
                     </span>
                 </div>
+                <!-- CELLS -->
+                <div class="ccluster-comparativo__column-rows">
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--compliance">
+                        <img
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
+                            alt=""
+                            class="ccluster-comparativo__cell-icon">
+                        <span>
+                            Ecosistema colaborativo
+                        </span>
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--compliance">
+                        <img
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
+                            alt=""
+                            class="ccluster-comparativo__cell-icon">
+                        <span>
+                            Solución 360° Integral
+                        </span>
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--compliance">
+                        <img
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
+                            alt=""
+                            class="ccluster-comparativo__cell-icon">
+                        <span>
+                            Estratégicas y Sistémicas
+                        </span>
+                    </div>
+                    <div class="ccluster-comparativo__cell ccluster-comparativo__cell--compliance">
+                        <img
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png"
+                            alt=""
+                            class="ccluster-comparativo__cell-icon">
+                        <span>
+                            Unidad Nativa Integrada
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
