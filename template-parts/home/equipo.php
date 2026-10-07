@@ -4,7 +4,7 @@
 <section class="ccluster-equipo">
     <div class="ccluster-equipo__inner">
         <!-- HEADER -->
-        <div class="ccluster-section-header items-center">
+        <div class="ccluster-section-header items-center mb-[50px]">
             <div class="ccluster-section-header__badge__title items-center">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
@@ -39,6 +39,20 @@
             </div>
             <div class="ccluster-equipo__director-content">
                 <!-- CONTENT -->
+                <div class="ccluster-equipo__director-header">
+                    <span class="ccluster-equipo__director-label">
+                        Liderazgo
+                    </span>
+                    <span class="ccluster-equipo__director-prefix">
+                        Mtro.
+                    </span>
+                    <h3 class="ccluster-equipo__director-name">
+                        Carlos A. Sánchez Uribe
+                    </h3>
+                    <p class="ccluster-equipo__director-role">
+                        Especialista en Compliance, PLD, Fiscal y Gestión de Riesgos
+                    </p>
+                </div>
             </div>
         </article>
         <!-- PARTNERS -->

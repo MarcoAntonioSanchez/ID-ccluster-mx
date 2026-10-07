@@ -887,6 +887,24 @@
 .ccluster-equipo__partner-content {
   @apply flex h-[40%] flex-col bg-white;
 }
+.ccluster-equipo__director-content {
+  @apply bg-white p-12;
+}
+.ccluster-equipo__director-header {
+  @apply flex flex-col;
+}
+.ccluster-equipo__director-label {
+  @apply w-fit bg-secondary px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary;
+}
+.ccluster-equipo__director-prefix {
+  @apply mt-8 font-body text-sm text-primary/40;
+}
+.ccluster-equipo__director-name {
+  @apply mt-1 font-heading text-4xl font-normal leading-tight text-primary;
+}
+.ccluster-equipo__director-role {
+  @apply mt-3 font-body text-base leading-6 text-secondary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
