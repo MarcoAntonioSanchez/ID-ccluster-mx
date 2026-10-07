@@ -41,6 +41,9 @@
                 <p class="ccluster-alianzas__specialty">
                     Especialidad legal &amp; contable
                 </p>
+                <h3 class="ccluster-alianzas__title">
+                    CIPBC, Asesores corporativos
+                </h3>
             </article>
             <!-- PARTNERSHIP 2 -->
             <article class="ccluster-alianzas__item">
@@ -53,6 +56,9 @@
                 <p class="ccluster-alianzas__specialty">
                     Regtech &amp; prevención de lavado
                 </p>
+                <h3 class="ccluster-alianzas__title">
+                    ALDDA, Software PLD
+                </h3>
             </article>
             <!-- PARTNERSHIP -->
             <article class="ccluster-alianzas__item">
@@ -65,6 +71,9 @@
                 <p class="ccluster-alianzas__specialty">
                     Estrategia fiscal &centerdot; Latam
                 </p>
+                <h3 class="ccluster-alianzas__title">
+                    CEI, Consultores empresariales internacionales
+                </h3>
             </article>
         </div>
     </div>
