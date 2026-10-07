@@ -897,7 +897,7 @@
   @apply flex items-center gap-5;
 }
 .ccluster-equipo__director-label {
-  @apply w-fit border-1 bg-primary/5 border-primary/25 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/75;
+  @apply w-fit border-1 bg-primary/5 border-primary/25 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/25;
 }
 .ccluster-equipo__director-label__alt {
   @apply w-fit border-1 border-primary/10 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/50;
@@ -938,16 +938,16 @@
 .ccluster-equipo__social img {
   @apply block h-4 w-4 object-contain;
 }
-.ccluster-equipo__social .lin:hover {
+.ccluster-equipo__social.lin:hover {
   @apply bg-[#0077b5] shadow-lg;
 }
-.ccluster-equipo__social .fb:hover {
+.ccluster-equipo__social.fb:hover {
   @apply bg-[#1877f2] shadow-lg;
 }
-.ccluster-equipo__social .ig:hover {
+.ccluster-equipo__social.ig:hover {
   @apply bg-[#c13584] shadow-lg;
 }
-.ccluster-equipo__social .ig:hover {
+.ccluster-equipo__social.xt:hover {
   @apply bg-black shadow-lg;
 }
 /* RESPONSIVE */
