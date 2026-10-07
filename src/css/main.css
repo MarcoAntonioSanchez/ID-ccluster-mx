@@ -938,8 +938,17 @@
 .ccluster-equipo__social img {
   @apply block h-4 w-4 object-contain;
 }
-.ccluster-equipo__social:hover {
-  @apply bg-transparent shadow-lg;
+.ccluster-equipo__social .lin:hover {
+  @apply bg-[#0077b5] shadow-lg;
+}
+.ccluster-equipo__social .fb:hover {
+  @apply bg-[#1877f2] shadow-lg;
+}
+.ccluster-equipo__social .ig:hover {
+  @apply bg-[#c13584] shadow-lg;
+}
+.ccluster-equipo__social .ig:hover {
+  @apply bg-black shadow-lg;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
