@@ -894,7 +894,7 @@
   @apply flex flex-col;
 }
 .ccluster-equipo__director-label {
-  @apply w-fit bg-secondary px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary;
+  @apply w-fit bg-secondary/5 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary;
 }
 .ccluster-equipo__director-prefix {
   @apply mt-8 font-body text-sm text-primary/40;

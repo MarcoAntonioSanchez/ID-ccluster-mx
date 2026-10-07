@@ -4,7 +4,7 @@
 <section class="ccluster-equipo">
     <div class="ccluster-equipo__inner">
         <!-- HEADER -->
-        <div class="ccluster-section-header items-center mb-[50px]">
+        <div class="ccluster-section-header items-center mb-[100px]">
             <div class="ccluster-section-header__badge__title items-center">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
@@ -62,7 +62,7 @@
                         Abogado y estratega legal
                     </h4>
                     <p class="ccluster-equipo__director-description">
-                        Abogado y estratega legal con más de 20 años de trayectoria especializada
+                        Con más de 20 años de trayectoria especializada
                         en Derecho Corporativo, Fiscal, Gestión de Riesgos, PLD y Compliance.
                         Preside actualmente la Junta Directiva de la World Compliance Association
                         (Capítulo México) y coordina comisiones especializadas en PLD, Compliance
