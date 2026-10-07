@@ -893,6 +893,9 @@
 .ccluster-equipo__director-header {
   @apply flex flex-col;
 }
+.ccluster-equipo__director-labels {
+  @apply flex items-center gap-5;
+}
 .ccluster-equipo__director-label {
   @apply w-fit border-1 border-primary/10 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/50;
 }

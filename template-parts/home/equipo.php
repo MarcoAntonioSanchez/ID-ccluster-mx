@@ -40,9 +40,23 @@
             <div class="ccluster-equipo__director-content">
                 <!-- CONTENT -->
                 <div class="ccluster-equipo__director-header">
-                    <span class="ccluster-equipo__director-label">
-                        Liderazgo
-                    </span>
+                    <div class="ccluster-equipo__director-labels">
+                        <span class="ccluster-equipo__director-label">
+                            Socio Fundador
+                        </span>
+                        <span class="ccluster-equipo__director-label__alt">
+                            Compliance
+                        </span>
+                        <span class="ccluster-equipo__director-label__alt">
+                            PLD
+                        </span>
+                        <span class="ccluster-equipo__director-label__alt">
+                            Fiscal
+                        </span>
+                        <span class="ccluster-equipo__director-label__alt">
+                            Gestión de Riesgos
+                        </span>
+                    </div>
                     <span class="ccluster-equipo__director-prefix">
                         Mtro.
                     </span>
