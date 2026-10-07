@@ -141,6 +141,39 @@
                             Auditoría
                         </span>
                     </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
             <article class="ccluster-equipo__partner">

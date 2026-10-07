@@ -980,6 +980,30 @@
 .ccluster-equipo__partner-tag {
   @apply border border-primary/10 px-3 py-1.5 font-body text-xs text-primary/50;
 }
+.ccluster-equipo__partner-footer {
+  @apply mt-auto;
+}
+.ccluster-equipo__partner-divider {
+  @apply h-px w-full bg-primary/10;
+}
+.ccluster-equipo__partner-footer-content {
+  @apply mt-5 flex items-center justify-between;
+}
+.ccluster-equipo__partner-more {
+  @apply flex items-center gap-2 border-0 bg-transparent p-0 font-body text-sm font-semibold text-primary;
+}
+.ccluster-equipo__partner-more-icon {
+  @apply h-5 w-5 object-contain;
+}
+.ccluster-equipo__partner-socials {
+  @apply flex items-center gap-2;
+}
+.ccluster-equipo__partner-socials .ccluster-equipo__social {
+  @apply h-8 w-8;
+}
+.ccluster-equipo__partner-socials .ccluster-equipo__social img {
+  @apply h-3.5 w-3.5;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
