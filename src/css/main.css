@@ -905,6 +905,18 @@
 .ccluster-equipo__director-role {
   @apply mt-3 font-body text-base leading-6 text-secondary;
 }
+.ccluster-equipo__director-bio {
+  @apply mt-10;
+}
+.ccluster-equipo__director-subtitle {
+  @apply flex items-center gap-3 font-body text-xl font-semibold text-primary;
+}
+.ccluster-equipo__director-bullet {
+  @apply h-2 w-2 shrink-0 bg-secondary;
+}
+.ccluster-equipo__director-description {
+  @apply mt-5 max-w-3xl font-body text-base leading-7 text-primary/80;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

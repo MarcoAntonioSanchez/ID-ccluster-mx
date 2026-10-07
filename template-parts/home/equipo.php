@@ -47,10 +47,29 @@
                         Mtro.
                     </span>
                     <h3 class="ccluster-equipo__director-name">
-                        Carlos A. Sánchez Uribe
+                        Carlos A. Pérez Macías
                     </h3>
                     <p class="ccluster-equipo__director-role">
                         Especialista en Compliance, PLD, Fiscal y Gestión de Riesgos
+                    </p>
+                </div>
+                <div class="ccluster-equipo__director-bio">
+                    <h4 class="ccluster-equipo__director-subtitle">
+                        <span
+                            class="ccluster-equipo__director-bullet"
+                            aria-hidden="true"></span>
+
+                        Abogado y estratega legal
+                    </h4>
+                    <p class="ccluster-equipo__director-description">
+                        Abogado y estratega legal con más de 20 años de trayectoria especializada
+                        en Derecho Corporativo, Fiscal, Gestión de Riesgos, PLD y Compliance.
+                        Preside actualmente la Junta Directiva de la World Compliance Association
+                        (Capítulo México) y coordina comisiones especializadas en PLD, Compliance
+                        y Gestión de Riesgos en diversos organismos profesionales y legislativos.
+                        Cuenta con formación internacional en Inteligencia Financiera y amplia
+                        experiencia liderando reestructuraciones corporativas, auditorías preventivas
+                        e implementación de matrices de cumplimiento normativo.
                     </p>
                 </div>
             </div>
