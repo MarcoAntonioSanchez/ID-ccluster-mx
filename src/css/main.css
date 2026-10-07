@@ -1027,7 +1027,7 @@
   @apply block h-10 w-10 object-contain;
 }
 .ccluster-alianzas__specialty {
-  @apply mt-6 font-body text-sm font-semibold text-secondary;
+  @apply mt-6 font-body text-sm font-semibold text-secondary uppercase;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {

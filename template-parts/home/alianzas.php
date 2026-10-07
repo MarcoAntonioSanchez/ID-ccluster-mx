@@ -51,7 +51,7 @@
                         class="ccluster-alianzas__icon-image">
                 </div>
                 <p class="ccluster-alianzas__specialty">
-                    Especialidad legal &amp; contable
+                    Regtech &amp; prevención de lavado
                 </p>
             </article>
             <!-- PARTNERSHIP -->
@@ -63,7 +63,7 @@
                         class="ccluster-alianzas__icon-image">
                 </div>
                 <p class="ccluster-alianzas__specialty">
-                    Especialidad legal &amp; contable
+                    Estrategia fiscal &centerdot; Latam
                 </p>
             </article>
         </div>
