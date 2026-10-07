@@ -63,10 +63,10 @@
                     </h4>
                     <p class="ccluster-equipo__director-description">
                         Con más de 20 años de trayectoria especializada
-                        en Derecho Corporativo, Fiscal, Gestión de Riesgos, PLD y Compliance.
+                        en Derecho Corporativo, Fiscal, Gestión de Riesgos, PLD y Compliance.<br />
                         Preside actualmente la Junta Directiva de la World Compliance Association
                         (Capítulo México) y coordina comisiones especializadas en PLD, Compliance
-                        y Gestión de Riesgos en diversos organismos profesionales y legislativos.
+                        y Gestión de Riesgos en diversos organismos profesionales y legislativos.<br />
                         Cuenta con formación internacional en Inteligencia Financiera y amplia
                         experiencia liderando reestructuraciones corporativas, auditorías preventivas
                         e implementación de matrices de cumplimiento normativo.
