@@ -44,6 +44,7 @@
                 <h3 class="ccluster-alianzas__title">
                     CIPBC, Asesores corporativos
                     <br />
+                    <br />
                 </h3>
                 <div class="ccluster-alianzas__description">
                     <p>
@@ -67,6 +68,7 @@
                 </p>
                 <h3 class="ccluster-alianzas__title">
                     ALDDA, Software PLD
+                    <br />
                     <br />
                 </h3>
                 <div class="ccluster-alianzas__description">
