@@ -111,7 +111,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="URL-DE-LA-IMAGEN"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -123,10 +123,10 @@
                             Mtro.
                         </span>
                         <h3 class="ccluster-equipo__partner-name">
-                            Nombre Apellido
+                            Reyna Cruz
                         </h3>
                         <p class="ccluster-equipo__partner-role">
-                            Control Interno y Gestión de Riesgos
+                            Control Interno y Prevención de Lavado de Dinero
                         </p>
                     </div>
                 </div>
