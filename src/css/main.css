@@ -1032,6 +1032,12 @@
 .ccluster-alianzas__title {
   @apply mt-3 font-heading text-2xl font-normal leading-tight text-primary capitalize;
 }
+.ccluster-alianzas__description {
+  @apply mt-6 flex flex-col gap-4;
+}
+.ccluster-alianzas__description p {
+  @apply font-body text-base leading-7 text-primary/70;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

@@ -44,6 +44,14 @@
                 <h3 class="ccluster-alianzas__title">
                     CIPBC, Asesores corporativos
                 </h3>
+                <div class="ccluster-alianzas__description">
+                    <p>
+                        Asesoría legal y contable personalizada, confidencial y efectiva.
+                    </p>
+                    <p>
+                        Relaciones sólidas basadas en confianza, servicio y capacidad de respuesta.
+                    </p>
+                </div>
             </article>
             <!-- PARTNERSHIP 2 -->
             <article class="ccluster-alianzas__item">
@@ -59,6 +67,14 @@
                 <h3 class="ccluster-alianzas__title">
                     ALDDA, Software PLD
                 </h3>
+                <div class="ccluster-alianzas__description">
+                    <p>
+                        Software diseñado para empresas y personas físicas consideradas Actividades Vulnerables.
+                    </p>
+                    <p>
+                        Con obligación de cumplir la Ley FPIORPI.
+                    </p>
+                </div>
             </article>
             <!-- PARTNERSHIP -->
             <article class="ccluster-alianzas__item">
@@ -74,6 +90,14 @@
                 <h3 class="ccluster-alianzas__title">
                     CEI, Consultores empresariales internacionales
                 </h3>
+                <div class="ccluster-alianzas__description">
+                    <p>
+                        Organización de profesionales promotores de la cultura fiscal y patrimonial en México y Latinoamérica.
+                    </p>
+                    <p>
+                        Con más de 25 años de experiencia..
+                    </p>
+                </div>
             </article>
         </div>
     </div>
