@@ -39,6 +39,9 @@ get_header();
     get_template_part(
         'template-parts/home/comparativa'
     );
+    get_template_part(
+        'template-parts/home/equipo'
+    );
     ?>
 </main>
 <?php

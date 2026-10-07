@@ -856,6 +856,34 @@
 .ccluster-comparativo__cell-icon {
   @apply h-6 w-6 shrink-0 object-contain;
 }
+/* TEAM */
+.ccluster-equipo {
+  @apply w-full;
+}
+.ccluster-equipo__inner {
+  @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-equipo__director {
+  @apply grid grid-cols-10;
+}
+.ccluster-equipo__director-media {
+  @apply col-span-3;
+}
+.ccluster-equipo__director-content {
+  @apply col-span-7 bg-white;
+}
+.ccluster-equipo__partners {
+  @apply mt-16 grid grid-cols-3 gap-8;
+}
+.ccluster-equipo__partner {
+  @apply flex flex-col;
+}
+.ccluster-equipo__partner-media {
+  @apply h-[60%];
+}
+.ccluster-equipo__partner-content {
+  @apply flex h-[40%] flex-col bg-white;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
