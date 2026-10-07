@@ -888,7 +888,7 @@
   @apply flex h-[40%] flex-col bg-white;
 }
 .ccluster-equipo__director-content {
-  @apply bg-white p-12;
+  @apply bg-white px-12 ps-12;
 }
 .ccluster-equipo__director-header {
   @apply flex flex-col;
