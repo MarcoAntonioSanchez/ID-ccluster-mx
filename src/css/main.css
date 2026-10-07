@@ -845,7 +845,10 @@
   @apply font-body text-base font-semibold text-primary;
 }
 .ccluster-comparativo__cell--cd {
-  @apply font-body text-base font-normal text-primary;
+  @apply font-body text-base font-normal text-primary transition-all duration-300;
+}
+.ccluster-comparativo__cell--cd:hover {
+  @apply shadow-md scale-[1.2];
 }
 .ccluster-comparativo__cell--compliance {
   @apply gap-4 font-body text-base font-semibold text-primary;
