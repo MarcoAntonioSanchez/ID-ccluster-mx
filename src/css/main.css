@@ -927,7 +927,7 @@
   @apply mt-6 flex items-center gap-3;
 }
 .ccluster-equipo__social {
-  @apply flex h-10 w-10 items-center justify-center rounded-md border border-primary bg-primary no-underline transition-all duration-300;
+  @apply flex h-10 w-10 items-center justify-center border border-primary bg-primary no-underline transition-all duration-300;
 }
 .ccluster-equipo__social img {
   @apply block h-4 w-4 object-contain;

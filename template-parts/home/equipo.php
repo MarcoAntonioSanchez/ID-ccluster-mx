@@ -76,16 +76,16 @@
                     <div class="ccluster-equipo__director-divider"></div>
                     <div class="ccluster-equipo__director-socials">
                         <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
-                            <img src="URL-LINKEDIN" alt="">
+                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
                         </a>
                         <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
-                            <img src="URL-FACEBOOK" alt="">
+                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
                         </a>
                         <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                            <img src="URL-INSTAGRAM" alt="">
+                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
                         </a>
                         <a href="#" class="ccluster-equipo__social" aria-label="X">
-                            <img src="URL-X" alt="">
+                            <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
                         </a>
                     </div>
                 </div>
