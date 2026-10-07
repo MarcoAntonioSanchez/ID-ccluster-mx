@@ -939,16 +939,16 @@
   @apply block h-4 w-4 object-contain;
 }
 .ccluster-equipo__social.lin:hover {
-  @apply bg-[#0077b5] shadow-xl scale-[1.01];
+  @apply bg-[#0077b5] shadow-xl scale-[1.01] border-hidden;
 }
 .ccluster-equipo__social.fb:hover {
-  @apply bg-[#1877f2] shadow-xl scale-[1.01];
+  @apply bg-[#1877f2] shadow-xl scale-[1.01] border-hidden;
 }
 .ccluster-equipo__social.ig:hover {
-  @apply bg-[#c13584] shadow-xl scale-[1.01];
+  @apply bg-[#c13584] shadow-xl scale-[1.01] border-hidden;
 }
 .ccluster-equipo__social.xt:hover {
-  @apply bg-black shadow-xl scale-[1.01];
+  @apply bg-black shadow-xl scale-[1.01] border-hidden;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
