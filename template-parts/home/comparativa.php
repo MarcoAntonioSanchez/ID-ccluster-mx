@@ -33,7 +33,7 @@
             <div class="ccluster-comparativo__column">
                 <!-- HEAD 1 -->
                 <div class="ccluster-comparativo__column-header ccluster-comparativo__column-header--attribute">
-                    <span class="ccluster-section-header__badge__text uppercase mb-5">
+                    <span class="ccluster-section-header__badge__text uppercase mb-5 text-primary/25">
                         Eje de Análisis
                     </span>
                     <h3 class="ccluster-comparativo__column-title">

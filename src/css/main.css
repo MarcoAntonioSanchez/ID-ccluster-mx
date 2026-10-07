@@ -796,7 +796,7 @@
   @apply border border-primary/10 bg-primary/1;
 }
 .ccluster-comparativo__column-label {
-  @apply absolute left-8 top-6 font-body text-xs font-semibold uppercase tracking-widest text-primary/30;
+  @apply absolute left-8 top-6 font-body text-xs font-semibold uppercase tracking-widest;
 }
 .ccluster-comparativo__column-title {
   @apply font-body text-3xl font-semibold text-primary;
