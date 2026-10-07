@@ -950,6 +950,18 @@
 .ccluster-equipo__social.xt:hover {
   @apply bg-black shadow-xl scale-[1.01] border-hidden;
 }
+.ccluster-equipo__partner {
+  @apply flex h-[700px] flex-col;
+}
+.ccluster-equipo__partner-media {
+  @apply h-[60%] overflow-hidden border-1 bg-primary;
+}
+.ccluster-equipo__partner-content {
+  @apply flex h-[40%] flex-col bg-white p-8 border-1 bg-primary;
+}
+.ccluster-equipo__partner-image {
+  @apply block h-full w-full object-cover;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

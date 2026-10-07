@@ -108,9 +108,14 @@
         <!-- PARTNERS -->
         <div class="ccluster-equipo__partners">
             <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
-                    <!-- IMAGE -->
+                    <img
+                        src="URL-DE-LA-IMAGEN"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
                 </div>
+                <!-- CONTENT — 40% -->
                 <div class="ccluster-equipo__partner-content">
                     <!-- CONTENT -->
                 </div>
