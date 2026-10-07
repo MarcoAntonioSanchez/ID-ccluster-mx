@@ -957,7 +957,7 @@
   @apply h-[60%] overflow-hidden;
 }
 .ccluster-equipo__partner-content {
-  @apply flex h-[40%] flex-col bg-white p-8;
+  @apply flex h-[40%] flex-col bg-white py-8;
 }
 .ccluster-equipo__partner-image {
   @apply block h-full w-full object-cover;
