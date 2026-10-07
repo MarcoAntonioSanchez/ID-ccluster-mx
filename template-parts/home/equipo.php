@@ -25,13 +25,17 @@
                 </h2>
             </div>
             <p class="ccluster-section-header__desc">
-                Nuestros colaboradores, Un equipo de especialistas
+                Nuestros colaboradores: Equipo de especialistas
             </p>
         </div>
         <!-- DIRECTOR -->
         <article class="ccluster-equipo__director">
             <div class="ccluster-equipo__director-media">
                 <!-- IMAGE -->
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-director-avatar-img.png"
+                    alt="Carlos A. Pérez M."
+                    class="ccluster-equipo__director-image">
             </div>
             <div class="ccluster-equipo__director-content">
                 <!-- CONTENT -->
