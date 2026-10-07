@@ -30,14 +30,32 @@
         </div>
         <!-- ALLIANCES -->
         <div class="ccluster-alianzas__grid">
+            <!-- PARTNERSHIP 1 -->
             <article class="ccluster-alianzas__item">
-                <!-- CONTENT -->
+                <div class="ccluster-alianzas__icon">
+                    <img
+                        src="URL-DEL-ICONO"
+                        alt=""
+                        class="ccluster-alianzas__icon-image">
+                </div>
             </article>
+            <!-- PARTNERSHIP 2 -->
             <article class="ccluster-alianzas__item">
-                <!-- CONTENT -->
+                <div class="ccluster-alianzas__icon">
+                    <img
+                        src="URL-DEL-ICONO"
+                        alt=""
+                        class="ccluster-alianzas__icon-image">
+                </div>
             </article>
+            <!-- PARTNERSHIP -->
             <article class="ccluster-alianzas__item">
-                <!-- CONTENT -->
+                <div class="ccluster-alianzas__icon">
+                    <img
+                        src="URL-DEL-ICONO"
+                        alt=""
+                        class="ccluster-alianzas__icon-image">
+                </div>
             </article>
         </div>
     </div>

@@ -1020,6 +1020,12 @@
 .ccluster-alianzas__item + .ccluster-alianzas__item {
   @apply border-l border-primary/10;
 }
+.ccluster-alianzas__icon {
+  @apply flex h-20 w-20 items-center justify-center bg-primary/5;
+}
+.ccluster-alianzas__icon-image {
+  @apply block h-10 w-10 object-contain;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
