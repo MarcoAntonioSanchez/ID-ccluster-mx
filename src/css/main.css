@@ -798,6 +798,9 @@
 .ccluster-comparativo__column-label {
   @apply absolute left-8 top-6 font-body text-xs font-semibold uppercase tracking-widest;
 }
+.ccluster-section-header__badge__text.label-light {
+  @apply text-white opacity-50;
+}
 .ccluster-comparativo__column-title {
   @apply font-body text-3xl font-semibold text-primary;
 }
