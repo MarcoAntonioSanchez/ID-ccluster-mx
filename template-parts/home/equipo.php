@@ -118,6 +118,17 @@
                 <!-- CONTENT — 40% -->
                 <div class="ccluster-equipo__partner-content">
                     <!-- CONTENT -->
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Mtro.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Nombre Apellido
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Control Interno y Gestión de Riesgos
+                        </p>
+                    </div>
                 </div>
             </article>
             <article class="ccluster-equipo__partner">
