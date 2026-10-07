@@ -867,10 +867,10 @@
   @apply grid grid-cols-10;
 }
 .ccluster-equipo__director-media {
-  @apply col-span-3 overflow-hidden;
+  @apply col-span-3 overflow-hidden shadow-lg;
 }
 .ccluster-equipo__director-image {
-  @apply block h-full w-full object-cover shadow-lg;
+  @apply block h-full w-full object-cover;
 }
 .ccluster-equipo__director-content {
   @apply col-span-7 bg-white;
