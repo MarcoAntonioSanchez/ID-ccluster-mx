@@ -894,7 +894,7 @@
   @apply flex flex-col;
 }
 .ccluster-equipo__director-label {
-  @apply w-fit border-1 border-primary/10 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/10;
+  @apply w-fit border-1 border-primary/10 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/50;
 }
 .ccluster-equipo__director-prefix {
   @apply mt-8 font-body text-sm text-primary/40;
@@ -924,7 +924,7 @@
   @apply h-px w-full bg-primary/10;
 }
 .ccluster-equipo__director-socials {
-  @apply mt-6 flex items-center gap-3;
+  @apply mt-6 flex items-center gap-3 justify-end;
 }
 .ccluster-equipo__social {
   @apply flex h-10 w-10 items-center justify-center border border-primary bg-primary no-underline transition-all duration-300;
