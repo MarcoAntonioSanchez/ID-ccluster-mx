@@ -784,7 +784,7 @@
   @apply mx-auto w-full max-w-7xl px-6 py-28;
 }
 .ccluster-comparativo__table {
-  @apply mt-[50px] flex w-full;
+  @apply mt-[100px] flex w-full;
 }
 .ccluster-comparativo__column {
   @apply w-1/3;
