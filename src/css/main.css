@@ -897,6 +897,9 @@
   @apply flex items-center gap-5;
 }
 .ccluster-equipo__director-label {
+  @apply w-fit border-1 bg-secondary/25 border-secondary/50 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-secondary/50;
+}
+.ccluster-equipo__director-label__alt {
   @apply w-fit border-1 border-primary/10 px-4 py-2 font-body text-xs font-semibold uppercase tracking-widest text-primary/50;
 }
 .ccluster-equipo__director-prefix {
