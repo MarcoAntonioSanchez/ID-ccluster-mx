@@ -107,48 +107,48 @@
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="URL-ICONO"
+                        src="URL-ICONO-STREAMING"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
                     <h3 class="ccluster-tendencia-legal__pillar-title">
-                        Formación especializada
+                        Streaming especializado
                     </h3>
                     <p class="ccluster-tendencia-legal__pillar-description">
-                        Cursos, webinars y certificaciones en materia de PLD,
-                        Compliance, Fiscal y Gestión de Riesgos.
+                        Contenido en streaming disponible para clientes,
+                        aliados y equipos de cumplimiento.
                     </p>
                 </div>
             </article>
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="URL-ICONO"
+                        src="URL-ICONO-ACTUALIZACION"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
                     <h3 class="ccluster-tendencia-legal__pillar-title">
-                        Formación especializada
+                        Actualización normativa
                     </h3>
                     <p class="ccluster-tendencia-legal__pillar-description">
-                        Cursos, webinars y certificaciones en materia de PLD,
-                        Compliance, Fiscal y Gestión de Riesgos.
+                        Actualización normativa constante, respaldada por la
+                        experiencia técnica del Cluster.
                     </p>
                 </div>
             </article>
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="URL-ICONO"
+                        src="URL-ICONO-COMUNIDAD"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
                     <h3 class="ccluster-tendencia-legal__pillar-title">
-                        Formación especializada
+                        Comunidad de aprendizaje
                     </h3>
                     <p class="ccluster-tendencia-legal__pillar-description">
-                        Cursos, webinars y certificaciones en materia de PLD,
-                        Compliance, Fiscal y Gestión de Riesgos.
+                        Continuidad de la comunidad de aprendizaje construida
+                        por Tendencia Legal, ahora con el alcance de Compliance Cluster.
                     </p>
                 </div>
             </article>
