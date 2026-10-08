@@ -41,6 +41,7 @@ function initAlternativeParticles() {
   const particles = [];
   const particleCount = 45;
   const particleRadius = 180;
+  const connectionDistance = 95;
 
   function createParticles() {
     particles.length = 0;
@@ -133,6 +134,40 @@ function initAlternativeParticles() {
         context.fill();
       });
     }
+
+    particles.forEach((particle, index) => {
+      for (let i = index + 1; i < particles.length; i++) {
+        const otherParticle = particles[i];
+
+        const dx = particle.x - otherParticle.x;
+        const dy = particle.y - otherParticle.y;
+
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance > connectionDistance) {
+          continue;
+        }
+
+        const opacity = (1 - distance / connectionDistance) * 0.25;
+
+        context.beginPath();
+
+        context.moveTo(particle.x, particle.y);
+
+        context.lineTo(otherParticle.x, otherParticle.y);
+
+        context.strokeStyle = `rgba(
+      255,
+      255,
+      255,
+      ${opacity}
+    )`;
+
+        context.lineWidth = 0.6;
+
+        context.stroke();
+      }
+    });
 
     requestAnimationFrame(render);
   }

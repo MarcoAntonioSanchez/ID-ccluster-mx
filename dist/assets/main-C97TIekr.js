@@ -16,4 +16,9 @@ lucide.createIcons({icons});\``);if(r===void 0)throw Error("`createIcons()` only
         255,
         255,
         ${e.opacity}
-      )`,n.fill()}),requestAnimationFrame(d)}d()}document.addEventListener(`DOMContentLoaded`,()=>{_({icons:{Check:u,Menu:p,X:g,Phone:h,Mail:d,MapPin:f,PhoneCall:m}});let e=document.querySelector(`[data-menu-toggle]`),t=document.querySelector(`[data-mobile-menu]`);if(!e||!t)return;e.addEventListener(`click`,()=>{let n=e.getAttribute(`aria-expanded`)===`true`;e.setAttribute(`aria-expanded`,String(!n)),t.hidden=n});let n={facebook:v,instagram:y,linkedin:b,x,youtube:S};document.querySelectorAll(`[data-social]`).forEach(e=>{let t=e.dataset.social,r=n[t];r&&(e.innerHTML=r)}),C()});
+      )`,n.fill()}),o.forEach((e,t)=>{for(let r=t+1;r<o.length;r++){let t=o[r],i=e.x-t.x,a=e.y-t.y,s=Math.sqrt(i*i+a*a);if(s>95)continue;let c=(1-s/95)*.25;n.beginPath(),n.moveTo(e.x,e.y),n.lineTo(t.x,t.y),n.strokeStyle=`rgba(
+      255,
+      255,
+      255,
+      ${c}
+    )`,n.lineWidth=.6,n.stroke()}}),requestAnimationFrame(d)}d()}document.addEventListener(`DOMContentLoaded`,()=>{_({icons:{Check:u,Menu:p,X:g,Phone:h,Mail:d,MapPin:f,PhoneCall:m}});let e=document.querySelector(`[data-menu-toggle]`),t=document.querySelector(`[data-mobile-menu]`);if(!e||!t)return;e.addEventListener(`click`,()=>{let n=e.getAttribute(`aria-expanded`)===`true`;e.setAttribute(`aria-expanded`,String(!n)),t.hidden=n});let n={facebook:v,instagram:y,linkedin:b,x,youtube:S};document.querySelectorAll(`[data-social]`).forEach(e=>{let t=e.dataset.social,r=n[t];r&&(e.innerHTML=r)}),C()});
