@@ -4,7 +4,7 @@ get_header();
 <main>
     <?php
     get_template_part(
-        'template-parts/home/hero'
+        'template-parts/alternative/hero-alt'
     );
     ?>
 </main>
