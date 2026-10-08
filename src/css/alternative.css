@@ -188,7 +188,7 @@
 }
 @layer components {
   .menu-item {
-    @apply font-body;
+    @apply font-body text-white;
   }
   .ccluster-cta__icon {
     @apply shrink-0 text-white;
