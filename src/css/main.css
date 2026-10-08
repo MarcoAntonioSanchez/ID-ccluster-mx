@@ -1075,6 +1075,9 @@
 .ccluster-tendencia-legal__story-description {
   @apply mt-5 max-w-2xl font-body text-base leading-7 text-primary/70;
 }
+.ccluster-tendencia-legal__story-label {
+  @apply mb-3 font-body text-xs font-semibold tracking-[0.2em] text-primary/40;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

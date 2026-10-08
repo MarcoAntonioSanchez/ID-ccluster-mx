@@ -51,6 +51,9 @@
                     </p>
                 </div>
                 <div class="ccluster-tendencia-legal__story-block">
+                    <span class="ccluster-tendencia-legal__story-label">
+                        NUEVA ETAPA
+                    </span>
                     <h3 class="ccluster-tendencia-legal__story-title">
                         Una Nueva Etapa Dentro de Compliance Cluster
                     </h3>
