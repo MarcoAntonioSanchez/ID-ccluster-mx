@@ -1,12 +1,26 @@
 {
   "src/css/alternative.css": {
-    "file": "assets/alternative-jMXtBJ4d.css",
+    "file": "assets/alternative-Bjxpgwrf.css",
     "name": "alternative",
     "names": [
       "alternative.css"
     ],
     "src": "src/css/alternative.css",
-    "isEntry": true
+    "isEntry": true,
+    "assets": [
+      "assets/Inter_18pt-Regular-BpskOkD5.ttf",
+      "assets/Inter_18pt-Medium-BtfNrkJj.ttf",
+      "assets/Inter_18pt-SemiBold-C9_sHzqi.ttf",
+      "assets/Inter_18pt-Bold-BVTOCPiq.ttf",
+      "assets/Oswald-Regular-Cyp0OCha.ttf",
+      "assets/Oswald-Medium-DGOpUBXR.ttf",
+      "assets/Oswald-SemiBold-DQ0ILBgh.ttf",
+      "assets/Oswald-Bold-CAX8aTdK.ttf",
+      "assets/Manrope-Regular-Dy0jyoUL.ttf",
+      "assets/Manrope-Medium-Bgh4Ro6H.ttf",
+      "assets/Manrope-SemiBold-CJD5SYW-.ttf",
+      "assets/Manrope-Bold-DEjRF1uU.ttf"
+    ]
   },
   "src/css/main.css": {
     "file": "assets/styles-DJjMk_V9.css",

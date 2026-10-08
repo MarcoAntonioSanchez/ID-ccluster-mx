@@ -2,6 +2,226 @@
 @import "tailwindcss";
 @source "../../**/*.php";
 
-body {
-  @apply bg-[#000000] text-white;
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter_18pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter_18pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@theme {
+  --color-primary: #071331;
+  --color-secondary: #c5a059;
+
+  --color-white: #ffffff;
+  --color-black: #1a1a1a;
+
+  --font-body: "Inter", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+  --font-badge: "Manrope", sans-serif;
+}
+@layer components {
+  .ccluster-section-heading {
+    @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
+  }
+}
+/* GLOBALS */
+/* SECTION HEADING */
+/* OUTER WRAPPER */
+.ccluster-section-header {
+  @apply flex flex-col gap-[50px] mb-6;
+}
+/* INNER WRAPPER */
+.ccluster-section-header__badge__title {
+  @apply flex flex-col gap-[10px];
+}
+/* BADGE */
+.ccluster-section-header__badge {
+  @apply flex items-center gap-3;
+}
+.ccluster-section-header__badge__icon {
+  @apply h-[35px] w-[35px] object-contain;
+}
+.ccluster-section-header__badge__line {
+  @apply h-[2px] w-[25px] bg-secondary;
+}
+.ccluster-section-header__badge__text {
+  @apply opacity-[25%] font-body text-sm font-bold tracking-widest;
+}
+.ccluster-section-header__title {
+  @apply font-heading text-[60px] font-normal leading-[60px] capitalize;
+}
+.ccluster-section-header__desc {
+  @apply font-body text-[1.5rem];
+}
+/* BUTTON - CTA */
+.ccluster-button__cta {
+  @apply font-body uppercase inline-flex items-center justify-center border border-primary bg-primary px-6 py-3 text-sm font-semibold text-white no-underline transition-all duration-300;
+}
+.ccluster-button__cta:hover {
+  @apply bg-transparent text-primary shadow-lg;
+}
+/* TOPBAR */
+@layer components {
+  .ccluster-topbar__icon {
+    opacity: 0.5;
+  }
+  .ccluster-topbar__icon {
+    @apply shrink-0 text-primary;
+  }
+  .ccluster-topbar__icon svg {
+    @apply w-[15px] h-[15px];
+  }
+}
+.ccluster-topbar__social svg {
+  width: 16px;
+  height: 16px;
+}
+.ccluster-topbar__social {
+  display: inline-block;
+  color: var(--color-primary);
+  opacity: 0.5;
+  transition: all 300ms ease;
+}
+.ccluster-topbar__social:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.ccluster-topbar__social[data-social="facebook"]:hover {
+  color: #1877f2;
+}
+.ccluster-topbar__social[data-social="instagram"]:hover {
+  color: #e4405f;
+}
+.ccluster-topbar__social[data-social="linkedin"]:hover {
+  color: #0a66c2;
+}
+.ccluster-topbar__social[data-social="x"]:hover {
+  color: #000000;
+}
+.ccluster-topbar__social[data-social="youtube"]:hover {
+  color: #ff0000;
+}
+/* NAVBAR */
+@layer components {
+  .menu-item {
+    @apply font-body;
+  }
+  .ccluster-cta__icon {
+    @apply shrink-0 text-white;
+  }
+  .ccluster-cta__icon svg {
+    @apply w-[20px] h-[20px];
+  }
+}
+/* HOME */
+/* HERO */
+.ccluster-hero-orb {
+  position: relative;
+  width: 230%;
+  max-width: none;
+  right: -35%;
+  top: 0;
+  perspective: 1200px;
+}
+.ccluster-hero-shadow {
+  display: none;
+}
+.ccluster-hero-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 135%;
+  max-width: 135%;
+  height: auto;
+  opacity: 0.7;
+}
+.ccluster-hero__description {
+  line-height: 1.75rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ccluster-hero-orb,
+  .ccluster-hero-image {
+    animation: none;
+  }
 }
