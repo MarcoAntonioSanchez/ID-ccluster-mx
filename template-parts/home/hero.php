@@ -116,7 +116,7 @@ $hero_background = $hero_background_id
                     playsinline
                     aria-hidden="true">
                     <source
-                        src="https://youtube.com/shorts/j0iuRhBW95Q?si=nszNSDGW6qCtj8Dd"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/esfera_nodos_loop_0001-1800.mp4"
                         type="video/mp4">
                 </video>
             </div>
