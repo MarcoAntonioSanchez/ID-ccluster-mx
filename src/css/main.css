@@ -204,6 +204,22 @@
   top: 0;
   perspective: 1200px;
 }
+.ccluster-hero-orb {
+  @apply relative;
+}
+
+.ccluster-hero-orb::before {
+  content: "";
+  @apply absolute inset-y-0 left-0 z-10 w-[65%];
+  background: linear-gradient(
+    to right,
+    white 0%,
+    rgba(255, 255, 255, 0.85) 25%,
+    rgba(255, 255, 255, 0.35) 60%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
 .ccluster-hero-shadow {
   display: none;
 }
