@@ -2,7 +2,7 @@
     id="alternative-hero"
     class="ccluster-hero">
     <div
-        class="mx-auto flex min-h-[calc(100vh-135px)] max-w-4xl flex-col items-center justify-center px-6 py-16 text-center">
+        class="mx-auto flex min-h-[calc(100vh-135px)] max-w-6xl flex-col items-center justify-center px-6 py-16 text-center">
         <!-- Badge -->
         <div class="flex items-center justify-center">
             <img
@@ -11,11 +11,11 @@
                 class="h-[150px] w-[150px] object-contain">
         </div>
         <!-- Title -->
-        <h1 class="mt-8 font-heading text-7xl capitalize leading-tight">
+        <h1 class="mt-8 font-heading text-7xl capitalize leading-tight text-white">
             Evoluciona A Compliance Cluster
         </h1>
         <!-- Description -->
-        <p class="ccluster-hero__description mt-6 max-w-2xl font-body text-lg leading-8">
+        <p class="ccluster-hero__description mt-6 max-w-2xl font-body text-lg leading-8 text-white/50">
             Para reflejar una visión más amplia, mayor especialización y un compromiso renovado con soluciones integrales en cumplimiento normativo y gestión empresarial.
         </p>
         <!-- CTA -->
