@@ -14,6 +14,66 @@ import linkedinIcon from "bootstrap-icons/icons/linkedin.svg?raw";
 import xIcon from "bootstrap-icons/icons/twitter-x.svg?raw";
 import youtubeIcon from "bootstrap-icons/icons/youtube.svg?raw";
 
+function initAlternativeParticles() {
+  const hero = document.querySelector("#alternative-hero");
+  const canvas = document.querySelector(".ccluster-hero-alt__particles");
+
+  if (!hero || !canvas) {
+    return;
+  }
+
+  const context = canvas.getContext("2d");
+
+  if (!context) {
+    return;
+  }
+
+  let width = 0;
+  let height = 0;
+
+  const pointer = {
+    x: 0,
+    y: 0,
+    active: false,
+  };
+
+  function resizeCanvas() {
+    const rect = hero.getBoundingClientRect();
+    const pixelRatio = window.devicePixelRatio || 1;
+
+    width = rect.width;
+    height = rect.height;
+
+    canvas.width = width * pixelRatio;
+    canvas.height = height * pixelRatio;
+
+    canvas.style.width = `${width}px`;
+    canvas.style.height = `${height}px`;
+
+    context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+  }
+
+  function handlePointerMove(event) {
+    const rect = hero.getBoundingClientRect();
+
+    pointer.x = event.clientX - rect.left;
+    pointer.y = event.clientY - rect.top;
+    pointer.active = true;
+  }
+
+  function handlePointerLeave() {
+    pointer.active = false;
+  }
+
+  resizeCanvas();
+
+  window.addEventListener("resize", resizeCanvas);
+
+  hero.addEventListener("pointermove", handlePointerMove);
+
+  hero.addEventListener("pointerleave", handlePointerLeave);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
@@ -59,4 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     element.innerHTML = icon;
   });
+
+  // PARTICLES - ALT HERO
+  initAlternativeParticles();
 });
