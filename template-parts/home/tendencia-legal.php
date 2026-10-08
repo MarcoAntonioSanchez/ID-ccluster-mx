@@ -25,15 +25,42 @@
                 </h2>
             </div>
             <p class="ccluster-section-header__desc">
-                Capacitación & Streaming Espacializado
+                Capacitación y Streaming Espacializado
             </p>
         </div>
         <!-- BACKGROUND / STORY -->
         <div class="ccluster-tendencia-legal__story">
             <!-- IDENTITY -->
             <div class="ccluster-tendencia-legal__identity">
-                <!-- ANTECEDENTES -->
-                <!-- TENDENCIA LEGAL -->
+                <span class="ccluster-tendencia-legal__eyebrow">
+                    ANTECEDENTES
+                </span>
+                <h3 class="ccluster-tendencia-legal__identity-title">
+                    Tendencia Legal
+                </h3>
+            </div>
+            <div class="ccluster-tendencia-legal__story-content">
+                <div class="ccluster-tendencia-legal__story-block">
+                    <h3 class="ccluster-tendencia-legal__story-title">
+                        Tendencia Legal, S.C. — Nuestro Origen como Capacitadora
+                    </h3>
+                    <p class="ccluster-tendencia-legal__story-description">
+                        Tendencia Legal nació como una capacitadora independiente especializada
+                        en temas jurídicos y de cumplimiento, formando durante años a profesionales
+                        del sector legal, fiscal y de compliance en México.
+                    </p>
+                </div>
+                <div class="ccluster-tendencia-legal__story-block">
+                    <h3 class="ccluster-tendencia-legal__story-title">
+                        Una Nueva Etapa Dentro de Compliance Cluster
+                    </h3>
+                    <p class="ccluster-tendencia-legal__story-description">
+                        Como parte de la evolución del Cluster, Tendencia Legal deja de operar
+                        de forma independiente y se integra a Compliance Cluster: continúa activa,
+                        ahora como el programa oficial de streaming y capacitación de la firma,
+                        dentro de un mismo ambiente institucional.
+                    </p>
+                </div>
             </div>
             <!-- CONTENT -->
             <div class="ccluster-tendencia-legal__story-content">

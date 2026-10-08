@@ -1048,12 +1048,20 @@
   @apply h-5 w-5 object-contain;
 }
 /* TENDENCIA LEGAL */
-/* TENDENCIA LEGAL */
 .ccluster-tendencia-legal {
   @apply w-full;
 }
 .ccluster-tendencia-legal__inner {
   @apply mx-auto w-full max-w-7xl px-6 py-28;
+}
+.ccluster-tendencia-legal__story {
+  @apply mt-20 grid grid-cols-5 gap-16;
+}
+.ccluster-tendencia-legal__identity {
+  @apply col-span-2;
+}
+.ccluster-tendencia-legal__story-content {
+  @apply col-span-3 flex flex-col gap-12;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
