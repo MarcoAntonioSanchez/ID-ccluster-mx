@@ -213,10 +213,10 @@
   @apply absolute inset-y-0 left-0 z-10 w-[65%];
   background: linear-gradient(
     to right,
-    white 0%,
-    rgba(255, 255, 255, 0.85) 25%,
-    rgba(255, 255, 255, 0.35) 60%,
-    transparent 100%
+    white 25%,
+    rgba(255, 255, 255, 0.85) 50%,
+    rgba(255, 255, 255, 0.35) 75%,
+    rgba(255, 255, 255, 0.25) 100%
   );
   pointer-events: none;
 }
