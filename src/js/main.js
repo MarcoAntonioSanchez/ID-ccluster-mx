@@ -73,6 +73,22 @@ function initAlternativeParticles() {
   hero.addEventListener("pointermove", handlePointerMove);
 
   hero.addEventListener("pointerleave", handlePointerLeave);
+
+  function render() {
+    context.clearRect(0, 0, width, height);
+
+    if (pointer.active) {
+      context.beginPath();
+      context.arc(pointer.x, pointer.y, 3, 0, Math.PI * 2);
+
+      context.fillStyle = "rgba(255, 255, 255, 0.8)";
+      context.fill();
+    }
+
+    requestAnimationFrame(render);
+  }
+
+  render();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
