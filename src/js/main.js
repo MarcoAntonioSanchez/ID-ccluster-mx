@@ -55,8 +55,8 @@ function initAlternativeParticles() {
         y: pointer.y + Math.sin(angle) * distance,
         vx: (Math.random() - 0.5) * 0.25,
         vy: (Math.random() - 0.5) * 0.25,
-        radius: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.5 + 0.25,
+        radius: Math.random() * 2 + 1,
+        opacity: Math.random() * 0.4 + 0.4,
       });
     }
   }
