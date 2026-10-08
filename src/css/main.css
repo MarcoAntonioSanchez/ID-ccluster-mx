@@ -1058,10 +1058,16 @@
   @apply mt-20 grid grid-cols-5 gap-16;
 }
 .ccluster-tendencia-legal__identity {
-  @apply col-span-2;
+  @apply col-span-2 flex flex-col;
 }
 .ccluster-tendencia-legal__story-content {
   @apply col-span-3 flex flex-col gap-12;
+}
+.ccluster-tendencia-legal__eyebrow {
+  @apply font-body text-sm font-semibold tracking-[0.2em] text-primary/40;
+}
+.ccluster-tendencia-legal__identity-title {
+  @apply mt-4 font-heading text-5xl font-normal leading-none text-primary;
 }
 /* RESPONSIVE */
 @media (max-width: 767px) {
