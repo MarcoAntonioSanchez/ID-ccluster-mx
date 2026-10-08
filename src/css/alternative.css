@@ -1,0 +1,7 @@
+/* TAILWIND */
+@import "tailwindcss";
+@source "../../**/*.php";
+
+body {
+  @apply bg-[#000000] text-white;
+}

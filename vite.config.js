@@ -18,6 +18,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "src/js/main.js"),
         styles: resolve(__dirname, "src/css/main.css"),
+        alternative: resolve(__dirname, "src/css/alternative.css"),
       },
     },
   },

@@ -1,4 +1,13 @@
 {
+  "src/css/alternative.css": {
+    "file": "assets/alternative-jMXtBJ4d.css",
+    "name": "alternative",
+    "names": [
+      "alternative.css"
+    ],
+    "src": "src/css/alternative.css",
+    "isEntry": true
+  },
   "src/css/main.css": {
     "file": "assets/styles-DJjMk_V9.css",
     "name": "styles",
