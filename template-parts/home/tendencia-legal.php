@@ -89,20 +89,52 @@
         <!-- PILLARS -->
         <div class="ccluster-tendencia-legal__pillars">
             <article class="ccluster-tendencia-legal__pillar">
-                <!-- ICON -->
-                <!-- CONTENT -->
+                <div class="ccluster-tendencia-legal__pillar-icon">
+                    <img
+                        src="URL-ICONO"
+                        alt="">
+                </div>
+                <div class="ccluster-tendencia-legal__pillar-content">
+                    <h3 class="ccluster-tendencia-legal__pillar-title">
+                        Formación especializada
+                    </h3>
+                    <p class="ccluster-tendencia-legal__pillar-description">
+                        Cursos, webinars y certificaciones en materia de PLD,
+                        Compliance, Fiscal y Gestión de Riesgos.
+                    </p>
+                </div>
             </article>
             <article class="ccluster-tendencia-legal__pillar">
-                <!-- ICON -->
-                <!-- CONTENT -->
+                <div class="ccluster-tendencia-legal__pillar-icon">
+                    <img
+                        src="URL-ICONO"
+                        alt="">
+                </div>
+                <div class="ccluster-tendencia-legal__pillar-content">
+                    <h3 class="ccluster-tendencia-legal__pillar-title">
+                        Formación especializada
+                    </h3>
+                    <p class="ccluster-tendencia-legal__pillar-description">
+                        Cursos, webinars y certificaciones en materia de PLD,
+                        Compliance, Fiscal y Gestión de Riesgos.
+                    </p>
+                </div>
             </article>
             <article class="ccluster-tendencia-legal__pillar">
-                <!-- ICON -->
-                <!-- CONTENT -->
-            </article>
-            <article class="ccluster-tendencia-legal__pillar">
-                <!-- ICON -->
-                <!-- CONTENT -->
+                <div class="ccluster-tendencia-legal__pillar-icon">
+                    <img
+                        src="URL-ICONO"
+                        alt="">
+                </div>
+                <div class="ccluster-tendencia-legal__pillar-content">
+                    <h3 class="ccluster-tendencia-legal__pillar-title">
+                        Formación especializada
+                    </h3>
+                    <p class="ccluster-tendencia-legal__pillar-description">
+                        Cursos, webinars y certificaciones en materia de PLD,
+                        Compliance, Fiscal y Gestión de Riesgos.
+                    </p>
+                </div>
             </article>
         </div>
     </div>

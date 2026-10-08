@@ -1087,6 +1087,24 @@
 .ccluster-tendencia-legal__statement-text span {
   @apply text-secondary;
 }
+.ccluster-tendencia-legal__pillars {
+  @apply mt-20 grid grid-cols-2;
+}
+.ccluster-tendencia-legal__pillar {
+  @apply flex gap-6 p-10;
+}
+.ccluster-tendencia-legal__pillar:nth-child(odd) {
+  @apply border-r border-primary/10;
+}
+.ccluster-tendencia-legal__pillar:nth-child(-n + 2) {
+  @apply border-b border-primary/10;
+}
+.ccluster-tendencia-legal__pillar-icon {
+  @apply flex h-12 w-12 shrink-0 items-center justify-center;
+}
+.ccluster-tendencia-legal__pillar-icon img {
+  @apply h-8 w-8 object-contain;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
