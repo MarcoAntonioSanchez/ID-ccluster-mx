@@ -202,3 +202,11 @@
 .ccluster-hero {
   @apply bg-[url(https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-buildings-primary-hero-alt-bg-img.png)];
 }
+#main-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
