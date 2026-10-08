@@ -116,7 +116,7 @@ $hero_background = $hero_background_id
                     playsinline
                     aria-hidden="true">
                     <source
-                        src="https://youtube.com/shorts/j0iuRhBW95Q?feature=share"
+                        src="https://youtube.com/shorts/j0iuRhBW95Q?si=nszNSDGW6qCtj8Dd"
                         type="video/mp4">
                 </video>
             </div>
