@@ -183,6 +183,9 @@
   color: #ff0000;
 }
 /* NAVBAR */
+#site-navbar {
+  @apply bg-white/5;
+}
 @layer components {
   .menu-item {
     @apply font-body;
