@@ -116,7 +116,7 @@ $hero_background = $hero_background_id
                     playsinline
                     aria-hidden="true">
                     <source
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/Diseno-sin-titulo-3.mp4"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/gemini_generated_video_0f812d7d.mp4"
                         type="video/mp4">
                 </video>
             </div>
