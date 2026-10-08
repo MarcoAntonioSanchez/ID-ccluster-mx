@@ -217,3 +217,19 @@
 .ccluster-hero {
   @apply py-[75px] bg-[url(https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-buildings-primary-hero-alt-bg-img-v2.png)];
 }
+/* ALTERNATIVE HERO */
+/* PARTICLE FIELD */
+
+.ccluster-hero-alt {
+  @apply relative overflow-hidden;
+}
+
+.ccluster-hero-alt__particles {
+  @apply pointer-events-none absolute inset-0 h-full w-full;
+  z-index: 0;
+}
+
+.ccluster-hero-alt__content {
+  position: relative;
+  z-index: 1;
+}
