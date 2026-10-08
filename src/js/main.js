@@ -163,7 +163,7 @@ function initAlternativeParticles() {
       ${opacity}
     )`;
 
-        context.lineWidth = 0.6;
+        context.lineWidth = 0.9;
 
         context.stroke();
       }
