@@ -145,6 +145,7 @@
 #site-topbar {
   @apply border-b-white/15;
 }
+#site-topbar a,
 #site-topbar span {
   @apply text-white;
 }
