@@ -15,6 +15,7 @@ import xIcon from "bootstrap-icons/icons/twitter-x.svg?raw";
 import youtubeIcon from "bootstrap-icons/icons/youtube.svg?raw";
 
 function initAlternativeParticles() {
+  console.log("initAlternativeParticles LOADED");
   const hero = document.querySelector("#alternative-hero");
   const canvas = document.querySelector(".ccluster-hero-alt__particles");
 
