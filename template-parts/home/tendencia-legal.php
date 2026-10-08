@@ -79,6 +79,13 @@
                 </div>
             </div>
         </div>
+        <!-- STATEMENT -->
+        <div class="ccluster-tendencia-legal__statement">
+            <p class="ccluster-tendencia-legal__statement-text">
+                Tendencia Legal continúa activa como el programa oficial de
+                <span>streaming y capacitación</span> de Compliance Cluster.
+            </p>
+        </div>
         <!-- PILLARS -->
         <div class="ccluster-tendencia-legal__pillars">
             <article class="ccluster-tendencia-legal__pillar">
