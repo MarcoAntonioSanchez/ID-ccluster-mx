@@ -196,32 +196,3 @@
 }
 /* HOME */
 /* HERO */
-.ccluster-hero-orb {
-  position: relative;
-  width: 230%;
-  max-width: none;
-  right: -35%;
-  top: 0;
-  perspective: 1200px;
-}
-.ccluster-hero-shadow {
-  display: none;
-}
-.ccluster-hero-image {
-  position: relative;
-  z-index: 1;
-  display: block;
-  width: 135%;
-  max-width: 135%;
-  height: auto;
-  opacity: 0.7;
-}
-.ccluster-hero__description {
-  line-height: 1.75rem;
-}
-@media (prefers-reduced-motion: reduce) {
-  .ccluster-hero-orb,
-  .ccluster-hero-image {
-    animation: none;
-  }
-}
