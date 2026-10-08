@@ -184,7 +184,7 @@
 }
 /* NAVBAR */
 #site-navbar {
-  @apply bg-white/5;
+  @apply bg-black/75;
 }
 @layer components {
   .menu-item {
