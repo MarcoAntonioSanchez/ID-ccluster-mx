@@ -196,3 +196,6 @@
 }
 /* HOME */
 /* HERO */
+.ccluster-hero {
+  @apply bg-[url(https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-buildings-primary-hero-alt-bg-img.png)];
+}
