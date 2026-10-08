@@ -12,16 +12,16 @@
         </div>
         <!-- Title -->
         <h1 class="mt-8 font-heading text-7xl capitalize leading-tight">
-            Título del Hero
+            Evoluciona A Compliance Cluster
         </h1>
         <!-- Description -->
         <p class="ccluster-hero__description mt-6 max-w-2xl font-body text-lg leading-8">
-            Descripción del Hero.
+            Para reflejar una visión más amplia, mayor especialización y un compromiso renovado con soluciones integrales en cumplimiento normativo y gestión empresarial.
         </p>
         <!-- CTA -->
         <a
             href="#"
-            class="mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
+            class="mt-8 inline-flex items-center bg-white px-8 py-3 text-sm font-semibold transition-opacity hover:opacity-90 uppercase">
             Ver más
         </a>
     </div>
