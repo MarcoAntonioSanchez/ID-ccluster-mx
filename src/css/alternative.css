@@ -142,6 +142,9 @@
   @apply bg-transparent text-primary shadow-lg;
 }
 /* TOPBAR */
+#site-topbar {
+  @apply border-b-[white/2];
+}
 @layer components {
   .ccluster-topbar__icon {
     opacity: 0.5;
