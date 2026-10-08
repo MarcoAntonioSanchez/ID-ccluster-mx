@@ -6,7 +6,7 @@
         <!-- Badge -->
         <div class="flex items-center justify-center">
             <img
-                src="URL-DEL-BADGE"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/08/cyd-consultores-logo2x-header.png"
                 alt=""
                 class="h-[150px] w-[150px] object-contain">
         </div>
@@ -15,7 +15,7 @@
             Evoluciona A Compliance Cluster
         </h1>
         <!-- Description -->
-        <p class="ccluster-hero__description mt-6 max-w-2xl font-body text-lg leading-8 text-white/50">
+        <p class="ccluster-hero__description mt-6 max-w-2xl font-body text-lg leading-8 text-white/75">
             Para reflejar una visión más amplia, mayor especialización y un compromiso renovado con soluciones integrales en cumplimiento normativo y gestión empresarial.
         </p>
         <!-- CTA -->
