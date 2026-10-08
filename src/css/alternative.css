@@ -143,7 +143,10 @@
 }
 /* TOPBAR */
 #site-topbar {
-  @apply border-b-white/2;
+  @apply border-b-white/15;
+}
+#site-topbar span {
+  @apply text-white;
 }
 @layer components {
   .ccluster-topbar__icon {
