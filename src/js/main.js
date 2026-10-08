@@ -38,6 +38,28 @@ function initAlternativeParticles() {
     active: false,
   };
 
+  const particles = [];
+  const particleCount = 45;
+  const particleRadius = 180;
+
+  function createParticles() {
+    particles.length = 0;
+
+    for (let i = 0; i < particleCount; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const distance = Math.random() * particleRadius;
+
+      particles.push({
+        x: pointer.x + Math.cos(angle) * distance,
+        y: pointer.y + Math.sin(angle) * distance,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: (Math.random() - 0.5) * 0.25,
+        radius: Math.random() * 1.5 + 0.5,
+        opacity: Math.random() * 0.5 + 0.25,
+      });
+    }
+  }
+
   function resizeCanvas() {
     const rect = hero.getBoundingClientRect();
     const pixelRatio = window.devicePixelRatio || 1;
@@ -68,6 +90,8 @@ function initAlternativeParticles() {
 
   resizeCanvas();
 
+  createParticles();
+
   window.addEventListener("resize", resizeCanvas);
 
   hero.addEventListener("pointermove", handlePointerMove);
@@ -78,11 +102,36 @@ function initAlternativeParticles() {
     context.clearRect(0, 0, width, height);
 
     if (pointer.active) {
-      context.beginPath();
-      context.arc(pointer.x, pointer.y, 3, 0, Math.PI * 2);
+      particles.forEach((particle) => {
+        particle.x += particle.vx;
+        particle.y += particle.vy;
 
-      context.fillStyle = "rgba(255, 255, 255, 0.8)";
-      context.fill();
+        const dx = particle.x - pointer.x;
+        const dy = particle.y - pointer.y;
+
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance > particleRadius) {
+          const angle = Math.random() * Math.PI * 2;
+
+          particle.x = pointer.x + Math.cos(angle) * particleRadius;
+
+          particle.y = pointer.y + Math.sin(angle) * particleRadius;
+        }
+
+        context.beginPath();
+
+        context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+
+        context.fillStyle = `rgba(
+        255,
+        255,
+        255,
+        ${particle.opacity}
+      )`;
+
+        context.fill();
+      });
     }
 
     requestAnimationFrame(render);
