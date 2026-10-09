@@ -16,7 +16,7 @@ lucide.createIcons({icons});\``);if(r===void 0)throw Error("`createIcons()` only
         255,
         255,
         ${e.opacity}
-      )`,n.fill()}),o.forEach((e,t)=>{for(let r=t+1;r<o.length;r++){let t=o[r],i=e.x-t.x,a=e.y-t.y,s=Math.sqrt(i*i+a*a);if(s>50)continue;let c=(1-s/50)*.25;n.beginPath(),n.moveTo(e.x,e.y),n.lineTo(t.x,t.y),n.strokeStyle=`rgba(
+      )`,n.fill()}),o.forEach((e,t)=>{for(let r=t+1;r<o.length;r++){let t=o[r],i=e.x-t.x,a=e.y-t.y,s=Math.sqrt(i*i+a*a);if(s>100)continue;let c=(1-s/100)*.25;n.beginPath(),n.moveTo(e.x,e.y),n.lineTo(t.x,t.y),n.strokeStyle=`rgba(
       255,
       255,
       255,
