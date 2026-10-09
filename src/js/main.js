@@ -148,7 +148,7 @@ function initAlternativeParticles() {
           continue;
         }
 
-        const opacity = (1 - distance / connectionDistance) * 0.25;
+        const opacity = (1 - distance / connectionDistance) * 0.4;
 
         context.beginPath();
 
