@@ -39,9 +39,9 @@ function initAlternativeParticles() {
   };
 
   const particles = [];
-  const particleCount = 22;
+  const particleCount = 25;
   const particleRadius = 150;
-  const connectionDistance = 100;
+  const connectionDistance = 150;
 
   function createParticles() {
     particles.length = 0;
