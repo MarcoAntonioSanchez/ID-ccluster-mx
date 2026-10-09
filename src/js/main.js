@@ -53,8 +53,8 @@ function initAlternativeParticles() {
       particles.push({
         x: pointer.x + Math.cos(angle) * distance,
         y: pointer.y + Math.sin(angle) * distance,
-        vx: (Math.random() - 0.5) * 0.25,
-        vy: (Math.random() - 0.5) * 0.25,
+        vx: (Math.random() - 0.5) * 0.7,
+        vy: (Math.random() - 0.5) * 0.7,
         radius: Math.random() * 2.5 + 1,
         opacity: Math.random() * 0.7 + 0.25,
       });
