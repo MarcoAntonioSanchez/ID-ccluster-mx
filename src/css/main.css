@@ -1065,6 +1065,10 @@
   .ccluster-tendencia-legal__story-description {
   @apply p-12 text-white;
 }
+.ccluster-tendencia-legal__story-block:nth-child(2)
+  .ccluster-tendencia-legal__story-title {
+  @apply text-secondary;
+}
 .ccluster-tendencia-legal__identity {
   @apply col-span-2 flex flex-col;
 }
@@ -1085,6 +1089,10 @@
 }
 .ccluster-tendencia-legal__story-label {
   @apply mb-3 font-body text-xs font-semibold tracking-[0.2em] text-primary/40;
+}
+.ccluster-tendencia-legal__story-block:nth-child(2)
+  .ccluster-tendencia-legal__story-label {
+  @apply text-white/40;
 }
 .ccluster-tendencia-legal__statement {
   @apply mt-24 border-y border-primary/10 py-12;
