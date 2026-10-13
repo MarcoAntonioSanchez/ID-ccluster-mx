@@ -1098,7 +1098,7 @@
 }
 
 .ccluster-tendencia-legal__pillar:hover {
-  @apply bg-primary/[0.03];
+  @apply bg-primary;
 }
 
 .ccluster-tendencia-legal__pillar:nth-child(odd) {
