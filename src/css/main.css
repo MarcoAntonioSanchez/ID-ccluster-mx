@@ -1091,9 +1091,16 @@
 .ccluster-tendencia-legal__pillars {
   @apply mt-20 grid grid-cols-2;
 }
+
 .ccluster-tendencia-legal__pillar {
   @apply flex gap-6 p-10;
+  @apply transition-colors duration-300;
 }
+
+.ccluster-tendencia-legal__pillar:hover {
+  @apply bg-primary/[0.03];
+}
+
 .ccluster-tendencia-legal__pillar:nth-child(odd) {
   @apply border-r border-primary/10;
 }
@@ -1109,12 +1116,10 @@
 .ccluster-tendencia-legal__pillar-title {
   @apply font-heading text-2xl font-normal leading-tight text-primary transition-colors duration-300;
 }
-
 .ccluster-tendencia-legal__pillar:hover
   .ccluster-tendencia-legal__pillar-title {
   @apply text-secondary;
 }
-
 .ccluster-tendencia-legal__pillar-description {
   @apply mt-3 max-w-md font-body text-base leading-7 text-primary/70;
 }
