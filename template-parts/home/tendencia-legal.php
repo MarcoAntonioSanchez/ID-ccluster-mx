@@ -66,18 +66,6 @@
                 </div>
             </div>
             <!-- CONTENT -->
-            <div class="ccluster-tendencia-legal__story-content">
-                <!-- ORIGIN -->
-                <div class="ccluster-tendencia-legal__story-block">
-                    <!-- TITLE -->
-                    <!-- DESCRIPTION -->
-                </div>
-                <!-- NEW STAGE -->
-                <div class="ccluster-tendencia-legal__story-block">
-                    <!-- TITLE -->
-                    <!-- DESCRIPTION -->
-                </div>
-            </div>
         </div>
         <!-- STATEMENT -->
         <div class="ccluster-tendencia-legal__statement">
