@@ -1063,7 +1063,7 @@
 }
 .ccluster-tendencia-legal__story-block:nth-child(2)
   .ccluster-tendencia-legal__story-description {
-  @apply text-white;
+  @apply p-12 text-white;
 }
 .ccluster-tendencia-legal__identity {
   @apply col-span-2 flex flex-col;
