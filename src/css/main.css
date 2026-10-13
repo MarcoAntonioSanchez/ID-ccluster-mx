@@ -1058,6 +1058,13 @@
 .ccluster-tendencia-legal__story {
   @apply mt-20 grid grid-cols-5 gap-16;
 }
+.ccluster-tendencia-legal__story-block:nth-child(2) {
+  @apply bg-primary;
+}
+.ccluster-tendencia-legal__story-block:nth-child(2)
+  .ccluster-tendencia-legal__story-description {
+  @apply text-white;
+}
 .ccluster-tendencia-legal__identity {
   @apply col-span-2 flex flex-col;
 }
