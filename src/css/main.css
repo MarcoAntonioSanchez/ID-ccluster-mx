@@ -1161,9 +1161,9 @@
   @apply absolute inset-0;
   background: linear-gradient(
     to top,
-    rgb(0 0 0 / 90%) 0%,
-    rgb(0 0 0 / 50%) 35%,
-    rgb(0 0 0 / 0%) 75%
+    rgb(7 19 49 / 90%) 0%,
+    rgb(7 19 49 / 50%) 35%,
+    rgb(7 19 49 / 0%) 75%
   );
 }
 
