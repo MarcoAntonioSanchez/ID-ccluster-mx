@@ -1139,6 +1139,68 @@
   .ccluster-tendencia-legal__pillar-description {
   @apply text-white;
 }
+/* PRÓXIMA TRANSMISIÓN */
+.ccluster-proxima-transmision {
+  @apply w-full;
+}
+.ccluster-proxima-transmision__inner {
+  @apply mx-auto grid w-full max-w-7xl grid-cols-1 overflow-hidden;
+  @apply rounded-2xl border border-primary/10;
+}
+.ccluster-proxima-transmision__cover {
+  @apply relative flex min-h-[420px] items-end;
+  @apply bg-primary bg-cover bg-center bg-no-repeat;
+}
+.ccluster-proxima-transmision__cover-content {
+  @apply relative z-10 w-full p-8;
+}
+.ccluster-proxima-transmision__cover-eyebrow {
+  @apply mb-4 block font-body text-xs font-semibold tracking-[0.2em] text-white/70;
+}
+.ccluster-proxima-transmision__cover-title {
+  @apply max-w-md font-heading text-4xl font-normal leading-tight text-white;
+}
+.ccluster-proxima-transmision__content {
+  @apply flex flex-col justify-between gap-12 p-8;
+}
+.ccluster-proxima-transmision__header {
+  @apply flex flex-col items-start;
+}
+.ccluster-proxima-transmision__badge {
+  @apply flex flex-wrap items-center gap-3;
+}
+.ccluster-proxima-transmision__badge-icon {
+  @apply h-6 w-6 shrink-0 object-contain;
+}
+.ccluster-proxima-transmision__badge-line {
+  @apply h-[2px] w-[25px] shrink-0 bg-secondary;
+}
+.ccluster-proxima-transmision__badge-text {
+  @apply font-body text-xs font-semibold tracking-[0.12em] text-primary/60;
+}
+.ccluster-proxima-transmision__title {
+  @apply mt-6 font-heading text-4xl font-normal leading-tight text-primary;
+}
+.ccluster-proxima-transmision__description {
+  @apply mt-4 max-w-xl font-body text-base leading-7 text-primary/70;
+}
+.ccluster-proxima-transmision__details {
+  @apply flex flex-col items-start;
+}
+.ccluster-proxima-transmision__details-title {
+  @apply font-heading text-2xl font-normal leading-tight text-primary;
+}
+.ccluster-proxima-transmision__details-description {
+  @apply mt-4 font-body text-base leading-7 text-primary/70;
+}
+.ccluster-proxima-transmision__cta {
+  @apply mt-6 inline-flex items-center gap-4;
+  @apply bg-primary px-6 py-4 font-body text-sm font-semibold text-white;
+  @apply transition-colors duration-300;
+}
+.ccluster-proxima-transmision__cta:hover {
+  @apply bg-secondary text-primary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
