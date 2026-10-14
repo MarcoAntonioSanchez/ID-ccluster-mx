@@ -1530,6 +1530,320 @@
     @apply text-3xl;
   }
 }
+/* PRÓXIMO CURSO */
+.ccluster-proximo-curso {
+  @apply w-full py-16;
+}
+
+.ccluster-proximo-curso__container {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 13fr);
+  @apply mx-auto w-full max-w-7xl overflow-hidden rounded-2xl;
+  @apply border border-primary/10;
+}
+
+/* LEFT: COURSE COVER */
+.ccluster-proximo-curso__cover {
+  @apply relative flex min-h-[700px] items-end overflow-hidden;
+  @apply bg-primary bg-cover bg-center bg-no-repeat;
+}
+
+.ccluster-proximo-curso__cover-overlay {
+  @apply absolute inset-0;
+  background: linear-gradient(
+    to top,
+    rgb(7 19 49 / 100%) 0%,
+    rgb(7 19 49 / 100%) 50%,
+    rgb(7 19 49 / 0%) 100%
+  );
+}
+
+.ccluster-proximo-curso__cover-content {
+  @apply relative z-10 w-full p-8;
+}
+
+.ccluster-proximo-curso__cover-eyebrow {
+  @apply mb-4 block font-body text-xs font-semibold tracking-[0.2em] text-white/70;
+}
+
+.ccluster-proximo-curso__cover-title {
+  @apply max-w-md font-heading text-4xl font-normal leading-tight text-white;
+}
+
+.ccluster-proximo-curso__cover-caption {
+  @apply mt-5 block font-body text-sm font-medium text-white/80;
+}
+
+/* RIGHT: COURSE CONTENT */
+.ccluster-proximo-curso__content {
+  @apply flex min-w-0 flex-col gap-8 p-10;
+}
+
+.ccluster-proximo-curso__header {
+  @apply flex flex-col items-start;
+}
+
+.ccluster-proximo-curso__badge {
+  @apply flex flex-wrap items-center gap-3;
+}
+
+.ccluster-proximo-curso__badge-icon {
+  @apply h-6 w-6 shrink-0 object-contain;
+}
+
+.ccluster-proximo-curso__badge-line {
+  @apply h-[2px] w-[25px] shrink-0 bg-secondary;
+}
+
+.ccluster-proximo-curso__badge-text {
+  @apply font-body text-xs font-semibold tracking-[0.12em] text-primary/60;
+}
+
+.ccluster-proximo-curso__title {
+  @apply mt-6 font-heading text-4xl font-normal leading-tight text-primary;
+}
+
+.ccluster-proximo-curso__description {
+  @apply mt-4 max-w-xl font-body text-base leading-7 text-primary/70;
+}
+
+/* COURSE SUMMARY */
+.ccluster-proximo-curso__summary {
+  @apply border-y border-primary/10 py-6;
+}
+
+.ccluster-proximo-curso__name {
+  @apply font-heading text-2xl font-normal leading-tight text-primary;
+}
+
+.ccluster-proximo-curso__meta {
+  @apply mt-6 grid grid-cols-2 gap-x-6 gap-y-5;
+}
+
+.ccluster-proximo-curso__meta-item {
+  @apply min-w-0;
+}
+
+.ccluster-proximo-curso__label {
+  @apply mb-2 block font-body text-[11px] font-semibold tracking-[0.16em] text-primary/50;
+}
+
+.ccluster-proximo-curso__value {
+  @apply font-body text-sm font-semibold leading-6 text-primary;
+  overflow-wrap: anywhere;
+}
+
+.ccluster-proximo-curso__support {
+  @apply mt-1 font-body text-sm leading-6 text-primary/60;
+}
+
+.ccluster-proximo-curso__price {
+  @apply font-heading text-2xl font-medium leading-tight text-primary;
+}
+
+.ccluster-proximo-curso__contact-note {
+  @apply mt-5 font-body text-sm leading-6 text-primary/70;
+}
+
+.ccluster-proximo-curso__contact-note a {
+  @apply font-semibold text-primary underline decoration-secondary underline-offset-4;
+  @apply transition-colors duration-300;
+}
+
+.ccluster-proximo-curso__contact-note a:hover {
+  @apply text-secondary;
+}
+
+/* ACCORDION */
+.ccluster-proximo-curso__accordion {
+  @apply flex flex-col border-t border-primary/10;
+}
+
+.ccluster-proximo-curso__accordion-item {
+  @apply border-b border-primary/10;
+}
+
+.ccluster-proximo-curso__accordion-trigger {
+  @apply flex cursor-pointer list-none items-center justify-between gap-6 py-5;
+  @apply font-heading text-xl font-normal text-primary;
+  @apply transition-colors duration-300;
+}
+
+.ccluster-proximo-curso__accordion-trigger::-webkit-details-marker {
+  display: none;
+}
+
+.ccluster-proximo-curso__accordion-trigger::marker {
+  content: "";
+}
+
+.ccluster-proximo-curso__accordion-trigger:hover {
+  @apply text-secondary;
+}
+
+.ccluster-proximo-curso__accordion-icon {
+  @apply relative h-5 w-5 shrink-0;
+}
+
+.ccluster-proximo-curso__accordion-icon::before,
+.ccluster-proximo-curso__accordion-icon::after {
+  content: "";
+  @apply absolute left-1/2 top-1/2 h-[2px] w-4 bg-current;
+  transform: translate(-50%, -50%);
+  transition: transform 300ms ease;
+}
+
+.ccluster-proximo-curso__accordion-icon::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.ccluster-proximo-curso__accordion-item[open]
+  .ccluster-proximo-curso__accordion-icon::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.ccluster-proximo-curso__accordion-item[open]
+  .ccluster-proximo-curso__accordion-trigger {
+  @apply text-primary;
+}
+
+.ccluster-proximo-curso__accordion-content {
+  @apply pb-6 font-body text-sm leading-7 text-primary/70;
+}
+
+.ccluster-proximo-curso__accordion-content > p {
+  @apply max-w-2xl;
+}
+
+.ccluster-proximo-curso__session {
+  @apply mt-5 first:mt-0;
+}
+
+.ccluster-proximo-curso__session h4,
+.ccluster-proximo-curso__detail-group h4 {
+  @apply mb-2 font-body text-sm font-semibold text-primary;
+}
+
+.ccluster-proximo-curso__session ul,
+.ccluster-proximo-curso__detail-group ul {
+  @apply flex flex-col gap-1;
+}
+
+.ccluster-proximo-curso__session li,
+.ccluster-proximo-curso__detail-group li {
+  @apply relative pl-5;
+}
+
+.ccluster-proximo-curso__session li::before,
+.ccluster-proximo-curso__detail-group li::before {
+  content: "";
+  @apply absolute left-0 top-[0.8em] h-1.5 w-1.5 rounded-full bg-secondary;
+}
+
+.ccluster-proximo-curso__detail-group {
+  @apply mt-6 first:mt-0;
+}
+
+.ccluster-proximo-curso__detail-group p {
+  @apply leading-7;
+}
+
+.ccluster-proximo-curso__detail-group strong {
+  @apply font-semibold text-primary;
+}
+
+.ccluster-proximo-curso__cancellation-note {
+  @apply mt-6 border-l-2 border-secondary pl-4 text-sm leading-6;
+}
+
+/* CTA */
+.ccluster-proximo-curso__actions {
+  @apply flex justify-start;
+}
+
+.ccluster-proximo-curso__cta {
+  @apply inline-flex items-center gap-5 bg-primary px-7 py-4;
+  @apply font-body text-sm font-semibold text-white;
+  @apply transition-colors duration-300;
+}
+
+.ccluster-proximo-curso__cta:hover {
+  @apply bg-secondary text-primary;
+}
+
+.ccluster-proximo-curso__cta-icon {
+  @apply text-lg leading-none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+  .ccluster-proximo-curso {
+    @apply py-10;
+  }
+
+  .ccluster-proximo-curso__container {
+    grid-template-columns: minmax(0, 1fr);
+    @apply rounded-xl;
+  }
+
+  .ccluster-proximo-curso__cover {
+    @apply min-h-[420px];
+  }
+
+  .ccluster-proximo-curso__cover-content {
+    @apply p-6;
+  }
+
+  .ccluster-proximo-curso__cover-title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-curso__content {
+    @apply gap-7 p-6;
+  }
+
+  .ccluster-proximo-curso__title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-curso__name {
+    @apply text-xl;
+  }
+
+  .ccluster-proximo-curso__meta {
+    @apply grid-cols-1 gap-y-5;
+  }
+
+  .ccluster-proximo-curso__accordion-trigger {
+    @apply text-lg;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ccluster-proximo-curso__cover {
+    @apply min-h-[600px];
+  }
+
+  .ccluster-proximo-curso__content {
+    @apply gap-7 p-6;
+  }
+
+  .ccluster-proximo-curso__title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-curso__name {
+    @apply text-xl;
+  }
+
+  .ccluster-proximo-curso__meta {
+    @apply gap-x-4 gap-y-5;
+  }
+
+  .ccluster-proximo-curso__cover-title {
+    @apply text-3xl;
+  }
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

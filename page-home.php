@@ -54,6 +54,9 @@ get_header();
     get_template_part(
         'template-parts/home/proximo-evento'
     );
+    get_template_part(
+        'template-parts/home/proximo-curso'
+    );
     ?>
 </main>
 <?php
