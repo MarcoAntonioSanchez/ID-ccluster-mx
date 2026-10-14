@@ -115,11 +115,19 @@
                             EXPOSITOR
                         </span>
 
-                        <p class="ccluster-proximo-curso__value">
-                            Mtro. Carlos A. Juarez Platas
-                        </p>
-                    </div>
+                        <div class="ccluster-proximo-curso__speaker">
+                            <div class="ccluster-proximo-curso__speaker-avatar">
+                                <img
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-tiny.png"
+                                    alt="Mtro. Carlos A. Juárez Platas"
+                                    class="ccluster-proximo-curso__speaker-image">
+                            </div>
 
+                            <p class="ccluster-proximo-curso__speaker-name">
+                                Mtro. Carlos A. Pérez Macías
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <p class="ccluster-proximo-curso__contact-note">
@@ -130,26 +138,24 @@
                 </p>
             </div>
 
-            <!-- EXCLUSIVE ACCORDION -->
+            <!-- HORIZONTAL ACCORDION -->
             <div class="ccluster-proximo-curso__accordion">
 
-                <!-- OBJECTIVE: OPEN BY DEFAULT -->
+                <!-- OBJECTIVE -->
                 <details
                     class="ccluster-proximo-curso__accordion-item"
                     name="ccluster-course-info"
                     open>
                     <summary class="ccluster-proximo-curso__accordion-trigger">
                         <span>Objetivo</span>
-                        <span
-                            class="ccluster-proximo-curso__accordion-icon"
-                            aria-hidden="true"></span>
+                        <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
                     </summary>
 
                     <div class="ccluster-proximo-curso__accordion-content">
                         <p>
-                            Comprender los principios y fundamentos del enfoque
-                            basado en riesgo para identificar y mitigar los riesgos
-                            asociados a actividades vulnerables de la Ley Antilavado.
+                            Comprender los principios y fundamentos del enfoque basado
+                            en riesgo para identificar y mitigar los riesgos asociados
+                            a actividades vulnerables de la Ley Antilavado.
                         </p>
                     </div>
                 </details>
@@ -160,13 +166,10 @@
                     name="ccluster-course-info">
                     <summary class="ccluster-proximo-curso__accordion-trigger">
                         <span>Temario</span>
-                        <span
-                            class="ccluster-proximo-curso__accordion-icon"
-                            aria-hidden="true"></span>
+                        <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
                     </summary>
 
                     <div class="ccluster-proximo-curso__accordion-content">
-
                         <div class="ccluster-proximo-curso__session">
                             <h4>Sesión 1</h4>
                             <ul>
@@ -195,23 +198,19 @@
                                 <li>Casos prácticos y ejercicios</li>
                             </ul>
                         </div>
-
                     </div>
                 </details>
 
-                <!-- ADDITIONAL DETAILS -->
+                <!-- COURSE DETAILS -->
                 <details
                     class="ccluster-proximo-curso__accordion-item"
                     name="ccluster-course-info">
                     <summary class="ccluster-proximo-curso__accordion-trigger">
-                        <span>Detalles del curso</span>
-                        <span
-                            class="ccluster-proximo-curso__accordion-icon"
-                            aria-hidden="true"></span>
+                        <span>Detalles</span>
+                        <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
                     </summary>
 
                     <div class="ccluster-proximo-curso__accordion-content">
-
                         <div class="ccluster-proximo-curso__detail-group">
                             <h4>Incluye</h4>
                             <ul>
@@ -229,10 +228,9 @@
                         </div>
 
                         <p class="ccluster-proximo-curso__cancellation-note">
-                            La cancelación de las reservaciones será aceptada
-                            únicamente con 48 horas de anticipación al evento.
+                            La cancelación de las reservaciones será aceptada únicamente
+                            con 48 horas de anticipación al evento.
                         </p>
-
                     </div>
                 </details>
 

@@ -1654,18 +1654,41 @@
   @apply text-secondary;
 }
 
-/* ACCORDION */
+/* SPEAKER */
+.ccluster-proximo-curso__speaker {
+  @apply mt-2 flex items-center gap-3;
+}
+
+.ccluster-proximo-curso__speaker-avatar {
+  @apply h-12 w-12 shrink-0 overflow-hidden rounded-full;
+  @apply border-2 border-primary bg-white p-1 shadow-lg;
+}
+
+.ccluster-proximo-curso__speaker-image {
+  @apply h-full w-full rounded-full object-cover;
+}
+
+.ccluster-proximo-curso__speaker-name {
+  @apply min-w-0 font-body text-sm font-semibold leading-5 text-primary;
+  overflow-wrap: anywhere;
+}
+/* HORIZONTAL ACCORDION */
 .ccluster-proximo-curso__accordion {
-  @apply flex flex-col border-t border-primary/10;
+  @apply grid grid-cols-3 border-y border-primary/10;
+  align-items: start;
 }
 
 .ccluster-proximo-curso__accordion-item {
-  @apply border-b border-primary/10;
+  @apply min-w-0 border-r border-primary/10;
+}
+
+.ccluster-proximo-curso__accordion-item:last-child {
+  @apply border-r-0;
 }
 
 .ccluster-proximo-curso__accordion-trigger {
-  @apply flex cursor-pointer list-none items-center justify-between gap-6 py-5;
-  @apply font-heading text-xl font-normal text-primary;
+  @apply flex min-h-16 cursor-pointer list-none items-center justify-between gap-2 p-4;
+  @apply font-heading text-lg font-normal text-primary;
   @apply transition-colors duration-300;
 }
 
@@ -1704,11 +1727,12 @@
 
 .ccluster-proximo-curso__accordion-item[open]
   .ccluster-proximo-curso__accordion-trigger {
-  @apply text-primary;
+  @apply text-secondary;
 }
 
 .ccluster-proximo-curso__accordion-content {
-  @apply pb-6 font-body text-sm leading-7 text-primary/70;
+  @apply px-4 pb-5 font-body text-sm leading-6 text-primary/70;
+  overflow-wrap: anywhere;
 }
 
 .ccluster-proximo-curso__accordion-content > p {
@@ -1731,7 +1755,7 @@
 
 .ccluster-proximo-curso__session li,
 .ccluster-proximo-curso__detail-group li {
-  @apply relative pl-5;
+  @apply relative pl-4;
 }
 
 .ccluster-proximo-curso__session li::before,
@@ -1745,7 +1769,7 @@
 }
 
 .ccluster-proximo-curso__detail-group p {
-  @apply leading-7;
+  @apply leading-6;
 }
 
 .ccluster-proximo-curso__detail-group strong {
@@ -1753,7 +1777,7 @@
 }
 
 .ccluster-proximo-curso__cancellation-note {
-  @apply mt-6 border-l-2 border-secondary pl-4 text-sm leading-6;
+  @apply mt-6 border-l-2 border-secondary pl-3 text-sm leading-6;
 }
 
 /* CTA */
