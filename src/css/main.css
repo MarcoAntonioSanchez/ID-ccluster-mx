@@ -1147,14 +1147,14 @@
 .ccluster-proxima-transmision__container {
   display: grid;
   grid-template-columns: minmax(0, 7fr) minmax(0, 13fr);
-  @apply mx-auto w-full max-w-7xl overflow-hidden rounded-2xl;
+  @apply mx-auto w-full max-w-7xl overflow-hidden;
   @apply border border-primary/10;
 }
 
 /* LEFT: COVER */
 .ccluster-proxima-transmision__cover {
   @apply relative flex min-h-[560px] items-end overflow-hidden;
-  @apply bg-primary bg-cover bg-center bg-no-repeat;
+  @apply bg-[url(https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-proxima-transimision-LFPIORPI-bg-img-tiny.png)] bg-cover bg-center bg-no-repeat;
 }
 
 .ccluster-proxima-transmision__cover-overlay {
