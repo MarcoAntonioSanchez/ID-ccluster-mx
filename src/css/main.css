@@ -1432,7 +1432,7 @@
   background: linear-gradient(
     to top,
     rgb(7 19 49 / 100%) 0%,
-    rgb(7 19 49 / 100%) 50%,
+    rgb(7 19 49 / 75%) 50%,
     rgb(7 19 49 / 0%) 100%
   );
 }
