@@ -51,6 +51,9 @@ get_header();
     get_template_part(
         'template-parts/home/proxima-transmision'
     );
+    get_template_part(
+        'template-parts/home/proximo-evento'
+    );
     ?>
 </main>
 <?php

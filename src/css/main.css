@@ -1291,6 +1291,245 @@
     @apply text-3xl;
   }
 }
+/* PRÓXIMO EVENTO */
+.ccluster-proximo-evento {
+  @apply w-full py-16;
+}
+
+.ccluster-proximo-evento__container {
+  display: grid;
+  grid-template-columns: minmax(0, 13fr) minmax(0, 7fr);
+  @apply mx-auto w-full max-w-7xl overflow-hidden rounded-2xl;
+  @apply border border-primary/10;
+}
+
+/* LEFT: EVENT INFORMATION */
+.ccluster-proximo-evento__content {
+  @apply flex min-w-0 flex-col gap-10 p-10;
+}
+
+.ccluster-proximo-evento__header {
+  @apply flex flex-col items-start;
+}
+
+.ccluster-proximo-evento__badge {
+  @apply flex flex-wrap items-center gap-3;
+}
+
+.ccluster-proximo-evento__badge-icon {
+  @apply h-6 w-6 shrink-0 object-contain;
+}
+
+.ccluster-proximo-evento__badge-line {
+  @apply h-[2px] w-[25px] shrink-0 bg-secondary;
+}
+
+.ccluster-proximo-evento__badge-text {
+  @apply font-body text-xs font-semibold tracking-[0.12em] text-primary/60;
+}
+
+.ccluster-proximo-evento__title {
+  @apply mt-6 font-heading text-4xl font-normal leading-tight text-primary;
+}
+
+.ccluster-proximo-evento__description {
+  @apply mt-4 max-w-xl font-body text-base leading-7 text-primary/70;
+}
+
+/* EVENT DETAILS */
+.ccluster-proximo-evento__details {
+  @apply flex flex-col gap-7;
+}
+
+.ccluster-proximo-evento__name {
+  @apply font-heading text-3xl font-normal leading-tight text-primary;
+}
+
+.ccluster-proximo-evento__block {
+  @apply flex flex-col items-start;
+}
+
+.ccluster-proximo-evento__label {
+  @apply mb-2 font-body text-xs font-semibold tracking-[0.16em] text-primary/50;
+}
+
+.ccluster-proximo-evento__value {
+  @apply font-body text-base font-semibold leading-7 text-primary;
+}
+
+.ccluster-proximo-evento__value span {
+  @apply text-sm font-normal text-primary/60;
+}
+
+/* SCHEDULE */
+.ccluster-proximo-evento__schedule {
+  @apply mt-3 flex w-full max-w-md flex-col gap-2;
+}
+
+.ccluster-proximo-evento__schedule li {
+  @apply flex flex-wrap justify-between gap-x-4 gap-y-1;
+  @apply border-b border-primary/10 pb-2;
+  @apply font-body text-sm leading-6 text-primary/70;
+}
+
+.ccluster-proximo-evento__schedule li span:first-child {
+  @apply font-semibold text-primary;
+}
+
+/* PRICE AND MODALITY */
+.ccluster-proximo-evento__meta {
+  @apply grid grid-cols-2 gap-6;
+}
+
+/* SPEAKER */
+.ccluster-proximo-evento__speaker {
+  @apply flex items-center gap-5 border-t border-primary/10 pt-7;
+}
+
+.ccluster-proximo-evento__speaker-avatar {
+  @apply h-20 w-20 shrink-0 overflow-hidden rounded-full;
+  @apply border-2 border-primary bg-white p-1 shadow-lg;
+}
+
+.ccluster-proximo-evento__speaker-image {
+  @apply h-full w-full rounded-full object-cover;
+}
+
+.ccluster-proximo-evento__speaker-info {
+  @apply min-w-0;
+}
+
+.ccluster-proximo-evento__speaker-name {
+  @apply font-heading text-xl font-normal leading-snug text-primary;
+}
+
+.ccluster-proximo-evento__speaker-role {
+  @apply mt-1 font-body text-sm leading-6 text-primary/70;
+}
+
+/* CONTACT */
+.ccluster-proximo-evento__contact {
+  @apply flex flex-col items-start border-t border-primary/10 pt-6;
+}
+
+.ccluster-proximo-evento__contact-link {
+  @apply font-body text-sm leading-7 text-primary;
+  @apply transition-colors duration-300;
+}
+
+.ccluster-proximo-evento__contact-link:hover {
+  @apply text-secondary;
+}
+
+/* RIGHT: EVENT COVER */
+.ccluster-proximo-evento__cover {
+  @apply relative flex min-h-[560px] items-end overflow-hidden;
+  @apply bg-primary bg-cover bg-center bg-no-repeat;
+}
+
+.ccluster-proximo-evento__cover-overlay {
+  @apply absolute inset-0;
+  background: linear-gradient(
+    to top,
+    rgb(7 19 49 / 100%) 0%,
+    rgb(7 19 49 / 100%) 50%,
+    rgb(7 19 49 / 0%) 100%
+  );
+}
+
+.ccluster-proximo-evento__cover-content {
+  @apply relative z-10 w-full p-8;
+}
+
+.ccluster-proximo-evento__cover-eyebrow {
+  @apply mb-4 block font-body text-xs font-semibold tracking-[0.2em] text-white/70;
+}
+
+.ccluster-proximo-evento__cover-title {
+  @apply max-w-md font-heading text-4xl font-normal leading-tight text-white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+  .ccluster-proximo-evento {
+    @apply py-10;
+  }
+
+  .ccluster-proximo-evento__container {
+    grid-template-columns: minmax(0, 1fr);
+    @apply rounded-xl;
+  }
+
+  .ccluster-proximo-evento__content {
+    @apply gap-8 p-6;
+  }
+
+  .ccluster-proximo-evento__title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-evento__name {
+    @apply text-2xl;
+  }
+
+  .ccluster-proximo-evento__meta {
+    @apply grid-cols-1 gap-6;
+  }
+
+  .ccluster-proximo-evento__speaker {
+    @apply items-start gap-4;
+  }
+
+  .ccluster-proximo-evento__speaker-avatar {
+    @apply h-16 w-16;
+  }
+
+  .ccluster-proximo-evento__speaker-name {
+    @apply text-lg;
+  }
+
+  .ccluster-proximo-evento__cover {
+    @apply min-h-[420px];
+  }
+
+  .ccluster-proximo-evento__cover-content {
+    @apply p-6;
+  }
+
+  .ccluster-proximo-evento__cover-title {
+    @apply text-3xl;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ccluster-proximo-evento__content {
+    @apply gap-7 p-6;
+  }
+
+  .ccluster-proximo-evento__title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-evento__name {
+    @apply text-2xl;
+  }
+
+  .ccluster-proximo-evento__speaker {
+    @apply items-start gap-4;
+  }
+
+  .ccluster-proximo-evento__speaker-avatar {
+    @apply h-16 w-16;
+  }
+
+  .ccluster-proximo-evento__cover {
+    @apply min-h-[500px];
+  }
+
+  .ccluster-proximo-evento__cover-title {
+    @apply text-3xl;
+  }
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {
