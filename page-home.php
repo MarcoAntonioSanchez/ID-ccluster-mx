@@ -48,6 +48,9 @@ get_header();
     get_template_part(
         'template-parts/home/tendencia-legal'
     );
+    get_template_part(
+        'template-parts/home/proxima-transmision'
+    );
     ?>
 </main>
 <?php
