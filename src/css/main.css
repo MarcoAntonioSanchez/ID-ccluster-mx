@@ -1299,7 +1299,7 @@
 .ccluster-proximo-evento__container {
   display: grid;
   grid-template-columns: minmax(0, 13fr) minmax(0, 7fr);
-  @apply mx-auto w-full max-w-7xl overflow-hidden rounded-2xl;
+  @apply mx-auto w-full max-w-7xl overflow-hidden;
   @apply border border-primary/10;
 }
 
