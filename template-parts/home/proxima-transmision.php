@@ -1,11 +1,17 @@
 <?php
+
+/**
+ * Home: Próxima transmisión
+ */
 ?>
 
 <section class="ccluster-proxima-transmision">
-    <div class="ccluster-proxima-transmision__inner">
+    <div class="ccluster-proxima-transmision__container">
 
         <!-- LEFT: TRANSMISSION COVER -->
         <div class="ccluster-proxima-transmision__cover">
+            <div class="ccluster-proxima-transmision__cover-overlay" aria-hidden="true"></div>
+
             <div class="ccluster-proxima-transmision__cover-content">
                 <span class="ccluster-proxima-transmision__cover-eyebrow">
                     TENDENCIA LEGAL
@@ -17,11 +23,11 @@
             </div>
         </div>
 
-        <!-- RIGHT: TRANSMISSION INFORMATION -->
+        <!-- RIGHT: TRANSMISSION CONTENT -->
         <div class="ccluster-proxima-transmision__content">
 
             <!-- SECTION HEADER -->
-            <div class="ccluster-proxima-transmision__header">
+            <header class="ccluster-proxima-transmision__header">
                 <div class="ccluster-proxima-transmision__badge">
                     <img
                         src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
@@ -44,7 +50,7 @@
                 <p class="ccluster-proxima-transmision__description">
                     Conocimiento especializado para un cumplimiento inteligente.
                 </p>
-            </div>
+            </header>
 
             <!-- TRANSMISSION DETAILS -->
             <div class="ccluster-proxima-transmision__details">
@@ -66,11 +72,12 @@
                     target="_blank"
                     rel="noopener noreferrer">
                     <span>Escuchar transmisión</span>
-                    <span aria-hidden="true">↗</span>
+                    <span class="ccluster-proxima-transmision__cta-icon" aria-hidden="true">
+                        ↗
+                    </span>
                 </a>
             </div>
 
         </div>
     </div>
 </section>
-```
