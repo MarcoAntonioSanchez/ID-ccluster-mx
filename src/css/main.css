@@ -1144,7 +1144,7 @@
   @apply w-full;
 }
 css .ccluster-proxima-transmision__inner {
-  @apply mx-auto grid w-full max-w-7xl grid-cols-[35%_65%] overflow-hidden;
+  @apply mx-auto grid w-full max-w-7xl grid-cols-1 overflow-hidden;
   @apply rounded-2xl border border-primary/10;
 }
 .ccluster-proxima-transmision__cover {
