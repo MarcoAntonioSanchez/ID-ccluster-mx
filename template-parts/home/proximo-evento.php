@@ -108,11 +108,11 @@
                         </span>
 
                         <h4 class="ccluster-proximo-evento__speaker-name">
-                            Mtro. L.D., M.G.R. y M.D.F. Carlos A. Juarez Platas
+                            Mtro. L.D., M.G.R. y M.D.F. Carlos A. Pérez Macías
                         </h4>
 
                         <p class="ccluster-proximo-evento__speaker-role">
-                            Director Jurídico A&E.
+                            Director Jurídico Compliance Cluster.
                         </p>
                     </div>
 
@@ -133,7 +133,7 @@
                     <a
                         href="tel:+525556575859"
                         class="ccluster-proximo-evento__contact-link">
-                        Tel. 55 56 57 58 59
+                        Tel. 55 79 31 32 54
                     </a>
                 </div>
 
