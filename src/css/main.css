@@ -650,6 +650,9 @@
 .ccluster-ecosistema-soluciones__slide-image {
   @apply block h-auto w-full object-cover;
 }
+.ccluster-ecosistema-soluciones__slide[hidden] {
+  display: none !important;
+}
 .ccluster-ecosistema-soluciones__arrow {
   @apply absolute top-1/2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center bg-primary text-xl text-white transition-opacity duration-300 hover:opacity-90;
 }
