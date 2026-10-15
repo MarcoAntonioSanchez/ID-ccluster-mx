@@ -514,7 +514,7 @@
   @apply h-full w-full;
 }
 .ccluster-nuestro-equipo__content {
-  @apply flex flex-col justify-center px-20;
+  @apply flex flex-col justify-center px-20 gap-[15px];
 }
 .ccluster-nuestro-equipo__experience {
   @apply mt-8 font-body text-3xl font-normal leading-10;
@@ -553,7 +553,7 @@
   @apply mt-8 flex items-center gap-4;
 }
 .ccluster-nuestro-equipo__avatar {
-  @apply h-20 w-20 shrink-0 rounded-full border-4 border-primary object-cover;
+  @apply h-30 w-30 shrink-0 rounded-full border-4 border-primary object-cover;
 }
 .ccluster-nuestro-equipo__profile-info {
   @apply flex flex-col;

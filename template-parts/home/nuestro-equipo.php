@@ -38,7 +38,10 @@
             </h2>
             <!-- EXPERIENCE -->
             <h3 class="ccluster-nuestro-equipo__experience">
-                Más de 20 años <strong>de experiencia</strong>
+                Más de <span
+                    data-counter
+                    data-target="20"
+                    data-duration="2500">0</span> años <strong>de experiencia</strong>
             </h3>
             <!-- BODY -->
             <p class="ccluster-nuestro-equipo__text">
@@ -59,7 +62,7 @@
             <div class="ccluster-nuestro-equipo__profile">
                 <img
                     class="ccluster-nuestro-equipo__avatar"
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/business-men-suite-avatar.png"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png"
                     alt="">
                 <div class="ccluster-nuestro-equipo__profile-info">
                     <strong class="ccluster-nuestro-equipo__profile-name">
