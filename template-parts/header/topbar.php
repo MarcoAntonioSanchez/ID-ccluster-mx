@@ -42,7 +42,7 @@ $social_networks = [
             <?php if ($email) : ?>
                 <a
                     href="mailto:<?php echo esc_attr($email); ?>"
-                    class="ccluster-link__primary-light flex gap-1">
+                    class="ccluster-link__primary-light text-sm flex gap-1">
                     <span
                         class="ccluster-topbar__icon flex-1 self-center">
                         <i data-lucide="mail"></i>
