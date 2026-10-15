@@ -1545,7 +1545,7 @@
 /* LEFT: COURSE COVER */
 .ccluster-proximo-curso__cover {
   @apply relative flex min-h-[700px] items-end overflow-hidden;
-  @apply bg-primary bg-cover bg-center bg-no-repeat;
+  @apply bg-[url(https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-proximo-curso-Actividades-Vulnerables-bg-img-tiny.png)] bg-cover bg-center bg-no-repeat;
 }
 
 .ccluster-proximo-curso__cover-overlay {
