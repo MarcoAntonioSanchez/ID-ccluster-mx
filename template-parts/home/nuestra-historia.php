@@ -167,7 +167,7 @@ $history_title = get_post_meta(
                     class="ccluster-nuestra-historia__stat-number"
                     data-counter
                     data-target="<?php echo esc_html($value_number); ?>"
-                    data-duration="3500">
+                    data-duration="2500">
                     0
                 </span>
             <?php endif; ?>
@@ -212,8 +212,12 @@ $history_title = get_post_meta(
                 </span>
             <?php endif; ?>
             <?php if ($strength_number) : ?>
-                <span class="ccluster-nuestra-historia__stat-number">
-                    <?php echo esc_html($strength_number); ?>
+                <span
+                    class="ccluster-nuestra-historia__stat-number"
+                    data-counter
+                    data-target="<?php echo esc_html($strength_number); ?>"
+                    data-duration="2500">
+                    0
                 </span>
             <?php endif; ?>
             <?php if ($strength_subtitle) : ?>
