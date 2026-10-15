@@ -645,7 +645,7 @@
   @apply w-full;
 }
 .ccluster-ecosistema-soluciones__slide-media {
-  @apply relative mt-12;
+  @apply relative mt-6;
 }
 .ccluster-ecosistema-soluciones__slide-image {
   @apply block h-auto w-full object-cover;
