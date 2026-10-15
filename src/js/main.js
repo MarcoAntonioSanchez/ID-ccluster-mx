@@ -263,6 +263,69 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // LA FIRMA - EXPERIENCE COUNTER
+  const counters = document.querySelectorAll("[data-counter]");
+
+  counters.forEach((counter) => {
+    const target = Number(counter.dataset.target) || 20;
+    const duration = Number(counter.dataset.duration) || 1500;
+
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    let hasAnimated = false;
+
+    const animateCounter = () => {
+      if (hasAnimated) return;
+      hasAnimated = true;
+
+      if (prefersReducedMotion) {
+        counter.textContent = target;
+        return;
+      }
+
+      const startTime = performance.now();
+
+      const updateCounter = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+
+        // Ease-out: inicia rápido y termina suavemente.
+        const easedProgress = 1 - Math.pow(1 - progress, 3);
+
+        counter.textContent = Math.floor(easedProgress * target);
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.textContent = target;
+        }
+      };
+
+      requestAnimationFrame(updateCounter);
+    };
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateCounter();
+              observer.disconnect();
+            }
+          });
+        },
+        { threshold: 0.5 },
+      );
+
+      observer.observe(counter);
+    } else {
+      // Alternativa para navegadores sin IntersectionObserver.
+      animateCounter();
+    }
+  });
+
   // PARTICLES - ALT HERO
   initAlternativeParticles();
 });
