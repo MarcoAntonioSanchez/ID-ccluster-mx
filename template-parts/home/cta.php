@@ -10,18 +10,16 @@
 
         <div class="ccluster-cta__content">
 
-            <div class="ccluster-proximo-curso__badge">
+            <div class="ccluster-objetivo-firma__badge">
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                     alt=""
-                    class="ccluster-proximo-curso__badge-icon">
-
+                    class="ccluster-objetivo-firma__badge-icon">
                 <span
-                    class="ccluster-proximo-curso__badge-line"
+                    class="h-[2px] w-[25px] bg-secondary"
                     aria-hidden="true"></span>
-
-                <span class="ccluster-proximo-curso__badge-text text-white/5">
-                    PRÓXIMOS CURSOS
+                <span class="font-badge">
+                    COMPLIANCE CLUSTER
                 </span>
             </div>
 
