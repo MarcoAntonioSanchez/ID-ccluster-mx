@@ -692,8 +692,8 @@
   }
 }
 .ccluster-ecosistema-soluciones__slide-intro {
+  @apply mt-16 grid grid-cols-2 items-start gap-8;
   min-height: 10rem;
-  align-items: start;
 }
 .ccluster-ecosistema-soluciones__slide-title,
 .ccluster-ecosistema-soluciones__slide-description {
