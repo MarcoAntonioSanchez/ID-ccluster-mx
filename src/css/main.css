@@ -671,6 +671,27 @@
 .ccluster-ecosistema-soluciones__bullet.is-active {
   @apply w-8 bg-secondary;
 }
+
+/* SLIDE TRANSITION */
+.ccluster-ecosistema-soluciones__slide {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 300ms ease,
+    transform 300ms ease;
+}
+.ccluster-ecosistema-soluciones__slide[hidden] {
+  display: none !important;
+}
+.ccluster-ecosistema-soluciones__slide.is-entering {
+  opacity: 0;
+  transform: translateY(8px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ccluster-ecosistema-soluciones__slide {
+    transition: none;
+  }
+}
 /* OUR ORIGINS */
 .ccluster-nuestros-origenes__header {
   @apply flex flex-col items-center bg-primary py-24;

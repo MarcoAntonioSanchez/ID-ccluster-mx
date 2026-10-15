@@ -455,14 +455,28 @@ document.addEventListener("DOMContentLoaded", () => {
       );
 
       const showSlide = (index) => {
-        activeIndex = (index + slides.length) % slides.length;
+        const nextIndex = (index + slides.length) % slides.length;
+
+        if (nextIndex === activeIndex) return;
+
+        const previousSlide = slides[activeIndex];
+        const nextSlide = slides[nextIndex];
+
+        previousSlide.hidden = true;
+        previousSlide.classList.remove("is-entering");
+
+        activeIndex = nextIndex;
+
+        nextSlide.hidden = false;
+        nextSlide.classList.add("is-entering");
+
+        // Aplicar el estado inicial antes de iniciar la transición.
+        void nextSlide.offsetWidth;
+
+        nextSlide.classList.remove("is-entering");
 
         slides.forEach((slide, slideIndex) => {
-          const isActive = slideIndex === activeIndex;
-
-          slide.hidden = !isActive;
-
-          slide.setAttribute("aria-hidden", String(!isActive));
+          slide.setAttribute("aria-hidden", String(slideIndex !== activeIndex));
         });
 
         bullets.forEach((bullet, bulletIndex) => {
@@ -477,22 +491,6 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       };
-
-      slides.forEach((slide, index) => {
-        slide
-          .querySelector("[data-service-prev]")
-          ?.addEventListener("click", () => showSlide(index - 1));
-
-        slide
-          .querySelector("[data-service-next]")
-          ?.addEventListener("click", () => showSlide(index + 1));
-      });
-
-      bullets.forEach((bullet, index) => {
-        bullet.addEventListener("click", () => {
-          showSlide(index);
-        });
-      });
 
       // Sincronizar la diapositiva inicial y sus indicadores.
       showSlide(activeIndex);
