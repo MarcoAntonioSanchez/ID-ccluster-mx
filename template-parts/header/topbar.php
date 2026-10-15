@@ -47,7 +47,7 @@ $social_networks = [
                     </span>
                     <a
                         href="mailto:<?php echo esc_attr($email); ?>"
-                        class="font-body text-xs flex-1 border-b border-transparent duration-300 ease-in-out hover:scale-[1.03] hover:border-b-1 hover:border-(--primary)">
+                        class="ccluster-link__primary-light">
                         <?php echo esc_html($email); ?>
                     </a>
                 </div>

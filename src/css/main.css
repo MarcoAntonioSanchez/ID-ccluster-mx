@@ -107,15 +107,12 @@
 }
 /* GLOBALS */
 /* SECTION HEADING */
-/* OUTER WRAPPER */
 .ccluster-section-header {
   @apply flex flex-col gap-[50px] mb-6;
 }
-/* INNER WRAPPER */
 .ccluster-section-header__badge__title {
   @apply flex flex-col gap-[10px];
 }
-/* BADGE */
 .ccluster-section-header__badge {
   @apply flex items-center gap-3;
 }
@@ -140,6 +137,14 @@
 }
 .ccluster-button__cta:hover {
   @apply bg-transparent text-primary shadow-lg;
+}
+/* LINK - CTA */
+.ccluster-link__primary-light {
+  @apply font-semibold text-primary underline decoration-secondary underline-offset-4;
+  @apply transition-colors duration-300;
+}
+.ccluster-link__primary-light:hover {
+  @apply text-secondary;
 }
 /* TOPBAR */
 @layer components {
