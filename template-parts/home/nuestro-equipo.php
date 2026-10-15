@@ -61,7 +61,7 @@
             <!-- PROFILE -->
             <div class="ccluster-nuestro-equipo__profile">
                 <img
-                    class="ccluster-nuestro-equipo__avatar"
+                    class=".ccluster-avatar_light"
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png"
                     alt="">
                 <div class="ccluster-nuestro-equipo__profile-info">
