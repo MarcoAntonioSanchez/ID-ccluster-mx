@@ -141,7 +141,7 @@
                 <?php if ($principio_url) : ?>
                     <a
                         href="<?php echo esc_url($principio_url); ?>"
-                        class="ccluster-principios__card-link">
+                        class="ccluster-link__primary-light">
                         Leer más
                         <span aria-hidden="true">→</span>
                     </a>

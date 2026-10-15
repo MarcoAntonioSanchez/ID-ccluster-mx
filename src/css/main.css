@@ -470,7 +470,7 @@
   gap: 2rem;
 }
 .ccluster-principios__card {
-  @apply flex min-h-[350px] flex-col border border-primary/10 p-10 transition-colors duration-300;
+  @apply flex min-h-[350px] flex-col bg-primary p-10 transition-colors duration-300;
 }
 .ccluster-principios__card-icon {
   @apply block h-16 w-16 shrink-0 object-contain;
@@ -479,10 +479,10 @@
   @apply block h-full w-full object-contain;
 }
 .ccluster-principios__card-title {
-  @apply mt-6 font-body text-2xl font-semibold;
+  @apply mt-6 font-body text-2xl font-semibold text-white;
 }
 .ccluster-principios__card-description {
-  @apply mt-3 font-body text-base leading-7;
+  @apply mt-3 font-body text-base leading-7 text-white/50;
 }
 .ccluster-principios__card-link {
   @apply mt-auto flex items-center gap-2 pt-6 font-body text-sm font-semibold text-secondary no-underline transition-colors duration-300;
