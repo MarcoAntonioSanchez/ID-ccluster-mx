@@ -263,7 +263,68 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // LA FIRMA - EXPERIENCE COUNTER
+  // NUESTRA HISTORIA - INFINITE TIMELINE + YEAR COUNTERS
+  const historyTrack = document.querySelector(
+    ".ccluster-nuestra-historia__track",
+  );
+
+  let historyYearCounters = [];
+
+  if (historyTrack) {
+    // Capture the original five events before cloning.
+    const originalEvents = Array.from(historyTrack.children);
+
+    historyYearCounters = originalEvents.flatMap((event) =>
+      Array.from(event.querySelectorAll("[data-counter]")),
+    );
+
+    // Duplicate the five events to create a seamless loop.
+    originalEvents.forEach((event) => {
+      const clone = event.cloneNode(true);
+
+      clone.setAttribute("aria-hidden", "true");
+
+      clone.querySelectorAll("[data-counter]").forEach((counter) => {
+        counter.textContent = counter.dataset.target || counter.textContent;
+        counter.removeAttribute("data-counter");
+      });
+
+      historyTrack.appendChild(clone);
+    });
+
+    // Start only after every original year counter has completed.
+    let completedCounters = 0;
+    let timelineStarted = false;
+
+    const startTimeline = () => {
+      if (timelineStarted) return;
+      timelineStarted = true;
+
+      window.setTimeout(() => {
+        historyTrack.classList.add("is-running");
+      }, 1500);
+    };
+
+    if (historyYearCounters.length === 0) {
+      startTimeline();
+    } else {
+      historyYearCounters.forEach((counter) => {
+        counter.addEventListener(
+          "ccluster:counter-complete",
+          () => {
+            completedCounters += 1;
+
+            if (completedCounters === historyYearCounters.length) {
+              startTimeline();
+            }
+          },
+          { once: true },
+        );
+      });
+    }
+  }
+
+  // REUSABLE COUNTERS
   const counters = document.querySelectorAll("[data-counter]");
 
   counters.forEach((counter) => {
@@ -276,12 +337,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let hasAnimated = false;
 
+    const finishCounter = () => {
+      counter.textContent = target;
+      counter.dispatchEvent(new Event("ccluster:counter-complete"));
+    };
+
     const animateCounter = () => {
       if (hasAnimated) return;
       hasAnimated = true;
 
       if (prefersReducedMotion) {
-        counter.textContent = target;
+        finishCounter();
         return;
       }
 
@@ -290,7 +356,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const updateCounter = (currentTime) => {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
-
         const easedProgress = 1 - Math.pow(1 - progress, 3);
 
         counter.textContent = Math.floor(easedProgress * target);
@@ -298,7 +363,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (progress < 1) {
           requestAnimationFrame(updateCounter);
         } else {
-          counter.textContent = target;
+          finishCounter();
         }
       };
 
