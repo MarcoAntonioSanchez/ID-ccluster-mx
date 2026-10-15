@@ -263,22 +263,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // NUESTRA HISTORIA - INFINITE TIMELINE + YEAR COUNTERS
+  // NUESTRA HISTORIA - STEPPED INFINITE TIMELINE + YEAR COUNTERS
   const historyTrack = document.querySelector(
     ".ccluster-nuestra-historia__track",
   );
 
-  let historyYearCounters = [];
-
   if (historyTrack) {
-    // Capture the original five events before cloning.
     const originalEvents = Array.from(historyTrack.children);
 
-    historyYearCounters = originalEvents.flatMap((event) =>
+    const historyYearCounters = originalEvents.flatMap((event) =>
       Array.from(event.querySelectorAll("[data-counter]")),
     );
 
-    // Duplicate the five events to create a seamless loop.
+    // Duplicate the events; cloned counters show their final values.
     originalEvents.forEach((event) => {
       const clone = event.cloneNode(true);
 
@@ -292,16 +289,64 @@ document.addEventListener("DOMContentLoaded", () => {
       historyTrack.appendChild(clone);
     });
 
-    // Start only after every original year counter has completed.
     let completedCounters = 0;
     let timelineStarted = false;
+    let timelineTimer = null;
+
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
     const startTimeline = () => {
       if (timelineStarted) return;
       timelineStarted = true;
 
-      window.setTimeout(() => {
-        historyTrack.classList.add("is-running");
+      timelineTimer = window.setTimeout(() => {
+        if (prefersReducedMotion) return;
+
+        const getStepWidth = () => {
+          const firstEvent = historyTrack.firstElementChild;
+          if (!firstEvent) return 0;
+
+          const trackStyle = window.getComputedStyle(historyTrack);
+          const gap = parseFloat(trackStyle.columnGap) || 0;
+
+          return firstEvent.getBoundingClientRect().width + gap;
+        };
+
+        const moveToNextEvent = () => {
+          const stepWidth = getStepWidth();
+
+          if (!stepWidth) {
+            timelineTimer = window.setTimeout(moveToNextEvent, 2000);
+            return;
+          }
+
+          historyTrack.style.transition =
+            "transform 700ms cubic-bezier(0.22, 1, 0.36, 1)";
+
+          historyTrack.style.transform = `translateX(-${stepWidth}px)`;
+
+          const onTransitionEnd = (event) => {
+            if (event.propertyName !== "transform") return;
+
+            historyTrack.removeEventListener("transitionend", onTransitionEnd);
+
+            // Move the first event to the end, then reset without animation.
+            historyTrack.style.transition = "none";
+            historyTrack.appendChild(historyTrack.firstElementChild);
+            historyTrack.style.transform = "translateX(0)";
+
+            // Force the browser to apply the reset before the next movement.
+            void historyTrack.offsetWidth;
+
+            timelineTimer = window.setTimeout(moveToNextEvent, 2000);
+          };
+
+          historyTrack.addEventListener("transitionend", onTransitionEnd);
+        };
+
+        moveToNextEvent();
       }, 1500);
     };
 

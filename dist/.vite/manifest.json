@@ -1,6 +1,6 @@
 {
   "src/css/alternative.css": {
-    "file": "assets/alternative-396RLmJo.css",
+    "file": "assets/alternative-B6eA8uRE.css",
     "name": "alternative",
     "names": [
       "alternative.css"
@@ -23,7 +23,7 @@
     ]
   },
   "src/css/main.css": {
-    "file": "assets/styles-C_tMsGWg.css",
+    "file": "assets/styles-D8UTb2MO.css",
     "name": "styles",
     "names": [
       "styles.css"
@@ -94,7 +94,7 @@
     "src": "src/fonts/Oswald/Oswald-SemiBold.ttf"
   },
   "src/js/main.js": {
-    "file": "assets/main-OLdDboLH.js",
+    "file": "assets/main-CMhPhizK.js",
     "name": "main",
     "src": "src/js/main.js",
     "isEntry": true
