@@ -422,6 +422,22 @@
 .ccluster-nuestra-historia__event-date .year {
   @apply font-heading text-2xl font-medium leading-7;
 }
+.ccluster-nuestra-historia__events {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+}
 /* PRINCIPLES */
 .ccluster-principios__header {
   display: flex;
