@@ -60,10 +60,9 @@
             </div>
             <!-- PROFILE -->
             <div class="ccluster-nuestro-equipo__profile">
-                <img
-                    class=".ccluster-avatar_light"
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png"
-                    alt="">
+                <div class="ccluster-proximo-evento__speaker-avatar">
+                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png" alt="Mtro. Carlos A. Pérez Macías" class="ccluster-proximo-evento__speaker-image">
+                </div>
                 <div class="ccluster-nuestro-equipo__profile-info">
                     <strong class="ccluster-nuestro-equipo__profile-name">
                         Carlos Pérez

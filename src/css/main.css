@@ -162,6 +162,9 @@
   @apply h-20 w-20 shrink-0 overflow-hidden rounded-full;
   @apply border-2 border-primary bg-white p-1 shadow-lg;
 }
+.ccluster-avatar_light img {
+  @apply h-full w-full rounded-full object-cover;
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
