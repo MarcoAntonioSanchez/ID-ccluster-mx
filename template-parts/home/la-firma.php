@@ -122,7 +122,7 @@ $signature_role = get_post_meta(
                         class="ccluster-la-firma__experience-number"
                         data-counter
                         data-target="20"
-                        data-duration="1500">0</span>
+                        data-duration="6000">0</span>
                     <span class="ccluster-la-firma__experience-number text-secondary">
                         +
                     </span>
