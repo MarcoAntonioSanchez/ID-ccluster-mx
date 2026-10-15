@@ -39,9 +39,10 @@
             <!-- EXPERIENCE -->
             <h3 class="ccluster-nuestro-equipo__experience">
                 Más de <span
+                    class="font-bold"
                     data-counter
                     data-target="20"
-                    data-duration="2500">0</span> años <strong>de experiencia</strong>
+                    data-duration="2500">0</span> años de experiencia
             </h3>
             <!-- BODY -->
             <p class="ccluster-nuestro-equipo__text">
