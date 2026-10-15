@@ -32,14 +32,14 @@ $ecosistema_servicios = [
     [
         'slug'        => 'derecho-corporativo',
         'title'       => 'Derecho Corporativo',
-        'description' => 'Transformamos la teoría legal en soluciones prácticas para la operación diaria de su empresa.',
+        'description' => 'Transformamos la teoría legal en soluciones prácticas para la operación diaria de su empresa, brindando asesoría especializada para fortalecer su estructura corporativa, formalizar acuerdos y respaldar la toma de decisiones con certeza jurídica.',
         'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
         'slug'        => 'propiedad-industrial',
         'title'       => 'Propiedad Industrial',
-        'description' => 'Protección de los activos intangibles que dan identidad y valor competitivo a la empresa.',
+        'description' => 'Protección de los activos intangibles que dan identidad y valor competitivo a la empresa, mediante estrategias de registro, gestión y defensa de marcas y otros derechos de propiedad industrial.',
         'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
