@@ -27,9 +27,9 @@ get_header();
     get_template_part(
         'template-parts/home/nuestros-origenes'
     );
-    get_template_part(
-        'template-parts/home/objetivo-ccluster'
-    );
+    // get_template_part(
+    //     'template-parts/home/objetivo-ccluster'
+    // );
     get_template_part(
         'template-parts/home/por-que-cluster'
     );
