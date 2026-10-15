@@ -90,7 +90,7 @@ $hero_background = $hero_background_id
                 <h1 class="max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading">
                     <?php echo esc_html($hero_title); ?>
                 </h1>
-                <h1 class="text-5xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <h1 class="text-5xl font-extrabold bg-gradient-to-r from-secondary via-primary to-primary bg-clip-text text-transparent">
                     Tu Texto con Degradado
                 </h1>
             <?php endif; ?>
