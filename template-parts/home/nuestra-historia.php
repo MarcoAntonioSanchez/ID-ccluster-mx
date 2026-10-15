@@ -112,7 +112,11 @@ $history_title = get_post_meta(
                         </div>
                         <div class="ccluster-nuestra-historia__event-date">
                             <?php if ($event_year) : ?>
-                                <span class="ccluster-nuestra-historia__event-date year">
+                                <span
+                                    class="ccluster-nuestra-historia__event-date year"
+                                    data-counter
+                                    data-target="2026"
+                                    data-duration="3500">
                                     <?php echo esc_html($event_year); ?>
                                 </span>
                             <?php endif; ?>
