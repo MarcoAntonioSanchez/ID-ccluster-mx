@@ -492,8 +492,38 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       };
 
-      // Sincronizar la diapositiva inicial y sus indicadores.
-      showSlide(activeIndex);
+      // Navegación mediante las flechas.
+      slides.forEach((slide, index) => {
+        slide
+          .querySelector("[data-service-prev]")
+          ?.addEventListener("click", () => showSlide(index - 1));
+
+        slide
+          .querySelector("[data-service-next]")
+          ?.addEventListener("click", () => showSlide(index + 1));
+      });
+
+      // Navegación mediante los bullets.
+      bullets.forEach((bullet, index) => {
+        bullet.addEventListener("click", () => showSlide(index));
+      });
+
+      // Sincronizar el estado inicial sin cambiar de diapositiva.
+      slides.forEach((slide, index) => {
+        slide.setAttribute("aria-hidden", String(index !== activeIndex));
+      });
+
+      bullets.forEach((bullet, index) => {
+        const isActive = index === activeIndex;
+
+        bullet.classList.toggle("is-active", isActive);
+
+        if (isActive) {
+          bullet.setAttribute("aria-current", "true");
+        } else {
+          bullet.removeAttribute("aria-current");
+        }
+      });
     }
   }
 
