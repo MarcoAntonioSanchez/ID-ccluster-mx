@@ -40,17 +40,15 @@ $social_networks = [
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <div class="flex items-center gap-6">
             <?php if ($email) : ?>
-                <div class="flex gap-1">
+                <a
+                    href="mailto:<?php echo esc_attr($email); ?>"
+                    class="ccluster-link__primary-light flex gap-1">
                     <span
                         class="ccluster-topbar__icon flex-1 self-center">
                         <i data-lucide="mail"></i>
                     </span>
-                    <a
-                        href="mailto:<?php echo esc_attr($email); ?>"
-                        class="ccluster-link__primary-light">
-                        <?php echo esc_html($email); ?>
-                    </a>
-                </div>
+                    <?php echo esc_html($email); ?>
+                </a>
             <?php endif; ?>
             <?php if ($address) : ?>
                 <div class="flex gap-1">
