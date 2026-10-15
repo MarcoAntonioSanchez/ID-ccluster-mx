@@ -208,6 +208,8 @@
   right: -35%;
   top: 0;
   perspective: 1200px;
+  /* Recorta el video en los límites del contenedor */
+  overflow: hidden;
 }
 .ccluster-hero-shadow {
   display: none;
@@ -217,18 +219,12 @@
   z-index: 1;
   display: block;
   width: 135%;
-  max-width: 135%;
+  max-width: none;
   height: auto;
   opacity: 0.7;
 }
 .ccluster-hero__description {
   line-height: 1.75rem;
-}
-@media (prefers-reduced-motion: reduce) {
-  .ccluster-hero-orb,
-  .ccluster-hero-image {
-    animation: none;
-  }
 }
 /* THE FIRM */
 @layer components {
