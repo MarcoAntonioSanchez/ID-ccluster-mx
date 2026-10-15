@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   counters.forEach((counter) => {
     const target = Number(counter.dataset.target) || 20;
-    const duration = Number(counter.dataset.duration) || 1500;
+    const duration = Number(counter.dataset.duration) || 3000;
 
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
@@ -291,7 +291,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
 
-        // Ease-out: inicia rápido y termina suavemente.
         const easedProgress = 1 - Math.pow(1 - progress, 3);
 
         counter.textContent = Math.floor(easedProgress * target);
@@ -321,7 +320,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       observer.observe(counter);
     } else {
-      // Alternativa para navegadores sin IntersectionObserver.
       animateCounter();
     }
   });
