@@ -1,4 +1,85 @@
 <?php
+
+$ecosistema_servicios = [
+    [
+        'slug'        => 'pld-actividades-vulnerables',
+        'title'       => 'PLD — Actividades Vulnerables',
+        'description' => 'Asesoría integral para empresas y personas físicas consideradas Actividades Vulnerables conforme a la LFPIORPI, que les permite operar con absoluta certeza regulatoria.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'pld-sistema-financiero',
+        'title'       => 'PLD — Sistema Financiero',
+        'description' => 'Acompañamiento especializado a Entidades Financieras y sujetos obligados del sector, bajo los estándares que exigen las autoridades regulatorias (CNBV, Banco de México, UIF).',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'beneficiario-controlador-cff',
+        'title'       => 'Beneficiario Controlador (CFF)',
+        'description' => 'Cumplimiento de las obligaciones en materia de identificación del Beneficiario Controlador establecidas en el Código Fiscal de la Federación, distintas y complementarias a las exigidas por la normativa de PLD.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'debida-diligencia-socios-inversionistas',
+        'title'       => 'Debida Diligencia de Socios e Inversionistas',
+        'description' => 'Investigación y análisis de personas físicas y morales previo a su incorporación como socios, inversionistas o contrapartes de negocio, para prevenir riesgos legales, reputacionales y patrimoniales.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'derecho-corporativo',
+        'title'       => 'Derecho Corporativo',
+        'description' => 'Transformamos la teoría legal en soluciones prácticas para la operación diaria de su empresa.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'propiedad-industrial',
+        'title'       => 'Propiedad Industrial',
+        'description' => 'Protección de los activos intangibles que dan identidad y valor competitivo a la empresa.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'contratos-civiles-mercantiles',
+        'title'       => 'Contratos Civiles y Mercantiles',
+        'description' => 'Redacción y revisión de instrumentos jurídicos de alta complejidad que blindan cada relación comercial de la empresa.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'gobierno-corporativo',
+        'title'       => 'Gobierno Corporativo',
+        'description' => 'Implementación de mejores prácticas de administración y control que garantizan la trascendencia y sana gobernanza de la organización.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'gestion-riesgos',
+        'title'       => 'Gestión de Riesgos',
+        'description' => 'Identificación, medición y mitigación de los riesgos legales, patrimoniales y operativos, con implementación de sistemas de gestión de riesgo bajo estándares internacionales (ISO 31000) para un modelo de mejora continua.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'programas-integridad-compliance',
+        'title'       => 'Programas de Integridad y Compliance',
+        'description' => 'Diseño e implementación de sistemas de cumplimiento normativo que previenen la responsabilidad de la persona moral y fortalecen la cultura ética de la organización.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ],
+    [
+        'slug'        => 'litigio-fiscal-administrativo',
+        'title'       => 'Litigio Fiscal y Administrativo',
+        'description' => 'Representación legal ante autoridades fiscales y administrativas para la defensa de los intereses de la empresa en cualquier etapa del procedimiento.',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png',
+        'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
+    ]
+];
+
 ?>
 <section class="ccluster-ecosistema-soluciones">
     <!-- HEADER -->
@@ -35,77 +116,76 @@
     </div>
     <!-- CAROUSEL -->
     <div class="ccluster-ecosistema-soluciones__carousel">
-        <!-- SLIDE -->
-        <article class="ccluster-ecosistema-soluciones__slide">
-            <!-- SLIDE INTRO -->
-            <div class="ccluster-ecosistema-soluciones__slide-intro">
-                <div class="ccluster-ecosistema-soluciones__slide-title">
-                    <!-- TITLE -->
-                    <h3 class="ccluster-ecosistema-soluciones__title">
-                        PLD — Actividades Vulnerables
-                    </h3>
-                </div>
-                <div class="ccluster-ecosistema-soluciones__slide-description">
-                    <!-- DESCRIPTION -->
-                    <p>
-                        Asesoría integral para empresas y personas físicas consideradas Actividades Vulnerables conforme a la LFPIORPI, que les permite operar con absoluta certeza regulatoria.
-                    </p>
-                </div>
+        <!-- SLIDES -->
+        <div class="ccluster-ecosistema-soluciones__carousel">
+
+            <?php foreach ($ecosistema_servicios as $index => $servicio) : ?>
+                <article
+                    class="ccluster-ecosistema-soluciones__slide"
+                    data-service-slide
+                    data-service-slug="<?php echo esc_attr($servicio['slug']); ?>"
+                    <?php echo $index === 0 ? '' : 'hidden'; ?>>
+                    <!-- SLIDE INTRO -->
+                    <div class="ccluster-ecosistema-soluciones__slide-intro">
+
+                        <div class="ccluster-ecosistema-soluciones__slide-title">
+                            <h3 class="ccluster-ecosistema-soluciones__title">
+                                <?php echo esc_html($servicio['title']); ?>
+                            </h3>
+                        </div>
+
+                        <div class="ccluster-ecosistema-soluciones__slide-description">
+                            <p>
+                                <?php echo esc_html($servicio['description']); ?>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- SLIDE MEDIA -->
+                    <div class="ccluster-ecosistema-soluciones__slide-media">
+
+                        <?php if ($index > 0) : ?>
+                            <button
+                                type="button"
+                                class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--prev"
+                                data-service-prev
+                                aria-label="Servicio anterior">
+                                <span aria-hidden="true">←</span>
+                            </button>
+                        <?php endif; ?>
+
+                        <img
+                            src="<?php echo esc_url($servicio['image']); ?>"
+                            alt="<?php echo esc_attr($servicio['image_alt']); ?>"
+                            class="ccluster-ecosistema-soluciones__slide-image">
+
+                        <button
+                            type="button"
+                            class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--next"
+                            data-service-next
+                            aria-label="Siguiente servicio">
+                            <span aria-hidden="true">→</span>
+                        </button>
+
+                    </div>
+                </article>
+            <?php endforeach; ?>
+
+            <!-- PAGINATION -->
+            <div
+                class="ccluster-ecosistema-soluciones__pagination"
+                aria-label="Paginación de servicios">
+                <?php foreach ($ecosistema_servicios as $index => $servicio) : ?>
+                    <button
+                        type="button"
+                        class="ccluster-ecosistema-soluciones__bullet<?php echo $index === 0 ? ' is-active' : ''; ?>"
+                        data-service-bullet="<?php echo esc_attr($index); ?>"
+                        aria-label="<?php echo esc_attr('Servicio ' . ($index + 1) . ': ' . $servicio['title']); ?>"
+                        <?php echo $index === 0 ? 'aria-current="true"' : ''; ?>></button>
+                <?php endforeach; ?>
             </div>
-            <!-- SLIDE MEDIA -->
-            <div class="ccluster-ecosistema-soluciones__slide-media">
-                <!-- IMAGE -->
-                <!-- PREVIOUS -->
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--prev"
-                    aria-label="Servicio anterior">
-                    <span aria-hidden="true">←</span>
-                </button>
-                <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-solution-pld-img-tiny.png"
-                    alt=""
-                    class="ccluster-ecosistema-soluciones__slide-image">
-                <!-- NEXT -->
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--next"
-                    aria-label="Siguiente servicio">
-                    <span aria-hidden="true">→</span>
-                </button>
-            </div>
-            <div class="ccluster-ecosistema-soluciones__pagination" aria-label="Paginación de servicios">
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__bullet is-active"
-                    aria-label="Servicio 1"
-                    aria-current="true">
-                </button>
 
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__bullet"
-                    aria-label="Servicio 2">
-                </button>
-
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__bullet"
-                    aria-label="Servicio 3">
-                </button>
-
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__bullet"
-                    aria-label="Servicio 4">
-                </button>
-
-                <button
-                    type="button"
-                    class="ccluster-ecosistema-soluciones__bullet"
-                    aria-label="Servicio 5">
-                </button>
-            </div>
-        </article>
+        </div>
     </div>
 </section>
