@@ -191,8 +191,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuButton = document.querySelector("[data-menu-toggle]");
   const mobileMenu = document.querySelector("[data-mobile-menu]");
 
-  if (!menuButton || !mobileMenu) {
-    return;
+  if (menuButton && mobileMenu) {
+    menuButton.addEventListener("click", () => {
+      const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+
+      menuButton.setAttribute("aria-expanded", String(!isOpen));
+
+      mobileMenu.hidden = isOpen;
+    });
   }
 
   menuButton.addEventListener("click", () => {
@@ -219,6 +225,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     element.innerHTML = icon;
+  });
+
+  // COURSE ACCORDION TABS
+  const courseAccordions = document.querySelectorAll(
+    ".ccluster-proximo-curso__accordion",
+  );
+
+  courseAccordions.forEach((accordion) => {
+    const tabs = accordion.querySelectorAll(
+      ".ccluster-proximo-curso__accordion-tab",
+    );
+
+    const panels = accordion.querySelectorAll(
+      ".ccluster-proximo-curso__accordion-panel",
+    );
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const targetPanelId = tab.getAttribute("aria-controls");
+
+        tabs.forEach((item) => {
+          const isActive = item === tab;
+
+          item.classList.toggle("is-active", isActive);
+          item.setAttribute("aria-selected", String(isActive));
+          item.tabIndex = isActive ? 0 : -1;
+        });
+
+        panels.forEach((panel) => {
+          const isActive = panel.id === targetPanelId;
+
+          panel.hidden = !isActive;
+          panel.classList.toggle("is-active", isActive);
+        });
+      });
+    });
   });
 
   // PARTICLES - ALT HERO
