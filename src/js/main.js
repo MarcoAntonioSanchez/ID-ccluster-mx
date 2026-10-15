@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   counters.forEach((counter) => {
     const target = Number(counter.dataset.target) || 20;
-    const duration = Number(counter.dataset.duration) || 6000;
+    const duration = Number(counter.dataset.duration) || 3500;
 
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
