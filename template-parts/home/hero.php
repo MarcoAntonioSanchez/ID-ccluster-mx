@@ -86,14 +86,9 @@ $hero_background = $hero_background_id
                     <?php endif; ?>
                 </div>
             <?php endif; ?>
-            <?php if ($hero_title) : ?>
-                <h1 class="max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading">
-                    <?php echo esc_html($hero_title); ?>
-                </h1>
-                <h1 class="text-9xl leading-tight font-heading bg-gradient-to-r from-secondary via-primary to-primary bg-clip-text text-transparent">
-                    Tu Texto con Degradado
-                </h1>
-            <?php endif; ?>
+            <h1 class="max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading text-primary">
+                <span class="ccluster-title__gradient-light">Evoluciona</span> a Compliance Cluster
+            </h1>
             <?php if ($hero_description) : ?>
                 <p class="mt-6 max-w-xl text-lg leading-8 font-body ccluster-hero__description">
                     <?php echo esc_html($hero_description); ?>
