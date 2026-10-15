@@ -185,24 +185,14 @@
                         id="course-panel-objective"
                         role="tabpanel"
                         aria-labelledby="course-tab-objective">
-                        <!-- OBJECTIVE -->
-                        <details
-                            class="ccluster-proximo-curso__accordion-item"
-                            name="ccluster-course-info"
-                            open>
-                            <summary class="ccluster-proximo-curso__accordion-trigger">
-                                <span>Objetivo</span>
-                                <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
-                            </summary>
 
-                            <div class="ccluster-proximo-curso__accordion-content">
-                                <p>
-                                    Comprender los principios y fundamentos del enfoque basado
-                                    en riesgo para identificar y mitigar los riesgos asociados
-                                    a actividades vulnerables de la Ley Antilavado.
-                                </p>
-                            </div>
-                        </details>
+                        <div class="ccluster-proximo-curso__accordion-content">
+                            <p>
+                                Comprender los principios y fundamentos del enfoque basado
+                                en riesgo para identificar y mitigar los riesgos asociados
+                                a actividades vulnerables de la Ley Antilavado.
+                            </p>
+                        </div>
                     </section>
 
                     <section
@@ -211,46 +201,37 @@
                         role="tabpanel"
                         aria-labelledby="course-tab-syllabus"
                         hidden>
-                        <!-- SYLLABUS -->
-                        <details
-                            class="ccluster-proximo-curso__accordion-item"
-                            name="ccluster-course-info">
-                            <summary class="ccluster-proximo-curso__accordion-trigger">
-                                <span>Temario</span>
-                                <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
-                            </summary>
 
-                            <div class="ccluster-proximo-curso__accordion-content">
-                                <div class="ccluster-proximo-curso__session">
-                                    <h4>Sesión 1</h4>
-                                    <ul>
-                                        <li>¿Qué es el EBR?</li>
-                                        <li>Marco normativo internacional</li>
-                                        <li>Beneficios del EBR</li>
-                                        <li>Contexto del riesgo en la Ley Antilavado</li>
-                                    </ul>
-                                </div>
-
-                                <div class="ccluster-proximo-curso__session">
-                                    <h4>Sesión 2</h4>
-                                    <ul>
-                                        <li>Evaluación de riesgos inherentes</li>
-                                        <li>Diseño e implementación de un programa de EBR</li>
-                                        <li>Componentes clave de un programa de EBR</li>
-                                        <li>Desarrollo de perfiles de riesgo de clientes</li>
-                                    </ul>
-                                </div>
-
-                                <div class="ccluster-proximo-curso__session">
-                                    <h4>Sesión 3</h4>
-                                    <ul>
-                                        <li>Medidas mitigadoras de riesgos</li>
-                                        <li>Monitoreo continuo y mejora del programa de EBR</li>
-                                        <li>Casos prácticos y ejercicios</li>
-                                    </ul>
-                                </div>
+                        <div class="ccluster-proximo-curso__accordion-content">
+                            <div class="ccluster-proximo-curso__session">
+                                <h4>Sesión 1</h4>
+                                <ul>
+                                    <li>¿Qué es el EBR?</li>
+                                    <li>Marco normativo internacional</li>
+                                    <li>Beneficios del EBR</li>
+                                    <li>Contexto del riesgo en la Ley Antilavado</li>
+                                </ul>
                             </div>
-                        </details>
+
+                            <div class="ccluster-proximo-curso__session">
+                                <h4>Sesión 2</h4>
+                                <ul>
+                                    <li>Evaluación de riesgos inherentes</li>
+                                    <li>Diseño e implementación de un programa de EBR</li>
+                                    <li>Componentes clave de un programa de EBR</li>
+                                    <li>Desarrollo de perfiles de riesgo de clientes</li>
+                                </ul>
+                            </div>
+
+                            <div class="ccluster-proximo-curso__session">
+                                <h4>Sesión 3</h4>
+                                <ul>
+                                    <li>Medidas mitigadoras de riesgos</li>
+                                    <li>Monitoreo continuo y mejora del programa de EBR</li>
+                                    <li>Casos prácticos y ejercicios</li>
+                                </ul>
+                            </div>
+                        </div>
                     </section>
 
                     <section
@@ -259,38 +240,29 @@
                         role="tabpanel"
                         aria-labelledby="course-tab-details"
                         hidden>
-                        <!-- COURSE DETAILS -->
-                        <details
-                            class="ccluster-proximo-curso__accordion-item"
-                            name="ccluster-course-info">
-                            <summary class="ccluster-proximo-curso__accordion-trigger">
-                                <span>Detalles</span>
-                                <span class="ccluster-proximo-curso__accordion-icon" aria-hidden="true"></span>
-                            </summary>
 
-                            <div class="ccluster-proximo-curso__accordion-content">
-                                <div class="ccluster-proximo-curso__detail-group">
-                                    <h4>Incluye</h4>
-                                    <ul>
-                                        <li>Material de capacitación</li>
-                                        <li>Constancia</li>
-                                    </ul>
-                                </div>
-
-                                <div class="ccluster-proximo-curso__detail-group">
-                                    <h4>Datos bancarios</h4>
-                                    <p><strong>Beneficiario:</strong> Compliance Cluster</p>
-                                    <p><strong>Banco:</strong> BANCO PLATINO</p>
-                                    <p><strong>Cuenta:</strong> 0123456789</p>
-                                    <p><strong>CLABE:</strong> 012345678910111213</p>
-                                </div>
-
-                                <p class="ccluster-proximo-curso__cancellation-note">
-                                    La cancelación de las reservaciones será aceptada únicamente
-                                    con 48 horas de anticipación al evento.
-                                </p>
+                        <div class="ccluster-proximo-curso__accordion-content">
+                            <div class="ccluster-proximo-curso__detail-group">
+                                <h4>Incluye</h4>
+                                <ul>
+                                    <li>Material de capacitación</li>
+                                    <li>Constancia</li>
+                                </ul>
                             </div>
-                        </details>
+
+                            <div class="ccluster-proximo-curso__detail-group">
+                                <h4>Datos bancarios</h4>
+                                <p><strong>Beneficiario:</strong> Compliance Cluster</p>
+                                <p><strong>Banco:</strong> BANCO PLATINO</p>
+                                <p><strong>Cuenta:</strong> 0123456789</p>
+                                <p><strong>CLABE:</strong> 012345678910111213</p>
+                            </div>
+
+                            <p class="ccluster-proximo-curso__cancellation-note">
+                                La cancelación de las reservaciones será aceptada únicamente
+                                con 48 horas de anticipación al evento.
+                            </p>
+                        </div>
                     </section>
                 </div>
             </div>

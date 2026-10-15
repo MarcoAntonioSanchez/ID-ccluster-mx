@@ -1782,46 +1782,6 @@
 .ccluster-proximo-curso__cancellation-note {
   @apply mt-6 border-l-2 border-secondary pl-4 text-sm leading-6;
 }
-.ccluster-proximo-curso__session {
-  @apply mt-5 first:mt-0;
-}
-
-.ccluster-proximo-curso__session h4,
-.ccluster-proximo-curso__detail-group h4 {
-  @apply mb-2 font-body text-sm font-semibold text-primary;
-}
-
-.ccluster-proximo-curso__session ul,
-.ccluster-proximo-curso__detail-group ul {
-  @apply flex flex-col gap-1;
-}
-
-.ccluster-proximo-curso__session li,
-.ccluster-proximo-curso__detail-group li {
-  @apply relative pl-4;
-}
-
-.ccluster-proximo-curso__session li::before,
-.ccluster-proximo-curso__detail-group li::before {
-  content: "";
-  @apply absolute left-0 top-[0.8em] h-1.5 w-1.5 rounded-full bg-secondary;
-}
-
-.ccluster-proximo-curso__detail-group {
-  @apply mt-6 first:mt-0;
-}
-
-.ccluster-proximo-curso__detail-group p {
-  @apply leading-6;
-}
-
-.ccluster-proximo-curso__detail-group strong {
-  @apply font-semibold text-primary;
-}
-
-.ccluster-proximo-curso__cancellation-note {
-  @apply mt-6 border-l-2 border-secondary pl-3 text-sm leading-6;
-}
 
 /* CTA */
 .ccluster-proximo-curso__actions {
@@ -1879,10 +1839,6 @@
 
   .ccluster-proximo-curso__meta {
     @apply grid-cols-1 gap-y-5;
-  }
-
-  .ccluster-proximo-curso__accordion-trigger {
-    @apply text-lg;
   }
 }
 
