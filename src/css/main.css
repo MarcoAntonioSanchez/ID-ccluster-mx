@@ -1867,6 +1867,40 @@
     @apply text-3xl;
   }
 }
+/* CTA BANNER */
+.ccluster-cta {
+  @apply w-full bg-primary py-20;
+}
+.ccluster-cta__container {
+  @apply mx-auto w-full max-w-7xl px-8;
+}
+.ccluster-cta__content {
+  @apply mx-auto flex max-w-4xl flex-col items-center text-center;
+}
+.ccluster-cta__badge {
+  @apply mb-6 font-body text-xs font-semibold uppercase tracking-[0.2em];
+  @apply text-secondary;
+}
+.ccluster-cta__title {
+  @apply font-heading text-5xl font-normal leading-tight text-white;
+}
+.ccluster-cta__description {
+  @apply mt-6 max-w-3xl font-body text-base leading-7 text-white/75;
+}
+.ccluster-cta__link {
+  @apply mt-8 inline-flex items-center gap-5 border border-secondary;
+  @apply px-6 py-4 font-body text-sm font-semibold text-white;
+  @apply transition-colors duration-300;
+}
+.ccluster-cta__link:hover {
+  @apply bg-secondary text-primary;
+}
+.ccluster-cta__link-icon {
+  @apply text-lg leading-none text-secondary transition-colors duration-300;
+}
+.ccluster-cta__link:hover .ccluster-cta__link-icon {
+  @apply text-primary;
+}
 /* RESPONSIVE */
 @media (max-width: 767px) {
   .ccluster-la-firma__texts {

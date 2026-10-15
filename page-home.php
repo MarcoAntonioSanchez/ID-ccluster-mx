@@ -57,6 +57,9 @@ get_header();
     get_template_part(
         'template-parts/home/proximo-curso'
     );
+    get_template_part(
+        'template-parts/home/cta'
+    );
     ?>
 </main>
 <?php
