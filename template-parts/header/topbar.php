@@ -51,15 +51,15 @@ $social_networks = [
                 </a>
             <?php endif; ?>
             <?php if ($address) : ?>
-                <div class="flex gap-1">
+                <a
+                    href="https://share.google/WnyQzT2E1mPq3BUEi"
+                    class="ccluster-link__primary-light text-sm flex gap-1">
                     <span
-                        class="ccluster-topbar__icon self-center">
+                        class="ccluster-topbar__icon flex-1 self-center">
                         <i data-lucide="map-pin"></i>
                     </span>
-                    <span class="font-body text-xs">
-                        <?php echo esc_html($address); ?>
-                    </span>
-                </div>
+                    <?php echo esc_html($address); ?>
+                </a>
             <?php endif; ?>
         </div>
         <div class="flex items-center gap-4">

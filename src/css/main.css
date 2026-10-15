@@ -149,7 +149,7 @@
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {
-    opacity: 0.5;
+    opacity: 1;
   }
   .ccluster-topbar__icon {
     @apply shrink-0 text-primary;
