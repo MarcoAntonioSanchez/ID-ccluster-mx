@@ -20,7 +20,7 @@
                     class="ccluster-proximo-curso__badge-line"
                     aria-hidden="true"></span>
 
-                <span class="ccluster-proximo-curso__badge-text">
+                <span class="ccluster-proximo-curso__badge-text text-white/5">
                     PRÓXIMOS CURSOS
                 </span>
             </div>
