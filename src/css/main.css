@@ -638,9 +638,14 @@
   @apply font-body text-3xl font-normal leading-10;
 }
 .ccluster-ecosistema-soluciones__slide-intro {
-  @apply mt-16 grid items-start gap-6;
-  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  @apply mt-16 flex items-start gap-8;
   min-height: 10rem;
+}
+.ccluster-ecosistema-soluciones__slide-title {
+  @apply w-fit shrink-0;
+}
+.ccluster-ecosistema-soluciones__slide-description {
+  @apply min-w-0 flex-1;
 }
 .ccluster-ecosistema-soluciones__slide-title,
 .ccluster-ecosistema-soluciones__slide-description {
