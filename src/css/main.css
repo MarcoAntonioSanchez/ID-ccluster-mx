@@ -150,6 +150,13 @@
 .ccluster-link__primary-light:hover {
   @apply text-secondary;
 }
+.ccluster-link__primary-dark {
+  @apply font-semibold text-white underline decoration-secondary underline-offset-4;
+  @apply transition-colors duration-300;
+}
+.ccluster-link__primary-dark:hover {
+  @apply text-secondary;
+}
 /* TOPBAR */
 @layer components {
   .ccluster-topbar__icon {

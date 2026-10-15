@@ -141,7 +141,7 @@
                 <?php if ($principio_url) : ?>
                     <a
                         href="<?php echo esc_url($principio_url); ?>"
-                        class="ccluster-link__primary-light">
+                        class="ccluster-link__primary-dark mt-auto flex items-center gap-2 pt-6">
                         Leer más
                         <span aria-hidden="true">→</span>
                     </a>
