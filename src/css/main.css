@@ -647,10 +647,6 @@
 .ccluster-ecosistema-soluciones__slide-description {
   @apply min-w-0 flex-1;
 }
-.ccluster-ecosistema-soluciones__slide-title,
-.ccluster-ecosistema-soluciones__slide-description {
-  @apply w-full;
-}
 .ccluster-ecosistema-soluciones__slide-media {
   @apply relative mt-6;
 }
