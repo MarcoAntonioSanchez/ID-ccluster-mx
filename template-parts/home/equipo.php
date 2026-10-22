@@ -112,7 +112,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Michelle-Cruz-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Michelle-Cruz-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -178,7 +178,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Araceli-Berenice-Ayala-Gomez-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Araceli-Berenice-Ayala-Gomez-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -316,7 +316,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Roberto-Elias-Barragan-Torres-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Roberto-Elias-Barragan-Torres-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -385,7 +385,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Paola-Quetzalli-Solis-Garcia-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Paola-Quetzalli-Solis-Garcia-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -454,7 +454,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Ana-Jessica-Rosas-Martinez-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Ana-Jessica-Rosas-Martinez-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -523,7 +523,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Azucena-Aguirre-Maldonado-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Azucena-Aguirre-Maldonado-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -592,7 +592,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Claudia-Angelica-Ceballos-Macias-final.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Claudia-Angelica-Ceballos-Macias-final-tiny.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
