@@ -285,7 +285,6 @@
   }
 }
 /* HERO MAIN - CENTERED CONTENT STAGE */
-
 .ccluster-hero__content {
   display: grid;
   grid-template-areas: "hero-stage";
@@ -329,6 +328,13 @@
 .ccluster-hero__content [data-hero-sequence-group] {
   gap: 0;
   margin-inline: auto;
+}
+/* TEMPORARY: HERO CONTENT DESIGN MODE */
+#home-hero .ccluster-hero__sequence-item,
+#home-hero .ccluster-hero__sequence-group [data-hero-sequence] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
 }
 /* THE FIRM */
 @layer components {
