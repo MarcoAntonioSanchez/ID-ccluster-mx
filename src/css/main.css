@@ -285,7 +285,7 @@
   display: grid;
   grid-template-areas: "hero-stage";
   align-items: center;
-  justify-items: center;
+  justify-items: start;
 }
 .ccluster-hero__content > div,
 .ccluster-hero__content > [data-hero-sequence-group],
@@ -310,8 +310,9 @@
 }
 .ccluster-hero__content > div:has([data-hero-sequence="logo"]) {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  justify-self: start;
 }
 .ccluster-hero__content [data-hero-sequence="logo"] {
   margin-inline: auto;
