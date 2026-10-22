@@ -178,6 +178,420 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Araceli-Berenice-Ayala-Gomez-final.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Lic.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Araceli Ayala
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Gerente Administrativo
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 3 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Mtra.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Nhaivi Jiménez
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Gerente
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 4 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Roberto-Elias-Barragan-Torres-final.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Lic.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Elias Barragán
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Abogado
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 5 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Paola-Quetzalli-Solis-Garcia-final.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Lic.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Paola Solís
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Abogada
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 6 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Ana-Jessica-Rosas-Martinez-final.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Lic.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Jessica Rosas
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Área de Capacitación
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 7 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Azucena-Aguirre-Maldonado-final.png"
+                        alt=""
+                        class="ccluster-equipo__partner-image">
+                </div>
+                <!-- CONTENT — 40% -->
+                <div class="ccluster-equipo__partner-content">
+                    <div class="ccluster-equipo__partner-header">
+                        <span class="ccluster-equipo__partner-prefix">
+                            Lic.
+                        </span>
+                        <h3 class="ccluster-equipo__partner-name">
+                            Azucena Aguirre
+                        </h3>
+                        <p class="ccluster-equipo__partner-role">
+                            Asistente de Dirección
+                        </p>
+                    </div>
+                    <!-- TAGS -->
+                    <div class="ccluster-equipo__partner-tags">
+                        <span class="ccluster-equipo__partner-tag">
+                            Prevención de Lavado de Dinero
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            AV
+                        </span>
+                        <span class="ccluster-equipo__partner-tag">
+                            SF
+                        </span>
+                    </div>
+                    <!-- FOOTER -->
+                    <div class="ccluster-equipo__partner-footer">
+                        <div class="ccluster-equipo__partner-divider"></div>
+                        <div class="ccluster-equipo__partner-footer-content">
+                            <!-- ACCORDION TRIGGER -->
+                            <button
+                                type="button"
+                                class="ccluster-equipo__partner-more">
+                                <img
+                                    src="URL-ICONO"
+                                    alt=""
+                                    class="ccluster-equipo__partner-more-icon">
+                                <span>
+                                    Ver más
+                                </span>
+                            </button>
+                            <!-- SOCIALS -->
+                            <div class="ccluster-equipo__partner-socials">
+                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
+                                </a>
+                                <a href="#" class="ccluster-equipo__social" aria-label="X">
+                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- PARTNER 8 -->
+            <article class="ccluster-equipo__partner">
+                <!-- MEDIA — 60% -->
+                <div class="ccluster-equipo__partner-media">
+                    <img
                         src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Claudia-Angelica-Ceballos-Macias-final.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
@@ -205,282 +619,6 @@
                         </span>
                         <span class="ccluster-equipo__partner-tag">
                             Propiedad Industrial
-                        </span>
-                    </div>
-                    <!-- FOOTER -->
-                    <div class="ccluster-equipo__partner-footer">
-                        <div class="ccluster-equipo__partner-divider"></div>
-                        <div class="ccluster-equipo__partner-footer-content">
-                            <!-- ACCORDION TRIGGER -->
-                            <button
-                                type="button"
-                                class="ccluster-equipo__partner-more">
-                                <img
-                                    src="URL-ICONO"
-                                    alt=""
-                                    class="ccluster-equipo__partner-more-icon">
-                                <span>
-                                    Ver más
-                                </span>
-                            </button>
-                            <!-- SOCIALS -->
-                            <div class="ccluster-equipo__partner-socials">
-                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="X">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- PARTNER 3 -->
-            <article class="ccluster-equipo__partner">
-                <!-- MEDIA — 60% -->
-                <div class="ccluster-equipo__partner-media">
-                    <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
-                        alt=""
-                        class="ccluster-equipo__partner-image">
-                </div>
-                <!-- CONTENT — 40% -->
-                <div class="ccluster-equipo__partner-content">
-                    <div class="ccluster-equipo__partner-header">
-                        <span class="ccluster-equipo__partner-prefix">
-                            Mtra.
-                        </span>
-                        <h3 class="ccluster-equipo__partner-name">
-                            Nhaivi Jiménez
-                        </h3>
-                        <p class="ccluster-equipo__partner-role">
-                            Gerente
-                        </p>
-                    </div>
-                    <!-- TAGS -->
-                    <div class="ccluster-equipo__partner-tags">
-                        <span class="ccluster-equipo__partner-tag">
-                            Prevención de Lavado de Dinero
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            AV
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            SF
-                        </span>
-                    </div>
-                    <!-- FOOTER -->
-                    <div class="ccluster-equipo__partner-footer">
-                        <div class="ccluster-equipo__partner-divider"></div>
-                        <div class="ccluster-equipo__partner-footer-content">
-                            <!-- ACCORDION TRIGGER -->
-                            <button
-                                type="button"
-                                class="ccluster-equipo__partner-more">
-                                <img
-                                    src="URL-ICONO"
-                                    alt=""
-                                    class="ccluster-equipo__partner-more-icon">
-                                <span>
-                                    Ver más
-                                </span>
-                            </button>
-                            <!-- SOCIALS -->
-                            <div class="ccluster-equipo__partner-socials">
-                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="X">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- PARTNER 3 -->
-            <article class="ccluster-equipo__partner">
-                <!-- MEDIA — 60% -->
-                <div class="ccluster-equipo__partner-media">
-                    <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
-                        alt=""
-                        class="ccluster-equipo__partner-image">
-                </div>
-                <!-- CONTENT — 40% -->
-                <div class="ccluster-equipo__partner-content">
-                    <div class="ccluster-equipo__partner-header">
-                        <span class="ccluster-equipo__partner-prefix">
-                            Mtra.
-                        </span>
-                        <h3 class="ccluster-equipo__partner-name">
-                            Nhaivi Jiménez
-                        </h3>
-                        <p class="ccluster-equipo__partner-role">
-                            Gerente
-                        </p>
-                    </div>
-                    <!-- TAGS -->
-                    <div class="ccluster-equipo__partner-tags">
-                        <span class="ccluster-equipo__partner-tag">
-                            Prevención de Lavado de Dinero
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            AV
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            SF
-                        </span>
-                    </div>
-                    <!-- FOOTER -->
-                    <div class="ccluster-equipo__partner-footer">
-                        <div class="ccluster-equipo__partner-divider"></div>
-                        <div class="ccluster-equipo__partner-footer-content">
-                            <!-- ACCORDION TRIGGER -->
-                            <button
-                                type="button"
-                                class="ccluster-equipo__partner-more">
-                                <img
-                                    src="URL-ICONO"
-                                    alt=""
-                                    class="ccluster-equipo__partner-more-icon">
-                                <span>
-                                    Ver más
-                                </span>
-                            </button>
-                            <!-- SOCIALS -->
-                            <div class="ccluster-equipo__partner-socials">
-                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="X">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- PARTNER 3 -->
-            <article class="ccluster-equipo__partner">
-                <!-- MEDIA — 60% -->
-                <div class="ccluster-equipo__partner-media">
-                    <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
-                        alt=""
-                        class="ccluster-equipo__partner-image">
-                </div>
-                <!-- CONTENT — 40% -->
-                <div class="ccluster-equipo__partner-content">
-                    <div class="ccluster-equipo__partner-header">
-                        <span class="ccluster-equipo__partner-prefix">
-                            Mtra.
-                        </span>
-                        <h3 class="ccluster-equipo__partner-name">
-                            Nhaivi Jiménez
-                        </h3>
-                        <p class="ccluster-equipo__partner-role">
-                            Gerente
-                        </p>
-                    </div>
-                    <!-- TAGS -->
-                    <div class="ccluster-equipo__partner-tags">
-                        <span class="ccluster-equipo__partner-tag">
-                            Prevención de Lavado de Dinero
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            AV
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            SF
-                        </span>
-                    </div>
-                    <!-- FOOTER -->
-                    <div class="ccluster-equipo__partner-footer">
-                        <div class="ccluster-equipo__partner-divider"></div>
-                        <div class="ccluster-equipo__partner-footer-content">
-                            <!-- ACCORDION TRIGGER -->
-                            <button
-                                type="button"
-                                class="ccluster-equipo__partner-more">
-                                <img
-                                    src="URL-ICONO"
-                                    alt=""
-                                    class="ccluster-equipo__partner-more-icon">
-                                <span>
-                                    Ver más
-                                </span>
-                            </button>
-                            <!-- SOCIALS -->
-                            <div class="ccluster-equipo__partner-socials">
-                                <a href="#" class="ccluster-equipo__social" aria-label="LinkedIn">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-linkedin-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Facebook">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-fb-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="Instagram">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-ig-logo-white.png" alt="">
-                                </a>
-                                <a href="#" class="ccluster-equipo__social" aria-label="X">
-                                    <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-team-x-twitter-logo-white.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- PARTNER 3 -->
-            <article class="ccluster-equipo__partner">
-                <!-- MEDIA — 60% -->
-                <div class="ccluster-equipo__partner-media">
-                    <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-placeholder-avatar-partner-one.png"
-                        alt=""
-                        class="ccluster-equipo__partner-image">
-                </div>
-                <!-- CONTENT — 40% -->
-                <div class="ccluster-equipo__partner-content">
-                    <div class="ccluster-equipo__partner-header">
-                        <span class="ccluster-equipo__partner-prefix">
-                            Mtra.
-                        </span>
-                        <h3 class="ccluster-equipo__partner-name">
-                            Nhaivi Jiménez
-                        </h3>
-                        <p class="ccluster-equipo__partner-role">
-                            Gerente
-                        </p>
-                    </div>
-                    <!-- TAGS -->
-                    <div class="ccluster-equipo__partner-tags">
-                        <span class="ccluster-equipo__partner-tag">
-                            Prevención de Lavado de Dinero
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            AV
-                        </span>
-                        <span class="ccluster-equipo__partner-tag">
-                            SF
                         </span>
                     </div>
                     <!-- FOOTER -->
