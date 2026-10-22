@@ -79,7 +79,6 @@ $hero_background = $hero_background_id
     <div
         class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
-        ```php
         <div class="ccluster-hero__content text-left pb-[125px]">
             <?php if ($hero_badge_text) : ?>
                 <div class="mb-6 flex items-center gap-3">
@@ -134,7 +133,6 @@ $hero_background = $hero_background_id
                 </a>
             <?php endif; ?>
         </div>
-        ```
         <!-- Visual -->
         <div class="relative flex items-center justify-center">
             <div class="ccluster-hero-orb">
