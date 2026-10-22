@@ -106,10 +106,6 @@
   }
 }
 /* GLOBALS */
-/* GRADIENT TITLE */
-.ccluster-title__gradient-light {
-  @apply text-9xl leading-tight font-heading bg-gradient-to-r from-secondary via-primary to-primary bg-clip-text text-transparent;
-}
 /* SECTION HEADING */
 .ccluster-section-header {
   @apply flex flex-col gap-[50px] mb-6;
