@@ -16,8 +16,8 @@ import youtubeIcon from "bootstrap-icons/icons/youtube.svg?raw";
 
 function initAlternativeParticles() {
   console.log("initAlternativeParticles LOADED");
-  const hero = document.querySelector("#alternative-hero");
-  const canvas = document.querySelector(".ccluster-hero-alt__particles");
+  const hero = document.querySelector("#home-hero");
+  const canvas = hero?.querySelector(".ccluster-hero__particles");
 
   if (!hero || !canvas) {
     return;
@@ -124,12 +124,7 @@ function initAlternativeParticles() {
 
         context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
 
-        context.fillStyle = `rgba(
-        255,
-        255,
-        255,
-        ${particle.opacity}
-      )`;
+        context.fillStyle = `rgba(7, 19, 49, ${particle.opacity})`;
 
         context.fill();
       });
@@ -156,12 +151,7 @@ function initAlternativeParticles() {
 
         context.lineTo(otherParticle.x, otherParticle.y);
 
-        context.strokeStyle = `rgba(
-      255,
-      255,
-      255,
-      ${opacity}
-    )`;
+        context.strokeStyle = `rgba(7, 19, 49, ${opacity})`;
 
         context.lineWidth = 1.5;
 
@@ -527,6 +517,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // PARTICLES - ALT HERO
+  // PARTICLES - MAIN HERO
   initAlternativeParticles();
 });

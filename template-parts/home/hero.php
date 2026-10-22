@@ -72,6 +72,10 @@ $hero_background = $hero_background_id
     <?php if ($hero_background) : ?>
     style="background-image: url('<?php echo esc_url($hero_background); ?>');"
     <?php endif; ?>>
+    <canvas
+        class="ccluster-hero__particles"
+        aria-hidden="true">
+    </canvas>
     <div
         class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
