@@ -10,7 +10,7 @@ $hero_badge_icon_id = absint(
 $hero_badge_icon = $hero_badge_icon_id
     ? wp_get_attachment_image_url(
         $hero_badge_icon_id,
-        'thumbnail'
+        'medium'
     )
     : '';
 $hero_badge_text = get_post_meta(
