@@ -174,6 +174,98 @@ function initAlternativeParticles() {
   render();
 }
 
+/**
+ * HERO MAIN - SEQUENTIAL CONTENT ANIMATION
+ *
+ * Coordina la entrada y salida del logo, H1, descripción y CTA.
+ * Utiliza las clases CSS existentes para animar opacidad y posición.
+ */
+function initHeroContentSequence() {
+  const hero = document.querySelector("#home-hero");
+
+  // Si el Hero Main no existe en esta página, no hacemos nada.
+  if (!hero) return;
+
+  // Localizamos los elementos por sus atributos de secuencia.
+  const logo = hero.querySelector('[data-hero-sequence="logo"]');
+  const heading = hero.querySelector('[data-hero-sequence="heading"]');
+  const description = hero.querySelector('[data-hero-sequence="description"]');
+  const cta = hero.querySelector('[data-hero-sequence="cta"]');
+
+  // Espera una cantidad de milisegundos antes de continuar.
+  const wait = (duration) =>
+    new Promise((resolve) => setTimeout(resolve, duration));
+
+  // Activa la transición de entrada.
+  const show = (element) => {
+    if (!element) return;
+
+    element.classList.remove("is-exiting");
+    element.classList.add("is-visible");
+  };
+
+  // Activa la transición de salida.
+  const hide = (element) => {
+    if (!element) return;
+
+    element.classList.remove("is-visible");
+    element.classList.add("is-exiting");
+  };
+
+  // Oculta todos los elementos al inicializar la secuencia.
+  [logo, heading, description, cta].forEach((element) => {
+    if (!element) return;
+
+    element.classList.remove("is-visible", "is-exiting");
+  });
+
+  // Ejecuta el ciclo completo continuamente.
+  async function runSequence() {
+    while (true) {
+      // 1. Logo: entra, permanece y sale.
+      if (logo) {
+        show(logo);
+        await wait(1800);
+
+        hide(logo);
+        await wait(700);
+      }
+
+      // 2. H1: entra, permanece y sale.
+      if (heading) {
+        show(heading);
+        await wait(2200);
+
+        hide(heading);
+        await wait(700);
+      }
+
+      // 3. Descripción: entra y permanece visible.
+      if (description) {
+        show(description);
+        await wait(1200);
+      }
+
+      // 4. CTA: aparece sin ocultar la descripción.
+      if (cta) {
+        show(cta);
+        await wait(2200);
+      } else {
+        await wait(1500);
+      }
+
+      // 5. Descripción y CTA salen juntos.
+      hide(description);
+      hide(cta);
+
+      // Dejamos terminar la transición antes de reiniciar.
+      await wait(700);
+    }
+  }
+
+  runSequence();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
@@ -528,4 +620,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // PARTICLES - MAIN HERO
   initAlternativeParticles();
+
+  // MAIN HERO - CONTENT SEQUENCE
+  initHeroContentSequence();
 });

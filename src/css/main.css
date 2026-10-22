@@ -251,6 +251,39 @@
   height: 100%;
   pointer-events: none;
 }
+/* HERO MAIN - SEQUENTIAL CONTENT ANIMATION */
+/* Initial state. */
+.ccluster-hero__sequence-item,
+.ccluster-hero__sequence-group [data-hero-sequence] {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(18px);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease,
+    visibility 700ms ease;
+}
+/* Entrance */
+.ccluster-hero__sequence-item.is-visible,
+.ccluster-hero__sequence-group [data-hero-sequence].is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+/* Exiting */
+.ccluster-hero__sequence-item.is-exiting,
+.ccluster-hero__sequence-group [data-hero-sequence].is-exiting {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-18px);
+}
+/* Reduce motion - user */
+@media (prefers-reduced-motion: reduce) {
+  .ccluster-hero__sequence-item,
+  .ccluster-hero__sequence-group [data-hero-sequence] {
+    transition: none;
+  }
+}
 /* THE FIRM */
 @layer components {
   .ccluster-la-firma {

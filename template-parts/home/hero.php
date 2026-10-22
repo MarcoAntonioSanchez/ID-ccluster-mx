@@ -79,34 +79,62 @@ $hero_background = $hero_background_id
     <div
         class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
-        <div class="text-left pb-[125px]">
+        ```php
+        <div class="ccluster-hero__content text-left pb-[125px]">
             <?php if ($hero_badge_text) : ?>
                 <div class="mb-6 flex items-center gap-3">
                     <?php if ($hero_badge_icon) : ?>
                         <img
                             src="<?php echo esc_url($hero_badge_icon); ?>"
                             alt=""
-                            class="h-[150px] w-[150px] shrink-0 object-contain">
+                            class="ccluster-hero__sequence-item ccluster-hero__logo h-[150px] w-[150px] shrink-0 object-contain"
+                            data-hero-sequence="logo">
                     <?php endif; ?>
                 </div>
+            <?php elseif ($hero_badge_icon) : ?>
+                <div class="mb-6 flex items-center gap-3">
+                    <img
+                        src="<?php echo esc_url($hero_badge_icon); ?>"
+                        alt=""
+                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[150px] w-[150px] shrink-0 object-contain"
+                        data-hero-sequence="logo">
+                </div>
             <?php endif; ?>
-            <h1 class="max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading text-primary">
+
+            <h1
+                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading text-primary"
+                data-hero-sequence="heading">
                 <span class="ccluster-title__gradient-light">Evoluciona</span> a Compliance Cluster
             </h1>
+
             <?php if ($hero_description) : ?>
-                <p class="mt-6 max-w-xl text-lg leading-8 font-body ccluster-hero__description">
-                    <?php echo esc_html($hero_description); ?>
-                </p>
-            <?php endif; ?>
-            <?php if ($hero_cta_label && $hero_cta_url) : ?>
+                <div
+                    class="ccluster-hero__sequence-group"
+                    data-hero-sequence-group="description-cta">
+                    <p class="mt-6 max-w-xl text-lg leading-8 font-body ccluster-hero__description"
+                        data-hero-sequence="description">
+                        <?php echo esc_html($hero_description); ?>
+                    </p>
+
+                    <?php if ($hero_cta_label && $hero_cta_url) : ?>
+                        <a
+                            href="<?php echo esc_url($hero_cta_url); ?>"
+                            class="mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                            data-hero-sequence="cta">
+                            <?php echo esc_html($hero_cta_label); ?>
+                        </a>
+                    <?php endif; ?>
+                </div>
+            <?php elseif ($hero_cta_label && $hero_cta_url) : ?>
                 <a
                     href="<?php echo esc_url($hero_cta_url); ?>"
-                    class="mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
+                    class="ccluster-hero__sequence-item mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                    data-hero-sequence="cta">
                     <?php echo esc_html($hero_cta_label); ?>
                 </a>
             <?php endif; ?>
-
         </div>
+        ```
         <!-- Visual -->
         <div class="relative flex items-center justify-center">
             <div class="ccluster-hero-orb">
