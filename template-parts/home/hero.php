@@ -79,7 +79,7 @@ $hero_background = $hero_background_id
     <div
         class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
-        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-center justify-center text-center">
+        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-center justify-center width-[1000px]">
             <?php if ($hero_badge_text) : ?>
                 <div class="mb-6 flex items-center gap-3">
                     <?php if ($hero_badge_icon) : ?>
@@ -101,7 +101,7 @@ $hero_background = $hero_background_id
             <?php endif; ?>
 
             <h1
-                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight font-heading text-primary"
+                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight font-heading text-primary text-start"
                 data-hero-sequence="heading">
                 <span class="ccluster-title__gradient-light">Evoluciona</span> a Compliance Cluster
             </h1>
@@ -110,7 +110,7 @@ $hero_background = $hero_background_id
                 <div
                     class="ccluster-hero__sequence-group"
                     data-hero-sequence-group="description-cta">
-                    <p class="mt-6 max-w-xl text-2xl leading-8 font-body ccluster-hero__description"
+                    <p class="mt-6 max-w-xl text-2xl leading-8 font-body ccluster-hero__description text-start"
                         data-hero-sequence="description">
                         <?php echo esc_html($hero_description); ?>
                     </p>
