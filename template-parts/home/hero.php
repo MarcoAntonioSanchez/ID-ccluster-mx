@@ -79,7 +79,7 @@ $hero_background = $hero_background_id
     <div
         class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
-        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center width-[1000px]">
+        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
             <?php if ($hero_badge_text) : ?>
                 <div class="mb-6 flex items-start gap-3">
                     <?php if ($hero_badge_icon) : ?>
@@ -91,11 +91,11 @@ $hero_background = $hero_background_id
                     <?php endif; ?>
                 </div>
             <?php elseif ($hero_badge_icon) : ?>
-                <div class="mb-6 flex items-start gap-3">
+                <div class="flex items-start gap-3">
                     <img
                         src="<?php echo esc_url($hero_badge_icon); ?>"
                         alt=""
-                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[150px] w-[150px] shrink-0 object-contain"
+                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[180px] w-[180px] shrink-0 object-contain"
                         data-hero-sequence="logo">
                 </div>
             <?php endif; ?>
