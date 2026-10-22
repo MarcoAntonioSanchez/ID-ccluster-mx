@@ -38,6 +38,9 @@ function initAlternativeParticles() {
     active: false,
   };
 
+  let particlesOpacity = 0;
+  let targetParticlesOpacity = 0;
+
   const particles = [];
   const particleCount = 25;
   const particleRadius = 150;
@@ -83,10 +86,13 @@ function initAlternativeParticles() {
     pointer.x = event.clientX - rect.left;
     pointer.y = event.clientY - rect.top;
     pointer.active = true;
+
+    targetParticlesOpacity = 1;
   }
 
   function handlePointerLeave() {
     pointer.active = false;
+    targetParticlesOpacity = 0;
   }
 
   resizeCanvas();
@@ -102,7 +108,9 @@ function initAlternativeParticles() {
   function render() {
     context.clearRect(0, 0, width, height);
 
-    if (pointer.active) {
+    particlesOpacity += (targetParticlesOpacity - particlesOpacity) * 0.06;
+
+    if (particlesOpacity > 0.01) {
       particles.forEach((particle) => {
         particle.x += particle.vx;
         particle.y += particle.vy;
@@ -124,7 +132,7 @@ function initAlternativeParticles() {
 
         context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
 
-        context.fillStyle = `rgba(7, 19, 49, ${particle.opacity})`;
+        context.fillStyle = `rgba(7,19,49, ${particle.opacity * particlesOpacity})`;
 
         context.fill();
       });
@@ -143,7 +151,8 @@ function initAlternativeParticles() {
           continue;
         }
 
-        const opacity = (1 - distance / connectionDistance) * 0.4;
+        const opacity =
+          (1 - distance / connectionDistance) * 0.4 * particlesOpacity;
 
         context.beginPath();
 
