@@ -292,7 +292,6 @@
   justify-items: center;
 }
 .ccluster-hero__content > div,
-.ccluster-hero__content > h1,
 .ccluster-hero__content > [data-hero-sequence-group],
 .ccluster-hero__content > [data-hero-sequence="cta"] {
   grid-area: hero-stage;
@@ -303,6 +302,15 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+}
+.ccluster-hero__content > h1 {
+  grid-area: hero-stage;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .ccluster-hero__content > div:has([data-hero-sequence="logo"]) {
   display: flex;
