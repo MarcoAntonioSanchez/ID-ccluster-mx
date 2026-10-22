@@ -101,7 +101,7 @@ $hero_background = $hero_background_id
             <?php endif; ?>
 
             <h1
-                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight md:text-7xl font-heading text-primary"
+                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight font-heading text-primary"
                 data-hero-sequence="heading">
                 <span class="ccluster-title__gradient-light">Evoluciona</span> a Compliance Cluster
             </h1>
