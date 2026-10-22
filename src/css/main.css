@@ -315,7 +315,7 @@
   justify-self: start;
 }
 .ccluster-hero__content [data-hero-sequence="logo"] {
-  margin-inline: auto;
+  margin-inline: 0;
 }
 .ccluster-hero__content [data-hero-sequence-group] {
   display: flex;
