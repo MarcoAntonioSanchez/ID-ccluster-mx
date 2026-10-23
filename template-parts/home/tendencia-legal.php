@@ -79,7 +79,7 @@
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-specialized-training-icon-primary-bg.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-specialized-training-icon-secondary.png"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
@@ -95,7 +95,7 @@
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-specialized-streaming-icon-primary-bg.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-specialized-streaming-icon-secondary.png"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
@@ -111,7 +111,7 @@
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-normative-updated-icon-primary-bg.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-normative-updated-icon-secondary.png"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
@@ -127,7 +127,7 @@
             <article class="ccluster-tendencia-legal__pillar">
                 <div class="ccluster-tendencia-legal__pillar-icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-learning-community-icon-primary-bg.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-learning-community-icon-secondary.png"
                         alt="">
                 </div>
                 <div class="ccluster-tendencia-legal__pillar-content">
