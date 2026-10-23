@@ -1408,7 +1408,7 @@ html {
   @apply flex h-12 w-12 shrink-0 items-center justify-center;
 }
 .ccluster-tendencia-legal__pillar-icon img {
-  @apply h-8 w-8 object-contain;
+  @apply h-15 w-15 object-contain;
 }
 .ccluster-tendencia-legal__pillar-title {
   @apply font-heading text-2xl font-normal leading-tight text-primary transition-colors duration-300;
