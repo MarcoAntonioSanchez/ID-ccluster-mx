@@ -308,7 +308,7 @@ html {
   /* ACTIVE LINK */
   #site-navbar .is-nav-active {
     @apply font-bold underline underline-offset-4 decoration-2;
-    color: #c5a059;
+    color: #071331;
     text-decoration-color: #c5a059;
   }
 }
