@@ -453,7 +453,7 @@
     @apply w-full overflow-hidden py-20 lg:py-28;
   }
   .ccluster-la-firma__inner {
-    @apply mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20;
+    @apply mx-auto grid max-w-screen-2xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20;
   }
   /* LEFT COLUMN */
   .ccluster-la-firma__media {
