@@ -334,6 +334,9 @@
 }
 .ccluster-hero__content [data-hero-sequence="description"] {
   margin-top: 0;
+  margin-inline: 0;
+  width: 100%;
+  text-align: left;
 }
 .ccluster-hero__content [data-hero-sequence="cta"] {
   margin-top: 2rem;
