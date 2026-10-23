@@ -20,7 +20,7 @@ $cta_url = ccluster_get_theme_option(
     class="bg-white">
 
     <div
-        class="mx-auto flex max-w-screen-2xl ccluster-hero-orb items-center justify-between px-6 py-4">
+        class="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-4">
         <!-- Logo -->
         <div class="shrink-0">
             <?php if ($logo) : ?>
