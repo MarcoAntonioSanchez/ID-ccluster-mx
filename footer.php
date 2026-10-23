@@ -18,7 +18,7 @@ $social_networks = [
 <footer
     id="site-footer"
     class="bg-black text-white">
-    <div class="mx-auto max-w-7xl px-6 py-16">
+    <div class="mx-auto max-w-screen-2xl px-6 py-16">
         <div class="grid gap-12 md:grid-cols-3">
             <!-- Brand -->
             <div>
