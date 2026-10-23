@@ -253,25 +253,33 @@
 .ccluster-hero__sequence-group [data-hero-sequence] {
   opacity: 0;
   visibility: hidden;
-  transform: translateY(18px);
+  clip-path: inset(0 50% 0 50%);
   transition:
+    clip-path 700ms ease,
     opacity 700ms ease,
-    transform 700ms ease,
-    visibility 700ms ease;
+    visibility 0s linear 700ms;
 }
 /* Entrance */
 .ccluster-hero__sequence-item.is-visible,
 .ccluster-hero__sequence-group [data-hero-sequence].is-visible {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  clip-path: inset(0 0 0 0);
+  transition:
+    clip-path 700ms ease,
+    opacity 700ms ease,
+    visibility 0s;
 }
 /* Exiting */
 .ccluster-hero__sequence-item.is-exiting,
 .ccluster-hero__sequence-group [data-hero-sequence].is-exiting {
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-18px);
+  clip-path: inset(0 50% 0 50%);
+  transition:
+    clip-path 700ms ease,
+    opacity 700ms ease,
+    visibility 0s linear 700ms;
 }
 /* Reduce motion - user */
 @media (prefers-reduced-motion: reduce) {
