@@ -1138,7 +1138,7 @@
   @apply w-full;
 }
 .ccluster-equipo__inner {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
 }
 .ccluster-equipo__director {
   @apply grid grid-cols-10;
