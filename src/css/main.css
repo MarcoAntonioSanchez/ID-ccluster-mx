@@ -305,6 +305,12 @@ html {
   .ccluster-cta__icon svg {
     @apply h-[20px] w-[20px];
   }
+  /* ACTIVE LINK */
+  #site-navbar .is-nav-active {
+    @apply font-bold underline underline-offset-4 decoration-2;
+    color: #c5a059;
+    text-decoration-color: #c5a059;
+  }
 }
 
 /* HOME */

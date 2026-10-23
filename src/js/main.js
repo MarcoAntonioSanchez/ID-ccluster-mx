@@ -266,6 +266,162 @@ function initHeroContentSequence() {
   runSequence();
 }
 
+/**
+ * NAVBAR — ACTIVE SECTION
+ *
+ * Sincroniza los enlaces de escritorio y móvil según la sección
+ * visitada. También activa la categoría padre de cada subelemento.
+ */
+function initActiveNavigation() {
+  const navbar = document.querySelector("#site-navbar");
+
+  if (!navbar) return;
+
+  const links = Array.from(navbar.querySelectorAll('a[href*="#"]'));
+
+  const navigationItems = links
+    .map((link) => {
+      let url;
+
+      try {
+        url = new URL(link.href, window.location.href);
+      } catch {
+        return null;
+      }
+
+      // Solo considerar enlaces de esta misma página.
+      if (
+        url.origin !== window.location.origin ||
+        url.pathname.replace(/\/+$/, "") !==
+          window.location.pathname.replace(/\/+$/, "") ||
+        !url.hash
+      ) {
+        return null;
+      }
+
+      let id;
+
+      try {
+        id = decodeURIComponent(url.hash.slice(1));
+      } catch {
+        return null;
+      }
+
+      const section = document.getElementById(id);
+
+      if (!section) return null;
+
+      return { link, section, id };
+    })
+    .filter(Boolean);
+
+  if (!navigationItems.length) return;
+
+  const activeClass = "is-nav-active";
+
+  function setActiveSection(id) {
+    navigationItems.forEach(({ link, id: linkId }) => {
+      const isActive = linkId === id;
+
+      link.classList.toggle(activeClass, isActive);
+
+      if (isActive) {
+        link.setAttribute("aria-current", "location");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+
+      // Activar también el enlace de la categoría padre.
+      const parentItem = link.closest(".menu-item-has-children");
+
+      if (parentItem) {
+        const parentLink = parentItem.querySelector(":scope > a");
+
+        if (parentLink) {
+          parentLink.classList.toggle(activeClass, isActive);
+
+          if (isActive) {
+            parentLink.setAttribute("aria-current", "location");
+          } else {
+            parentLink.removeAttribute("aria-current");
+          }
+        }
+      }
+    });
+  }
+
+  // Evitar que un enlace inválido fuerce un estado activo.
+  navbar.addEventListener("click", (event) => {
+    const link = event.target.closest("a");
+
+    if (!link || !navbar.contains(link)) return;
+
+    const item = navigationItems.find(
+      ({ link: itemLink }) => itemLink === link,
+    );
+
+    if (!item) return;
+
+    setActiveSection(item.id);
+  });
+
+  // Reconocer un destino válido al cargar o cambiar el hash.
+  function syncFromHash() {
+    if (!window.location.hash) return;
+
+    let id;
+
+    try {
+      id = decodeURIComponent(window.location.hash.slice(1));
+    } catch {
+      return;
+    }
+
+    if (navigationItems.some((item) => item.id === id)) {
+      setActiveSection(id);
+    }
+  }
+
+  syncFromHash();
+
+  window.addEventListener("hashchange", syncFromHash);
+
+  // Actualizar el estado mientras el usuario recorre las secciones.
+  if ("IntersectionObserver" in window) {
+    const visibleSections = new Map();
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            visibleSections.set(entry.target.id, entry.intersectionRatio);
+          } else {
+            visibleSections.delete(entry.target.id);
+          }
+        });
+
+        if (!visibleSections.size) return;
+
+        const activeId = [...visibleSections.entries()].sort(
+          (a, b) => b[1] - a[1],
+        )[0][0];
+
+        setActiveSection(activeId);
+      },
+      {
+        rootMargin: "-20% 0px -55% 0px",
+        threshold: [0, 0.25, 0.5, 0.75, 1],
+      },
+    );
+
+    const observedSections = new Set(
+      navigationItems.map(({ section }) => section),
+    );
+
+    observedSections.forEach((section) => observer.observe(section));
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
@@ -623,4 +779,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // MAIN HERO - CONTENT SEQUENCE
   initHeroContentSequence();
+
+  // NAVBAR - ACTIVE SECTION
+  initActiveNavigation();
 });
