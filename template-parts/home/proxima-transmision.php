@@ -5,7 +5,7 @@
  */
 ?>
 
-<section class="ccluster-proxima-transmision">
+<section id="streaming" class="ccluster-proxima-transmision">
     <div class="ccluster-proxima-transmision__container">
 
         <!-- LEFT: TRANSMISSION COVER -->
