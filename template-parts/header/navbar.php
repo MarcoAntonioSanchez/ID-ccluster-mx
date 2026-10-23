@@ -48,7 +48,7 @@ $cta_url = ccluster_get_theme_option(
                     'theme_location' => 'primary',
                     'container'      => false,
                     'fallback_cb'    => false,
-                    'menu_class'     => 'flex items-center gap-3',
+                    'menu_class'     => 'flex items-center gap-4',
                 ]
             );
             ?>
