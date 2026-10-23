@@ -18,7 +18,7 @@
                 <span
                     class="h-[2px] w-[25px] bg-secondary"
                     aria-hidden="true"></span>
-                <span class="font-badge">
+                <span class="font-badge text-white">
                     COMPLIANCE CLUSTER
                 </span>
             </div>
