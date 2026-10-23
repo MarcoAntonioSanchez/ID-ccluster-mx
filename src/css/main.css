@@ -1307,7 +1307,7 @@ html {
   @apply border-l border-primary/10;
 }
 .ccluster-alianzas__icon {
-  @apply flex h-auto w-full items-center justify-center bg-white;
+  @apply flex h-auto w-full items-center justify-start bg-white;
 }
 .ccluster-alianzas__icon-image {
   @apply block h-auto w-[300px] object-contain;
