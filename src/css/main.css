@@ -235,7 +235,7 @@
   opacity: 0.7;
 }
 .ccluster-hero__description {
-  line-height: 1.75rem;
+  line-height: 2.75rem;
 }
 /* PARTICLES CANVAS */
 .ccluster-hero__particles {
@@ -335,12 +335,12 @@
   margin-inline: auto;
 }
 /* TEMPORARY: HERO CONTENT DESIGN MODE - DEBUG ONLY*/
-#home-hero .ccluster-hero__sequence-item,
+/* #home-hero .ccluster-hero__sequence-item,
 #home-hero .ccluster-hero__sequence-group [data-hero-sequence] {
   opacity: 1 !important;
   visibility: visible !important;
   transform: none !important;
-}
+} */
 /* THE FIRM */
 @layer components {
   .ccluster-la-firma {
