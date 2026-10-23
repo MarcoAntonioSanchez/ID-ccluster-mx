@@ -62,7 +62,7 @@
                             EXPLORAR SERVICIOS DE ASESORÍA
                         </span>
                         <img
-                            src="URL-DEL-ICONO"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-refered-link-icon-primary.png"
                             alt=""
                             class="ccluster-alianzas__link-icon">
                     </a>
@@ -100,7 +100,7 @@
                             CUMPLIMIENTO NORMATIVO Y TECNOLÓGICO
                         </span>
                         <img
-                            src="URL-DEL-ICONO"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-refered-link-icon-primary.png"
                             alt=""
                             class="ccluster-alianzas__link-icon">
                     </a>
@@ -136,7 +136,7 @@
                             CONSULTORÍA PATRIMONIAL INTERNACIONAL
                         </span>
                         <img
-                            src="URL-DEL-ICONO"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-refered-link-icon-primary.png"
                             alt=""
                             class="ccluster-alianzas__link-icon">
                     </a>
