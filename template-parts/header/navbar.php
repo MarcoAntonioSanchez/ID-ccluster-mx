@@ -20,7 +20,7 @@ $cta_url = ccluster_get_theme_option(
     class="bg-white">
 
     <div
-        class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        class="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-4">
         <!-- Logo -->
         <div class="shrink-0">
             <?php if ($logo) : ?>
@@ -48,7 +48,7 @@ $cta_url = ccluster_get_theme_option(
                     'theme_location' => 'primary',
                     'container'      => false,
                     'fallback_cb'    => false,
-                    'menu_class'     => 'flex items-center gap-5',
+                    'menu_class'     => 'flex items-center gap-6',
                 ]
             );
             ?>
