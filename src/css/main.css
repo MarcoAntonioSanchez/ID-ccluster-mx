@@ -2151,7 +2151,7 @@
   @apply mx-auto w-full max-w-7xl px-8;
 }
 .ccluster-cta__content {
-  @apply mx-auto flex max-w-4xl flex-col items-center text-center;
+  @apply mx-auto flex max-w-screen-2xl flex-col items-center text-center;
 }
 .ccluster-cta__badge {
   @apply mb-6 font-body text-xs font-semibold uppercase tracking-[0.2em];
