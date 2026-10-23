@@ -10,43 +10,43 @@ get_header();
         'template-parts/home/la-firma'
     );
     get_template_part(
+        'template-parts/home/nuestros-origenes'
+    );
+    get_template_part(
         'template-parts/home/nuestra-historia'
     );
     get_template_part(
         'template-parts/home/principios'
     );
     get_template_part(
-        'template-parts/home/nuestro-equipo'
-    );
-    get_template_part(
         'template-parts/home/objetivo-firma'
     );
     get_template_part(
-        'template-parts/home/ecosistema-soluciones'
-    );
-    get_template_part(
-        'template-parts/home/nuestros-origenes'
-    );
-    // get_template_part(
-    //     'template-parts/home/objetivo-ccluster'
-    // );
-    get_template_part(
         'template-parts/home/por-que-cluster'
-    );
-    get_template_part(
-        'template-parts/home/nuestra-identidad'
-    );
-    get_template_part(
-        'template-parts/home/comparativa'
-    );
-    get_template_part(
-        'template-parts/home/equipo'
     );
     get_template_part(
         'template-parts/home/alianzas'
     );
     get_template_part(
+        'template-parts/home/nuestra-identidad'
+    );
+    get_template_part(
+        'template-parts/home/ecosistema-soluciones'
+    );
+    get_template_part(
+        'template-parts/home/comparativa'
+    );
+    get_template_part(
+        'template-parts/home/nuestro-equipo'
+    );
+    get_template_part(
+        'template-parts/home/equipo'
+    );
+    get_template_part(
         'template-parts/home/tendencia-legal'
+    );
+    get_template_part(
+        'template-parts/home/proximo-curso'
     );
     get_template_part(
         'template-parts/home/proxima-transmision'
@@ -55,11 +55,11 @@ get_header();
         'template-parts/home/proximo-evento'
     );
     get_template_part(
-        'template-parts/home/proximo-curso'
-    );
-    get_template_part(
         'template-parts/home/cta'
     );
+    // get_template_part(
+    //     'template-parts/home/objetivo-ccluster'
+    // );
     ?>
 </main>
 <?php
