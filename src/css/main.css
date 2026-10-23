@@ -398,7 +398,7 @@ html {
   grid-template-areas: "hero-stage";
   align-items: center;
   justify-items: start;
-  transform: translateY(-100px);
+  transform: translateY(-200px);
 }
 .ccluster-hero__content > div,
 .ccluster-hero__content > [data-hero-sequence-group],
