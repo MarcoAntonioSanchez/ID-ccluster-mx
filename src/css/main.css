@@ -131,6 +131,76 @@
 .ccluster-section-header__desc {
   @apply font-body text-[1.5rem];
 }
+/* BUTTON HERO - CTA */
+/* Reusable base for premium, square-cornered buttons. */
+/* SHINY CTA — animatable gradient angle */
+@property --cta-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.ccluster-button--shiny {
+  --cta-bg: var(--color-primary, #0f143a);
+  --cta-accent: var(--color-secondary, #c5a059);
+  --cta-fg: #ffffff;
+
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--cta-accent);
+  border-radius: 0;
+
+  background: var(--cta-bg);
+  color: var(--cta-fg);
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* SHINY CTA — animated perimeter highlight */
+.ccluster-button--shiny::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border: 1px solid transparent;
+  border-radius: 0;
+
+  background:
+    linear-gradient(var(--cta-bg), var(--cta-bg)) padding-box,
+    conic-gradient(
+        from var(--cta-angle, 0deg),
+        transparent 0%,
+        var(--cta-accent) 10%,
+        #f3dca5 15%,
+        transparent 25%,
+        transparent 100%
+      )
+      border-box;
+
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+.ccluster-button--shiny:hover::before,
+.ccluster-button--shiny:focus-visible::before {
+  opacity: 1;
+  animation: ccluster-cta-border-spin 3s linear infinite;
+}
+@keyframes ccluster-cta-border-spin {
+  to {
+    --cta-angle: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ccluster-button--shiny:hover::before,
+  .ccluster-button--shiny:focus-visible::before {
+    animation: none;
+  }
+}
 /* BUTTON - CTA */
 .ccluster-button__cta {
   @apply font-body uppercase inline-flex items-center justify-center border border-primary bg-primary px-6 py-3 text-sm font-semibold text-white no-underline transition-all duration-300;

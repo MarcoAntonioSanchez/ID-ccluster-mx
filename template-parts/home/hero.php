@@ -127,8 +127,8 @@ $hero_background = $hero_background_id
             <?php elseif ($hero_cta_label && $hero_cta_url) : ?>
                 <a
                     href="<?php echo esc_url($hero_cta_url); ?>"
-                    class="ccluster-hero__sequence-item mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                    data-hero-sequence="cta">
+                    class="ccluster-hero__sequence-item ccluster-button--shiny mt-8 w-fit self-start text-sm font-semibold"
+                    data-hero-sequence=" cta">
                     <?php echo esc_html($hero_cta_label); ?>
                 </a>
             <?php endif; ?>
