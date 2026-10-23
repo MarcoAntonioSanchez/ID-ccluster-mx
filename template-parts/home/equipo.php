@@ -147,7 +147,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -216,7 +216,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -285,7 +285,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -354,7 +354,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -423,7 +423,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -492,7 +492,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -561,7 +561,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
@@ -630,7 +630,7 @@
                                 type="button"
                                 class="ccluster-equipo__partner-more">
                                 <img
-                                    src="URL-ICONO"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-arrows-expand-primary.png"
                                     alt=""
                                     class="ccluster-equipo__partner-more-icon">
                                 <span>
