@@ -28,8 +28,8 @@ $social_networks = [
                         aria-label="<?php bloginfo('name'); ?>"
                         class="inline-block">
                         <img
-                            src="<?php echo esc_url($logo); ?>"
-                            alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-logo-white-scaled.png"
+                            alt=""
                             class="h-10 w-auto">
                     </a>
                 <?php endif; ?>
