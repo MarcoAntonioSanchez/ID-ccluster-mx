@@ -622,5 +622,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initAlternativeParticles();
 
   // MAIN HERO - CONTENT SEQUENCE
-  initHeroContentSequence();
+  // initHeroContentSequence();
 });
