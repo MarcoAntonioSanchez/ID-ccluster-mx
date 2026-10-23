@@ -286,6 +286,7 @@
   grid-template-areas: "hero-stage";
   align-items: center;
   justify-items: start;
+  transform: translateY(-24px);
 }
 .ccluster-hero__content > div,
 .ccluster-hero__content > [data-hero-sequence-group],
