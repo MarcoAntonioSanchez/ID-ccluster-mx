@@ -330,7 +330,7 @@
 .ccluster-hero__content [data-hero-sequence-group] {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .ccluster-hero__content [data-hero-sequence="description"] {
