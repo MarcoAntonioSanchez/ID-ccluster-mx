@@ -17,20 +17,20 @@
 
     <?php wp_body_open(); ?>
 
+
+    <?php
+    get_template_part(
+        'template-parts/header/topbar'
+    );
+    ?>
+
     <header>
-
-        <?php
-        get_template_part(
-            'template-parts/header/topbar'
-        );
-        ?>
-
         <?php
         get_template_part(
             'template-parts/header/navbar'
         );
         ?>
-
     </header>
+
 
     <main id="main-content">
