@@ -34,7 +34,7 @@
             <article class="ccluster-alianzas__item">
                 <div class="ccluster-alianzas__icon">
                     <img
-                        src="URL-DEL-ICONO"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-CIPBC-Asesores-corporativos-logo.tiny_.png"
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
@@ -72,7 +72,7 @@
             <article class="ccluster-alianzas__item">
                 <div class="ccluster-alianzas__icon">
                     <img
-                        src="URL-DEL-ICONO"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-ALDDA-Software-PLD-logo-tiny.png"
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
@@ -110,7 +110,7 @@
             <article class="ccluster-alianzas__item">
                 <div class="ccluster-alianzas__icon">
                     <img
-                        src="URL-DEL-ICONO"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-CEI-Consultores-empresariales-internacionales-logo-tiny.png"
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
