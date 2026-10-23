@@ -1045,7 +1045,7 @@
 }
 /* OUR IDENTITY */
 .ccluster-nuestra-identidad {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
 }
 .ccluster-nuestra-identidad__inner {
   @apply grid grid-cols-2;
