@@ -97,7 +97,7 @@
 
                     <div class="ccluster-proximo-evento__speaker-avatar">
                         <img
-                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-tiny.png"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png"
                             alt="Mtro. Carlos A. Pérez Macías"
                             class="ccluster-proximo-evento__speaker-image">
                     </div>

@@ -118,7 +118,7 @@
                         <div class="ccluster-proximo-curso__speaker">
                             <div class="ccluster-proximo-curso__speaker-avatar">
                                 <img
-                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-tiny.png"
+                                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-avatar-c-perez-photo-v2-tiny.png"
                                     alt="Mtro. Carlos A. Juárez Platas"
                                     class="ccluster-proximo-curso__speaker-image">
                             </div>
