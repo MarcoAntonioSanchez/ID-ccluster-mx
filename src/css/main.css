@@ -106,6 +106,9 @@
   }
 }
 /* GLOBALS */
+html {
+  scroll-behavior: smooth;
+}
 /* SECTION HEADING */
 .ccluster-section-header {
   @apply flex flex-col gap-[50px] mb-6;
