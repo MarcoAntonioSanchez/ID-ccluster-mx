@@ -77,7 +77,7 @@ $hero_background = $hero_background_id
         aria-hidden="true">
     </canvas>
     <div
-        class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
+        class="mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-screen-2xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
         <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
             <?php if ($hero_badge_text) : ?>
