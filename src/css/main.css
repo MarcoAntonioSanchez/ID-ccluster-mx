@@ -828,7 +828,7 @@
 }
 /* SOLUTIONS ECOSYSTEM */
 .ccluster-ecosistema-soluciones {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
 }
 .ccluster-ecosistema-soluciones__header {
   @apply grid grid-cols-10 items-center;
