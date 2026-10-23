@@ -108,7 +108,7 @@ function initAlternativeParticles() {
   function render() {
     context.clearRect(0, 0, width, height);
 
-    particlesOpacity += (targetParticlesOpacity - particlesOpacity) * 0.06;
+    particlesOpacity += (targetParticlesOpacity - particlesOpacity) * 0.02;
 
     if (particlesOpacity > 0.01) {
       particles.forEach((particle) => {
@@ -622,5 +622,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initAlternativeParticles();
 
   // MAIN HERO - CONTENT SEQUENCE
-  // initHeroContentSequence();
+  initHeroContentSequence();
 });

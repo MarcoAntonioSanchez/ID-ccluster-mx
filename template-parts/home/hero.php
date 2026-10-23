@@ -110,7 +110,7 @@ $hero_background = $hero_background_id
                 <div
                     class="ccluster-hero__sequence-group"
                     data-hero-sequence-group="description-cta">
-                    <p class="mt-6 max-w-xl text-2xl leading-8 font-body ccluster-hero__description text-start"
+                    <p class="mt-6 max-w-xl text-5xl leading-8 font-body ccluster-hero__description text-start"
                         data-hero-sequence="description">
                         <?php echo esc_html($hero_description); ?>
                     </p>
