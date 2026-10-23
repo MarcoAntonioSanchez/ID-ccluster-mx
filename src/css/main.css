@@ -715,7 +715,7 @@
 }
 /* OUR LEADERSHIP TEAM */
 .ccluster-nuestro-equipo {
-  @apply max-w-screen-2xl;
+  @apply w-full;
 }
 .ccluster-nuestro-equipo__inner {
   @apply grid grid-cols-2;
