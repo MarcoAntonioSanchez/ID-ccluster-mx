@@ -778,6 +778,9 @@
   @apply font-body text-sm text-black/50;
 }
 /* FIRM GOAL */
+.ccluster-objetivo-firma {
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
+}
 .ccluster-objetivo-firma__header {
   @apply flex flex-col items-center;
 }
@@ -792,9 +795,6 @@
 }
 .ccluster-objetivo-firma__badge-icon {
   @apply h-6 w-6 object-contain;
-}
-.ccluster-objetivo-firma {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
 }
 .ccluster-objetivo-firma__grid {
   @apply mt-16 grid grid-cols-2;
