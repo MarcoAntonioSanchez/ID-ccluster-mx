@@ -24,7 +24,7 @@
     );
     ?>
 
-    <header>
+    <header class="sticky top-0 z-50">
         <?php
         get_template_part(
             'template-parts/header/navbar'
