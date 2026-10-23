@@ -5,7 +5,7 @@
  */
 ?>
 
-<section class="ccluster-proximo-evento">
+<section id="events" class="ccluster-proximo-evento">
     <div class="ccluster-proximo-evento__container">
 
         <!-- LEFT: EVENT INFORMATION -->

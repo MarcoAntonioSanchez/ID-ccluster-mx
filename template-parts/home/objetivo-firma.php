@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-objetivo-firma">
+<section id="mission" class="ccluster-objetivo-firma">
     <!-- HEADER -->
     <div class="ccluster-objetivo-firma__header">
         <!-- BADGE -->

@@ -34,6 +34,7 @@ $history_title = get_post_meta(
 <section class="ccluster-nuestra-historia">
     <!-- TOP ROW -->
     <div
+        id="history"
         class="ccluster-nuestra-historia__timeline"
         <?php if ($background_url) : ?>
         style="background-image: url('<?php echo esc_url($background_url); ?>');"

@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-equipo">
+<section id="team" class="ccluster-equipo">
     <div class="ccluster-equipo__inner">
         <!-- HEADER -->
         <div class="ccluster-section-header items-center mb-[100px]">

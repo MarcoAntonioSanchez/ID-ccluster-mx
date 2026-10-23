@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-alianzas">
+<section id="ecosystem" class="ccluster-alianzas">
     <div class="ccluster-alianzas__inner">
         <!-- HEADER -->
         <div class="ccluster-section-header items-center mb-[100px]">

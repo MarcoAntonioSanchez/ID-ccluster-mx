@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-nuestros-origenes">
+<section id="origins" class="ccluster-nuestros-origenes">
     <!-- HEADER -->
     <div class="ccluster-nuestros-origenes__header">
         <!-- BADGE -->

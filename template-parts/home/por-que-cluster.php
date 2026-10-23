@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-acordeones">
+<section id="model" class="ccluster-acordeones">
     <div class="ccluster-acordeones__inner">
         <!-- MEDIA -->
         <div class="ccluster-acordeones__media">

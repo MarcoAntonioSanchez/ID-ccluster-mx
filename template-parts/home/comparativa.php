@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-comparativo">
+<section id="comparative" class="ccluster-comparativo">
     <div class="ccluster-comparativo__inner">
         <!-- HEADER -->
         <div class="ccluster-section-header items-center">

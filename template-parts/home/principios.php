@@ -1,4 +1,4 @@
-<section class="ccluster-principios">
+<section id="principles" class="ccluster-principios">
     <?php
     $principios_badge_icon_id = absint(
         get_post_meta(

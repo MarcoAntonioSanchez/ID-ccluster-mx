@@ -81,7 +81,7 @@ $ecosistema_servicios = [
 ];
 
 ?>
-<section class="ccluster-ecosistema-soluciones">
+<section id="services" class="ccluster-ecosistema-soluciones">
     <!-- HEADER -->
     <div class="ccluster-ecosistema-soluciones__header">
         <div class="ccluster-ecosistema-soluciones__header-content">

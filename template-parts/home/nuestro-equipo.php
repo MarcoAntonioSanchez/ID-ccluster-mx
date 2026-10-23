@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-nuestro-equipo">
+<section id="leaders" class="ccluster-nuestro-equipo">
 
     <div class="ccluster-nuestro-equipo__inner">
 

@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="ccluster-tendencia-legal">
+<section id="training" class="ccluster-tendencia-legal">
     <div class="ccluster-tendencia-legal__inner">
         <!-- HEADER -->
         <div class="ccluster-section-header items-center mb-[100px]">

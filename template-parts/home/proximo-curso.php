@@ -5,7 +5,7 @@
  */
 ?>
 
-<section class="ccluster-proximo-curso">
+<section id="courses" class="ccluster-proximo-curso">
     <div class="ccluster-proximo-curso__container">
 
         <!-- LEFT: COURSE COVER -->
