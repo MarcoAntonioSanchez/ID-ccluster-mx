@@ -993,7 +993,7 @@
 }
 /* WHY A CLUSTER */
 .ccluster-acordeones {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
 }
 .ccluster-acordeones__inner {
   @apply grid grid-cols-2;
