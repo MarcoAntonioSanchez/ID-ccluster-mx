@@ -270,16 +270,40 @@
 }
 /* NAVBAR */
 @layer components {
+  /* Estilos base de los elementos del menú. */
   .menu-item {
-    @apply font-body;
+    @apply relative font-body;
   }
+  /* Distribución horizontal del menú principal. */
+  #site-navbar .menu > .menu-item {
+    @apply relative;
+  }
+  /* Ocultar los submenús de forma predeterminada. */
+  #site-navbar .sub-menu {
+    @apply absolute left-0 top-full z-50 hidden min-w-56 bg-white py-2 shadow-lg;
+  }
+  /* Mostrar el submenú al interactuar con su elemento padre. */
+  #site-navbar .menu-item-has-children:hover > .sub-menu,
+  #site-navbar .menu-item-has-children:focus-within > .sub-menu {
+    @apply block;
+  }
+  /* Presentación de los enlaces del submenú. */
+  #site-navbar .sub-menu .menu-item > a {
+    @apply block px-4 py-2 text-sm transition-colors duration-200;
+  }
+  #site-navbar .sub-menu .menu-item > a:hover,
+  #site-navbar .sub-menu .menu-item > a:focus-visible {
+    @apply bg-gray-100;
+  }
+  /* Icono del CTA de contacto. */
   .ccluster-cta__icon {
     @apply shrink-0 text-white;
   }
   .ccluster-cta__icon svg {
-    @apply w-[20px] h-[20px];
+    @apply h-[20px] w-[20px];
   }
 }
+
 /* HOME */
 /* HERO */
 .ccluster-hero-orb {
