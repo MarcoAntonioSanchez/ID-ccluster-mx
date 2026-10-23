@@ -1058,7 +1058,7 @@
   @apply w-full;
 }
 .ccluster-comparativo__inner {
-  @apply mx-auto w-full max-w-7xl px-6 py-28;
+  @apply mx-auto w-full max-w-screen-2xl px-6 py-28;
 }
 .ccluster-comparativo__table {
   @apply mt-[100px] flex w-full;
