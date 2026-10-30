@@ -337,9 +337,9 @@ html {
   height: auto;
   opacity: 0.7;
 }
-.ccluster-hero__description {
+/* .ccluster-hero__description {
   line-height: 2.75rem;
-}
+} */
 /* PARTICLES CANVAS */
 .ccluster-hero__particles {
   position: absolute;
