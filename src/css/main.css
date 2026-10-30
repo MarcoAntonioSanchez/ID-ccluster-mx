@@ -2088,6 +2088,12 @@ html {
 }
 
 /* RESPONSIVE */
+@media (max-width: 640px) {
+  .ccluster-hero__content > div {
+    width: 75%;
+    max-width: 75%;
+  }
+}
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
     @apply py-10;
