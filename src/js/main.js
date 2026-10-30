@@ -448,14 +448,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  menuButton.addEventListener("click", () => {
-    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-
-    menuButton.setAttribute("aria-expanded", String(!isOpen));
-
-    mobileMenu.hidden = isOpen;
-  });
-
   const socialIcons = {
     facebook: facebookIcon,
     instagram: instagramIcon,
