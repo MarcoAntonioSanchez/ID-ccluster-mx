@@ -33,7 +33,7 @@
             <div class="ccluster-equipo__director-media">
                 <!-- IMAGE -->
                 <img
-                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Carlos-Alberto-Perez-Macias-prefinal.png"
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Carlos-Alberto-Perez-Macias-tiny-10302026-v2.png"
                     alt="Carlos A. Pérez M."
                     class="ccluster-equipo__director-image">
             </div>
@@ -112,7 +112,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Michelle-Cruz-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-michelle-cruz-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -123,7 +123,7 @@
                             CPC y PCPLD.
                         </span>
                         <h3 class="ccluster-equipo__partner-name">
-                            Reyna Cruz
+                            Michelle Cruz
                         </h3>
                         <p class="ccluster-equipo__partner-role">
                             Asociada Senior
@@ -178,7 +178,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Araceli-Berenice-Ayala-Gomez-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-aracely-a-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -316,7 +316,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Roberto-Elias-Barragan-Torres-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-roberto-e-barragan-t-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -385,7 +385,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Paola-Quetzalli-Solis-Garcia-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-paola-solis-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -454,7 +454,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Ana-Jessica-Rosas-Martinez-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-jessica-rosas-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -523,7 +523,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Azucena-Aguirre-Maldonado-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-azucena-a-maldonado-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
@@ -592,7 +592,7 @@
                 <!-- MEDIA — 60% -->
                 <div class="ccluster-equipo__partner-media">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/Claudia-Angelica-Ceballos-Macias-final-tiny.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-claudia-a-ceballos-m-avatar-tiny-10302026-v2.png"
                         alt=""
                         class="ccluster-equipo__partner-image">
                 </div>
