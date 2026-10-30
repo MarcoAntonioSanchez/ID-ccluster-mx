@@ -2103,6 +2103,15 @@ html {
     margin-top: 2rem;
     text-align: center;
   }
+  .ccluster-hero-orb {
+    /* position: relative;
+    width: 230%;
+    max-width: none; */
+    right: 0;
+    /* top: 0;
+    perspective: 1200px;
+    overflow: hidden; */
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
