@@ -80,12 +80,12 @@ $hero_background = $hero_background_id
         class="border-2 border-solid mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-screen-2xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
         <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
-            <div class="w-full border-1 border-[red] mb-6 flex items-center md:items-start lg:items-start xl:items-start 2xl:items-start gap-3">
+            <div class="w-75 border-1 border-[red] mb-6 flex items-center md:items-start lg:items-start xl:items-start 2xl:items-start gap-3">
                 <?php if ($hero_badge_icon) : ?>
                     <img
                         src="<?php echo esc_url($hero_badge_icon); ?>"
                         alt=""
-                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[180px] w-[180px] sm:h-[180px] sm:w-[180px] md:h-[180px] md:w-[180px] lg:h-[180px] lg:w-[180px] xl:h-[180px] xl:w-[180px] 2xl:h-[180px] 2xl:w-[180px] shrink-0 object-contain"
+                        class="ccluster-hero__sequence-item ccluster-hero__logo self-center md:self-start h-[180px] w-[180px] sm:h-[180px] sm:w-[180px] md:h-[180px] md:w-[180px] lg:h-[180px] lg:w-[180px] xl:h-[180px] xl:w-[180px] 2xl:h-[180px] 2xl:w-[180px] shrink-0 object-contain"
                         data-hero-sequence="logo">
                 <?php endif; ?>
             </div>
