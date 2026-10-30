@@ -95,7 +95,7 @@ $hero_background = $hero_background_id
                     <img
                         src="<?php echo esc_url($hero_badge_icon); ?>"
                         alt=""
-                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[180px] w-[180px] shrink-0 object-contain"
+                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[125px] w-[125px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[180px] 2xl:h-[180px] sm:w-[180px] md:w-[180px] lg:w-[180px] xl:w-[180px] 2xl:w-[180px] shrink-0 object-contain"
                         data-hero-sequence="logo">
                 </div>
             <?php endif; ?>
