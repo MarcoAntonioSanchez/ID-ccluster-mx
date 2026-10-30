@@ -225,7 +225,7 @@ function initHeroContentSequence() {
       // 1. Logo: entra, permanece y sale.
       if (logo) {
         show(logo);
-        await wait(1800);
+        await wait(3000);
 
         hide(logo);
         await wait(700);
@@ -234,7 +234,7 @@ function initHeroContentSequence() {
       // 2. H1: entra, permanece y sale.
       if (heading) {
         show(heading);
-        await wait(2200);
+        await wait(5000);
 
         hide(heading);
         await wait(700);
@@ -243,13 +243,13 @@ function initHeroContentSequence() {
       // 3. Descripción: entra y permanece visible.
       if (description) {
         show(description);
-        await wait(1200);
+        await wait(6000);
       }
 
       // 4. CTA: aparece sin ocultar la descripción.
       if (cta) {
         show(cta);
-        await wait(2200);
+        await wait(5000);
       } else {
         await wait(1500);
       }

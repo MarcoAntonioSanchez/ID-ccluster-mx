@@ -381,9 +381,9 @@ html {
   visibility: hidden;
   clip-path: inset(0 50% 0 50%);
   transition:
-    clip-path 1200ms ease,
-    opacity 1200ms ease,
-    visibility 0s linear 1200ms;
+    clip-path 700ms ease,
+    opacity 700ms ease,
+    visibility 0s linear 700ms;
 }
 /* Reduce motion - user */
 @media (prefers-reduced-motion: reduce) {
