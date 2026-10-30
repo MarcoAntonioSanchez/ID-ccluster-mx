@@ -79,7 +79,7 @@ $hero_background = $hero_background_id
     <div
         class="border-2 border-solid mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-screen-2xl grid-cols-1 items-center gap-1 md:gap-12 md:px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
-        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
+        <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full border-1 border-[pink]">
             <div class="mb-6 flex items-center md:items-start lg:items-start xl:items-start 2xl:items-start sm:gap-3 md:gap-3 lg:gap-3 xl:gap-3 2xl:gap-3">
                 <?php if ($hero_badge_icon) : ?>
                     <img
