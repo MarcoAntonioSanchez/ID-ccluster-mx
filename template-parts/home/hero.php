@@ -80,7 +80,7 @@ $hero_background = $hero_background_id
         class="border-2 border-solid mx-auto grid h-[calc(100vh-135px)] min-h-[calc(100vh-135px)] max-w-screen-2xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-8">
         <!-- Content -->
         <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
-            <div class="w-75 border-1 border-[red] mb-6 flex items-center md:items-start lg:items-start xl:items-start 2xl:items-start sm:gap-3 md:gap-3 lg:gap-3 xl:gap-3 2xl:gap-3">
+            <div class="mb-6 flex items-center md:items-start lg:items-start xl:items-start 2xl:items-start sm:gap-3 md:gap-3 lg:gap-3 xl:gap-3 2xl:gap-3">
                 <?php if ($hero_badge_icon) : ?>
                     <img
                         src="<?php echo esc_url($hero_badge_icon); ?>"
@@ -90,7 +90,7 @@ $hero_background = $hero_background_id
                 <?php endif; ?>
             </div>
             <h1
-                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight font-heading text-primary text-start"
+                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-full md:max-w-2xl text-lg md:text-9xl capitalize leading-tight font-heading text-primary text-center md:text-start"
                 data-hero-sequence="heading">
                 <span class="text-secondary">Evoluciona</span> a Compliance Cluster
             </h1>
