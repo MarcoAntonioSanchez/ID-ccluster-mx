@@ -97,7 +97,7 @@ $hero_background = $hero_background_id
 
             <?php if ($hero_description) : ?>
                 <div
-                    class="ccluster-hero__sequence-group border-1 border-[red]"
+                    class="ccluster-hero__sequence-group"
                     data-hero-sequence-group="description-cta">
                     <p class="mt-6 max-w-full md:max-w-xl text-2xl md:text-4xl leading-7 font-body ccluster-hero__description text-center md:text-start"
                         data-hero-sequence="description">
@@ -123,8 +123,8 @@ $hero_background = $hero_background_id
             <?php endif; ?>
         </div>
         <!-- Visual -->
-        <div class="relative flex items-center justify-center">
-            <div class="ccluster-hero-orb">
+        <div class="relative flex items-center justify-center border-1 border-[red]">
+            <div class="ccluster-hero-orb border-1 border-[green]">
                 <video
                     class="ccluster-hero-image"
                     autoplay
