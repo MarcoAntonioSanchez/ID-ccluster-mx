@@ -113,7 +113,7 @@
                 <div class="ccluster-equipo__partner-media">
                     <img
                         src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-michelle-cruz-avatar-tiny-10302026-v2.png"
-                        alt=""
+                        alt="Michelle C."
                         class="ccluster-equipo__partner-image">
                 </div>
                 <!-- CONTENT — 40% -->
