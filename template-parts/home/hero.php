@@ -10,7 +10,7 @@ $hero_badge_icon_id = absint(
 $hero_badge_icon = $hero_badge_icon_id
     ? wp_get_attachment_image_url(
         $hero_badge_icon_id,
-        'medium'
+        'full-size'
     )
     : '';
 $hero_badge_text = get_post_meta(
@@ -81,25 +81,15 @@ $hero_background = $hero_background_id
         <!-- Content -->
         <div class="ccluster-hero__content relative flex h-full min-h-[500px] items-start justify-center w-full">
             <?php if ($hero_badge_text) : ?>
-                <div class="mb-6 flex items-start gap-3">
+                <div class="mb-6 flex items-start items-center sm:items-start md:items-start lg:items-start xl:items-start 2xl:items-start gap-3">
                     <?php if ($hero_badge_icon) : ?>
                         <img
                             src="<?php echo esc_url($hero_badge_icon); ?>"
                             alt=""
-                            class="ccluster-hero__sequence-item ccluster-hero__logo shrink-0 object-contain"
+                            class="ccluster-hero__sequence-item ccluster-hero__logo h-[180px] w-[180px] sm:h-[180px] sm:w-[180px] md:h-[180px] md:w-[180px] lg:h-[180px] lg:w-[180px] xl:h-[180px] xl:w-[180px] 2xl:h-[180px] 2xl:w-[180px] shrink-0 object-contain"
                             data-hero-sequence="logo">
                     <?php endif; ?>
                 </div>
-            <?php elseif ($hero_badge_icon) : ?>
-                <div class="flex items-start gap-3">
-                    <img
-                        src="<?php echo esc_url($hero_badge_icon); ?>"
-                        alt=""
-                        class="ccluster-hero__sequence-item ccluster-hero__logo h-[125px] w-[125px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[180px] 2xl:h-[180px] sm:w-[180px] md:w-[180px] lg:w-[180px] xl:w-[180px] 2xl:w-[180px] shrink-0 object-contain"
-                        data-hero-sequence="logo">
-                </div>
-            <?php endif; ?>
-
             <h1
                 class="ccluster-hero__sequence-item ccluster-hero__heading max-w-2xl text-9xl capitalize leading-tight font-heading text-primary text-start"
                 data-hero-sequence="heading">
