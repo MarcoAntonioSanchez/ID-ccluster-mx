@@ -2089,6 +2089,7 @@ html {
 
 /* RESPONSIVE */
 @media (max-width: 640px) {
+  /* HERO */
   .ccluster-hero__content > div {
     width: 75%;
     max-width: 75%;
@@ -2117,6 +2118,10 @@ html {
   }
   .ccluster-hero-image {
     left: -15%;
+  }
+  /* THE FIRM */
+  .ccluster-la-firma__experience {
+    @apply top-[100%] right-[25%];
   }
 }
 @media (max-width: 767px) {
