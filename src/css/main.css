@@ -2112,6 +2112,9 @@ html {
     perspective: 1200px;
     overflow: hidden; */
   }
+  .ccluster-hero__media {
+    transform: translateY(-200px);
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
