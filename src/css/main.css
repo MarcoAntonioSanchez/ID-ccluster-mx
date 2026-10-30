@@ -2115,6 +2115,9 @@ html {
   .ccluster-hero__media {
     transform: translateY(-200px);
   }
+  .ccluster-hero-image {
+    left: -15%;
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {

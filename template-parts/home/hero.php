@@ -126,7 +126,7 @@ $hero_background = $hero_background_id
         <div class="relative flex items-center justify-center w-full border-1 border-[red] ccluster-hero__media">
             <div class="ccluster-hero-orb border-1 border-[green]">
                 <video
-                    class="ccluster-hero-image"
+                    class="ccluster-hero-image rotate-35"
                     autoplay
                     muted
                     loop
