@@ -30,7 +30,7 @@ $cta_url = ccluster_get_theme_option(
                     <img
                         src="<?php echo esc_url($logo); ?>"
                         alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
-                        class="h-20 w-auto">
+                        class="h-15 sm:h-20 md:h-20 lg:h-20 xl:h-20 2xl:h-20 w-auto">
                 </a>
             <?php else : ?>
                 <a
