@@ -2093,6 +2093,12 @@ html {
     width: 75%;
     max-width: 75%;
   }
+  .ccluster-hero__content > div:has([data-hero-sequence="logo"]) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
