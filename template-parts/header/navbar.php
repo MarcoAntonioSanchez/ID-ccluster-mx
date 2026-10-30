@@ -17,7 +17,7 @@ $cta_url = ccluster_get_theme_option(
 
 <nav
     id="site-navbar"
-    class="bg-white">
+    class="relative bg-white">
 
     <div
         class="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-4">
@@ -99,7 +99,7 @@ $cta_url = ccluster_get_theme_option(
         id="mobile-navigation"
         data-mobile-menu
         hidden
-        class="border-t border-gray-200 md:hidden">
+        class="absolute left-0 top-full z-50 w-full border-t border-gray-200 bg-white shadow-lg md:hidden">
         <div class="px-6 py-4">
             <?php
             wp_nav_menu(
