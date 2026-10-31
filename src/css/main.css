@@ -2130,6 +2130,9 @@ html {
   .ccluster-nuestros-origenes__grid {
     @apply w-full max-w-full grid-cols-1;
   }
+  .ccluster-nuestros-origenes__item {
+    @apply border-none;
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
