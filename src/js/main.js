@@ -671,6 +671,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
+            console.log("Counter intersection:", {
+              target: entry.target.dataset.target,
+              isIntersecting: entry.isIntersecting,
+              intersectionRatio: entry.intersectionRatio,
+            });
             if (entry.isIntersecting) {
               animateCounter();
               observer.disconnect();
