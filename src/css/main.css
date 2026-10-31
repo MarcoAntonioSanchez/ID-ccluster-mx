@@ -797,7 +797,7 @@ html {
   @apply mt-4;
 }
 .ccluster-objetivo-firma__header p {
-  @apply mt-5 max-w-2xl text-center;
+  @apply mt-8 md:mt-5 max-w-2xl text-start md:text-center;
 }
 .ccluster-objetivo-firma__badge {
   @apply flex items-center gap-3;
