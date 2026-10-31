@@ -2255,6 +2255,9 @@ html {
     flex: 0 0 85%;
     width: 85%;
   }
+  .ccluster-nuestra-historia__stats {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 480px) {

@@ -66,7 +66,7 @@ $history_title = get_post_meta(
                 </div>
                 <!-- TITLE -->
                 <?php if ($history_title) : ?>
-                    <h2 class="ccluster-section-heading">
+                    <h2 class="ccluster-section-heading text-center">
                         <?php echo esc_html($history_title); ?>
                     </h2>
                 <?php endif; ?>
@@ -133,7 +133,7 @@ $history_title = get_post_meta(
         </div>
     </div>
     <!-- BOTTOM ROW -->
-    <div class="ccluster-nuestra-historia__stats">
+    <div class="ccluster-nuestra-historia__stats mt-8">
         <!-- VALUE -->
         <article class="ccluster-nuestra-historia__stat ccluster-nuestra-historia__stat--value">
             <?php
