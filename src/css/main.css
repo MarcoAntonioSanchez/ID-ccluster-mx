@@ -2257,6 +2257,9 @@ html {
   }
 }
 
-/* RESPONSIVE */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 85%;
+    width: 85%;
+  }
 }
