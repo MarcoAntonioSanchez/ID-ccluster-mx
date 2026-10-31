@@ -2087,7 +2087,124 @@ html {
   @apply text-lg leading-none;
 }
 
+/* CTA BANNER */
+.ccluster-cta {
+  @apply w-full bg-primary py-20;
+}
+.ccluster-cta__container {
+  @apply mx-auto w-full max-w-7xl px-8;
+}
+.ccluster-cta__content {
+  @apply mx-auto flex max-w-screen-2xl flex-col items-center text-center;
+}
+.ccluster-cta__badge {
+  @apply mb-6 font-body text-xs font-semibold uppercase tracking-[0.2em];
+  @apply text-secondary;
+}
+.ccluster-cta__title {
+  @apply font-heading text-5xl font-normal leading-tight text-white;
+}
+.ccluster-cta__description {
+  @apply mt-6 max-w-3xl font-body text-base leading-7 text-white/75;
+}
+.ccluster-cta__link {
+  @apply mt-8 inline-flex items-center gap-5 border border-secondary;
+  @apply px-6 py-4 font-body text-sm font-semibold text-white;
+  @apply transition-colors duration-300;
+}
+.ccluster-cta__link:hover {
+  @apply bg-secondary text-primary;
+}
+.ccluster-cta__link-icon {
+  @apply text-lg leading-none text-secondary transition-colors duration-300;
+}
+.ccluster-cta__link:hover .ccluster-cta__link-icon {
+  @apply text-primary;
+}
+
 /* RESPONSIVE */
+@media (max-width: 1279px) {
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 33.333%;
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ccluster-proximo-curso__cover {
+    @apply min-h-[600px];
+  }
+
+  .ccluster-proximo-curso__content {
+    @apply gap-7 p-6;
+  }
+
+  .ccluster-proximo-curso__title {
+    @apply text-3xl;
+  }
+
+  .ccluster-proximo-curso__name {
+    @apply text-xl;
+  }
+
+  .ccluster-proximo-curso__meta {
+    @apply gap-x-4 gap-y-5;
+  }
+
+  .ccluster-proximo-curso__cover-title {
+    @apply text-3xl;
+  }
+}
+
+@media (max-width: 767px) {
+  /* THE FIRM */
+  .ccluster-la-firma__texts {
+    grid-template-columns: 1fr;
+  }
+  .ccluster-la-firma__footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ccluster-la-firma__signature {
+    align-items: flex-start;
+    text-align: left;
+  }
+  /* OUR STORY */
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+  /* COURSES */
+  .ccluster-proximo-curso {
+    @apply py-10;
+  }
+  .ccluster-proximo-curso__container {
+    grid-template-columns: minmax(0, 1fr);
+    @apply rounded-xl;
+  }
+  .ccluster-proximo-curso__cover {
+    @apply min-h-[420px];
+  }
+  .ccluster-proximo-curso__cover-content {
+    @apply p-6;
+  }
+  .ccluster-proximo-curso__cover-title {
+    @apply text-3xl;
+  }
+  .ccluster-proximo-curso__content {
+    @apply gap-7 p-6;
+  }
+  .ccluster-proximo-curso__title {
+    @apply text-3xl;
+  }
+  .ccluster-proximo-curso__name {
+    @apply text-xl;
+  }
+  .ccluster-proximo-curso__meta {
+    @apply grid-cols-1 gap-y-5;
+  }
+}
+
 @media (max-width: 640px) {
   /* HERO */
   .ccluster-hero__content > div {
@@ -2140,119 +2257,6 @@ html {
   }
 }
 
-@media (max-width: 1279px) {
-  .ccluster-nuestra-historia__event {
-    flex: 0 0 33.333%;
-    width: 33.333%;
-  }
-}
-
-@media (max-width: 767px) {
-  /* OUR STORY */
-  .ccluster-nuestra-historia__event {
-    flex: 0 0 50%;
-    width: 50%;
-  }
-  .ccluster-proximo-curso {
-    @apply py-10;
-  }
-  .ccluster-proximo-curso__container {
-    grid-template-columns: minmax(0, 1fr);
-    @apply rounded-xl;
-  }
-  .ccluster-proximo-curso__cover {
-    @apply min-h-[420px];
-  }
-  .ccluster-proximo-curso__cover-content {
-    @apply p-6;
-  }
-  .ccluster-proximo-curso__cover-title {
-    @apply text-3xl;
-  }
-  .ccluster-proximo-curso__content {
-    @apply gap-7 p-6;
-  }
-  .ccluster-proximo-curso__title {
-    @apply text-3xl;
-  }
-  .ccluster-proximo-curso__name {
-    @apply text-xl;
-  }
-  .ccluster-proximo-curso__meta {
-    @apply grid-cols-1 gap-y-5;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .ccluster-proximo-curso__cover {
-    @apply min-h-[600px];
-  }
-
-  .ccluster-proximo-curso__content {
-    @apply gap-7 p-6;
-  }
-
-  .ccluster-proximo-curso__title {
-    @apply text-3xl;
-  }
-
-  .ccluster-proximo-curso__name {
-    @apply text-xl;
-  }
-
-  .ccluster-proximo-curso__meta {
-    @apply gap-x-4 gap-y-5;
-  }
-
-  .ccluster-proximo-curso__cover-title {
-    @apply text-3xl;
-  }
-}
-/* CTA BANNER */
-.ccluster-cta {
-  @apply w-full bg-primary py-20;
-}
-.ccluster-cta__container {
-  @apply mx-auto w-full max-w-7xl px-8;
-}
-.ccluster-cta__content {
-  @apply mx-auto flex max-w-screen-2xl flex-col items-center text-center;
-}
-.ccluster-cta__badge {
-  @apply mb-6 font-body text-xs font-semibold uppercase tracking-[0.2em];
-  @apply text-secondary;
-}
-.ccluster-cta__title {
-  @apply font-heading text-5xl font-normal leading-tight text-white;
-}
-.ccluster-cta__description {
-  @apply mt-6 max-w-3xl font-body text-base leading-7 text-white/75;
-}
-.ccluster-cta__link {
-  @apply mt-8 inline-flex items-center gap-5 border border-secondary;
-  @apply px-6 py-4 font-body text-sm font-semibold text-white;
-  @apply transition-colors duration-300;
-}
-.ccluster-cta__link:hover {
-  @apply bg-secondary text-primary;
-}
-.ccluster-cta__link-icon {
-  @apply text-lg leading-none text-secondary transition-colors duration-300;
-}
-.ccluster-cta__link:hover .ccluster-cta__link-icon {
-  @apply text-primary;
-}
 /* RESPONSIVE */
 @media (max-width: 767px) {
-  .ccluster-la-firma__texts {
-    grid-template-columns: 1fr;
-  }
-  .ccluster-la-firma__footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .ccluster-la-firma__signature {
-    align-items: flex-start;
-    text-align: left;
-  }
 }
