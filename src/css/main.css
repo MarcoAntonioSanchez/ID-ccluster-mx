@@ -2285,6 +2285,10 @@ html {
   .ccluster-objetivo-firma__item:nth-child(4) {
     @apply items-start border-none;
   }
+  /* MODEL */
+  .ccluster-acordeones__inner {
+    @apply grid-cols-1;
+  }
 }
 
 @media (max-width: 480px) {
