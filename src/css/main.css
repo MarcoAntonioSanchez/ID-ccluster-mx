@@ -2126,6 +2126,10 @@ html {
   .ccluster-la-firma__content {
     @apply mt-20;
   }
+  /* ORIGINS */
+  .ccluster-nuestros-origenes__grid {
+    @apply w-full max-w-full grid-cols-1;
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
