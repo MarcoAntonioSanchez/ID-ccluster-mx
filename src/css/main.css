@@ -2285,6 +2285,9 @@ html {
   .ccluster-objetivo-firma__item:nth-child(4) {
     @apply items-start border-none;
   }
+  .ccluster-objetivo-firma__item {
+    @apply p-0;
+  }
   /* MODEL */
   .ccluster-acordeones__inner {
     @apply grid-cols-1;
