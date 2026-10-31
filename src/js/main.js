@@ -604,7 +604,14 @@ document.addEventListener("DOMContentLoaded", () => {
           () => {
             completedCounters += 1;
 
+            console.log("Contador completado", {
+              completedCounters,
+              totalCounters: historyYearCounters.length,
+              target: counter.dataset.target,
+            });
+
             if (completedCounters === historyYearCounters.length) {
+              console.log("Todos los contadores completados");
               startTimeline();
             }
           },
