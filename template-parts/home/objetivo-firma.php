@@ -44,7 +44,7 @@
                     Prevenir
                 </h3>
             </div>
-            <p class="ccluster-objetivo-firma__item-description text-end">
+            <p class="ccluster-objetivo-firma__item-description text-start md:text-end">
                 contingencias legales,
                 fiscales y patrimoniales
                 antes de que se materialicen.
@@ -78,7 +78,7 @@
                     Fortalecer
                 </h3>
             </div>
-            <p class="ccluster-objetivo-firma__item-description text-end">
+            <p class="ccluster-objetivo-firma__item-description text-start md:text-end">
                 el gobierno corporativo
                 para asegurar continuidad
                 y trascendencia generacional.
