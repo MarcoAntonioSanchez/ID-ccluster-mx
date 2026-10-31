@@ -2124,7 +2124,7 @@ html {
     @apply top-[100%] right-[15%] w-[65%];
   }
   .ccluster-la-firma__content {
-    @apply mt-8;
+    @apply mt-20;
   }
 }
 @media (max-width: 767px) {
