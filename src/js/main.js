@@ -550,6 +550,14 @@ document.addEventListener("DOMContentLoaded", () => {
           const trackStyle = window.getComputedStyle(historyTrack);
           const gap = parseFloat(trackStyle.columnGap) || 0;
 
+          console.log({
+            viewport: window.innerWidth,
+            trackWidth: historyTrack.getBoundingClientRect().width,
+            eventWidth: firstEvent.getBoundingClientRect().width,
+            eventOffset: firstEvent.offsetWidth,
+            gap,
+          });
+
           return firstEvent.getBoundingClientRect().width + gap;
         };
 
