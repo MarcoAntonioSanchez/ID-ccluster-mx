@@ -14,12 +14,12 @@
                 class="ccluster-section-header__badge__line"
                 aria-hidden="true"></span>
 
-            <span class="ccluster-section-header__badge__text text-white/25">
+            <span class="ccluster-section-header__badge__text text-white">
                 NUESTROS ORÍGENES
             </span>
         </div>
         <!-- TITLE -->
-        <h2 class="ccluster-section-heading">
+        <h2 class="ccluster-section-heading text-center">
             Legado <span class="text-secondary">C&D Consultores</span> en Riesgos Patrimoniales
         </h2>
     </div>
