@@ -528,7 +528,6 @@ document.addEventListener("DOMContentLoaded", () => {
       historyTrack.appendChild(clone);
     });
 
-    let completedCounters = 0;
     let timelineStarted = false;
     let timelineTimer = null;
 
@@ -595,29 +594,16 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1500);
     };
 
-    if (historyYearCounters.length === 0) {
+    const firstHistoryCounter = historyYearCounters[0];
+
+    if (!firstHistoryCounter) {
       startTimeline();
     } else {
-      historyYearCounters.forEach((counter) => {
-        counter.addEventListener(
-          "ccluster:counter-complete",
-          () => {
-            completedCounters += 1;
-
-            console.log("Contador completado", {
-              completedCounters,
-              totalCounters: historyYearCounters.length,
-              target: counter.dataset.target,
-            });
-
-            if (completedCounters === historyYearCounters.length) {
-              console.log("Todos los contadores completados");
-              startTimeline();
-            }
-          },
-          { once: true },
-        );
-      });
+      firstHistoryCounter.addEventListener(
+        "ccluster:counter-complete",
+        startTimeline,
+        { once: true },
+      );
     }
   }
 
