@@ -940,7 +940,7 @@ html {
   @apply items-center justify-center;
 }
 .ccluster-nuestros-origenes__logo {
-  @apply max-h-32 max-w-[200%] object-contain;
+  @apply h-64 w-[auto] object-contain;
 }
 .ccluster-nuestros-origenes__item--media {
   @apply overflow-hidden p-0 border-[0px];
