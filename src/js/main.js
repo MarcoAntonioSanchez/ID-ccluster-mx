@@ -537,10 +537,16 @@ document.addEventListener("DOMContentLoaded", () => {
     ).matches;
 
     const startTimeline = () => {
+      console.log("startTimeline ejecutado", {
+        timelineStarted,
+        prefersReducedMotion,
+      });
+
       if (timelineStarted) return;
       timelineStarted = true;
 
       timelineTimer = window.setTimeout(() => {
+        console.log("Timeline timeout ejecutado");
         if (prefersReducedMotion) return;
 
         const getStepWidth = () => {
@@ -549,14 +555,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const trackStyle = window.getComputedStyle(historyTrack);
           const gap = parseFloat(trackStyle.columnGap) || 0;
-
-          console.log({
-            viewport: window.innerWidth,
-            trackWidth: historyTrack.getBoundingClientRect().width,
-            eventWidth: firstEvent.getBoundingClientRect().width,
-            eventOffset: firstEvent.offsetWidth,
-            gap,
-          });
 
           return firstEvent.getBoundingClientRect().width + gap;
         };
