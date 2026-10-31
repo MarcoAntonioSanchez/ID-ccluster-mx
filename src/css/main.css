@@ -2123,6 +2123,9 @@ html {
   .ccluster-la-firma__experience {
     @apply top-[100%] right-[15%] w-[65%];
   }
+  .ccluster-la-firma__content {
+    @apply mt-8;
+  }
 }
 @media (max-width: 767px) {
   .ccluster-proximo-curso {
