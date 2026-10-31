@@ -2258,6 +2258,10 @@ html {
   .ccluster-nuestra-historia__stats {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  .ccluster-nuestra-historia__stat--value,
+  .ccluster-nuestra-historia__stat--strength {
+    @apply h-[425px];
+  }
 }
 
 @media (max-width: 480px) {

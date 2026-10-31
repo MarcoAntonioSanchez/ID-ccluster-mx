@@ -71,7 +71,7 @@ $history_title = get_post_meta(
                     </h2>
                 <?php endif; ?>
             </div>
-            <div class="ccluster-nuestra-historia__events mt-8 md:mt-1">
+            <div class="ccluster-nuestra-historia__events mt-18 md:mt-1">
                 <div class="ccluster-nuestra-historia__track">
                     <?php for ($i = 1; $i <= 5; $i++) : ?>
                         <?php
