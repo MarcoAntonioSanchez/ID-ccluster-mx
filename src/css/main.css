@@ -2266,6 +2266,25 @@ html {
   .ccluster-principios__grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  /* GOALS */
+  .ccluster-objetivo-firma__grid {
+    @apply grid-cols-1;
+  }
+  .ccluster-objetivo-firma__item {
+    @apply flex min-h-[200px];
+  }
+  .ccluster-objetivo-firma__item:nth-child(1) {
+    @apply items-start border-none;
+  }
+  .ccluster-objetivo-firma__item:nth-child(2) {
+    @apply items-start border-none;
+  }
+  .ccluster-objetivo-firma__item:nth-child(3) {
+    @apply items-start border-none;
+  }
+  .ccluster-objetivo-firma__item:nth-child(4) {
+    @apply items-start border-none;
+  }
 }
 
 @media (max-width: 480px) {
