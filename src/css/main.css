@@ -2133,41 +2133,51 @@ html {
   .ccluster-nuestros-origenes__item {
     @apply border-none;
   }
+  /* OUR STORY */
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 85%;
+    width: 85%;
+  }
 }
+
+@media (max-width: 1279px) {
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 33.333%;
+    width: 33.333%;
+  }
+}
+
 @media (max-width: 767px) {
+  /* OUR STORY */
+  .ccluster-nuestra-historia__event {
+    flex: 0 0 50%;
+    width: 50%;
+  }
   .ccluster-proximo-curso {
     @apply py-10;
   }
-
   .ccluster-proximo-curso__container {
     grid-template-columns: minmax(0, 1fr);
     @apply rounded-xl;
   }
-
   .ccluster-proximo-curso__cover {
     @apply min-h-[420px];
   }
-
   .ccluster-proximo-curso__cover-content {
     @apply p-6;
   }
-
   .ccluster-proximo-curso__cover-title {
     @apply text-3xl;
   }
-
   .ccluster-proximo-curso__content {
     @apply gap-7 p-6;
   }
-
   .ccluster-proximo-curso__title {
     @apply text-3xl;
   }
-
   .ccluster-proximo-curso__name {
     @apply text-xl;
   }
-
   .ccluster-proximo-curso__meta {
     @apply grid-cols-1 gap-y-5;
   }
