@@ -2121,7 +2121,7 @@ html {
   }
   /* THE FIRM */
   .ccluster-la-firma__experience {
-    @apply top-[100%] right-[25%];
+    @apply top-[100%] right-[15%] w-[65%];
   }
 }
 @media (max-width: 767px) {
