@@ -2133,9 +2133,12 @@ html {
   .ccluster-equipo__partner-tags {
     @apply mb-6;
   }
-  /* STREAMING */
+  /* LEGAL TENDENCY */
   .ccluster-tendencia-legal__story {
     @apply grid-cols-1;
+  }
+  .ccluster-tendencia-legal__statement-text {
+    @apply text-start;
   }
 }
 @media (max-width: 480px) {
