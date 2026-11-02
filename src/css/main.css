@@ -2093,6 +2093,9 @@ html {
   .ccluster-alianzas__item + .ccluster-alianzas__item {
     @apply border-none;
   }
+  .ccluster-alianzas__item:nth-child(1) {
+    @apply border-y border-primary/10;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
