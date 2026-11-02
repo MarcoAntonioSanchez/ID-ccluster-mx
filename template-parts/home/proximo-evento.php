@@ -9,7 +9,7 @@
     <div class="ccluster-proximo-evento__container">
 
         <!-- LEFT: EVENT INFORMATION -->
-        <div class="ccluster-proximo-evento__content">
+        <div class="ccluster-proximo-evento__content order-2 md:order-1">
 
             <!-- SECTION HEADER -->
             <header class="ccluster-proximo-evento__header">
@@ -141,7 +141,7 @@
         </div>
 
         <!-- RIGHT: EVENT COVER -->
-        <div class="ccluster-proximo-evento__cover">
+        <div class="ccluster-proximo-evento__cover order-1 md:order-2">
             <div
                 class="ccluster-proximo-evento__cover-overlay"
                 aria-hidden="true"></div>
