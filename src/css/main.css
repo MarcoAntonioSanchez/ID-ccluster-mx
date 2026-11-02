@@ -2161,6 +2161,9 @@ html {
     .ccluster-tendencia-legal__pillar-description {
     @apply text-white;
   }
+  .ccluster-tendencia-legal__inner {
+    @apply py-14;
+  }
   /* COURSES */
   .ccluster-proximo-curso {
     @apply px-6;
