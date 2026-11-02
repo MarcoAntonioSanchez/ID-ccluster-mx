@@ -2048,6 +2048,9 @@ html {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   /* GOALS */
+  .ccluster-objetivo-firma__header {
+    @apply items-start;
+  }
   .ccluster-objetivo-firma__grid {
     @apply grid-cols-1;
   }
