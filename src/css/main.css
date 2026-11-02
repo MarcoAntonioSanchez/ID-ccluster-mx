@@ -2131,7 +2131,7 @@ html {
     @apply grid-cols-1;
   }
   .ccluster-equipo__partner-image {
-    @apply h-75 p-6;
+    @apply h-75 px-6;
   }
 }
 @media (max-width: 480px) {
