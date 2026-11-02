@@ -27,7 +27,7 @@
                     class="ccluster-section-header__badge__line"
                     aria-hidden="true"></span>
                 <span class="ccluster-section-header__badge__text">
-                    Nuestro equipo líder
+                    NUESTRO EQUIPO LÍDER
                 </span>
             </div>
             <!-- HEADING -->
