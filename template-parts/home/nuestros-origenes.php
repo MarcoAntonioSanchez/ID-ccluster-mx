@@ -19,7 +19,7 @@
             </span>
         </div>
         <!-- TITLE -->
-        <h2 class="ccluster-section-heading text-center">
+        <h2 class="ccluster-section-heading text-start md:text-center">
             Legado <span class="text-secondary">C&D Consultores</span> en Riesgos Patrimoniales
         </h2>
     </div>
