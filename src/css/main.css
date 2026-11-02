@@ -2104,6 +2104,9 @@ html {
   .ccluster-ecosistema-soluciones__header {
     @apply grid-cols-1;
   }
+  .ccluster-ecosistema-soluciones__slide-intro {
+    @apply flex-col;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
