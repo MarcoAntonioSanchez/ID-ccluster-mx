@@ -5,7 +5,7 @@
     <div class="ccluster-comparativo__inner">
         <!-- HEADER -->
         <div class="ccluster-section-header items-center">
-            <div class="ccluster-section-header__badge__title items-center">
+            <div class="ccluster-section-header__badge__title">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
                     <img
