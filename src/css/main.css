@@ -2140,6 +2140,9 @@ html {
   .ccluster-tendencia-legal__statement-text {
     @apply text-start;
   }
+  .ccluster-tendencia-legal__pillars {
+    @apply grid-cols-1;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
