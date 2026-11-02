@@ -2162,7 +2162,7 @@ html {
     @apply text-white;
   }
   .ccluster-tendencia-legal__inner {
-    @apply py-14;
+    @apply py-8;
   }
   /* COURSES */
   .ccluster-proximo-curso {
