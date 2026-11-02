@@ -13,18 +13,18 @@
 
             <!-- SECTION HEADER -->
             <header class="ccluster-proximo-evento__header">
-                <div class="ccluster-proximo-evento__badge">
+                <div class="ccluster-section-header__badge">
                     <img
                         src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                         alt=""
-                        class="ccluster-proximo-evento__badge-icon">
+                        class="ccluster-section-header__badge__icon">
 
                     <span
-                        class="ccluster-proximo-evento__badge-line"
+                        class="ccluster-section-header__badge__line"
                         aria-hidden="true"></span>
 
-                    <span class="ccluster-proximo-evento__badge-text">
-                        TENDENCIA LEGAL · FORMACIÓN
+                    <span class="ccluster-section-header__badge__text">
+                        FORMACIÓN
                     </span>
                 </div>
 
