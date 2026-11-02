@@ -2143,6 +2143,25 @@ html {
   .ccluster-tendencia-legal__pillars {
     @apply grid-cols-1;
   }
+  .ccluster-tendencia-legal__pillar {
+    @apply bg-primary;
+  }
+  .ccluster-tendencia-legal__pillar:nth-child(odd) {
+    @apply border-none;
+  }
+  .ccluster-tendencia-legal__pillar:nth-child(-n + 2) {
+    @apply border-none;
+  }
+  .ccluster-tendencia-legal__pillar .ccluster-tendencia-legal__pillar-title {
+    @apply text-secondary;
+  }
+  .ccluster-tendencia-legal__pillar-description {
+    @apply mt-3 max-w-md font-body text-base leading-7 text-primary/70;
+  }
+  .ccluster-tendencia-legal__pillar
+    .ccluster-tendencia-legal__pillar-description {
+    @apply text-white;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
