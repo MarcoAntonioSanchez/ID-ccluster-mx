@@ -2130,8 +2130,8 @@ html {
   .ccluster-equipo__partners {
     @apply grid-cols-1;
   }
-  .ccluster-equipo__partner-image {
-    @apply h-80;
+  .ccluster-equipo__partner-tags {
+    @apply mb-6;
   }
 }
 @media (max-width: 480px) {
