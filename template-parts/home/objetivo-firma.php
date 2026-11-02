@@ -5,15 +5,15 @@
     <!-- HEADER -->
     <div class="ccluster-objetivo-firma__header">
         <!-- BADGE -->
-        <div class="ccluster-objetivo-firma__badge">
+        <div class="ccluster-section-header__badge">
             <img
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                 alt=""
-                class="ccluster-objetivo-firma__badge-icon">
+                class="ccluster-section-header__badge__icon">
             <span
-                class="h-[2px] w-[25px] bg-secondary"
+                class="ccluster-section-header__badge__line"
                 aria-hidden="true"></span>
-            <span class="font-badge">
+            <span class="ccluster-section-header__badge__text">
                 OBJETIVO DE LA FIRMA
             </span>
         </div>
