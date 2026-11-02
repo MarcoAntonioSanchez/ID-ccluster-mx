@@ -2127,6 +2127,9 @@ html {
   .ccluster-equipo__director-content {
     @apply px-6 ps-0;
   }
+  .ccluster-equipo__partners {
+    @apply grid-cols-1;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
