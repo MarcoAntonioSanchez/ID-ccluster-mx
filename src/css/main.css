@@ -2120,6 +2120,10 @@ html {
   .ccluster-comparativo__column {
     @apply w-full;
   }
+  /* TEAM */
+  .ccluster-equipo__director {
+    @apply grid-cols-1;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
