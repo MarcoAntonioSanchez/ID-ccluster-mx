@@ -2100,6 +2100,10 @@ html {
   .ccluster-nuestra-identidad__inner {
     @apply grid-cols-1;
   }
+  /* SOLUTIONS ECOSYSTEM */
+  .ccluster-ecosistema-soluciones__header {
+    @apply grid-cols-1;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
