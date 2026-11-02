@@ -2077,7 +2077,7 @@ html {
     @apply w-full px-6;
   }
   .ccluster-acordeones__inner {
-    @apply grid-cols-1;
+    @apply w-full grid-cols-1;
   }
   /* LEADERS */
   .ccluster-nuestro-equipo__inner {
