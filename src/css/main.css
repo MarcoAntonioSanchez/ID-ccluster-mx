@@ -1956,7 +1956,6 @@ html {
   }
   .ccluster-proximo-curso__container {
     grid-template-columns: minmax(0, 1fr);
-    @apply rounded-xl;
   }
   .ccluster-proximo-curso__cover {
     @apply min-h-[420px];
@@ -2161,6 +2160,10 @@ html {
   .ccluster-tendencia-legal__pillar
     .ccluster-tendencia-legal__pillar-description {
     @apply text-white;
+  }
+  /* COURSES */
+  .ccluster-proximo-curso {
+    @apply px-6;
   }
 }
 @media (max-width: 480px) {
