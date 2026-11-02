@@ -2086,6 +2086,9 @@ html {
   .ccluster-nuestro-equipo__inner {
     @apply grid-cols-1;
   }
+  .ccluster-nuestro-equipo__text {
+    @apply w-full;
+  }
   /* PARTNERSHIPS */
   .ccluster-alianzas__grid {
     @apply grid-cols-1 gap-16;
