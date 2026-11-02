@@ -1883,7 +1883,7 @@ html {
   @apply mx-auto flex max-w-screen-2xl flex-col items-center text-center;
 }
 .ccluster-cta__title {
-  @apply font-heading text-5xl font-normal leading-tight text-white;
+  @apply font-heading text-5xl font-normal leading-tight text-white capitalize;
 }
 .ccluster-cta__description {
   @apply mt-6 max-w-3xl font-body text-base leading-7 text-white/75;

@@ -24,7 +24,7 @@
             </div>
 
             <h2 class="ccluster-cta__title">
-                Estamos listos para blindar el futuro de su organización
+                Estamos listos para <span class="text-secondary">blindar el futuro</span> de su organización
             </h2>
 
             <p class="ccluster-cta__description">
