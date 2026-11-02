@@ -2025,6 +2025,7 @@ html {
   .ccluster-nuestros-origenes__item {
     @apply border-none;
   }
+  .ccluster-alianzas__grid
   /* OUR STORY */
   .ccluster-nuestra-historia__event {
     flex: 0 0 85%;
@@ -2081,6 +2082,10 @@ html {
   }
   /* LEADERS */
   .ccluster-nuestro-equipo__inner {
+    @apply grid-cols-1;
+  }
+  /* PARTNERSHIPS */
+  .ccluster-alianzas__grid {
     @apply grid-cols-1;
   }
 }
