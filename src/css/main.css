@@ -2122,7 +2122,7 @@ html {
     @apply grid-cols-1;
   }
   .ccluster-equipo__director-labels {
-    @apply flex-wrap;
+    @apply flex-wrap mt-16;
   }
   .ccluster-equipo__director-content {
     @apply px-6 ps-0;
