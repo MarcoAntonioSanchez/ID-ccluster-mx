@@ -1391,7 +1391,6 @@ html {
 .ccluster-proxima-transmision {
   @apply w-full py-16;
 }
-
 .ccluster-proxima-transmision__container {
   display: grid;
   grid-template-columns: minmax(0, 7fr) minmax(0, 13fr);
@@ -1461,7 +1460,6 @@ html {
   }
   .ccluster-proxima-transmision__container {
     grid-template-columns: minmax(0, 1fr);
-    @apply rounded-xl;
   }
   .ccluster-proxima-transmision__cover {
     @apply min-h-[420px];
@@ -2166,6 +2164,10 @@ html {
   }
   /* COURSES */
   .ccluster-proximo-curso {
+    @apply px-6;
+  }
+  /* STREAMING */
+  .ccluster-proxima-transmision {
     @apply px-6;
   }
 }
