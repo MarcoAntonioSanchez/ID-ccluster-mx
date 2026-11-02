@@ -2084,7 +2084,7 @@ html {
     @apply px-6;
   }
   .ccluster-nuestro-equipo__inner {
-    @apply grid-cols-1;
+    @apply grid-cols-1 gap-20;
   }
   .ccluster-nuestro-equipo__text {
     @apply w-full;
