@@ -2096,6 +2096,10 @@ html {
   .ccluster-alianzas__item:nth-child(2) {
     @apply border-y border-primary/10 py-6;
   }
+  /* OUR IDENTITY */
+  .ccluster-nuestra-identidad__inner {
+    @apply grid-cols-1;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
