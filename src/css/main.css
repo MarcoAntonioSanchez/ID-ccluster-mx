@@ -2016,6 +2016,9 @@ html {
     @apply mt-20;
   }
   /* ORIGINS */
+  .ccluster-nuestros-origenes__header {
+    @apply items-start;
+  }
   .ccluster-nuestros-origenes__grid {
     @apply w-full max-w-full grid-cols-1;
   }
