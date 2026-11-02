@@ -17,18 +17,16 @@
         <!-- CONTENT -->
         <div class="ccluster-nuestro-equipo__content">
             <!-- BADGE -->
-            <div class="ccluster-nuestro-equipo__badge">
-                <span class="ccluster-nuestro-equipo__badge-icon">
-                    <!-- icono -->
-                    <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
-                        alt=""
-                        class="ccluster-nuestro-equipo__badge-icon">
-                </span>
+            <div class="ccluster-section-header__badge">
+                <!-- icono -->
+                <img
+                    src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
+                    alt=""
+                    class="ccluster-section-header__badge__icon">
                 <span
-                    class="h-[2px] w-[25px] bg-secondary"
+                    class="ccluster-section-header__badge__line"
                     aria-hidden="true"></span>
-                <span class="font-badge">
+                <span class="ccluster-section-header__badge__text">
                     Nuestro equipo líder
                 </span>
             </div>
