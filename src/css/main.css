@@ -117,7 +117,7 @@ html {
   @apply flex flex-col gap-[10px];
 }
 .ccluster-section-header__badge {
-  @apply flex items-start md:items-center gap-3;
+  @apply flex items-center gap-3;
 }
 .ccluster-section-header__badge__icon {
   @apply h-[35px] w-[35px] object-contain;
