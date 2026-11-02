@@ -2074,7 +2074,7 @@ html {
   }
   /* MODEL */
   .ccluster-acordeones__content {
-    @apply w-full;
+    @apply w-full px-0;
   }
   .ccluster-acordeones__inner {
     @apply w-full grid-cols-1;
