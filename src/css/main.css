@@ -2080,6 +2080,9 @@ html {
     @apply w-full grid-cols-1;
   }
   /* LEADERS */
+  .ccluster-nuestro-equipo__content {
+    @apply px-6;
+  }
   .ccluster-nuestro-equipo__inner {
     @apply grid-cols-1;
   }
