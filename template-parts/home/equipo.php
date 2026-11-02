@@ -41,19 +41,19 @@
                 <!-- CONTENT -->
                 <div class="ccluster-equipo__director-header">
                     <div class="ccluster-equipo__director-labels">
-                        <span class="ccluster-equipo__director-label">
+                        <span class="ccluster-equipo__partner-tag">
                             Socio Fundador
                         </span>
-                        <span class="ccluster-equipo__director-label__alt">
+                        <span class="ccluster-equipo__partner-tag">
                             Compliance
                         </span>
-                        <span class="ccluster-equipo__director-label__alt">
+                        <span class="ccluster-equipo__partner-tag">
                             PLD
                         </span>
-                        <span class="ccluster-equipo__director-label__alt">
+                        <span class="ccluster-equipo__partner-tag">
                             Fiscal
                         </span>
-                        <span class="ccluster-equipo__director-label__alt">
+                        <span class="ccluster-equipo__partner-tag">
                             Gestión de Riesgos
                         </span>
                     </div>
