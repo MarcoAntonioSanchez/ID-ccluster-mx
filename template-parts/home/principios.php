@@ -26,7 +26,7 @@
     <!-- HEADER -->
     <div class="ccluster-principios__header">
         <!-- BADGE -->
-        <div class="ccluster-principios__badge">
+        <div class="ccluster-section-header__badge">
             <?php if ($principios_badge_icon_id) : ?>
                 <?php
                 echo wp_get_attachment_image(
@@ -34,17 +34,17 @@
                     'thumbnail',
                     false,
                     [
-                        'class' => 'ccluster-principios__badge-icon',
+                        'class' => 'ccluster-section-header__badge__icon',
                         'alt'   => '',
                     ]
                 );
                 ?>
             <?php endif; ?>
             <span
-                class="h-[2px] w-[25px] bg-secondary"
+                class="ccluster-section-header__badge__line"
                 aria-hidden="true"></span>
             <?php if ($principios_badge_text) : ?>
-                <span class="font-badge">
+                <span class="ccluster-section-header__badge__text">
                     <?php echo esc_html($principios_badge_text); ?>
                 </span>
             <?php endif; ?>
