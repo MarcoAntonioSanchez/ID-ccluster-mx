@@ -2124,6 +2124,9 @@ html {
   .ccluster-equipo__director {
     @apply grid-cols-1;
   }
+  .ccluster-equipo__director-labels {
+    @apply flex-wrap;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
