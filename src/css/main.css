@@ -2141,7 +2141,7 @@ html {
     @apply text-start;
   }
   .ccluster-tendencia-legal__pillars {
-    @apply grid-cols-1 gap-8;
+    @apply grid-cols-1 gap-6;
   }
   .ccluster-tendencia-legal__pillar {
     @apply bg-primary;
