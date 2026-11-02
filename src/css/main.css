@@ -2087,6 +2087,12 @@ html {
   .ccluster-alianzas__grid {
     @apply grid-cols-1 gap-16;
   }
+  .ccluster-alianzas__item {
+    @apply px-0;
+  }
+  .ccluster-alianzas__item + .ccluster-alianzas__item {
+    @apply border-none;
+  }
 }
 @media (max-width: 480px) {
   .ccluster-nuestra-historia__event {
