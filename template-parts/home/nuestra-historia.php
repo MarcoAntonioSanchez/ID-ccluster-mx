@@ -43,7 +43,7 @@ $history_title = get_post_meta(
         <div class="ccluster-nuestra-historia__header mt-[125px]">
             <div class="ccluster-section-header__badge__title">
                 <!-- BADGE -->
-                <div class="ccluster-section-header__badge justify-center">
+                <div class="ccluster-section-header__badge">
                     <?php
                     if ($badge_icon_id) {
                         echo wp_get_attachment_image(
@@ -66,7 +66,7 @@ $history_title = get_post_meta(
                 </div>
                 <!-- TITLE -->
                 <?php if ($history_title) : ?>
-                    <h2 class="ccluster-section-heading text-center">
+                    <h2 class="ccluster-section-heading">
                         <?php echo esc_html($history_title); ?>
                     </h2>
                 <?php endif; ?>
