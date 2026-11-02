@@ -2041,6 +2041,9 @@ html {
   .ccluster-principios__header {
     align-items: start;
   }
+  .ccluster-principios__header p {
+    @apply text-start;
+  }
   .ccluster-principios__grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
