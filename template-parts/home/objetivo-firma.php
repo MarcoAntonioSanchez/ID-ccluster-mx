@@ -18,7 +18,7 @@
             </span>
         </div>
         <!-- TITLE -->
-        <h2 class="ccluster-section-heading text-center">
+        <h2 class="ccluster-section-heading text-start md:text-center">
             Garantizar la estabilidad<br />
             <span class="text-secondary">jurídica</span>, la protección del patrimonio<br />
             corporativo y la <span class="text-secondary">trascendencia</span> del<br />
