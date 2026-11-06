@@ -927,7 +927,7 @@ html {
   .ccluster-nuestros-origenes__item-title,
 .ccluster-nuestros-origenes__item:nth-child(4):hover
   .ccluster-nuestros-origenes__item-description {
-  @apply bg-primary border-primary;
+  @apply text-white;
 }
 .ccluster-nuestros-origenes__logo {
   @apply min-h-64 min-w-[auto] object-contain;
