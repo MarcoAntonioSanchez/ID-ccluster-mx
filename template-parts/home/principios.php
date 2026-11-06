@@ -138,14 +138,6 @@
                         <?php echo esc_html($principio_description); ?>
                     </p>
                 <?php endif; ?>
-                <?php if ($principio_url) : ?>
-                    <a
-                        href="<?php echo esc_url($principio_url); ?>"
-                        class="visible md:invisible ccluster-link__primary-dark mt-auto flex items-center gap-2 pt-6 self-end">
-                        Leer más
-                        <span class="no-underline" aria-hidden="true">→</span>
-                    </a>
-                <?php endif; ?>
             </article>
         <?php endfor; ?>
     </div>
