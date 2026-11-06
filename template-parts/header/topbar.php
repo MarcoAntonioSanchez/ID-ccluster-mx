@@ -53,7 +53,7 @@ $social_networks = [
             <?php if ($address) : ?>
                 <a
                     href="https://share.google/WnyQzT2E1mPq3BUEi"
-                    class="hidden md:inline-block lg:inline-block xl:inline-block 2xl:inline-block ccluster-link__primary-light text-xs flex gap-1">
+                    class="hidden md:flex lg:flex xl:flex 2xl:flex ccluster-link__primary-light text-xs flex gap-1">
                     <span
                         class="ccluster-topbar__icon flex-1 self-center">
                         <i data-lucide="map-pin"></i>
