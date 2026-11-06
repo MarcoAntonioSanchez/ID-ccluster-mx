@@ -90,7 +90,7 @@ $hero_background = $hero_background_id
                 <?php endif; ?>
             </div>
             <h1
-                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-full md:max-w-2xl text-5xl md:text-9xl capitalize leading-tight font-heading text-primary text-center md:text-start"
+                class="ccluster-hero__sequence-item ccluster-hero__heading max-w-full md:max-w-2xl text-5xl md:text-9xl capitalize leading-tight md:leading-7 font-heading text-primary text-center md:text-start"
                 data-hero-sequence="heading">
                 <span class="text-secondary">Evoluciona</span> a Compliance Cluster
             </h1>
@@ -99,7 +99,7 @@ $hero_background = $hero_background_id
                 <div
                     class="ccluster-hero__sequence-group"
                     data-hero-sequence-group="description-cta">
-                    <p class="ccluster-hero__description mt-6 max-w-full md:max-w-xl text-2xl md:text-4xl leading-8 md:leading-7 font-body text-center md:text-start"
+                    <p class="ccluster-hero__description mt-6 max-w-full md:max-w-xl text-2xl md:text-4xl leading-9 md:leading-7 font-body text-center md:text-start"
                         data-hero-sequence="description">
                         <?php echo esc_html($hero_description); ?>
                     </p>
