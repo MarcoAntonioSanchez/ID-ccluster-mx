@@ -6,7 +6,7 @@
         <!-- MEDIA -->
         <div class="ccluster-acordeones__media">
             <img
-                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-why-cluster-media-img.png"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-why-cluster-media-img-v2.png"
                 alt=""
                 class="ccluster-acordeones__media-image">
         </div>
