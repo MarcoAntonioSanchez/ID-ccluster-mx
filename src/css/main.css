@@ -807,10 +807,18 @@ html {
   @apply h-8 w-8 shrink-0 object-contain text-primary;
 }
 .ccluster-objetivo-firma__item-title {
-  @apply font-body text-2xl font-semibold text-primary;
+  @apply font-body text-2xl font-semibold;
 }
 .ccluster-objetivo-firma__item-description {
   @apply mt-4 max-w-lg font-body text-base leading-7;
+}
+.ccluster-objetivo-firma__item:hover {
+  @apply bg-primary border-primary;
+}
+.ccluster-objetivo-firma__item:hover .ccluster-objetivo-firma__item-title,
+.ccluster-objetivo-firma__item:hover
+  .ccluster-objetivo-firma__item-description {
+  @apply text-white;
 }
 /* SOLUTIONS ECOSYSTEM */
 .ccluster-ecosistema-soluciones {
