@@ -6,7 +6,7 @@
         <!-- MEDIA -->
         <div class="ccluster-acordeones__media">
             <img
-                src="https://stage.ccluster.mx/wp-content/uploads/2026/10/CAD-software-interface-showing-shelving-system.png"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-why-cluster-media-img.png"
                 alt=""
                 class="ccluster-acordeones__media-image">
         </div>
@@ -29,7 +29,7 @@
                 </div>
                 <!-- TITLE -->
                 <h2 class="ccluster-section-heading mt-4">
-                    ¿<span class="text-secondary">Por Qué</span> un Cluster?
+                    ¿Por Qué un <span class="text-secondary">Cluster</span>?
                 </h2>
                 <!-- DESCRIPTION -->
                 <p class="mt-5 max-w-xl font-body text-lg leading-8">
