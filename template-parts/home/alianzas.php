@@ -34,8 +34,8 @@
             <article class="ccluster-alianzas__item">
                 <div class="ccluster-alianzas__icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-CIPBC-Asesores-corporativos-logo-transparent.png"
-                        alt=""
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-CIPBC-Asesores-corporativos-logo-transparent-v2.png"
+                        alt="CIPBC asesores corporativos logo"
                         class="ccluster-alianzas__icon-image">
                 </div>
                 <p class="ccluster-alianzas__specialty">
@@ -110,7 +110,7 @@
             <article class="ccluster-alianzas__item">
                 <div class="ccluster-alianzas__icon">
                     <img
-                        src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-CEI-Consultores-empresariales-internacionales-logo-transparent.png"
+                        src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-CEI-Consultores-empresariales-internacionales-logo-transparent-v2.png"
                         alt=""
                         class="ccluster-alianzas__icon-image">
                 </div>
