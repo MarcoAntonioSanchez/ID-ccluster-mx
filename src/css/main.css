@@ -707,11 +707,8 @@ html {
 .ccluster-principios__card-link {
   @apply mt-auto flex items-center gap-2 pt-6 font-body text-sm font-semibold text-secondary no-underline transition-colors duration-300;
 }
-.ccluster-principios__card:hover {
-  @apply border-secondary;
-}
 .ccluster-principios__card:hover .ccluster-principios__card-link {
-  @apply text-primary;
+  @apply visible;
 }
 /* OUR LEADERSHIP TEAM */
 .ccluster-nuestro-equipo {
