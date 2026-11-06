@@ -19,10 +19,9 @@
         </div>
         <!-- TITLE -->
         <h2 class="ccluster-section-heading text-start md:text-center">
-            Garantizar la estabilidad<br />
-            <span class="text-secondary">jurídica</span>, la protección del patrimonio<br />
-            corporativo y la <span class="text-secondary">trascendencia</span> del<br />
-            sector empresarial
+            Garantizar la estabilidad <span class="text-secondary">jurídica</span>,<br />
+            la protección del patrimonio corporativo<br />
+            y la <span class="text-secondary">trascendencia</span> del sector empresarial
         </h2>
         <!-- DESCRIPTION -->
         <p class="text-start md:text-center w-full md:w-[50%]">
