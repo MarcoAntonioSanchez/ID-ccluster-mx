@@ -20,7 +20,7 @@
         <!-- TITLE -->
         <h2 class="ccluster-section-heading text-start md:text-center">
             Garantizar la <span class="text-secondary">estabilidad</span> jurídica,<br />
-            la protección del <span class="text-secondary">patrimonio</span> corporativo<br />
+            la <span class="text-secondary">protección</span> del patrimonio corporativo<br />
             y la <span class="text-secondary">trascendencia</span> del sector empresarial
         </h2>
         <!-- DESCRIPTION -->
