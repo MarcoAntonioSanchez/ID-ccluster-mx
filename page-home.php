@@ -57,6 +57,9 @@ get_header();
     get_template_part(
         'template-parts/home/cta'
     );
+    get_template_part(
+        'template-parts/home/cobertura'
+    );
     // get_template_part(
     //     'template-parts/home/objetivo-ccluster'
     // );
