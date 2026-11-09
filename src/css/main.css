@@ -1664,7 +1664,7 @@ html {
   @apply bg-primary text-white p-5;
 }
 .ccluster-coverage-location__option {
-  @apply border-1 border-primary/10 p-5;
+  @apply border-1 border-primary/10 p-5 duration-300 ease-in-out;
 }
 .ccluster-coverage-location__option:hover {
   @apply border-primary bg-primary text-white cursor-pointer;
