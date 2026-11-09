@@ -30,7 +30,7 @@
                     Con sede principal en el <span class="font-semibold text-primary">Estado de México</span>, nuestra capacidad operativa se extiende a las regiones clave del país:
                 </p>
             </div>
-            <div class="flex flex-col gap-10">
+            <div class="flex flex-col gap-5">
                 <div class="flex gap-5 items-center ccluster-coverage-location__selected">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
