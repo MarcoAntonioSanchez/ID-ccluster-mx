@@ -31,7 +31,7 @@
                 </p>
             </div>
             <div class="flex flex-col gap-10">
-                <div class="flex gap-5 items-center">
+                <div class="flex gap-5 items-center bg-primary text-white">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
                         <h3 class="ccluster-acordeones__item-title">CDMX e Hidalgo</h3>
