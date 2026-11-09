@@ -38,7 +38,7 @@
         <!-- MEDIA -->
         <div class="ccluster-nuestra-identidad__media">
             <img
-                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-mex-map-nodes-img-primary.png"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-mex-map-nodes-img-white.png"
                 alt=""
                 class="ccluster-nuestra-identidad__media-image">
         </div>
