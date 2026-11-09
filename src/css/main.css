@@ -1667,7 +1667,7 @@ html {
   @apply border-1 border-primary/10 p-5;
 }
 .ccluster-coverage-location__option:hover {
-  @apply border-primary bg-primary text-white;
+  @apply border-primary bg-primary text-white cursor-pointer;
 }
 /* CONTACT */
 .ccluster-proximo-evento__contact {
