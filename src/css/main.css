@@ -1660,6 +1660,9 @@ html {
 .ccluster-coverage__3d-pin__a {
   @apply w-[50px] relative top-[-50%] left-[42%];
 }
+.ccluster-coverage-location__selected {
+  @apply bg-primary text-white p-5;
+}
 /* CONTACT */
 .ccluster-proximo-evento__contact {
   @apply flex flex-col items-start border-t border-primary/10 pt-6;
