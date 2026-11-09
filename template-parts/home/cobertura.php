@@ -26,12 +26,34 @@
                     </h2>
                 </div>
                 <!-- DESCRIPTION -->
-                <p class="ccluster-section-header__desc w-90">
+                <p class="ccluster-section-header__desc">
                     Con sede principal en el <span class="font-semibold text-primary">Estado de México</span>, nuestra capacidad operativa se extiende a las regiones clave del país:
                 </p>
             </div>
+            <div class="flex gap-10">
+                <div class="flex gap-5">
+                    <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
+                    <div>CDMX e Hidalgo</div>
+                </div>
+                <div class="flex gap-5">
+                    <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
+                    <div>Coahuila y Tamaulipas</div>
+                </div>
+                <div class="flex gap-5">
+                    <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
+                    <div>Tabasco y Chiapas</div>
+                </div>
+                <div class="flex gap-5">
+                    <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
+                    <div>Campeche y Mérida</div>
+                </div>
+                <div class="flex gap-5">
+                    <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
+                    <div>Baja California</div>
+                </div>
+            </div>
             <!-- ADDITIONAL PARAGRAPH -->
-            <p class="ccluster-nuestra-identidad__additional w-full">
+            <p class="ccluster-nuestra-identidad__additional uppercase">
                 "Donde esté su empresa, ahí estamos nosotros."
             </p>
         </div>
