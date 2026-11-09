@@ -10,7 +10,7 @@
                     <!-- BADGE -->
                     <div class="ccluster-section-header__badge">
                         <img
-                            src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-sustainable-evolution-arrow-nodes-img.png"
                             alt=""
                             class="ccluster-section-header__badge__icon">
                         <span
