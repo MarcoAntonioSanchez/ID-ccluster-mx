@@ -63,7 +63,7 @@
                 </div>
             </div>
             <!-- ADDITIONAL PARAGRAPH -->
-            <p class="ccluster-tendencia-legal__statement-text mt-50 text-start">
+            <p class="ccluster-tendencia-legal__statement-text mt-25 text-left">
                 "Donde esté <span>su empresa</span>, ahí estamos <span>nosotros.</span>"
             </p>
         </div>
