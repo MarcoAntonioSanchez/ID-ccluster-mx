@@ -1403,9 +1403,6 @@ html {
 .ccluster-tendencia-legal__eyebrow {
   @apply font-body text-sm font-semibold tracking-[0.2em] text-primary/40;
 }
-.ccluster-tendencia-legal__identity-title {
-  @apply mt-4 font-heading text-5xl font-normal leading-none text-primary;
-}
 .ccluster-tendencia-legal__story-title {
   @apply font-heading text-3xl font-normal leading-tight text-primary;
 }

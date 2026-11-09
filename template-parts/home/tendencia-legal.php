@@ -35,10 +35,7 @@
                 <span class="ccluster-tendencia-legal__eyebrow">
                     ANTECEDENTES
                 </span>
-                <h3 class="ccluster-tendencia-legal__identity-title">
-                    Tendencia Legal
-                </h3>
-                <img class="max-w-50 mt-10" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-tendencia-legal-logo-img-primary.png" alt="Tendencia Legal Logo">
+                <img class="max-w-75 mt-10" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-tendencia-legal-logo-img-primary.png" alt="Tendencia Legal Logo">
             </div>
             <div class="ccluster-tendencia-legal__story-content">
                 <div class="ccluster-tendencia-legal__story-block">
