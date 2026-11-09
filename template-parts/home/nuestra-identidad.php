@@ -10,7 +10,7 @@
                     <!-- BADGE -->
                     <div class="ccluster-section-header__badge">
                         <img
-                            src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-sustainable-evolution-arrow-nodes-img.png"
+                            src="https://stage.ccluster.mx/wp-content/uploads/2026/09/iso-logo.png"
                             alt=""
                             class="ccluster-section-header__badge__icon">
                         <span
@@ -39,7 +39,7 @@
         <!-- MEDIA -->
         <div class="ccluster-nuestra-identidad__media">
             <img
-                src="https://stage.ccluster.mx/wp-content/uploads/2026/10/CAD-software-interface-showing-shelving-system-1.png"
+                src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-sustainable-evolution-arrow-nodes-img.png"
                 alt=""
                 class="ccluster-nuestra-identidad__media-image">
         </div>
