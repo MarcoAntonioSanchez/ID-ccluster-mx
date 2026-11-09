@@ -63,7 +63,7 @@
                 </div>
             </div>
             <!-- ADDITIONAL PARAGRAPH -->
-            <p class="ccluster-coverage__statement-text mt-25 text-left">
+            <p class="ccluster-coverage__statement-text mt-10 text-left">
                 "Donde esté <span>su empresa</span>, ahí estamos <span>nosotros.</span>"
             </p>
         </div>
