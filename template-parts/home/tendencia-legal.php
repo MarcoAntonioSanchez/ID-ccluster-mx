@@ -38,6 +38,7 @@
                 <h3 class="ccluster-tendencia-legal__identity-title">
                     Tendencia Legal
                 </h3>
+                <img src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-tendencia-legal-logo-img-primary.png" alt="Tendencia Legal Logo">
             </div>
             <div class="ccluster-tendencia-legal__story-content">
                 <div class="ccluster-tendencia-legal__story-block">
