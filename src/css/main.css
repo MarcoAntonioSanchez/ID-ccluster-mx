@@ -1650,6 +1650,13 @@ html {
 .ccluster-proximo-evento__speaker-role {
   @apply mt-1 font-body text-sm leading-6 text-primary/70;
 }
+/* COVERAGE */
+.ccluster-coverage__statement-text {
+  @apply mx-auto max-w-4xl text-left font-heading text-3xl font-normal leading-tight text-primary;
+}
+.ccluster-coverage__statement-text span {
+  @apply text-secondary;
+}
 /* CONTACT */
 .ccluster-proximo-evento__contact {
   @apply flex flex-col items-start border-t border-primary/10 pt-6;
