@@ -1658,7 +1658,7 @@ html {
   @apply text-secondary;
 }
 .ccluster-coverage__3d-pin__a {
-  @apply w-[50px] relative top-[50%] left-[42%];
+  @apply w-[50px] relative top-[-50%] left-[42%];
 }
 /* CONTACT */
 .ccluster-proximo-evento__contact {
