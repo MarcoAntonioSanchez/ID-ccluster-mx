@@ -923,7 +923,11 @@ html {
   display: flex;
   align-items: center;
   padding: 3rem;
-  background: rgb(7 19 49 / 78%);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 19, 49, 78%) 0%,
+    rgba(7, 19, 49, 0) 100%
+  );
 }
 .ccluster-ecosistema-soluciones__includes-content {
   width: 100%;
