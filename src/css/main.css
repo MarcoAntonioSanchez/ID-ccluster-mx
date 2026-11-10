@@ -936,10 +936,10 @@ html {
   align-self: end;
 }
 .ccluster-ecosistema-soluciones__includes-title {
-  @apply text-white opacity-50;
+  @apply font-body text-sm font-bold tracking-widest text-white opacity-50 mb-6;
 }
 .ccluster-ecosistema-soluciones__includes-list {
-  @apply flex min-w-full flex-wrap;
+  @apply flex min-w-full flex-wrap gap-4;
   list-style: none;
   margin: 0;
   padding: 0;

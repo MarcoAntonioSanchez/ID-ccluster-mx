@@ -253,7 +253,7 @@ $ecosistema_servicios = [
                                         <li class="ccluster-ecosistema-soluciones__includes-item">
                                             <!-- ICON SLOT -->
                                             <span class="ccluster-ecosistema-soluciones__includes-icon">
-                                                <!-- Aquí colocarás tu imagen de icono -->
+                                                <img src="https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-firm-goal-checklist-icon.png" alt="" class="ccluster-objetivo-firma__item-icon">
                                             </span>
                                             <span class="ccluster-ecosistema-soluciones__includes-text">
                                                 <?php echo esc_html($include); ?>
