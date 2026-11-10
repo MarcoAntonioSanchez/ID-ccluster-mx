@@ -1593,7 +1593,7 @@ html {
   @apply mt-6 font-heading text-4xl font-normal leading-tight text-primary;
 }
 .ccluster-proximo-evento__description {
-  @apply mt-4 max-w-xl font-body text-base leading-7 text-primary/70;
+  @apply mt-4 max-w-xl font-body text-[1.5rem] text-primary/70;
 }
 /* EVENT DETAILS */
 .ccluster-proximo-evento__details {
