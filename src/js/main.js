@@ -815,6 +815,8 @@ document.addEventListener("DOMContentLoaded", () => {
       pinFive.classList.remove("hidden");
       locationButtons[4].classList.add("selected");
     }
+
+    return;
   }
 
   // PARTICLES - MAIN HERO
