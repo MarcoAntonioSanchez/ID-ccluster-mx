@@ -1657,8 +1657,18 @@ html {
 .ccluster-coverage__inner {
   @apply mx-auto w-full max-w-screen-2xl grid grid-cols-2;
 }
+.ccluster-coverage__media {
+  position: relative;
+}
 .ccluster-coverage__image {
-  @apply w-100 h-100;
+  @apply w-full;
+}
+.ccluster-coverage__media-image {
+  @apply block w-full h-auto object-contain;
+}
+.ccluster-coverage__3d {
+  position: absolute;
+  width: 50px;
 }
 .ccluster-coverage__item-title {
   @apply font-body text-lg font-semibold;
@@ -1668,21 +1678,6 @@ html {
 }
 .ccluster-coverage__statement-text span {
   @apply text-secondary;
-}
-.ccluster-coverage__3d.pin__a {
-  @apply w-[50px] relative top-[-36%] left-[42%];
-}
-.ccluster-coverage__3d.pin__b {
-  @apply w-[50px] relative top-[-46%] left-[40%];
-}
-.ccluster-coverage__3d.pin__c {
-  @apply w-[50px] relative top-[-50%] left-[45%];
-}
-.ccluster-coverage__3d.pin__d {
-  @apply w-[50px] relative top-[-58%] left-[46%];
-}
-.ccluster-coverage__3d.pin__e {
-  @apply w-[50px] relative top-[-68%] left-[33%];
 }
 .ccluster-coverage-location__option.selected {
   @apply bg-primary text-white p-5;
