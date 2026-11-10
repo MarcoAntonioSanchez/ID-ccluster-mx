@@ -24,7 +24,7 @@
                         aria-hidden="true"></span>
 
                     <span class="ccluster-section-header__badge__text">
-                        Formación y Capacitación
+                        COMPLIANCE CLUSTER
                     </span>
                 </div>
 
