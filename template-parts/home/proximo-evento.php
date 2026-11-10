@@ -29,7 +29,7 @@
                 </div>
 
                 <h2 class="ccluster-proximo-evento__title">
-                    Próximo evento
+                    Compliance Cluster
                 </h2>
 
                 <p class="ccluster-proximo-evento__description">
