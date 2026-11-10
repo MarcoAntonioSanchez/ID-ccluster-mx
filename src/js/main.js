@@ -352,52 +352,45 @@ function initActiveNavigation() {
 
   // COVERAGE MAP
   function markLocation(trigger) {
-    console.log("markLocation function executed!");
-
-    var triggeredButton = this.trigger;
-
     const locationPins = document.querySelectorAll(".ccluster-coverage__3d");
+
     const locationButtons = document.querySelectorAll(
       ".ccluster-coverage-location__option",
     );
 
-    const pinOne = document.getElementById("pin_1");
-    const pinTwo = document.getElementById("pin_2");
-    const pinThree = document.getElementById("pin_3");
-    const pinFour = document.getElementById("pin_4");
-    const pinFive = document.getElementById("pin_5");
+    const selectedPin = document.getElementById(
+      `pin_${
+        {
+          one: 1,
+          two: 2,
+          three: 3,
+          four: 4,
+          five: 5,
+        }[trigger]
+      }`,
+    );
 
-    locationButtons.forEach((elemento) => {
-      elemento.classList.remove("selected");
+    const selectedButton = Array.from(locationButtons).find(
+      (button, index) =>
+        index === ["one", "two", "three", "four", "five"].indexOf(trigger),
+    );
+
+    if (!selectedPin || !selectedButton) return;
+
+    locationPins.forEach((pin) => {
+      pin.classList.add("hidden");
     });
 
-    locationPins.forEach((elemento) => {
-      elemento.classList.add("hidden");
+    locationButtons.forEach((button) => {
+      button.classList.remove("selected");
     });
 
-    if (triggeredButton === "one") {
-      pinOne.classList.remove("hidden");
-      locationButtons[0].classList.add("selected");
-    }
-    if (triggeredButton === "two") {
-      pinTwo.classList.remove("hidden");
-      locationButtons[1].classList.add("selected");
-    }
-    if (triggeredButton === "three") {
-      pinThree.classList.remove("hidden");
-      locationButtons[2].classList.add("selected");
-    }
-    if (triggeredButton === "four") {
-      pinFour.classList.remove("hidden");
-      locationButtons[3].classList.add("selected");
-    }
-    if (triggeredButton === "five") {
-      pinFive.classList.remove("hidden");
-      locationButtons[4].classList.add("selected");
-    }
-
-    return;
+    selectedPin.classList.remove("hidden");
+    selectedButton.classList.add("selected");
   }
+
+  // Expose the function to inline HTML onclick attributes.
+  window.markLocation = markLocation;
 
   // Evitar que un enlace inválido fuerce un estado activo.
   navbar.addEventListener("click", (event) => {
