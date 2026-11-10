@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section id="identity" class="ccluster-nuestra-identidad">
+<section id="identity" class="ccluster-nuestra-identidad py-1">
     <div class="ccluster-nuestra-identidad__inner">
         <!-- CONTENT -->
         <div class="ccluster-nuestra-identidad__content">
