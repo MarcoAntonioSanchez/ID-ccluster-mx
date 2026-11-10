@@ -69,7 +69,7 @@
         </div>
         <!-- MEDIA -->
         <div class="ccluster-coverage__media">
-            <div class="w-100 h-100">
+            <div class="ccluster-coverage__image">
                 <img
                     src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-mex-map-nodes-img-white.png"
                     alt=""
