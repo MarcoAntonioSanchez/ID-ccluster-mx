@@ -905,6 +905,60 @@ html {
 .ccluster-ecosistema-soluciones__slide-media {
   @apply relative mt-6;
 }
+/* SERVICE INCLUDES OVERLAY */
+.ccluster-ecosistema-soluciones__slide-media {
+  position: relative;
+  overflow: hidden;
+}
+.ccluster-ecosistema-soluciones__slide-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ccluster-ecosistema-soluciones__includes-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  background: rgb(7 19 49 / 78%);
+}
+.ccluster-ecosistema-soluciones__includes-content {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.ccluster-ecosistema-soluciones__includes-title {
+  @apply mb-6 font-heading text-2xl font-semibold text-white;
+}
+.ccluster-ecosistema-soluciones__includes-list {
+  @apply flex flex-col gap-4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ccluster-ecosistema-soluciones__includes-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.ccluster-ecosistema-soluciones__includes-icon {
+  display: block;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+.ccluster-ecosistema-soluciones__includes-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ccluster-ecosistema-soluciones__includes-text {
+  @apply font-body text-sm leading-6 text-white;
+}
 .ccluster-ecosistema-soluciones__slide-image {
   @apply block h-auto w-full object-cover;
 }
