@@ -1655,7 +1655,7 @@ html {
   @apply w-full py-16;
 }
 .ccluster-coverage__inner {
-  @apply w-full max-w-screen-2xl flex;
+  @apply mx-auto w-full max-w-screen-2xl flex;
 }
 .ccluster-coverage__item-title {
   @apply font-body text-lg font-semibold;
