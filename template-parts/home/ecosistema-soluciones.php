@@ -228,15 +228,13 @@ $ecosistema_servicios = [
                     </div>
                     <!-- SLIDE MEDIA -->
                     <div class="ccluster-ecosistema-soluciones__slide-media">
-                        <?php if ($index > 0) : ?>
-                            <button
-                                type="button"
-                                class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--prev"
-                                data-service-prev
-                                aria-label="Servicio anterior">
-                                <span aria-hidden="true">←</span>
-                            </button>
-                        <?php endif; ?>
+                        <button
+                            type="button"
+                            class="ccluster-ecosistema-soluciones__arrow ccluster-ecosistema-soluciones__arrow--prev"
+                            data-service-prev
+                            aria-label="Servicio anterior">
+                            <span aria-hidden="true">←</span>
+                        </button>
                         <!-- SERVICE IMAGE -->
                         <img
                             src="<?php echo esc_url($servicio['image']); ?>"
