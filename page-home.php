@@ -55,10 +55,10 @@ get_header();
         'template-parts/home/proximo-evento'
     );
     get_template_part(
-        'template-parts/home/cta'
+        'template-parts/home/cobertura'
     );
     get_template_part(
-        'template-parts/home/cobertura'
+        'template-parts/home/cta'
     );
     // get_template_part(
     //     'template-parts/home/objetivo-ccluster'
