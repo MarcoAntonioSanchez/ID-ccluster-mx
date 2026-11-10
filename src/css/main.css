@@ -1655,11 +1655,7 @@ html {
   @apply w-full py-16;
 }
 .ccluster-coverage__inner {
-  @apply mx-auto w-full max-w-screen-2xl flex gap-25;
-}
-.ccluster-coverage__media,
-.ccluster-coverage__content {
-  @apply w-50;
+  @apply mx-auto w-full max-w-screen-2xl grid grid-cols-2;
 }
 .ccluster-coverage__item-title {
   @apply font-body text-lg font-semibold;
