@@ -1667,7 +1667,10 @@ html {
   @apply w-[50px] relative top-[-48%] left-[48%];
 }
 .ccluster-coverage__3d-pin__d {
-  @apply w-[50px] relative top-[-48%] left-[48%];
+  @apply w-[50px] relative top-[-51%] left-[46%];
+}
+.ccluster-coverage__3d-pin__e {
+  @apply w-[50px] relative top-[-51%] left-[46%];
 }
 .ccluster-coverage-location__selected {
   @apply bg-primary text-white p-5;
