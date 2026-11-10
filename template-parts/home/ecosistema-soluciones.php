@@ -246,7 +246,7 @@ $ecosistema_servicios = [
                         <div class="ccluster-ecosistema-soluciones__includes-overlay">
                             <div class="ccluster-ecosistema-soluciones__includes-content">
                                 <h4 class="ccluster-ecosistema-soluciones__includes-title">
-                                    Incluye:
+                                    INCLUYE:
                                 </h4>
                                 <ul class="ccluster-ecosistema-soluciones__includes-list">
                                     <?php foreach ($servicio['includes'] as $include) : ?>
