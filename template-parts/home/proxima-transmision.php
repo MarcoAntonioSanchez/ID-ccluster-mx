@@ -39,12 +39,12 @@
                         aria-hidden="true"></span>
 
                     <span class="ccluster-section-header__badge__text">
-                        PRÓXIMAS TRANSMISIONES
+                        COMPLIANCE CLUSTER
                     </span>
                 </div>
 
                 <h2 class="ccluster-proxima-transmision__title">
-                    Próxima transmisión
+                    Próxima Transmisión
                 </h2>
 
                 <p class="ccluster-proxima-transmision__description">
