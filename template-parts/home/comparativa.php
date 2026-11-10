@@ -4,8 +4,8 @@
 <section id="comparative" class="ccluster-comparativo">
     <div class="ccluster-comparativo__inner">
         <!-- HEADER -->
-        <div class="ccluster-section-header items-center">
-            <div class="ccluster-section-header__badge__title">
+        <div class="ccluster-section-header items-center mb-[100px]">
+            <div class="ccluster-section-header__badge__title items-center">
                 <!-- BADGE -->
                 <div class="ccluster-section-header__badge">
                     <img
@@ -21,11 +21,13 @@
                 </div>
                 <!-- TITLE -->
                 <h2 class="ccluster-section-header__title">
-                    <span class="text-secondary">La firma: </span> Un Salto Cualitativo
+                    La <span class="text-secondary">Firma</span>
                 </h2>
             </div>
+            <p class="ccluster-section-header__desc">
+                Un Salto Cualitativo
+            </p>
         </div>
-
         <!-- COMPARISON -->
         <div class="ccluster-comparativo__table">
 
