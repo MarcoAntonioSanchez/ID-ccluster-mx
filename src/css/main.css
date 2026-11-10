@@ -1670,6 +1670,26 @@ html {
   position: absolute;
   width: 50px;
 }
+.ccluster-coverage__3d.pin__a {
+  top: 64%;
+  left: 42%;
+}
+.ccluster-coverage__3d.pin__b {
+  top: 54%;
+  left: 40%;
+}
+.ccluster-coverage__3d.pin__c {
+  top: 50%;
+  left: 45%;
+}
+.ccluster-coverage__3d.pin__d {
+  top: 42%;
+  left: 46%;
+}
+.ccluster-coverage__3d.pin__e {
+  top: 32%;
+  left: 33%;
+}
 .ccluster-coverage__item-title {
   @apply font-body text-lg font-semibold;
 }
