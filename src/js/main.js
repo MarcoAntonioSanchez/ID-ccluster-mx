@@ -795,23 +795,23 @@ document.addEventListener("DOMContentLoaded", () => {
       elemento.classList.add("hidden");
     });
 
-    if (trigger === "one") {
+    if (triggeredButton === "one") {
       pinOne.classList.remove("hidden");
       locationButtons[0].classList.add("selected");
     }
-    if (trigger === "two") {
+    if (triggeredButton === "two") {
       pinTwo.classList.remove("hidden");
       locationButtons[1].classList.add("selected");
     }
-    if (trigger === "three") {
+    if (triggeredButton === "three") {
       pinThree.classList.remove("hidden");
       locationButtons[2].classList.add("selected");
     }
-    if (trigger === "four") {
+    if (triggeredButton === "four") {
       pinFour.classList.remove("hidden");
       locationButtons[3].classList.add("selected");
     }
-    if (trigger === "five") {
+    if (triggeredButton === "five") {
       pinFive.classList.remove("hidden");
       locationButtons[4].classList.add("selected");
     }
