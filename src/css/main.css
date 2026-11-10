@@ -925,8 +925,8 @@ html {
   padding: 3rem;
   background: linear-gradient(
     180deg,
-    rgba(7, 19, 49, 78%) 0%,
-    rgba(7, 19, 49, 0) 100%
+    rgba(7, 19, 49, 0) 100%,
+    rgba(7, 19, 49, 1) 0%
   );
 }
 .ccluster-ecosistema-soluciones__includes-content {
