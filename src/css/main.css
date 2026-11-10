@@ -1690,6 +1690,9 @@ html {
 .ccluster-coverage-location__option:hover {
   @apply border-primary bg-primary text-white cursor-pointer;
 }
+.ccluster-coverage__media-image {
+  @apply object-cover w-100 h-100 block;
+}
 /* COVERAGE PIN ANIMATION */
 .ccluster-coverage__3d {
   opacity: 1;
