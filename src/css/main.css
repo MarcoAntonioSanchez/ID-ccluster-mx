@@ -1681,6 +1681,23 @@ html {
 .ccluster-coverage-location__option:hover {
   @apply border-primary bg-primary text-white cursor-pointer;
 }
+/* COVERAGE PIN ANIMATION */
+.ccluster-coverage__3d {
+  opacity: 1;
+  visibility: visible;
+  transition:
+    opacity 400ms ease,
+    visibility 0s linear 0s;
+}
+.ccluster-coverage__3d.hidden {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 400ms ease,
+    visibility 0s linear 400ms;
+}
 /* CONTACT */
 .ccluster-proximo-evento__contact {
   @apply flex flex-col items-start border-t border-primary/10 pt-6;
