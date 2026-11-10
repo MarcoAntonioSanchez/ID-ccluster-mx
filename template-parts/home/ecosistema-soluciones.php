@@ -75,7 +75,7 @@ $ecosistema_servicios = [
         'slug'        => 'litigio-fiscal-administrativo',
         'title'       => 'Litigio Fiscal y Administrativo',
         'description' => 'Representación legal ante autoridades fiscales y administrativas para la defensa de los intereses de la empresa en cualquier etapa del procedimiento.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/Litigio-Fiscal-y-Administrativo-tiny-scaled.jpg',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-litigio-fiscal-administrativo-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ]
 ];
