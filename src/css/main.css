@@ -2035,7 +2035,7 @@ html {
   @apply font-heading text-5xl font-normal leading-tight text-white capitalize;
 }
 .ccluster-cta__description {
-  @apply mt-6 max-w-3xl font-body text-base leading-7 text-white/75;
+  @apply mt-6 max-w-3xl font-body text-[1.5rem] text-white/75;
 }
 .ccluster-cta__link {
   @apply mt-8 inline-flex items-center gap-5 border border-secondary;
