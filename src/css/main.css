@@ -1664,7 +1664,7 @@ html {
   @apply w-full;
 }
 .ccluster-coverage__media-image {
-  @apply block w-full h-auto object-contain;
+  @apply block w-full h-auto object-cover;
 }
 .ccluster-coverage__3d {
   position: absolute;
