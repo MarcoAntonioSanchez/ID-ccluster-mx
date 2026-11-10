@@ -1657,19 +1657,19 @@ html {
 .ccluster-coverage__statement-text span {
   @apply text-secondary;
 }
-.ccluster-coverage__3d-pin__a {
+.ccluster-coverage__3d.pin__a {
   @apply w-[50px] relative top-[-50%] left-[42%];
 }
-.ccluster-coverage__3d-pin__b {
+.ccluster-coverage__3d.pin__b {
   @apply w-[50px] relative top-[-55%] left-[40%];
 }
-.ccluster-coverage__3d-pin__c {
+.ccluster-coverage__3d.pin__c {
   @apply w-[50px] relative top-[-48%] left-[48%];
 }
-.ccluster-coverage__3d-pin__d {
+.ccluster-coverage__3d.pin__d {
   @apply w-[50px] relative top-[-51%] left-[46%];
 }
-.ccluster-coverage__3d-pin__e {
+.ccluster-coverage__3d.pin__e {
   @apply w-[50px] relative top-[-56%] left-[33%];
 }
 .ccluster-coverage-location__selected {

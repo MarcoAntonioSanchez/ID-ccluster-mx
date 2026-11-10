@@ -73,11 +73,11 @@
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-mex-map-nodes-img-white.png"
                 alt=""
                 class="ccluster-nuestra-identidad__media-image">
-            <img class="ccluster-coverage__3d-pin__a hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
-            <img class="ccluster-coverage__3d-pin__b hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
-            <img class="ccluster-coverage__3d-pin__c hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
-            <img class="ccluster-coverage__3d-pin__d hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
-            <img class="ccluster-coverage__3d-pin__e" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img id="pin_1" class="ccluster-coverage__3d pin__a" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img id="pin_2" class="ccluster-coverage__3d pin__b hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img id="pin_3" class="ccluster-coverage__3d pin__c hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img id="pin_4" class="ccluster-coverage__3d pin__d hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img id="pin_5" class="ccluster-coverage__3d pin__e hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
         </div>
     </div>
 </section>
