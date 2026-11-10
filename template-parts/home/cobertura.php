@@ -1,10 +1,10 @@
 <?php
 ?>
 
-<section id="identity" class="ccluster-nuestra-identidad">
-    <div class="ccluster-nuestra-identidad__inner">
+<section id="coverage" class="ccluster-coverage">
+    <div class="ccluster-coverage__inner">
         <!-- CONTENT -->
-        <div class="ccluster-nuestra-identidad__content">
+        <div class="ccluster-coverage__content">
             <div class="ccluster-section-header">
                 <div class="ccluster-section-header__badge__title">
                     <!-- BADGE -->
@@ -34,31 +34,31 @@
                 <div class="flex gap-5 items-center ccluster-coverage-location__option selected" onclick="markLocation('one');">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
-                        <h3 class="ccluster-acordeones__item-title">CDMX e Hidalgo</h3>
+                        <h3 class="ccluster-coverage__item-title">CDMX e Hidalgo</h3>
                     </div>
                 </div>
-                <div class="flex gap-5 ccluster-coverage-location__option" onclick="markLocation('two');">
+                <div class="flex gap-5 items-center ccluster-coverage-location__option" onclick="markLocation('two');">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
-                        <h3 class="ccluster-acordeones__item-title">Coahuila y Tamaulipas</h3>
+                        <h3 class="ccluster-coverage__item-title">Coahuila y Tamaulipas</h3>
                     </div>
                 </div>
-                <div class="flex gap-5 ccluster-coverage-location__option" onclick="markLocation('three');">
+                <div class="flex gap-5 items-center ccluster-coverage-location__option" onclick="markLocation('three');">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
-                        <h3 class="ccluster-acordeones__item-title">Tabasco y Chiapas</h3>
+                        <h3 class="ccluster-coverage__item-title">Tabasco y Chiapas</h3>
                     </div>
                 </div>
-                <div class="flex gap-5 ccluster-coverage-location__option" onclick="markLocation('four');">
+                <div class="flex gap-5 items-center ccluster-coverage-location__option" onclick="markLocation('four');">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
-                        <h3 class="ccluster-acordeones__item-title">Campeche y Mérida</h3>
+                        <h3 class="ccluster-coverage__item-title">Campeche y Mérida</h3>
                     </div>
                 </div>
-                <div class="flex gap-5 ccluster-coverage-location__option" onclick="markLocation('five');">
+                <div class="flex gap-5 items-center ccluster-coverage-location__option" onclick="markLocation('five');">
                     <div><img class="h-[35px] w-[35px] object-contain" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-icon.png" alt="Location Pin"></div>
                     <div>
-                        <h3 class="ccluster-acordeones__item-title">Baja California</h3>
+                        <h3 class="ccluster-coverage__item-title">Baja California</h3>
                     </div>
                 </div>
             </div>

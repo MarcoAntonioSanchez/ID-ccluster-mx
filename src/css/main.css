@@ -1651,6 +1651,9 @@ html {
   @apply mt-1 font-body text-sm leading-6 text-primary/70;
 }
 /* COVERAGE */
+.ccluster-coverage__item-title {
+  @apply font-body text-lg font-semibold;
+}
 .ccluster-coverage__statement-text {
   @apply mx-auto max-w-4xl text-left font-heading text-3xl font-normal leading-tight text-primary;
 }
