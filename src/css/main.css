@@ -1651,6 +1651,12 @@ html {
   @apply mt-1 font-body text-sm leading-6 text-primary/70;
 }
 /* COVERAGE */
+.ccluster-coverage {
+  @apply w-full py-16;
+}
+.ccluster-coverage__inner {
+  @apply flex;
+}
 .ccluster-coverage__item-title {
   @apply font-body text-lg font-semibold;
 }
