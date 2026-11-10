@@ -770,6 +770,53 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // COVERAGE MAP
+  function markLocation(trigger) {
+    console.log("markLocation function executed!");
+
+    var triggeredButton = this.trigger;
+
+    const locationPins = document.querySelectorAll(".ccluster-coverage__3d");
+    const locationButtons = document.querySelectorAll(
+      ".ccluster-coverage-location__option",
+    );
+
+    const pinOne = document.getElementById("pin_1");
+    const pinTwo = document.getElementById("pin_2");
+    const pinThree = document.getElementById("pin_3");
+    const pinFour = document.getElementById("pin_4");
+    const pinFive = document.getElementById("pin_5");
+
+    locationButtons.forEach((elemento) => {
+      elemento.classList.remove("selected");
+    });
+
+    locationPins.forEach((elemento) => {
+      elemento.classList.add("hidden");
+    });
+
+    if (trigger === "one") {
+      pinOne.classList.remove("hidden");
+      locationButtons[0].classList.add("selected");
+    }
+    if (trigger === "two") {
+      pinTwo.classList.remove("hidden");
+      locationButtons[1].classList.add("selected");
+    }
+    if (trigger === "three") {
+      pinThree.classList.remove("hidden");
+      locationButtons[2].classList.add("selected");
+    }
+    if (trigger === "four") {
+      pinFour.classList.remove("hidden");
+      locationButtons[3].classList.add("selected");
+    }
+    if (trigger === "five") {
+      pinFive.classList.remove("hidden");
+      locationButtons[4].classList.add("selected");
+    }
+  }
+
   // PARTICLES - MAIN HERO
   initAlternativeParticles();
 
