@@ -45,12 +45,12 @@
                         aria-hidden="true"></span>
 
                     <span class="ccluster-section-header__badge__text">
-                        PRÓXIMOS CURSOS
+                        COMPLIANCE CLUSTER
                     </span>
                 </div>
 
                 <h2 class="ccluster-proximo-curso__title">
-                    Próximo curso
+                    Próximo Curso
                 </h2>
 
                 <p class="ccluster-proximo-curso__description">
