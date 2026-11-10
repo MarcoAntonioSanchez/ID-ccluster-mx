@@ -73,7 +73,8 @@
                 src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-mex-map-nodes-img-white.png"
                 alt=""
                 class="ccluster-nuestra-identidad__media-image">
-            <img class="ccluster-coverage__3d-pin__a" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img class="ccluster-coverage__3d-pin__a hidden" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
+            <img class="ccluster-coverage__3d-pin__b" src="https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-coverage-location-3d-icon.png" alt="Pin 3D">
         </div>
     </div>
 </section>
