@@ -24,12 +24,12 @@
                         aria-hidden="true"></span>
 
                     <span class="ccluster-section-header__badge__text">
-                        FORMACIÓN
+                        Formación y Capacitación
                     </span>
                 </div>
 
                 <h2 class="ccluster-proximo-evento__title">
-                    Compliance Cluster
+                    Próximo Evento
                 </h2>
 
                 <p class="ccluster-proximo-evento__description">
