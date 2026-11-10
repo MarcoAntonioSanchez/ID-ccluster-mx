@@ -5,14 +5,14 @@ $ecosistema_servicios = [
         'slug'        => 'pld-actividades-vulnerables',
         'title'       => 'PLD — Actividades Vulnerables',
         'description' => 'Asesoría integral para empresas y personas físicas consideradas Actividades Vulnerables conforme a la LFPIORPI, que les permite operar con absoluta certeza regulatoria.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-pld-actividades-vulnerables-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-pld-actividades-vulnerables-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
         'slug'        => 'pld-sistema-financiero',
         'title'       => 'PLD — Sistema Financiero',
         'description' => 'Acompañamiento especializado a Entidades Financieras y sujetos obligados del sector, bajo los estándares que exigen las autoridades regulatorias (CNBV, Banco de México, UIF).',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-pld-sistema-financiero-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-pld-sistema-financiero-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
@@ -26,7 +26,7 @@ $ecosistema_servicios = [
         'slug'        => 'debida-diligencia-socios-inversionistas',
         'title'       => 'Debida Diligencia de Socios e Inversionistas',
         'description' => 'Investigación y análisis de personas físicas y morales previo a su incorporación como socios, inversionistas o contrapartes de negocio, para prevenir riesgos legales, reputacionales y patrimoniales.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-debida-diligencia-socios-inversionistas-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-debida-diligencia-socios-inversionistas-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
@@ -54,7 +54,7 @@ $ecosistema_servicios = [
         'slug'        => 'gobierno-corporativo',
         'title'       => 'Gobierno Corporativo',
         'description' => 'Implementación de mejores prácticas de administración y control que garantizan la trascendencia y sana gobernanza de la organización.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-gobierno-corporativo-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-gobierno-corporativo-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
@@ -68,14 +68,14 @@ $ecosistema_servicios = [
         'slug'        => 'programas-integridad-compliance',
         'title'       => 'Programas de Integridad y Compliance',
         'description' => 'Diseño e implementación de sistemas de cumplimiento normativo que previenen la responsabilidad de la persona moral y fortalecen la cultura ética de la organización.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-programas-integridad-compliance-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/ccluster-programas-integridad-confianza-img-tiny.png',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ],
     [
         'slug'        => 'litigio-fiscal-administrativo',
         'title'       => 'Litigio Fiscal y Administrativo',
         'description' => 'Representación legal ante autoridades fiscales y administrativas para la defensa de los intereses de la empresa en cualquier etapa del procedimiento.',
-        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/10/ccluster-service-litigio-fiscal-administrativo-img-tiny.png',
+        'image'       => 'https://stage.ccluster.mx/wp-content/uploads/2026/11/Litigio-Fiscal-y-Administrativo-tiny-scaled.jpg',
         'image_alt'   => 'Soluciones de PLD para Actividades Vulnerables',
     ]
 ];
@@ -83,8 +83,8 @@ $ecosistema_servicios = [
 ?>
 <section id="services" class="ccluster-ecosistema-soluciones">
     <!-- HEADER -->
-    <div class="ccluster-ecosistema-soluciones__header">
-        <div class="ccluster-ecosistema-soluciones__header-content">
+    <div class="ccluster-section-header items-center mb-[100px]">
+        <div class="ccluster-section-header__badge__title items-center">
             <!-- BADGE -->
             <div class="ccluster-section-header__badge">
                 <img
@@ -92,27 +92,20 @@ $ecosistema_servicios = [
                     alt=""
                     class="ccluster-section-header__badge__icon">
                 <span
-                    class="ccluster-section-header__badge__line"
+                    class="h-[2px] w-[25px] bg-secondary"
                     aria-hidden="true"></span>
                 <span class="ccluster-section-header__badge__text">
                     OBJETIVO DE LA FIRMA
                 </span>
             </div>
             <!-- TITLE -->
-            <h2 class="ccluster-section-heading">
-                Nuestros Servicios - <span class="text-secondary">Blindaje</span> Integral
-                Para el <span class="text-secondary">Empresario</span> y su Legado
+            <h2 class="ccluster-section-header__title">
+                Nuestros <span class="text-secondary">Servicios</span>
             </h2>
         </div>
-        <!-- CTA -->
-        <div class="ccluster-ecosistema-soluciones__header-cta">
-            <!-- CTA -->
-            <a
-                href="#"
-                class="mt-8 inline-flex items-center bg-[#0F143A] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90">
-                Ver Todos los Servicios
-            </a>
-        </div>
+        <p class="ccluster-section-header__desc">
+            Blindaje integral para el empresario y su legado
+        </p>
     </div>
     <!-- CAROUSEL -->
     <div class="ccluster-ecosistema-soluciones__carousel">

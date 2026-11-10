@@ -25,7 +25,7 @@
                 </h2>
             </div>
             <p class="ccluster-section-header__desc">
-                Un Salto Cualitativo
+                Un salto cualitativo
             </p>
         </div>
         <!-- COMPARISON -->
